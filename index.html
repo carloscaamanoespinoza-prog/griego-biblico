@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Griego Bíblico Koiné - Curso interactivo de autoinstrucción para hispanohablantes">
+    <meta name="keywords" content="griego, bíblico, koiné, curso, exégesis, teología">
+    <meta name="theme-color" content="#2C5F8A">
+
+    <title>Griego Bíblico Koiné - Curso Interactivo</title>
+
+    <!-- Google Fonts: Noto Serif con soporte Unicode polítonico completo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' font-family='Georgia' fill='%232C5F8A'>α</text></svg>">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/componentes.css">
+    <link rel="stylesheet" href="css/lecciones.css">
+    <link rel="stylesheet" href="css/ejercicios.css">
+    <link rel="stylesheet" href="css/diagramas.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- No índice para desarrollo -->
+    <meta name="robots" content="noindex, nofollow">
+</head>
+<body>
+    <!-- APLICACIÓN PRINCIPAL -->
+    <div id="app">
+        <!-- BARRA SUPERIOR -->
+        <div class="barra-superior">
+            <div class="logo">
+                <span class="icono">α</span>
+                <span class="etiqueta">Griego Bíblico</span>
+            </div>
+
+            <div class="info-usuario">
+                <div class="puntos">
+                    <span id="puntos-texto">0</span> puntos
+                </div>
+                <div class="racha">
+                    <span class="fuego">🔥</span>
+                    <span id="racha-texto">0</span> días
+                </div>
+            </div>
+
+            <button class="boton-menu" id="boton-menu-movil" aria-label="Abrir menú">☰</button>
+        </div>
+
+        <!-- SIDEBAR / NAVEGACIÓN -->
+        <nav class="sidebar" id="sidebar">
+            <ul class="navegacion-principal">
+                <li class="item-nav">
+                    <a href="#/" aria-label="Ir a inicio">
+                        <span class="icono">🏠</span>
+                        <span class="etiqueta">Inicio</span>
+                    </a>
+                </li>
+
+                <li class="separador"></li>
+
+                <!-- Nivel 1 -->
+                <li class="item-nav nivel-item" data-nivel="nivel-1">
+                    <a href="#/nivel/nivel-1" aria-expanded="false" aria-label="Nivel 1: Fundamentos">
+                        <span class="icono">α</span>
+                        <span class="etiqueta">Nivel 1</span>
+                        <span class="badge" id="progreso-nivel-1">0%</span>
+                    </a>
+                    <ul class="submenu" id="submenu-nivel-1"></ul>
+                </li>
+
+                <!-- Nivel 2 -->
+                <li class="item-nav nivel-item bloqueado" data-nivel="nivel-2">
+                    <a href="#/nivel/nivel-2" aria-expanded="false" aria-label="Nivel 2: Morfología Verbal">
+                        <span class="icono">λύω</span>
+                        <span class="etiqueta">Nivel 2</span>
+                        <span class="badge" id="progreso-nivel-2">🔒</span>
+                    </a>
+                    <ul class="submenu" id="submenu-nivel-2"></ul>
+                </li>
+
+                <!-- Nivel 3 -->
+                <li class="item-nav nivel-item bloqueado" data-nivel="nivel-3">
+                    <a href="#/nivel/nivel-3" aria-expanded="false" aria-label="Nivel 3: Sintaxis y Análisis">
+                        <span class="icono">∫</span>
+                        <span class="etiqueta">Nivel 3</span>
+                        <span class="badge" id="progreso-nivel-3">🔒</span>
+                    </a>
+                    <ul class="submenu" id="submenu-nivel-3"></ul>
+                </li>
+
+                <!-- Nivel 4 -->
+                <li class="item-nav nivel-item bloqueado" data-nivel="nivel-4">
+                    <a href="#/nivel/nivel-4" aria-expanded="false" aria-label="Nivel 4: Exégesis y Crítica Textual">
+                        <span class="icono">𝔓</span>
+                        <span class="etiqueta">Nivel 4</span>
+                        <span class="badge" id="progreso-nivel-4">🔒</span>
+                    </a>
+                    <ul class="submenu" id="submenu-nivel-4"></ul>
+                </li>
+
+                <li class="separador"></li>
+
+                <!-- Enlaces adicionales -->
+                <li class="item-nav">
+                    <a href="#/vocabulario" aria-label="Ir a vocabulario">
+                        <span class="icono">📚</span>
+                        <span class="etiqueta">Vocabulario</span>
+                    </a>
+                </li>
+
+                <li class="item-nav">
+                    <a href="#/mi-progreso" aria-label="Ver mi progreso">
+                        <span class="icono">📊</span>
+                        <span class="etiqueta">Mi Progreso</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- CONTENEDOR PRINCIPAL -->
+        <div class="contenedor-principal">
+            <div id="vista-contenedor" class="vista"></div>
+        </div>
+    </div>
+
+    <!-- MODAL BASE (reutilizable) -->
+    <div id="modal-fondo" class="modal-fondo">
+        <div class="modal" id="modal-contenedor">
+            <div class="encabezado-modal">
+                <h2 id="modal-titulo">Título</h2>
+                <button class="cerrar" id="modal-cerrar" aria-label="Cerrar">&times;</button>
+            </div>
+            <div class="cuerpo-modal" id="modal-cuerpo"></div>
+            <div class="pie-modal" id="modal-pie"></div>
+        </div>
+    </div>
+
+    <!-- Scripts: IMPORTANTE - Orden crítico -->
+    <!-- Core: Módulos de base (orden: utils, progreso, estado, eventos, router) -->
+    <script src="js/core/utils.js"></script>
+    <script src="js/core/progreso.js"></script>
+    <script src="js/core/estado.js"></script>
+    <script src="js/core/eventos.js"></script>
+    <script src="js/router.js"></script>
+
+    <!-- Componentes: Motor de renderizado y componentes base -->
+    <script src="js/componentes/ejercicio-base.js"></script>
+    <script src="js/componentes/ejercicio-seleccion.js"></script>
+    <script src="js/componentes/ejercicio-completar.js"></script>
+    <script src="js/componentes/visor-leccion.js"></script>
+    <script src="js/componentes/navegacion.js"></script>
+
+    <!-- Vistas: Páginas principales -->
+    <script src="js/vistas/inicio.js"></script>
+    <script src="js/vistas/nivel.js"></script>
+    <script src="js/vistas/leccion.js"></script>
+
+    <!-- App: Punto de entrada -->
+    <script src="js/app.js"></script>
+</body>
+</html>

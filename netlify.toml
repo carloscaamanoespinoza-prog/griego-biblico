@@ -1,0 +1,71 @@
+# Configuración de Netlify para Griego Bíblico
+
+[build]
+  command = "echo 'No build needed for static site'"
+  publish = "."
+  functions = "functions"
+
+# Configurar rutas para SPA (Single Page Application)
+# Todos los requests van a index.html, y el router JS maneja las rutas
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers de seguridad
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "SAMEORIGIN"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+# Cache headers para recursos estáticos
+[[headers]]
+  for = "/css/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/js/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/fonts/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# No cachear HTML (puede cambiar frecuentemente)
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "no-cache"
+
+# No cachear JSON de datos
+[[headers]]
+  for = "/datos/*"
+  [headers.values]
+    Cache-Control = "no-cache"
+
+# Configuración de context (entornos)
+[context.production]
+  command = "echo 'Production build'"
+  publish = "."
+
+[context.develop]
+  command = "echo 'Development build'"
+  publish = "."
+
+# Configuración para desarrollo local
+[dev]
+  command = "npx serve . -p 8888 -s ."
+  port = 8888
+  targetPort = 8888
+  autoLaunch = false

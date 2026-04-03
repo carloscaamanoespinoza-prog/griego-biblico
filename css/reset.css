@@ -1,0 +1,245 @@
+/* ============================================
+   RESET Y ESTILOS BASE
+   ============================================ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--fuente-principal);
+  font-size: var(--tamanio-base);
+  line-height: var(--altura-linea-normal);
+  color: var(--color-texto);
+  background-color: var(--color-fondo);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* Tipografía */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: var(--peso-semibold);
+  line-height: var(--altura-linea-compacta);
+  margin-bottom: var(--espacio-md);
+}
+
+h1 {
+  font-size: var(--tamanio-3xl);
+}
+
+h2 {
+  font-size: var(--tamanio-2xl);
+}
+
+h3 {
+  font-size: var(--tamanio-xl);
+}
+
+h4 {
+  font-size: var(--tamanio-lg);
+}
+
+h5, h6 {
+  font-size: var(--tamanio-base);
+}
+
+p {
+  margin-bottom: var(--espacio-md);
+}
+
+a {
+  color: var(--color-primario);
+  text-decoration: none;
+  transition: color var(--transicion-normal);
+
+  &:hover {
+    color: var(--color-acento);
+    text-decoration: underline;
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--color-primario);
+    outline-offset: 2px;
+    border-radius: var(--radio-sm);
+  }
+}
+
+/* Listas */
+ul, ol {
+  margin-left: var(--espacio-lg);
+  margin-bottom: var(--espacio-md);
+}
+
+li {
+  margin-bottom: var(--espacio-sm);
+}
+
+/* Código */
+code {
+  font-family: var(--fuente-mono);
+  background-color: var(--color-borde-suave);
+  padding: var(--espacio-xs) var(--espacio-sm);
+  border-radius: var(--radio-sm);
+  font-size: 0.9em;
+}
+
+pre {
+  background-color: var(--color-borde-suave);
+  padding: var(--espacio-lg);
+  border-radius: var(--radio-md);
+  overflow-x: auto;
+  margin-bottom: var(--espacio-md);
+
+  code {
+    background: none;
+    padding: 0;
+  }
+}
+
+/* Bloque de cita */
+blockquote {
+  border-left: 4px solid var(--color-primario);
+  padding-left: var(--espacio-lg);
+  margin-left: 0;
+  margin-bottom: var(--espacio-md);
+  color: var(--color-texto-suave);
+  font-style: italic;
+}
+
+/* Tabla */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: var(--espacio-lg);
+  background-color: var(--color-fondo-tarjeta);
+  border-radius: var(--radio-md);
+  overflow: hidden;
+  box-shadow: var(--sombra-sm);
+}
+
+th {
+  background-color: var(--color-primario);
+  color: white;
+  padding: var(--espacio-md);
+  text-align: left;
+  font-weight: var(--peso-semibold);
+}
+
+td {
+  padding: var(--espacio-md);
+  border-bottom: 1px solid var(--color-borde);
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+/* Formulario */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="search"],
+textarea,
+select {
+  font-family: var(--fuente-ui);
+  font-size: var(--tamanio-base);
+  padding: var(--espacio-sm) var(--espacio-md);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-md);
+  background-color: var(--color-fondo-tarjeta);
+  color: var(--color-texto);
+  transition: border-color var(--transicion-normal), box-shadow var(--transicion-normal);
+
+  &:focus {
+    outline: none;
+    border-color: var(--color-primario);
+    box-shadow: 0 0 0 3px rgba(44, 95, 138, 0.1);
+  }
+
+  &:disabled {
+    background-color: var(--color-borde-suave);
+    color: var(--color-texto-suave);
+    cursor: not-allowed;
+  }
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+/* Botón */
+button, input[type="button"], input[type="submit"] {
+  font-family: var(--fuente-ui);
+  font-size: var(--tamanio-base);
+  cursor: pointer;
+  transition: all var(--transicion-normal);
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--color-primario);
+    outline-offset: 2px;
+  }
+}
+
+/* Imagen */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* SVG */
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+/* HR */
+hr {
+  border: none;
+  border-top: 1px solid var(--color-borde);
+  margin: var(--espacio-lg) 0;
+}
+
+/* Scrollbar personalizada */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-borde-suave);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-borde);
+  border-radius: 4px;
+
+  &:hover {
+    background: var(--color-texto-suave);
+  }
+}
+
+/* Selección de texto */
+::selection {
+  background-color: var(--color-primario);
+  color: white;
+}
+
+/* Griego: asegurar que se renderiza con la fuente correcta */
+.griego, .ελληνικά {
+  font-family: var(--fuente-griega);
+}

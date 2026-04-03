@@ -1,0 +1,120 @@
+/* ============================================
+   SISTEMA DE DESIGN TOKENS
+   Paleta: Azul académico + Dorado papiro
+   ============================================ */
+
+:root {
+  /* Colores principales */
+  --color-primario: #2C5F8A;           /* Azul universitario */
+  --color-secundario: #C9973D;         /* Dorado papiro */
+  --color-acento: #6B4E9E;             /* Púrpura bizantino */
+  --color-exito: #2E8B57;              /* Verde logro */
+  --color-error: #C0392B;              /* Rojo error */
+  --color-advertencia: #E67E22;        /* Naranja advertencia */
+
+  /* Paleta de grises */
+  --color-fondo: #F8F6F0;              /* Crema papiro */
+  --color-fondo-tarjeta: #FFFFFF;      /* Blanco puro */
+  --color-texto: #2C2C2C;              /* Gris oscuro */
+  --color-texto-suave: #6B6B6B;        /* Gris medio */
+  --color-borde: #E0DDD5;              /* Gris claro */
+  --color-borde-suave: #F0EBE5;        /* Gris muy claro */
+
+  /* Colores por nivel */
+  --color-nivel-1: #4A90D9;            /* Azul claro */
+  --color-nivel-2: #7B68EE;            /* Púrpura */
+  --color-nivel-3: #50C878;            /* Verde */
+  --color-nivel-4: #D4A017;            /* Dorado oscuro */
+
+  /* Estados */
+  --color-completada: var(--color-exito);
+  --color-en-progreso: var(--color-primario);
+  --color-bloqueada: var(--color-borde);
+  --color-texto-bloqueada: var(--color-texto-suave);
+
+  /* Tipografía */
+  --fuente-principal: 'Georgia', 'Garamond', serif;
+  --fuente-griega: 'Noto Serif', 'Times New Roman', serif;  /* Soporte Unicode polítonico completo */
+  --fuente-ui: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --fuente-mono: 'Courier New', monospace;
+
+  /* Tamaños de fuente */
+  --tamanio-xs: 12px;
+  --tamanio-sm: 14px;
+  --tamanio-base: 16px;
+  --tamanio-lg: 18px;
+  --tamanio-xl: 20px;
+  --tamanio-2xl: 24px;
+  --tamanio-3xl: 32px;
+
+  /* Pesos de fuente */
+  --peso-normal: 400;
+  --peso-medio: 500;
+  --peso-semibold: 600;
+  --peso-bold: 700;
+
+  /* Altura de línea */
+  --altura-linea-compacta: 1.4;
+  --altura-linea-normal: 1.6;
+  --altura-linea-relajada: 1.8;
+  --altura-linea-suelta: 2.0;
+
+  /* Espaciado */
+  --espacio-xs: 4px;
+  --espacio-sm: 8px;
+  --espacio-md: 12px;
+  --espacio-lg: 16px;
+  --espacio-xl: 20px;
+  --espacio-2xl: 24px;
+  --espacio-3xl: 32px;
+  --espacio-4xl: 40px;
+
+  /* Radio de borde */
+  --radio-sm: 4px;
+  --radio-md: 8px;
+  --radio-lg: 12px;
+
+  /* Sombras */
+  --sombra-sm: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
+  --sombra-md: 0 4px 6px rgba(0, 0, 0, 0.08), 0 1px 3px rgba(0, 0, 0, 0.08);
+  --sombra-lg: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.08);
+  --sombra-xl: 0 20px 25px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.08);
+  --sombra-tarjeta: 0 2px 12px rgba(0, 0, 0, 0.08);
+  --sombra-elevada: 0 8px 20px rgba(0, 0, 0, 0.12);
+
+  /* Transiciones */
+  --transicion-rapida: 100ms ease;
+  --transicion-normal: 200ms ease;
+  --transicion-lenta: 300ms ease;
+
+  /* Layout */
+  --ancho-sidebar: 260px;
+  --ancho-contenido-max: 780px;
+  --altura-barra-superior: 60px;
+  --altura-bottom-nav-mobil: 56px;
+
+  /* z-index scale */
+  --z-fondo: 0;
+  --z-contenido: 1;
+  --z-dropdown: 100;
+  --z-modal-fondo: 1000;
+  --z-modal: 1001;
+  --z-toast: 2000;
+
+  /* Ease functions */
+  --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-out: cubic-bezier(0, 0, 0.2, 1);
+  --ease-in: cubic-bezier(0.4, 0, 1, 1);
+}
+
+/* Tema oscuro (futuro) */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-fondo: #1A1A1A;
+    --color-fondo-tarjeta: #2D2D2D;
+    --color-texto: #E8E8E8;
+    --color-texto-suave: #A8A8A8;
+    --color-borde: #404040;
+    --color-borde-suave: #353535;
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "version": "1.0.0",
+  "titulo": "Griego Bíblico Koiné",
+  "subtitulo": "Curso interactivo para hispanohablantes",
+  "descripcion": "Un curso completo de autoinstrucción que te llevará desde el alfabeto griego hasta la exégesis avanzada y la crítica textual del Nuevo Testamento.",
+  "autor": "Carlos Caamaño Espinoza",
+  "fuentes": [
+    "A.T. Robertson - Gramática del Griego del Nuevo Testamento",
+    "F. Blass y A. Debrunner - Gramática del Griego del Nuevo Testamento",
+    "H.E. Dana y Julius R. Mantey - Manual Gramatical del Griego del Nuevo Testamento",
+    "J. Gresham Machen - Nuevo Testamento Griego para Principiantes",
+    "Benjamin L. Merkle - Joyas Exegéticas del Griego Bíblico",
+    "Stanley E. Porter - Análisis del Discurso y Otros Temas en Griego Bíblico",
+    "Gerhard Kittel y G. Coenen - Diccionario Teológico del Nuevo Testamento",
+    "Alfred E. Tuggy - Léxico Griego-Español del Nuevo Testamento",
+    "Philipp Vielhauer - Historia de la Literatura Cristiana Primitiva"
+  ],
+  "niveles": [
+    {
+      "id": "nivel-1",
+      "numero": 1,
+      "titulo": "Fundamentos",
+      "descripcion": "Alfabeto, pronunciación, morfología nominal y introducción al verbo griego. Aprenderás los fundamentos para leer y pronunciar el griego koiné.",
+      "icono": "α",
+      "color": "#4A90D9",
+      "prerequisito": null,
+      "totalLecciones": 12,
+      "estimadoHoras": 20,
+      "lecciones": [
+        "n1-l01",
+        "n1-l02",
+        "n1-l03",
+        "n1-l04",
+        "n1-l05",
+        "n1-l06",
+        "n1-l07",
+        "n1-l08",
+        "n1-l09",
+        "n1-l10",
+        "n1-l11",
+        "n1-l12"
+      ]
+    },
+    {
+      "id": "nivel-2",
+      "numero": 2,
+      "titulo": "Morfología Verbal",
+      "descripcion": "Sistema verbal completo: tiempos, voces, modos, participios e infinitivos. Dominarás el corazón del griego: su sistema verbal.",
+      "icono": "λύω",
+      "color": "#7B68EE",
+      "prerequisito": "nivel-1",
+      "totalLecciones": 12,
+      "estimadoHoras": 25,
+      "lecciones": [
+        "n2-l01",
+        "n2-l02",
+        "n2-l03",
+        "n2-l04",
+        "n2-l05",
+        "n2-l06",
+        "n2-l07",
+        "n2-l08",
+        "n2-l09",
+        "n2-l10",
+        "n2-l11",
+        "n2-l12"
+      ]
+    },
+    {
+      "id": "nivel-3",
+      "numero": 3,
+      "titulo": "Sintaxis y Análisis",
+      "descripcion": "Estructura de la oración griega, análisis del discurso y diagramación. Aprenderás a desmenuzar textos griegos y entender su estructura profunda.",
+      "icono": "∫",
+      "color": "#50C878",
+      "prerequisito": "nivel-2",
+      "totalLecciones": 10,
+      "estimadoHoras": 20,
+      "lecciones": [
+        "n3-l01",
+        "n3-l02",
+        "n3-l03",
+        "n3-l04",
+        "n3-l05",
+        "n3-l06",
+        "n3-l07",
+        "n3-l08",
+        "n3-l09",
+        "n3-l10"
+      ]
+    },
+    {
+      "id": "nivel-4",
+      "numero": 4,
+      "titulo": "Exégesis y Crítica Textual",
+      "descripcion": "Métodos exegéticos, crítica textual y análisis de manuscritos antiguos. Llegarás al nivel de hacer exégesis seria del Nuevo Testamento.",
+      "icono": "𝔓",
+      "color": "#D4A017",
+      "prerequisito": "nivel-3",
+      "totalLecciones": 10,
+      "estimadoHoras": 20,
+      "lecciones": [
+        "n4-l01",
+        "n4-l02",
+        "n4-l03",
+        "n4-l04",
+        "n4-l05",
+        "n4-l06",
+        "n4-l07",
+        "n4-l08",
+        "n4-l09",
+        "n4-l10"
+      ]
+    }
+  ],
+  "totalLecciones": 44,
+  "estimadoHorasTotales": 85,
+  "dificultad": "Intermedia a Avanzada",
+  "idioma": "español",
+  "ultimaActualizacion": "2026-04-03"
+}

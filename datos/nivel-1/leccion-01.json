@@ -1,0 +1,305 @@
+{
+  "id": "n1-l01",
+  "nivel": 1,
+  "numero": 1,
+  "titulo": "El Alfabeto Griego",
+  "subtitulo": "Las 24 letras del griego koiné",
+  "descripcion": "Aprende a reconocer, pronunciar y escribir el alfabeto griego, la base fundamental para toda lectura de textos bíblicos.",
+  "duracionEstimada": 25,
+  "prerequisitos": [],
+  "objetivos": [
+    "Reconocer las 24 letras del alfabeto griego en mayúscula y minúscula",
+    "Pronunciar cada letra según la pronunciación erasmiana",
+    "Distinguir entre vocales y consonantes griegas",
+    "Transliterar correctamente caracteres griegos al español"
+  ],
+  "secciones": [
+    {
+      "id": "intro",
+      "tipo": "explicacion",
+      "titulo": "¿Por qué el griego koiné?",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El griego koiné (κοινή, 'común') fue la lengua franca del mundo mediterráneo entre los siglos IV a.C. y IV d.C. En este idioma fueron escritos el Nuevo Testamento, la Septuaginta (traducción griega del Antiguo Testamento), y la mayoría de los escritos de los Padres Apostólicos."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Cuando damos importancia a entender el griego original, no solo estamos accediendo a palabras, sino a los pensamientos más puros del autor, sin la mediación de una traducción. Por eso los eruditos bíblicos y teólogos han considerado durante siglos que el estudio del griego es esencial."
+        },
+        {
+          "tipo": "cita",
+          "texto": "Ἐν ἀρχῇ ἦν ὁ λόγος, καὶ ὁ λόγος ἦν πρὸς τὸν θεόν, καὶ ὁ λόγος ἦν θεός.",
+          "transliteracion": "En archē ēn ho logos, kai ho logos ēn pros ton theon, kai ho logos ēn theos.",
+          "traduccion": "En el principio era el Verbo, y el Verbo estaba con Dios, y el Verbo era Dios.",
+          "referencia": "Juan 1:1",
+          "clase": "destacada"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Este curso usa la pronunciación erasmiana, que es el estándar académico adoptado universalmente en el mundo hispanohablante. Aunque no podemos estar 100% seguros de cómo sonaba exactamente el griego antiguo, la pronunciación erasmiana es la más práctica y ampliamente aceptada."
+        }
+      ]
+    },
+    {
+      "id": "vocales",
+      "tipo": "tabla-interactiva",
+      "titulo": "Las 7 Vocales Griegas",
+      "descripcion": "El griego tiene 7 vocales. Algunas pueden ser breves o largas, lo que afecta el significado de las palabras.",
+      "datos": {
+        "columnas": ["Mayúscula", "Minúscula", "Nombre", "Transliteración", "Pronunciación Erasmiana", "Cantidad"],
+        "filas": [
+          ["Α", "α", "alfa", "a", "como 'a' en 'casa'", "breve/larga"],
+          ["Ε", "ε", "épsilon", "e", "como 'e' breve en 'mesa'", "siempre breve"],
+          ["Η", "η", "eta", "ē", "como 'e' larga en 'teta'", "siempre larga"],
+          ["Ι", "ι", "iota", "i", "como 'i' en 'piso'", "breve/larga"],
+          ["Ο", "ο", "ómicron", "o", "como 'o' breve en 'oso'", "siempre breve"],
+          ["Υ", "υ", "ípsilon", "y", "como 'u' en 'tú'", "breve/larga"],
+          ["Ω", "ω", "omega", "ō", "como 'o' larga en 'tono'", "siempre larga"]
+        ],
+        "interactivo": true
+      }
+    },
+    {
+      "id": "consonantes",
+      "tipo": "tabla-interactiva",
+      "titulo": "Las 17 Consonantes Griegas",
+      "descripcion": "Las consonantes griegas se clasifican en tres grupos: mudas (oclusivas), líquidas y sibilantes.",
+      "datos": {
+        "columnas": ["Mayúscula", "Minúscula", "Nombre", "Transliteración", "Pronunciación", "Clasificación"],
+        "filas": [
+          ["Β", "β", "beta", "b", "como 'b' en 'boca'", "Muda sonora"],
+          ["Γ", "γ", "gamma", "g", "como 'g' en 'gato'", "Muda sonora"],
+          ["Δ", "δ", "delta", "d", "como 'd' en 'dedo'", "Muda sonora"],
+          ["Ζ", "ζ", "dseta", "z", "como 'z' en 'zona'", "Sibilante"],
+          ["Θ", "θ", "theta", "th", "como 'z' en 'gracias'", "Muda sorda"],
+          ["Κ", "κ", "kappa", "k", "como 'c' en 'casa'", "Muda sorda"],
+          ["Λ", "λ", "lambda", "l", "como 'l' en 'lado'", "Líquida"],
+          ["Μ", "μ", "mu", "m", "como 'm' en 'mesa'", "Nasal"],
+          ["Ν", "ν", "nu", "n", "como 'n' en 'nada'", "Nasal"],
+          ["Ξ", "ξ", "xi", "x", "como 'x' en 'examen'", "Sibilante"],
+          ["Π", "π", "pi", "p", "como 'p' en 'papa'", "Muda sorda"],
+          ["Ρ", "ρ", "rho", "r", "como 'r' en 'pero'", "Líquida"],
+          ["Σ", "σ/ς", "sigma", "s", "como 's' en 'sopa'", "Sibilante"],
+          ["Τ", "τ", "tau", "t", "como 't' en 'tata'", "Muda sorda"],
+          ["Φ", "φ", "phi", "ph", "como 'f' en 'foco'", "Muda sorda"],
+          ["Χ", "χ", "ji", "ch", "como 'j' en 'jefe'", "Muda sorda"],
+          ["Ψ", "ψ", "psi", "ps", "como 'ps' en 'psicología'", "Sibilante"]
+        ],
+        "interactivo": true
+      }
+    },
+    {
+      "id": "espiritus-acentos",
+      "tipo": "explicacion",
+      "titulo": "Espíritus y Acentos",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "En griego antiguo, cada vocal inicial va acompañada de un 'espíritu' (pneuma), que es un diacrítico que indica cómo se pronuncia. El espíritu áspero (') requiere una pronunciación aspirada (como 'h'), mientras que el espíritu suave (,) no requiere aspiración."
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Espíritus"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "Espíritu áspero (') sobre vocal inicial = aspiración de 'h'. Ej: ἁγάπη (hagápē) = 'amor'",
+            "Espíritu suave (,) sobre vocal inicial = sin aspiración. Ej: ἀγάπη (agápē) = también 'amor' (sin espíritu áspero)"
+          ]
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Acentos"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "Acento agudo (´) = pronunciación elevada en esa sílaba",
+            "Acento grave (`) = pronunciación más baja (solo en la última sílaba)",
+            "Acento circunflejo (῀) = combinación de agudo y grave en diptongos"
+          ]
+        },
+        {
+          "tipo": "nota",
+          "titulo": "Nota importante",
+          "texto": "En la pronunciación erasmiana moderna, los acentos NO se pronuncian como entonación, sino que solo marcan dónde va el énfasis silábico. Son muy importantes para la transliteración correcta."
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ej-alfa-01",
+      "tipo": "seleccion",
+      "titulo": "Identifica la letra griega",
+      "instrucciones": "Selecciona el nombre correcto para cada letra griega mostrada.",
+      "estimulo": "Mostraremos letras griegas una a una",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "α",
+          "opciones": ["alfa", "beta", "gamma", "delta"],
+          "respuestaCorrecta": "alfa",
+          "explicacion": "α (alfa) es la primera letra del alfabeto griego, equivalente a nuestra 'a'. Es fundamental memorizarla bien.",
+          "puntaje": 10
+        },
+        {
+          "id": "p2",
+          "estimulo": "λ",
+          "opciones": ["kappa", "lambda", "mu", "nu"],
+          "respuestaCorrecta": "lambda",
+          "explicacion": "λ (lambda) es la undécima letra del alfabeto griego y tiene un sonido de 'l'.",
+          "puntaje": 10
+        },
+        {
+          "id": "p3",
+          "estimulo": "ω",
+          "opciones": ["omicron", "omega", "beta", "tau"],
+          "respuestaCorrecta": "omega",
+          "explicacion": "ω (omega) es la última letra del alfabeto griego. Su nombre significa 'o grande' (o larga).",
+          "puntaje": 10
+        },
+        {
+          "id": "p4",
+          "estimulo": "θ",
+          "opciones": ["tau", "phi", "theta", "chi"],
+          "respuestaCorrecta": "theta",
+          "explicacion": "θ (theta) se pronuncia como 'z' en 'gracias' (theta). Es la combinación de los sonidos 't' y 'h'.",
+          "puntaje": 10
+        },
+        {
+          "id": "p5",
+          "estimulo": "ξ",
+          "opciones": ["pi", "sigma", "xi", "psi"],
+          "respuestaCorrecta": "xi",
+          "explicacion": "ξ (xi) representa un sonido complejo similar a 'x' en 'examen'. Esta letra combina los sonidos consonánticos.",
+          "puntaje": 10
+        }
+      ]
+    },
+    {
+      "id": "ej-alfa-02",
+      "tipo": "completar",
+      "titulo": "Escribe la forma minúscula",
+      "instrucciones": "Escribe la forma minúscula de cada letra griega mayúscula. Usa la palabra griega como referencia.",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "Α",
+          "tipo": "texto",
+          "respuestaCorrecta": "α",
+          "alternativasAceptadas": ["α"],
+          "explicacion": "Alpha (Α/α) es la primera letra. La minúscula se escribe como un pequeño círculo con una cola.",
+          "puntaje": 10
+        },
+        {
+          "id": "p2",
+          "estimulo": "Β",
+          "tipo": "texto",
+          "respuestaCorrecta": "β",
+          "alternativasAceptadas": ["β"],
+          "explicacion": "Beta (Β/β) es la segunda letra. En minúscula se parece a la 'b' inglesa.",
+          "puntaje": 10
+        },
+        {
+          "id": "p3",
+          "estimulo": "Γ",
+          "tipo": "texto",
+          "respuestaCorrecta": "γ",
+          "alternativasAceptadas": ["γ"],
+          "explicacion": "Gamma (Γ/γ) es la tercera letra. En minúscula tiene una forma de 'y' griega.",
+          "puntaje": 10
+        },
+        {
+          "id": "p4",
+          "estimulo": "Ω",
+          "tipo": "texto",
+          "respuestaCorrecta": "ω",
+          "alternativasAceptadas": ["ω"],
+          "explicacion": "Omega (Ω/ω) es la última letra. En minúscula parece una 'w' pequeña.",
+          "puntaje": 10
+        }
+      ]
+    },
+    {
+      "id": "ej-alfa-03",
+      "tipo": "seleccion",
+      "titulo": "Clasificación de vocales",
+      "instrucciones": "Selecciona cuál de las siguientes letras es una VOCAL griega.",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "Entre: α, β, γ — ¿cuál es vocal?",
+          "opciones": ["α", "β", "γ"],
+          "respuestaCorrecta": "α",
+          "explicacion": "α (alfa) es una vocal. Las vocales griegas son: α, ε, η, ι, ο, υ, ω",
+          "puntaje": 10
+        },
+        {
+          "id": "p2",
+          "estimulo": "Entre: ε, δ, ζ — ¿cuál es vocal?",
+          "opciones": ["ε", "δ", "ζ"],
+          "respuestaCorrecta": "ε",
+          "explicacion": "ε (épsilon) es una vocal breve. δ y ζ son consonantes.",
+          "puntaje": 10
+        },
+        {
+          "id": "p3",
+          "estimulo": "Entre: η, θ, κ — ¿cuál es vocal?",
+          "opciones": ["η", "θ", "κ"],
+          "respuestaCorrecta": "η",
+          "explicacion": "η (eta) es una vocal larga. θ y κ son consonantes (consonantes mudas, para ser exactos).",
+          "puntaje": 10
+        }
+      ]
+    }
+  ],
+  "vocabulario": [
+    {
+      "griego": "ἀρχή",
+      "transliteracion": "archē",
+      "definicion": "principio, comienzo, origen",
+      "categoria": "sustantivo",
+      "frecuencia": "alta",
+      "ejemplo": "Ἐν ἀρχῇ (en el principio)",
+      "frecuenciaNT": 55
+    },
+    {
+      "griego": "λόγος",
+      "transliteracion": "logos",
+      "definicion": "palabra, discurso, razón, verbo",
+      "categoria": "sustantivo",
+      "frecuencia": "alta",
+      "ejemplo": "ὁ λόγος ἦν θεός (la palabra era Dios)",
+      "frecuenciaNT": 330
+    },
+    {
+      "griego": "θεός",
+      "transliteracion": "theos",
+      "definicion": "Dios, dios",
+      "categoria": "sustantivo",
+      "frecuencia": "altísima",
+      "ejemplo": "πρὸς τὸν θεόν (con el Dios/Dios)",
+      "frecuenciaNT": 1320
+    }
+  ],
+  "notasTeoricas": [
+    {
+      "tipo": "historica",
+      "titulo": "Historia del Alfabeto Griego",
+      "texto": "El alfabeto griego derivó del alfabeto fenicio alrededor del siglo IX a.C. Los griegos fueron los primeros en usar letras para representar tanto consonantes como vocales, lo que fue un avance revolucionario. El nombre 'alfabeto' mismo viene de las primeras dos letras griegas: 'alfa' y 'beta'."
+    },
+    {
+      "tipo": "gramatical",
+      "titulo": "Diptongos Iniciales",
+      "texto": "Cuando dos vocales van juntas, frecuentemente forman lo que se llama un diptongo (dos sonidos). Los diptongos griegas principales son: αι (ai), ει (ei), οι (oi), υι (yi), αυ (au), ευ (eu), ου (ou)."
+    }
+  ],
+  "siguienteLeccion": "n1-l02",
+  "puntajeMaximo": 100,
+  "tiempoPromedio": 25
+}

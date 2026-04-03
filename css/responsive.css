@@ -1,0 +1,584 @@
+/* ============================================
+   MEDIA QUERIES Y DISEÑO RESPONSIVO
+   ============================================ */
+
+/* TABLETS (768px a 1024px) */
+@media (max-width: 1024px) {
+  .vista {
+    max-width: 100%;
+    padding: var(--espacio-xl);
+  }
+
+  .grid-lecciones {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: var(--espacio-lg);
+  }
+}
+
+/* TABLETS PEQUEÑOS Y CELULARES GRANDES (641px a 768px) */
+@media (max-width: 768px) {
+  :root {
+    --ancho-sidebar: 0;
+    font-size: 15px;
+  }
+
+  body {
+    padding-bottom: var(--altura-bottom-nav-mobil);
+  }
+
+  #app {
+    flex-direction: column;
+  }
+
+  /* Sidebar en overlay */
+  .sidebar {
+    position: fixed;
+    left: 0;
+    top: var(--altura-barra-superior);
+    width: 100%;
+    height: calc(100vh - var(--altura-barra-superior));
+    transform: translateX(-100%);
+    transition: transform var(--transicion-normal);
+    z-index: 899;
+    border-right: none;
+
+    &.abierto {
+      transform: translateX(0);
+      box-shadow: 2px 0 8px rgba(0, 0, 0, 0.15);
+    }
+  }
+
+  .contenedor-principal {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .vista {
+    padding: var(--espacio-lg);
+    max-width: 100%;
+  }
+
+  .grid-lecciones {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: var(--espacio-lg);
+  }
+
+  .ejercicio {
+    padding: var(--espacio-lg);
+  }
+
+  /* Mostrar botón de menú */
+  .barra-superior {
+    .boton-menu {
+      display: block;
+    }
+
+    .info-usuario {
+      .puntos {
+        display: none;
+      }
+
+      .racha {
+        display: none;
+      }
+    }
+
+    .logo {
+      .etiqueta {
+        display: none;
+      }
+    }
+  }
+
+  /* Ejercicios en una columna */
+  .ejercicio-seleccion {
+    .opciones.grid-2 {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .ejercicio-conjugar {
+    .tabla-paradigma {
+      font-size: 13px;
+
+      th, td {
+        padding: var(--espacio-sm);
+      }
+
+      .texto-nodo {
+        font-size: 12px;
+      }
+    }
+  }
+
+  .ejercicio-traducir {
+    .comparacion {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  /* Tarjeta en lista única */
+  .grupo-opciones {
+    &.grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  /* Modal responsivo */
+  .modal {
+    width: 95%;
+    max-height: 90vh;
+
+    .encabezado-modal {
+      padding: var(--espacio-lg);
+    }
+
+    .cuerpo-modal {
+      padding: var(--espacio-lg);
+    }
+
+    .pie-modal {
+      padding: var(--espacio-lg);
+      flex-direction: column-reverse;
+
+      .boton {
+        width: 100%;
+      }
+    }
+  }
+
+  /* Tabla menos densa */
+  table {
+    font-size: var(--tamanio-sm);
+
+    th, td {
+      padding: var(--espacio-md);
+    }
+  }
+
+  /* Navegación entre lecciones */
+  .navagacion-leccion {
+    flex-direction: column-reverse;
+
+    .boton {
+      width: 100%;
+
+      &.boton-atras {
+        order: 1;
+      }
+
+      &.boton-siguiente {
+        order: 2;
+      }
+    }
+  }
+}
+
+/* CELULARES (hasta 640px) */
+@media (max-width: 640px) {
+  :root {
+    --altura-barra-superior: 56px;
+  }
+
+  html {
+    font-size: 14px;
+  }
+
+  body {
+    padding-bottom: var(--altura-bottom-nav-mobil);
+  }
+
+  .vista {
+    padding: var(--espacio-md);
+  }
+
+  .barra-superior {
+    height: var(--altura-barra-superior);
+    padding: 0 var(--espacio-md);
+
+    .logo {
+      font-size: var(--tamanio-lg);
+
+      .icono {
+        font-size: var(--tamanio-xl);
+      }
+
+      .etiqueta {
+        display: none;
+      }
+    }
+
+    .info-usuario {
+      display: none;
+    }
+  }
+
+  .sidebar {
+    width: 100%;
+
+    .navegacion-principal {
+      padding: var(--espacio-lg) 0;
+
+      .item-nav > a {
+        padding: var(--espacio-md);
+        gap: var(--espacio-sm);
+
+        .etiqueta {
+          font-size: var(--tamanio-sm);
+        }
+      }
+    }
+  }
+
+  h1 {
+    font-size: var(--tamanio-2xl);
+  }
+
+  h2 {
+    font-size: var(--tamanio-xl);
+  }
+
+  h3 {
+    font-size: var(--tamanio-lg);
+  }
+
+  .encabezado-leccion {
+    margin-bottom: var(--espacio-2xl);
+    padding-bottom: var(--espacio-lg);
+  }
+
+  .grid-lecciones {
+    grid-template-columns: 1fr;
+    gap: var(--espacio-md);
+  }
+
+  .ejercicio {
+    padding: var(--espacio-md);
+
+    .encabezado-ejercicio {
+      flex-direction: column;
+      align-items: flex-start;
+
+      .puntaje {
+        margin-top: var(--espacio-sm);
+      }
+    }
+
+    .acciones {
+      flex-direction: column;
+
+      .boton {
+        width: 100%;
+      }
+    }
+  }
+
+  .ejercicio-seleccion {
+    .estimulo {
+      font-size: var(--tamanio-lg);
+    }
+
+    .opciones {
+      &.grid-2 {
+        grid-template-columns: 1fr;
+      }
+    }
+  }
+
+  .ejercicio-completar {
+    .frase {
+      font-size: 1rem;
+
+      .blanco {
+        min-width: 80px;
+      }
+    }
+  }
+
+  .ejercicio-conjugar {
+    .tabla-paradigma {
+      font-size: 12px;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+
+      th, td {
+        padding: var(--espacio-sm);
+      }
+
+      input {
+        font-size: 12px;
+        width: 100%;
+      }
+    }
+  }
+
+  .ejercicio-traducir {
+    textarea {
+      min-height: 80px;
+      padding: var(--espacio-md);
+    }
+
+    .comparacion {
+      grid-template-columns: 1fr;
+      gap: var(--espacio-md);
+    }
+  }
+
+  /* Diagrama responsivo */
+  .diagrama-sintaxis {
+    padding: var(--espacio-md);
+
+    .contenedor-svg {
+      min-height: 250px;
+    }
+  }
+
+  .lector-texto {
+    .barra-herramientas {
+      padding: var(--espacio-md);
+
+      .control {
+        font-size: var(--tamanio-xs);
+      }
+    }
+
+    .texto-griego-lectura {
+      padding: var(--espacio-md);
+      font-size: var(--tamanio-base);
+    }
+
+    .analisis-palabra {
+      .forma-griega {
+        font-size: var(--tamanio-lg);
+      }
+
+      .propiedades {
+        grid-template-columns: 1fr;
+        gap: var(--espacio-md);
+      }
+    }
+  }
+
+  /* Tarjeta menos densa */
+  .tarjeta {
+    padding: var(--espacio-md);
+
+    .encabezado {
+      flex-direction: column;
+      gap: var(--espacio-sm);
+    }
+
+    .pie {
+      flex-direction: column;
+      gap: var(--espacio-sm);
+    }
+  }
+
+  /* Modal a pantalla completa casi */
+  .modal {
+    width: 100%;
+    max-height: 100vh;
+    border-radius: var(--radio-lg) var(--radio-lg) 0 0;
+
+    .encabezado-modal {
+      padding: var(--espacio-md);
+
+      h2 {
+        font-size: var(--tamanio-lg);
+      }
+    }
+
+    .cuerpo-modal {
+      padding: var(--espacio-md);
+    }
+
+    .pie-modal {
+      padding: var(--espacio-md);
+
+      .boton {
+        width: 100%;
+      }
+    }
+  }
+
+  /* Tabla horizontal scroll */
+  table {
+    font-size: var(--tamanio-xs);
+
+    th, td {
+      padding: var(--espacio-sm);
+    }
+  }
+
+  .encabezado-leccion {
+    .nivel-badge {
+      display: none;
+    }
+  }
+
+  /* Ocultar algunas columnas en tablas */
+  .tabla-paradigma {
+    .columna-oculta {
+      display: none;
+    }
+  }
+
+  /* Bottom navigation para móvil (futuro) */
+  .bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: var(--altura-bottom-nav-mobil);
+    background-color: white;
+    border-top: 1px solid var(--color-borde);
+    display: flex;
+    justify-content: space-around;
+    z-index: 100;
+
+    .nav-item {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: var(--espacio-xs);
+      font-size: var(--tamanio-xs);
+      color: var(--color-texto-suave);
+      text-decoration: none;
+      transition: color var(--transicion-normal);
+
+      &.activo {
+        color: var(--color-primario);
+      }
+
+      &:hover {
+        color: var(--color-primario);
+      }
+
+      .icono {
+        font-size: var(--tamanio-xl);
+      }
+    }
+  }
+}
+
+/* CELULARES PEQUEÑOS (hasta 480px) */
+@media (max-width: 480px) {
+  html {
+    font-size: 13px;
+  }
+
+  .vista {
+    padding: var(--espacio-sm);
+  }
+
+  .barra-superior {
+    padding: 0 var(--espacio-sm);
+
+    .logo {
+      font-size: var(--tamanio-base);
+
+      .icono {
+        font-size: var(--tamanio-lg);
+      }
+    }
+  }
+
+  h1 {
+    font-size: var(--tamanio-xl);
+  }
+
+  h2 {
+    font-size: var(--tamanio-lg);
+  }
+
+  h3 {
+    font-size: var(--tamanio-base);
+  }
+
+  .tarjeta {
+    padding: var(--espacio-sm);
+  }
+
+  .ejercicio {
+    padding: var(--espacio-sm);
+  }
+
+  .boton {
+    padding: var(--espacio-sm) var(--espacio-md);
+    font-size: var(--tamanio-sm);
+
+    &.grande {
+      padding: var(--espacio-md) var(--espacio-lg);
+    }
+  }
+
+  .modal {
+    width: 100%;
+
+    .encabezado-modal {
+      padding: var(--espacio-sm);
+    }
+
+    .cuerpo-modal {
+      padding: var(--espacio-sm);
+    }
+  }
+
+  /* Ocultar elementos no esenciales */
+  .sidebar {
+    .separador {
+      display: none;
+    }
+  }
+}
+
+/* PANTALLAS MUY GRANDES (1440px+) */
+@media (min-width: 1440px) {
+  :root {
+    --ancho-contenido-max: 1000px;
+  }
+
+  .vista {
+    max-width: var(--ancho-contenido-max);
+  }
+
+  .grid-lecciones {
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  }
+}
+
+/* IMPRESIÓN */
+@media print {
+  .barra-superior,
+  .sidebar,
+  .boton-menu,
+  .navagacion-leccion,
+  .acciones {
+    display: none;
+  }
+
+  .contenedor-principal {
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .vista {
+    padding: 0;
+    max-width: 100%;
+  }
+
+  .tarjeta,
+  .ejercicio {
+    page-break-inside: avoid;
+    box-shadow: none;
+    border: 1px solid #ccc;
+  }
+
+  a {
+    color: var(--color-primario);
+    text-decoration: underline;
+  }
+}

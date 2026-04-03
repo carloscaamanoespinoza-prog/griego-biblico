@@ -1,0 +1,390 @@
+/* ============================================
+   ESTILOS DE EJERCICIOS INTERACTIVOS
+   ============================================ */
+
+.ejercicio {
+  background-color: var(--color-fondo-tarjeta);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-md);
+  padding: var(--espacio-xl);
+  margin-bottom: var(--espacio-xl);
+  box-shadow: var(--sombra-sm);
+
+  .encabezado-ejercicio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--espacio-lg);
+    padding-bottom: var(--espacio-lg);
+    border-bottom: 1px solid var(--color-borde);
+
+    h3 {
+      margin: 0;
+      color: var(--color-primario);
+      flex: 1;
+    }
+
+    .puntaje {
+      font-weight: var(--peso-semibold);
+      color: var(--color-texto-suave);
+    }
+  }
+
+  .instrucciones {
+    background-color: var(--color-borde-suave);
+    padding: var(--espacio-md) var(--espacio-lg);
+    border-radius: var(--radio-md);
+    margin-bottom: var(--espacio-lg);
+    font-size: var(--tamanio-sm);
+    color: var(--color-texto);
+  }
+
+  .cuerpo-ejercicio {
+    margin-bottom: var(--espacio-xl);
+  }
+
+  .acciones {
+    display: flex;
+    gap: var(--espacio-md);
+    justify-content: space-between;
+
+    .boton {
+      flex: 1;
+    }
+
+    .boton-verificar {
+      background-color: var(--color-primario);
+      color: white;
+
+      &:hover:not(:disabled) {
+        background-color: #1e4465;
+      }
+
+      &:disabled {
+        opacity: 0.5;
+      }
+    }
+
+    .boton-siguiente {
+      background-color: var(--color-exito);
+      color: white;
+
+      &:hover {
+        background-color: #228a47;
+      }
+    }
+
+    .boton-pista {
+      background-color: var(--color-advertencia);
+      color: white;
+      font-size: var(--tamanio-sm);
+      padding: var(--espacio-sm) var(--espacio-md);
+
+      &:hover {
+        background-color: #c56f20;
+      }
+
+      &:disabled {
+        opacity: 0.5;
+      }
+    }
+  }
+
+  .resultado {
+    margin-top: var(--espacio-lg);
+    padding: var(--espacio-lg);
+    border-radius: var(--radio-md);
+    animation: slideIn var(--transicion-normal);
+
+    &.correcto {
+      background-color: rgba(46, 139, 87, 0.1);
+      border: 1px solid var(--color-exito);
+      color: var(--color-exito);
+
+      .icono {
+        font-size: var(--tamanio-2xl);
+        margin-bottom: var(--espacio-sm);
+
+        &::before {
+          content: '✓';
+        }
+      }
+
+      .explicacion {
+        color: var(--color-texto);
+      }
+    }
+
+    &.incorrecto {
+      background-color: rgba(192, 57, 43, 0.1);
+      border: 1px solid var(--color-error);
+      color: var(--color-error);
+
+      .icono {
+        font-size: var(--tamanio-2xl);
+        margin-bottom: var(--espacio-sm);
+
+        &::before {
+          content: '✗';
+        }
+      }
+
+      .explicacion {
+        color: var(--color-texto);
+      }
+    }
+
+    .explicacion {
+      font-size: var(--tamanio-sm);
+      line-height: var(--altura-linea-relajada);
+
+      &.griego {
+        font-family: var(--fuente-griega);
+      }
+    }
+  }
+
+  .contador-intentos {
+    font-size: var(--tamanio-sm);
+    color: var(--color-texto-suave);
+    margin-top: var(--espacio-md);
+  }
+
+  &.completado {
+    opacity: 0.8;
+    background-color: var(--color-borde-suave);
+  }
+}
+
+/* EJERCICIO TIPO SELECCIÓN MÚLTIPLE */
+.ejercicio-seleccion {
+  .opciones {
+    display: flex;
+    flex-direction: column;
+    gap: var(--espacio-md);
+
+    &.grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: var(--espacio-lg);
+
+      @media (max-width: 640px) {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .opcion {
+      .label {
+        padding: var(--espacio-lg);
+        border: 2px solid var(--color-borde);
+        border-radius: var(--radio-md);
+        cursor: pointer;
+        transition: all var(--transicion-normal);
+        background-color: white;
+
+        &:hover {
+          border-color: var(--color-primario);
+          background-color: rgba(44, 95, 138, 0.02);
+        }
+      }
+
+      input[type="radio"]:checked + .label {
+        border-color: var(--color-primario);
+        background-color: rgba(44, 95, 138, 0.08);
+
+        &::before {
+          content: '';
+        }
+      }
+
+      &.correcta .label {
+        border-color: var(--color-exito);
+        background-color: rgba(46, 139, 87, 0.08);
+      }
+
+      &.incorrecta .label {
+        border-color: var(--color-error);
+        background-color: rgba(192, 57, 43, 0.08);
+      }
+    }
+  }
+
+  .estimulo {
+    background-color: var(--color-borde-suave);
+    padding: var(--espacio-lg);
+    border-radius: var(--radio-md);
+    margin-bottom: var(--espacio-lg);
+    font-family: var(--fuente-griega);
+    font-size: var(--tamanio-xl);
+    text-align: center;
+  }
+}
+
+/* EJERCICIO TIPO COMPLETAR */
+.ejercicio-completar {
+  .frase {
+    font-size: var(--tamanio-lg);
+    line-height: var(--altura-linea-relajada);
+    margin-bottom: var(--espacio-lg);
+
+    .blanco {
+      display: inline-block;
+      padding: 0 var(--espacio-sm);
+      margin: 0 var(--espacio-xs);
+      border-bottom: 2px solid var(--color-primario);
+      min-width: 100px;
+      font-weight: var(--peso-semibold);
+
+      input {
+        border: none;
+        background: none;
+        font-size: inherit;
+        font-family: var(--fuente-griega);
+        text-align: center;
+        width: 100%;
+        padding: 0;
+
+        &:focus {
+          outline: none;
+          box-shadow: 0 0 0 2px var(--color-primario);
+        }
+
+        &.valido {
+          color: var(--color-exito);
+        }
+
+        &.invalido {
+          color: var(--color-error);
+        }
+      }
+    }
+  }
+}
+
+/* EJERCICIO TIPO CONJUGAR */
+.ejercicio-conjugar {
+  .verbo-infinitivo {
+    background-color: var(--color-borde-suave);
+    padding: var(--espacio-lg);
+    border-radius: var(--radio-md);
+    text-align: center;
+    margin-bottom: var(--espacio-lg);
+
+    .forma-griega {
+      font-family: var(--fuente-griega);
+      font-size: var(--tamanio-2xl);
+      color: var(--color-primario);
+      font-weight: var(--peso-bold);
+    }
+
+    .significado {
+      color: var(--color-texto-suave);
+      font-size: var(--tamanio-sm);
+      margin-top: var(--espacio-sm);
+    }
+  }
+
+  .tabla-paradigma {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: var(--espacio-lg);
+
+    th, td {
+      border: 1px solid var(--color-borde);
+      padding: var(--espacio-md);
+      text-align: left;
+    }
+
+    th {
+      background-color: var(--color-primario);
+      color: white;
+      font-weight: var(--peso-semibold);
+    }
+
+    td {
+      input {
+        width: 100%;
+        border: none;
+        background: none;
+        font-family: var(--fuente-griega);
+        text-align: center;
+        padding: var(--espacio-sm);
+        font-size: var(--tamanio-lg);
+
+        &:focus {
+          outline: 2px solid var(--color-primario);
+          background-color: rgba(44, 95, 138, 0.05);
+        }
+
+        &.valido {
+          background-color: rgba(46, 139, 87, 0.1);
+          color: var(--color-exito);
+        }
+
+        &.invalido {
+          background-color: rgba(192, 57, 43, 0.1);
+          color: var(--color-error);
+        }
+      }
+    }
+  }
+}
+
+/* EJERCICIO TIPO TRADUCIR */
+.ejercicio-traducir {
+  .texto-griego {
+    background-color: var(--color-borde-suave);
+    padding: var(--espacio-lg);
+    border-radius: var(--radio-md);
+    margin-bottom: var(--espacio-lg);
+    font-family: var(--fuente-griega);
+    font-size: var(--tamanio-lg);
+    line-height: var(--altura-linea-relajada);
+    color: var(--color-primario);
+  }
+
+  textarea {
+    width: 100%;
+    min-height: 100px;
+    padding: var(--espacio-lg);
+    border: 2px solid var(--color-borde);
+    border-radius: var(--radio-md);
+    font-family: var(--fuente-principal);
+    font-size: var(--tamanio-base);
+    line-height: var(--altura-linea-relajada);
+    resize: vertical;
+
+    &:focus {
+      outline: none;
+      border-color: var(--color-primario);
+      box-shadow: 0 0 0 3px rgba(44, 95, 138, 0.1);
+    }
+  }
+
+  .comparacion {
+    margin-top: var(--espacio-lg);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--espacio-lg);
+
+    @media (max-width: 640px) {
+      grid-template-columns: 1fr;
+    }
+
+    .columna {
+      h4 {
+        color: var(--color-primario);
+        margin-bottom: var(--espacio-md);
+      }
+
+      .texto {
+        background-color: var(--color-borde-suave);
+        padding: var(--espacio-lg);
+        border-radius: var(--radio-md);
+        font-size: var(--tamanio-sm);
+        line-height: var(--altura-linea-relajada);
+        color: var(--color-texto);
+      }
+    }
+  }
+}
