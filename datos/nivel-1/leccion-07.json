@@ -1,0 +1,90 @@
+{
+  "id": "n1-l07",
+  "nivel": 1,
+  "numero": 7,
+  "titulo": "Segunda Declinación: Masculinos y Neutros",
+  "subtitulo": "Sustantivos masculinos en -ος y neutros en -ον",
+  "descripcion": "La segunda declinación incluye sustantivos masculinos (terminados en -ος) y neutros (terminados en -ον). Es una de las más comunes.",
+  "duracionEstimada": 30,
+  "prerequisitos": ["n1-l06"],
+  "objetivos": [
+    "Declinar sustantivos masculinos y neutros de segunda declinación",
+    "Diferenciar entre patrones masculinos y neutros",
+    "Aplicar el artículo correcto con cada forma"
+  ],
+  "secciones": [
+    {
+      "id": "segunda-declinacion",
+      "tipo": "tabla-interactiva",
+      "titulo": "Segunda Declinación: Sustantivos Masculinos",
+      "descripcion": "Paradigma de λόγος (palabra, masculino)",
+      "datos": {
+        "columnas": ["Caso", "Singular", "Plural"],
+        "filas": [
+          ["Nominativo", "ὁ λόγος", "οἱ λόγοι"],
+          ["Acusativo", "τὸν λόγον", "τοὺς λόγους"],
+          ["Genitivo", "τοῦ λόγου", "τῶν λόγων"],
+          ["Dativo", "τῷ λόγῳ", "τοῖς λόγοις"]
+        ]
+      }
+    },
+    {
+      "id": "neutros",
+      "tipo": "tabla-interactiva",
+      "titulo": "Segunda Declinación: Sustantivos Neutros",
+      "descripcion": "Paradigma de δῶρον (regalo, neutro)",
+      "datos": {
+        "columnas": ["Caso", "Singular", "Plural"],
+        "filas": [
+          ["Nominativo", "τὸ δῶρον", "τὰ δῶρα"],
+          ["Acusativo", "τὸ δῶρον", "τὰ δῶρα"],
+          ["Genitivo", "τοῦ δώρου", "τῶν δώρων"],
+          ["Dativo", "τῷ δώρῳ", "τοῖς δώροις"]
+        ]
+      }
+    },
+    {
+      "id": "regla-neutro",
+      "tipo": "explicacion",
+      "titulo": "Regla de Oro: Los Neutros son Iguales en Nominativo y Acusativo",
+      "contenido": [
+        {
+          "tipo": "nota",
+          "titulo": "Regla Fundamental",
+          "texto": "En TODOS los casos y declinaciones, los sustantivos y adjetivos NEUTROS tienen la MISMA FORMA en nominativo y acusativo (singular y plural). Esta es una regla de oro del griego."
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ej-l07-01",
+      "tipo": "seleccion",
+      "titulo": "Identifica el caso",
+      "instrucciones": "¿En qué caso está cada forma?",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "λόγος (sin artículo)",
+          "opciones": ["Nominativo", "Acusativo", "Genitivo", "Dativo"],
+          "respuestaCorrecta": "Nominativo",
+          "explicacion": "λόγος es la forma nominativa de segunda declinación masculina.",
+          "puntaje": 10
+        }
+      ]
+    }
+  ],
+  "vocabulario": [
+    {
+      "griego": "κόσμος",
+      "transliteracion": "kosmos",
+      "definicion": "mundo, orden",
+      "categoria": "sustantivo masculino",
+      "frecuencia": "alta",
+      "ejemplo": "ὁ κόσμος (el mundo)",
+      "frecuenciaNT": 187
+    }
+  ],
+  "siguienteLeccion": "n1-l08",
+  "puntajeMaximo": 100
+}

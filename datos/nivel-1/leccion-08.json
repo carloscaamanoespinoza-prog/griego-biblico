@@ -1,0 +1,86 @@
+{
+  "id": "n1-l08",
+  "nivel": 1,
+  "numero": 8,
+  "titulo": "Adjetivos: Concordancia y Tres Terminaciones",
+  "subtitulo": "Los adjetivos deben concordar con los sustantivos",
+  "descripcion": "Los adjetivos en griego cambian para concordar en género, número y caso con el sustantivo. Aprenderás el patrón básico.",
+  "duracionEstimada": 25,
+  "prerequisitos": ["n1-l06", "n1-l07"],
+  "objetivos": [
+    "Entender la concordancia gramatical",
+    "Declinar adjetivos de tres terminaciones",
+    "Colocar correctamente el adjetivo en relación al artículo y sustantivo"
+  ],
+  "secciones": [
+    {
+      "id": "concordancia",
+      "tipo": "explicacion",
+      "titulo": "La Regla de Oro: Concordancia",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "La concordancia es una regla fundamental en griego: el artículo, el adjetivo y el sustantivo deben tener el MISMO género, número y caso."
+        },
+        {
+          "tipo": "cita",
+          "texto": "ὁ ἀγαθὸς λόγος",
+          "transliteracion": "ho agathos logos",
+          "traduccion": "la buena palabra",
+          "referencia": "Ejemplo",
+          "clase": "normal"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "En este ejemplo: ὁ (artículo masculino singular nominativo), ἀγαθὸς (adjetivo masculino singular nominativo), λόγος (sustantivo masculino singular nominativo). Todos concuerdan."
+        }
+      ]
+    },
+    {
+      "id": "adjetivo-tres-terminaciones",
+      "tipo": "tabla-interactiva",
+      "titulo": "Adjetivo de Tres Terminaciones: ἀγαθός (bueno)",
+      "descripcion": "Tiene tres formas en nominativo singular: masculina, femenina y neutra",
+      "datos": {
+        "columnas": ["", "Masculino", "Femenino", "Neutro"],
+        "filas": [
+          ["Nominativo sing.", "ἀγαθ-ός", "ἀγαθ-ή", "ἀγαθ-όν"],
+          ["Acusativo sing.", "ἀγαθ-όν", "ἀγαθ-ήν", "ἀγαθ-όν"],
+          ["Genitivo sing.", "ἀγαθ-οῦ", "ἀγαθ-ῆς", "ἀγαθ-οῦ"],
+          ["Dativo sing.", "ἀγαθ-ῷ", "ἀγαθ-ῇ", "ἀγαθ-ῷ"]
+        ]
+      }
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ej-l08-01",
+      "tipo": "seleccion",
+      "titulo": "Identifica la concordancia correcta",
+      "instrucciones": "¿Cuál es la combinación correcta de artículo, adjetivo y sustantivo?",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "Palabra femenina singular en nominativo",
+          "opciones": ["ὁ ἀγαθὸς λόγος", "ἡ ἀγαθὴ ζωή", "τὸ ἀγαθὸν δῶρον"],
+          "respuestaCorrecta": "ἡ ἀγαθὴ ζωή",
+          "explicacion": "ἡ (artículo femenino), ἀγαθὴ (adjetivo femenino), ζωή (sustantivo femenino). Todo concuerda.",
+          "puntaje": 15
+        }
+      ]
+    }
+  ],
+  "vocabulario": [
+    {
+      "griego": "ἀγαθός",
+      "transliteracion": "agathos",
+      "definicion": "bueno, noble",
+      "categoria": "adjetivo",
+      "frecuencia": "alta",
+      "ejemplo": "ὁ ἀγαθὸς λόγος (la buena palabra)",
+      "frecuenciaNT": 102
+    }
+  ],
+  "siguienteLeccion": "n1-l09",
+  "puntajeMaximo": 100
+}

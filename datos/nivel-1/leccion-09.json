@@ -1,0 +1,88 @@
+{
+  "id": "n1-l09",
+  "nivel": 1,
+  "numero": 9,
+  "titulo": "Pronombres Personales",
+  "subtitulo": "yo, tú, él/ella/eso",
+  "descripcion": "Los pronombres personales en griego tienen formas especiales. A diferencia del español, el sujeto se puede omitir porque el verbo indica la persona.",
+  "duracionEstimada": 20,
+  "prerequisitos": ["n1-l05"],
+  "objetivos": [
+    "Reconocer los pronombres personales griegos",
+    "Entender que en griego el sujeto puede omitirse",
+    "Usar pronombres en diferentes casos"
+  ],
+  "secciones": [
+    {
+      "id": "pronombres-personales",
+      "tipo": "tabla-interactiva",
+      "titulo": "Pronombres Personales Principales",
+      "descripcion": "Los pronombres personales tienen formas diferentes para cada caso.",
+      "datos": {
+        "columnas": ["Persona", "Nominativo", "Acusativo", "Genitivo", "Dativo"],
+        "filas": [
+          ["1ª Singular (yo)", "ἐγώ", "με", "ἐμοῦ/μου", "ἐμοί/μοι"],
+          ["2ª Singular (tú)", "σύ", "σε", "σοῦ/σου", "σοί/σοι"],
+          ["3ª Singular (él/ella)", "αὐτός", "αὐτόν", "αὐτοῦ", "αὐτῷ"],
+          ["1ª Plural (nosotros)", "ἡμεῖς", "ἡμᾶς", "ἡμῶν", "ἡμῖν"],
+          ["2ª Plural (vosotros)", "ὑμεῖς", "ὑμᾶς", "ὑμῶν", "ὑμῖν"]
+        ]
+      }
+    },
+    {
+      "id": "omision-sujeto",
+      "tipo": "explicacion",
+      "titulo": "El Sujeto Tácito (Omitido)",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "En griego, el sujeto (pronombre personal) generalmente se OMITE porque la terminación del verbo ya indica quién es el sujeto."
+        },
+        {
+          "tipo": "cita",
+          "texto": "λέγω (lego)",
+          "transliteracion": "lego",
+          "traduccion": "digo (yo) - La terminación -ω indica 1ª singular",
+          "referencia": "Ejemplo",
+          "clase": "normal"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El sujeto solo se menciona cuando queremos enfatizarlo o cuando hay ambigüedad."
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ej-l09-01",
+      "tipo": "completar",
+      "titulo": "Pronombres personales",
+      "instrucciones": "Escribe el pronombre correcto.",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "Nominativo singular '_____ soy' (yo)",
+          "tipo": "texto",
+          "respuestaCorrecta": "ἐγώ",
+          "alternativasAceptadas": ["ἐγώ"],
+          "explicacion": "ἐγώ es el pronombre de 1ª persona singular nominativo.",
+          "puntaje": 10
+        }
+      ]
+    }
+  ],
+  "vocabulario": [
+    {
+      "griego": "αὐτός",
+      "transliteracion": "autos",
+      "definicion": "él, ella, eso; mismo/a/o",
+      "categoria": "pronombre",
+      "frecuencia": "altísima",
+      "ejemplo": "αὐτὸς λέγει (él dice)",
+      "frecuenciaNT": 5597
+    }
+  ],
+  "siguienteLeccion": "n1-l10",
+  "puntajeMaximo": 100
+}

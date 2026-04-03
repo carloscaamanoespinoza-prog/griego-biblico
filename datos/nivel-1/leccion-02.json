@@ -1,0 +1,184 @@
+{
+  "id": "n1-l02",
+  "nivel": 1,
+  "numero": 2,
+  "titulo": "Vocales y Consonantes",
+  "subtitulo": "Clasificación y pronunciación de los sonidos griegos",
+  "descripcion": "Aprende a clasificar las vocales y consonantes griegas, y domina la pronunciación correcta de cada sonido.",
+  "duracionEstimada": 20,
+  "prerequisitos": ["n1-l01"],
+  "objetivos": [
+    "Clasificar las 7 vocales griegas y diferenciar entre vocales breves y largas",
+    "Identificar las 17 consonantes griegas y sus clasificaciones",
+    "Pronunciar correctamente cada sonido según la pronunciación erasmiana",
+    "Entender cómo los diptongos cambian la pronunciación"
+  ],
+  "secciones": [
+    {
+      "id": "vocales-detalle",
+      "tipo": "explicacion",
+      "titulo": "Las 7 Vocales Griegas en Detalle",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "En griego, las vocales se clasifican en dos categorías principales: breves y largas. Esto es importante porque la cantidad vocálica (brevedad o largura) puede afectar el significado de una palabra."
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Vocales Breves"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "α (alfa) - breve: sonido de 'a' en 'casa'",
+            "ε (épsilon) - siempre breve: sonido de 'e' en 'mesa'",
+            "ι (iota) - puede ser breve: sonido de 'i' en 'piso'",
+            "ο (ómicron) - siempre breve: sonido de 'o' en 'oso'",
+            "υ (ípsilon) - puede ser breve: sonido de 'u' en 'tú'"
+          ]
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Vocales Largas"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "α (alfa) - larga: sonido prolongado de 'a' (como en 'padre')",
+            "η (eta) - siempre larga: sonido de 'e' larga (como en 'teta')",
+            "ι (iota) - puede ser larga: sonido prolongado de 'i'",
+            "ω (omega) - siempre larga: sonido de 'o' larga (como en 'tono')",
+            "υ (ípsilon) - puede ser larga: sonido prolongado de 'u'"
+          ]
+        },
+        {
+          "tipo": "nota",
+          "titulo": "Importancia de la cantidad vocálica",
+          "texto": "A diferencia del español, la cantidad vocálica es muy importante en griego. Una misma letra puede representar un sonido breve o largo, lo que puede cambiar completamente el significado de la palabra. Por ejemplo, μῆνις (mênis, 'ira' de los dioses) es diferente de μινός."
+        }
+      ]
+    },
+    {
+      "id": "consonantes-clasificacion",
+      "tipo": "tabla-interactiva",
+      "titulo": "Clasificación de las 17 Consonantes",
+      "descripcion": "Las consonantes griegas se agrupan en categorías según cómo se producen en la boca.",
+      "datos": {
+        "columnas": ["Clasificación", "Ejemplos", "Características"],
+        "filas": [
+          ["Mudas Sordas", "κ (k), π (p), τ (t), θ (th), φ (ph), χ (ch)", "Producidas con bloqueo de aire, sin vibración de cuerdas vocales"],
+          ["Mudas Sonoras", "β (b), γ (g), δ (d)", "Producidas con bloqueo de aire, con vibración de cuerdas vocales"],
+          ["Nasales", "μ (m), ν (n)", "El aire sale por la nariz"],
+          ["Líquidas", "λ (l), ρ (r)", "Sonidos continuos que pueden sonar como vocales"],
+          ["Sibilantes", "σ/ς (s), ζ (z), ξ (x), ψ (ps)", "Sonidos fricativos, producidos con fricción"]
+        ]
+      }
+    },
+    {
+      "id": "diptongos",
+      "tipo": "explicacion",
+      "titulo": "Diptongos: Dos Vocales, Un Sonido",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Un diptongo es la unión de dos vocales que se pronuncian como una sola sílaba. En griego, hay varios diptongos comunes que es importante reconocer."
+        },
+        {
+          "tipo": "tabla-simple",
+          "cabeceras": ["Diptongo", "Pronunciación", "Ejemplo"],
+          "filas": [
+            ["αι", "ai (como en 'aire')", "αἴ (hai, 'ay')"],
+            ["ει", "ei (como en 'peine')", "εἴ (ei, 'si')"],
+            ["οι", "oi (como en 'soy')", "οἶ (oi, 'dónde')"],
+            ["αυ", "au (como en 'auto')", "αὐτός (autos, 'él mismo')"],
+            ["ευ", "eu (como en 'Europa')", "εὐ- (prefijo buen-)"],
+            ["ου", "ou (como en 'turismo')", "οὗ (hou, 'de donde')"]
+          ]
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ej-l02-01",
+      "tipo": "seleccion",
+      "titulo": "Clasificación de Consonantes",
+      "instrucciones": "Indica a qué categoría pertenece cada consonante.",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "β",
+          "opciones": ["Muda sorda", "Muda sonora", "Nasal", "Líquida"],
+          "respuestaCorrecta": "Muda sonora",
+          "explicacion": "β (beta) es una muda sonora porque se produce con bloqueo de aire y vibración de cuerdas vocales.",
+          "puntaje": 10
+        },
+        {
+          "id": "p2",
+          "estimulo": "ν",
+          "opciones": ["Muda sorda", "Muda sonora", "Nasal", "Sibilante"],
+          "respuestaCorrecta": "Nasal",
+          "explicacion": "ν (nu) es una nasal porque el aire sale por la nariz. Es el equivalente griego de la 'n' española.",
+          "puntaje": 10
+        },
+        {
+          "id": "p3",
+          "estimulo": "λ",
+          "opciones": ["Muda sorda", "Nasal", "Líquida", "Sibilante"],
+          "respuestaCorrecta": "Líquida",
+          "explicacion": "λ (lambda) es una líquida. Las líquidas pueden pronunciarse casi como vocales en algunos contextos.",
+          "puntaje": 10
+        }
+      ]
+    },
+    {
+      "id": "ej-l02-02",
+      "tipo": "seleccion",
+      "titulo": "Identifica el Diptongo",
+      "instrucciones": "¿Cuál de los siguientes pares de letras forma un diptongo?",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "αι",
+          "opciones": ["Sí, es un diptongo", "No, no es un diptongo"],
+          "respuestaCorrecta": "Sí, es un diptongo",
+          "explicacion": "αι es uno de los diptongos más comunes en griego, pronunciado como 'ai' en 'aire'.",
+          "puntaje": 15
+        },
+        {
+          "id": "p2",
+          "estimulo": "αν",
+          "opciones": ["Sí, es un diptongo", "No, no es un diptongo"],
+          "respuestaCorrecta": "No, no es un diptongo",
+          "explicacion": "αν no forma un diptongo. Una de las letras (ν) es consonante, no vocal.",
+          "puntaje": 15
+        }
+      ]
+    }
+  ],
+  "vocabulario": [
+    {
+      "griego": "αὖ",
+      "transliteracion": "au",
+      "definicion": "de nuevo, otra vez",
+      "categoria": "adverbio",
+      "frecuencia": "media",
+      "ejemplo": "αὖ λέγει (de nuevo dice)",
+      "frecuenciaNT": 20
+    },
+    {
+      "griego": "ἤ",
+      "transliteracion": "ē",
+      "definicion": "o, o bien (disyunción)",
+      "categoria": "conjunción",
+      "frecuencia": "alta",
+      "ejemplo": "εἰ...ἤ (si...o)",
+      "frecuenciaNT": 85
+    }
+  ],
+  "siguienteLeccion": "n1-l03",
+  "puntajeMaximo": 100,
+  "tiempoPromedio": 20
+}

@@ -1,0 +1,131 @@
+{
+  "id": "n1-l11",
+  "nivel": 1,
+  "numero": 11,
+  "titulo": "El Verbo εἰμί y la Voz Media/Pasiva",
+  "subtitulo": "El verbo ser y las otras dos voces verbales",
+  "descripcion": "Aprenderás el verbo más importante (εἰμί = ser) y entenderás la voz media y pasiva, que son fundamentales en griego.",
+  "duracionEstimada": 30,
+  "prerequisitos": ["n1-l10"],
+  "objetivos": [
+    "Conjugar el verbo irregular εἰμί (ser/estar)",
+    "Entender la voz media y pasiva",
+    "Conjugar un verbo en voz media",
+    "Reconocer cuándo se usa cada voz"
+  ],
+  "secciones": [
+    {
+      "id": "verbo-eimi",
+      "tipo": "tabla-interactiva",
+      "titulo": "El Verbo εἰμί (ser, estar): Presente Indicativo",
+      "descripcion": "El verbo más importante y único del griego. Es completamente irregular.",
+      "datos": {
+        "columnas": ["Persona", "Forma", "Equivalente Español"],
+        "filas": [
+          ["1ª Singular", "εἰμί", "soy/estoy"],
+          ["2ª Singular", "εἶ", "eres/estás"],
+          ["3ª Singular", "ἐστί(ν)", "es/está"],
+          ["1ª Plural", "ἐσμέν", "somos/estamos"],
+          ["2ª Plural", "ἐστέ", "sois/estáis"],
+          ["3ª Plural", "εἰσί(ν)", "son/están"]
+        ]
+      }
+    },
+    {
+      "id": "voces-verbales",
+      "tipo": "explicacion",
+      "titulo": "Las Tres Voces Verbales",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "En griego hay TRES voces verbales, no solo dos como en español. Cada una tiene un significado y uso diferente."
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Voz Activa"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "El sujeto realiza la acción",
+            "Ejemplo: ὁ δοῦλος λύει τὸν δεσμόν (el esclavo libera la cuerda)"
+          ]
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Voz Media"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "El sujeto realiza la acción para sí mismo o es afectado por ella",
+            "Ejemplo: ὁ δοῦλος λύεται τὸν δεσμόν (el esclavo se libera de la cuerda)"
+          ]
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Voz Pasiva"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "El sujeto recibe la acción",
+            "En presente, usa las mismas terminaciones que la voz media",
+            "Ejemplo: ὁ δεσμὸς λύεται (la cuerda es liberada)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "media-presente",
+      "tipo": "tabla-interactiva",
+      "titulo": "Presente Medio/Pasivo: λύομαι (me libero / soy liberado)",
+      "descripcion": "Las terminaciones de voz media y pasiva en presente.",
+      "datos": {
+        "columnas": ["Persona", "Forma"],
+        "filas": [
+          ["1ª Singular", "λύ-ομαι"],
+          ["2ª Singular", "λύ-ῃ/-ει"],
+          ["3ª Singular", "λύ-εται"],
+          ["1ª Plural", "λυ-όμεθα"],
+          ["2ª Plural", "λύ-εσθε"],
+          ["3ª Plural", "λύ-ονται"]
+        ]
+      }
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ej-l11-01",
+      "tipo": "seleccion",
+      "titulo": "Conjugación de εἰμί",
+      "instrucciones": "¿Cuál es la forma correcta?",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "3ª singular presente de εἰμί",
+          "opciones": ["εἰμί", "ἐστί", "εἶ", "ἐσμέν"],
+          "respuestaCorrecta": "ἐστί",
+          "explicacion": "ἐστί(ν) es la forma de 3ª singular. Se pronuncia 'estín' y significa 'es/está'.",
+          "puntaje": 10
+        }
+      ]
+    }
+  ],
+  "vocabulario": [
+    {
+      "griego": "εἰμί",
+      "transliteracion": "eimi",
+      "definicion": "ser, estar, existir",
+      "categoria": "verbo",
+      "frecuencia": "altísima",
+      "ejemplo": "Ἐγώ εἰμι (yo soy)",
+      "frecuenciaNT": 2457
+    }
+  ],
+  "siguienteLeccion": "n1-l12",
+  "puntajeMaximo": 100
+}

@@ -1,0 +1,90 @@
+{
+  "id": "n1-l10",
+  "nivel": 1,
+  "numero": 10,
+  "titulo": "Presente Indicativo Activo (Verbos Temáticos)",
+  "subtitulo": "El tiempo presente: lo que sucede ahora o habitualmente",
+  "descripcion": "Aprenderás a conjugar verbos regulares en presente indicativo activo. Este es el tiempo más básico y fundamental.",
+  "duracionEstimada": 30,
+  "prerequisitos": ["n1-l09"],
+  "objetivos": [
+    "Entender el presente indicativo en griego",
+    "Conjugar verbos temáticos en presente",
+    "Reconocer las terminaciones de cada persona y número"
+  ],
+  "secciones": [
+    {
+      "id": "presente-indicativo",
+      "tipo": "tabla-interactiva",
+      "titulo": "Presente Indicativo Activo: λύω (disuelvo, libero)",
+      "descripcion": "Paradigma completo del verbo temático más común",
+      "datos": {
+        "columnas": ["Persona", "Singular", "Plural"],
+        "filas": [
+          ["1ª", "λύ-ω (disuelvo)", "λύ-ομεν (disolvemos)"],
+          ["2ª", "λύ-εις (disuelves)", "λύ-ετε (disolvéis)"],
+          ["3ª", "λύ-ει (disuelve)", "λύ-ουσιν (disuelven)"]
+        ]
+      }
+    },
+    {
+      "id": "estructura-verbo",
+      "tipo": "explicacion",
+      "titulo": "Estructura del Verbo Griego",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "λύω = λύ (tema/raíz) + ω (desinencia de 1ª singular presente indicativo activo)"
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Las terminaciones del presente activo:"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "1ª Singular: -ω (yo)",
+            "2ª Singular: -εις (tú)",
+            "3ª Singular: -ει (él/ella/eso)",
+            "1ª Plural: -ομεν (nosotros)",
+            "2ª Plural: -ετε (vosotros)",
+            "3ª Plural: -ουσιν (ellos/ellas)"
+          ]
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ej-l10-01",
+      "tipo": "completar",
+      "titulo": "Conjuga λύω",
+      "instrucciones": "Escribe la forma correcta en cada persona.",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "3ª singular presente indicativo activo de λύω",
+          "tipo": "texto",
+          "respuestaCorrecta": "λύει",
+          "alternativasAceptadas": ["λύει"],
+          "explicacion": "λύ (tema) + ει (desinencia 3ª singular) = λύει",
+          "puntaje": 15
+        }
+      ]
+    }
+  ],
+  "vocabulario": [
+    {
+      "griego": "λύω",
+      "transliteracion": "lyō",
+      "definicion": "disuelvo, libero, cierro",
+      "categoria": "verbo",
+      "frecuencia": "media",
+      "ejemplo": "λύει τοὺς δεσμούς (libera los cautivos)",
+      "frecuenciaNT": 42
+    }
+  ],
+  "siguienteLeccion": "n1-l11",
+  "puntajeMaximo": 100
+}

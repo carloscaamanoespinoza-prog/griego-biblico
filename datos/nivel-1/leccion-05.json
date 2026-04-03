@@ -1,0 +1,118 @@
+{
+  "id": "n1-l05",
+  "nivel": 1,
+  "numero": 5,
+  "titulo": "Los Casos Griegos",
+  "subtitulo": "Cómo funcionan los casos y sus funciones principales",
+  "descripcion": "El griego antiguo usa casos (no solo la posición de las palabras) para indicar la función sintáctica. Hay 4 casos principales, cada uno con funciones específicas.",
+  "duracionEstimada": 30,
+  "prerequisitos": ["n1-l04"],
+  "objetivos": [
+    "Entender qué es un caso gramatical en griego",
+    "Identificar los 4 casos principales y sus funciones",
+    "Reconocer cómo el caso afecta la forma del sustantivo",
+    "Diferenciar entre nominativo, acusativo, genitivo y dativo"
+  ],
+  "secciones": [
+    {
+      "id": "que-es-caso",
+      "tipo": "explicacion",
+      "titulo": "¿Qué es un Caso?",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Un CASO es una forma gramatical que cambia para indicar la función de una palabra en la oración. En griego, los sustantivos, adjetivos y artículos cambian de forma según el caso."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "En español, usamos principalmente el orden de las palabras para indicar la función (sujeto, objeto directo, etc.). En griego, el cambio de forma (declinación) es lo que indica la función."
+        },
+        {
+          "tipo": "nota",
+          "titulo": "Comparación con español",
+          "texto": "En español: 'Pedro ama a María' = 'María ama a Pedro' (el orden cambia el sentido). En griego, aunque cambiemos el orden, la forma del caso indica quién ama a quién."
+        }
+      ]
+    },
+    {
+      "id": "cuatro-casos",
+      "tipo": "tabla-interactiva",
+      "titulo": "Los Cuatro Casos Griegos",
+      "descripcion": "Cada caso tiene una función principal. El artículo y el sustantivo cambian para mostrar cuál es el caso.",
+      "datos": {
+        "columnas": ["Caso", "Función Principal", "Ejemplo", "Pregunta"],
+        "filas": [
+          ["NOMINATIVO", "Sujeto de la oración; predicado nominal", "ὁ λόγος (la palabra)", "¿Quién?"],
+          ["ACUSATIVO", "Objeto directo; complemento directo", "τὸν λόγον (la palabra)", "¿Qué?"],
+          ["GENITIVO", "Posesión, origen, parte de un todo", "τοῦ λόγου (de la palabra)", "¿De quién?"],
+          ["DATIVO", "Objeto indirecto; complemento de persona; ubicación", "τῷ λόγῳ (al/para la palabra)", "¿A quién?"]
+        ]
+      }
+    },
+    {
+      "id": "cambios-forma",
+      "tipo": "explicacion",
+      "titulo": "Cómo Cambian las Formas por Caso",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Observa cómo la palabra λόγος (logos, palabra) cambia de forma según el caso:"
+        },
+        {
+          "tipo": "tabla-simple",
+          "cabeceras": ["Caso", "Con Artículo", "Sin Artículo"],
+          "filas": [
+            ["Nominativo", "ὁ λόγος", "λόγος"],
+            ["Acusativo", "τὸν λόγον", "λόγον"],
+            ["Genitivo", "τοῦ λόγου", "λόγου"],
+            ["Dativo", "τῷ λόγῳ", "λόγῳ"]
+          ]
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Verás que la DESINENCIA (terminación) cambia completamente. En la siguiente lección aprenderás por qué: porque las palabras se agrupan en DECLINACIONES según cómo cambian sus terminaciones."
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ej-l05-01",
+      "tipo": "seleccion",
+      "titulo": "Identifica la función del caso",
+      "instrucciones": "¿Cuál es la función principal de cada caso?",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "Nominativo",
+          "opciones": ["Sujeto", "Objeto directo", "Posesión", "Objeto indirecto"],
+          "respuestaCorrecta": "Sujeto",
+          "explicacion": "El nominativo es el caso del sujeto de la oración, quien realiza la acción.",
+          "puntaje": 10
+        },
+        {
+          "id": "p2",
+          "estimulo": "Genitivo",
+          "opciones": ["Sujeto", "Objeto directo", "Posesión", "Objeto indirecto"],
+          "respuestaCorrecta": "Posesión",
+          "explicacion": "El genitivo indica posesión o relación de pertenencia, equivalente a la preposición 'de'.",
+          "puntaje": 10
+        }
+      ]
+    }
+  ],
+  "vocabulario": [
+    {
+      "griego": "θεός",
+      "transliteracion": "theos",
+      "definicion": "Dios, dios",
+      "categoria": "sustantivo masculino",
+      "frecuencia": "altísima",
+      "ejemplo": "ὁ θεός (Dios)",
+      "frecuenciaNT": 1320
+    }
+  ],
+  "siguienteLeccion": "n1-l06",
+  "puntajeMaximo": 100,
+  "tiempoPromedio": 30
+}

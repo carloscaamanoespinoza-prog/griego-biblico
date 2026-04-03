@@ -1,0 +1,101 @@
+{
+  "id": "n1-l06",
+  "nivel": 1,
+  "numero": 6,
+  "titulo": "Primera Declinación: Femeninos",
+  "subtitulo": "Sustantivos femeninos en -α y -η",
+  "descripcion": "La primera declinación agrupa sustantivos principalmente femeninos. Aprenderás cómo cambian las formas en los cuatro casos.",
+  "duracionEstimada": 30,
+  "prerequisitos": ["n1-l05"],
+  "objetivos": [
+    "Reconocer los patrones de la primera declinación",
+    "Declinar sustantivos femeninos en -α y -η",
+    "Aplicar correctamente los artículos con sustantivos de primera declinación"
+  ],
+  "secciones": [
+    {
+      "id": "primera-declinacion",
+      "tipo": "tabla-interactiva",
+      "titulo": "Paradigma de la Primera Declinación",
+      "descripcion": "Observa cómo declina ἀγάπη (amor, femenino) en singular.",
+      "datos": {
+        "columnas": ["Caso", "Artículo", "Sustantivo", "Forma Completa"],
+        "filas": [
+          ["Nominativo", "ἡ", "ἀγάπ-η", "ἡ ἀγάπη"],
+          ["Acusativo", "τ-ήν", "ἀγάπ-ην", "τὴν ἀγάπην"],
+          ["Genitivo", "τ-ῆς", "ἀγάπ-ης", "τῆς ἀγάπης"],
+          ["Dativo", "τ-ῇ", "ἀγάπ-ῃ", "τῇ ἀγάπῃ"]
+        ]
+      }
+    },
+    {
+      "id": "variaciones",
+      "tipo": "explicacion",
+      "titulo": "Variaciones en Primera Declinación",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Hay dos variantes principales de la primera declinación según la terminación:"
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Tipo -η (siempre pura)"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "Terminación consistente: η, ην, ης, ῃ",
+            "Ejemplos: ἀγάπη, ζωή, δόξα",
+            "Estructura predecible"
+          ]
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Tipo -α (variable)"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "Nominativo en -α larga, luego cambia a η",
+            "Ejemplos: θάλασσα (mar), δόξα (gloria)",
+            "Más común en palabras con ciertas consonantes antes"
+          ]
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ej-l06-01",
+      "tipo": "completar",
+      "titulo": "Declina los sustantivos",
+      "instrucciones": "Escribe la forma correcta en cada caso.",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "ἀγάπη en acusativo singular",
+          "tipo": "texto",
+          "respuestaCorrecta": "τὴν ἀγάπην",
+          "alternativasAceptadas": ["τὴν ἀγάπην"],
+          "explicacion": "Acusativo singular: τὴν (artículo acusativo femenino singular) + ἀγάπην (desinencia -ην).",
+          "puntaje": 20
+        }
+      ]
+    }
+  ],
+  "vocabulario": [
+    {
+      "griego": "ζωή",
+      "transliteracion": "zōē",
+      "definicion": "vida",
+      "categoria": "sustantivo femenino",
+      "frecuencia": "altísima",
+      "ejemplo": "ἡ ζωή (la vida)",
+      "frecuenciaNT": 135
+    }
+  ],
+  "siguienteLeccion": "n1-l07",
+  "puntajeMaximo": 100
+}

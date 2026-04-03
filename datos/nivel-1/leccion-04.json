@@ -1,0 +1,167 @@
+{
+  "id": "n1-l04",
+  "nivel": 1,
+  "numero": 4,
+  "titulo": "El Artículo Definido",
+  "subtitulo": "La palabra griega más importante para la gramática",
+  "descripcion": "El artículo es fundamental en griego. A diferencia del español, el artículo se usa mucho más frecuentemente y nos indica el género, número y caso de un sustantivo.",
+  "duracionEstimada": 25,
+  "prerequisitos": ["n1-l01", "n1-l02", "n1-l03"],
+  "objetivos": [
+    "Entender la función del artículo definido en griego",
+    "Reconocer las formas del artículo en singular y plural",
+    "Identificar el género, número y caso por el artículo",
+    "Aplicar correctamente el artículo con sustantivos"
+  ],
+  "secciones": [
+    {
+      "id": "funcion-articulo",
+      "tipo": "explicacion",
+      "titulo": "¿Qué es el Artículo Definido en Griego?",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El artículo definido en griego (equivalente a 'el', 'la', 'los', 'las' en español) es una de las palabras más frecuentes e importantes. Cumple varias funciones fundamentales."
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Funciones principales"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "Determina el sustantivo, indicando que es específico (como el artículo español)",
+            "Nos indica el GÉNERO del sustantivo (masculino, femenino o neutro)",
+            "Nos indica el NÚMERO (singular o plural)",
+            "Nos indica el CASO (nominativo, acusativo, genitivo o dativo)",
+            "Actúa como puente entre el sustantivo y los adjetivos"
+          ]
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La importancia del artículo en griego no puede exagerarse. En muchas frases, el artículo es la única pista de qué caso se está usando en un sustantivo."
+        }
+      ]
+    },
+    {
+      "id": "formas-articulo",
+      "tipo": "tabla-interactiva",
+      "titulo": "Las Formas del Artículo en Nominativo",
+      "descripcion": "Esta es la forma principal del artículo. Las otras formas (casos) se verán en lecciones posteriores.",
+      "datos": {
+        "columnas": ["", "Singular", "Plural"],
+        "filas": [
+          ["Masculino", "ὁ (ho)", "οἱ (hoi)"],
+          ["Femenino", "ἡ (hē)", "αἱ (hai)"],
+          ["Neutro", "τό (to)", "τά (ta)"]
+        ]
+      }
+    },
+    {
+      "id": "ejemplos-articulo",
+      "tipo": "explicacion",
+      "titulo": "Ejemplos con Contexto",
+      "contenido": [
+        {
+          "tipo": "cita",
+          "texto": "ὁ λόγος",
+          "transliteracion": "ho logos",
+          "traduccion": "la palabra (sustantivo masculino singular)",
+          "referencia": "Juan 1:1",
+          "clase": "normal"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "En este ejemplo, ὁ es el artículo masculino singular que determina a λόγος."
+        },
+        {
+          "tipo": "cita",
+          "texto": "ἡ ἀγάπη",
+          "transliteracion": "hē agápē",
+          "traduccion": "el amor (sustantivo femenino singular)",
+          "referencia": "1 Juan 4:8",
+          "clase": "normal"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Aquí, ἡ es el artículo femenino singular. Sabemos que ἀγάπη es femenino gracias al artículo."
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ej-l04-01",
+      "tipo": "seleccion",
+      "titulo": "Identifica el género del sustantivo por el artículo",
+      "instrucciones": "Usa el artículo para identificar el género del sustantivo.",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "ὁ ἄνθρωπος",
+          "opciones": ["Masculino", "Femenino", "Neutro"],
+          "respuestaCorrecta": "Masculino",
+          "explicacion": "ὁ es el artículo masculino singular, por lo que ἄνθρωπος (anthropos, 'persona/hombre') es masculino.",
+          "puntaje": 10
+        },
+        {
+          "id": "p2",
+          "estimulo": "τό φῶς",
+          "opciones": ["Masculino", "Femenino", "Neutro"],
+          "respuestaCorrecta": "Neutro",
+          "explicacion": "τό es el artículo neutro singular, por lo que φῶς (phōs, 'luz') es neutro.",
+          "puntaje": 10
+        },
+        {
+          "id": "p3",
+          "estimulo": "ἡ ψυχή",
+          "opciones": ["Masculino", "Femenino", "Neutro"],
+          "respuestaCorrecta": "Femenino",
+          "explicacion": "ἡ es el artículo femenino singular, por lo que ψυχή (psychē, 'alma') es femenino.",
+          "puntaje": 10
+        }
+      ]
+    },
+    {
+      "id": "ej-l04-02",
+      "tipo": "completar",
+      "titulo": "Completa con el artículo correcto",
+      "instrucciones": "Escribe el artículo correcto en nominativo singular.",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "_____ λόγος (la palabra - masculino singular)",
+          "tipo": "texto",
+          "respuestaCorrecta": "ὁ",
+          "alternativasAceptadas": ["ὁ"],
+          "explicacion": "ὁ es el artículo masculino singular nominativo.",
+          "puntaje": 15
+        }
+      ]
+    }
+  ],
+  "vocabulario": [
+    {
+      "griego": "λόγος",
+      "transliteracion": "logos",
+      "definicion": "palabra, discurso, razón, verbo",
+      "categoria": "sustantivo masculino",
+      "frecuencia": "altísima",
+      "ejemplo": "ὁ λόγος τοῦ θεοῦ (la palabra de Dios)",
+      "frecuenciaNT": 330
+    },
+    {
+      "griego": "ἀγάπη",
+      "transliteracion": "agápē",
+      "definicion": "amor",
+      "categoria": "sustantivo femenino",
+      "frecuencia": "altísima",
+      "ejemplo": "ἡ ἀγάπη τοῦ κυρίου (el amor del Señor)",
+      "frecuenciaNT": 116
+    }
+  ],
+  "siguienteLeccion": "n1-l05",
+  "puntajeMaximo": 100,
+  "tiempoPromedio": 25
+}

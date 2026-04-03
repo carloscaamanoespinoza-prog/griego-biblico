@@ -1,0 +1,147 @@
+{
+  "id": "n1-l12",
+  "nivel": 1,
+  "numero": 12,
+  "titulo": "Vocabulario Base: Las 200 Palabras Clave",
+  "subtitulo": "Memoriza el 80% de los textos del Nuevo Testamento",
+  "descripcion": "Esta lección consolidadora te presenta las 200 palabras más frecuentes del NT. Dominarlas te permitirá leer la mayor parte del Nuevo Testamento.",
+  "duracionEstimada": 60,
+  "prerequisitos": ["n1-l11"],
+  "objetivos": [
+    "Aprender las 200 palabras más frecuentes del NT",
+    "Entender que estas pocas palabras representan el 80% del texto",
+    "Consolidar lo aprendido en el Nivel 1"
+  ],
+  "secciones": [
+    {
+      "id": "introduccion-vocabulario",
+      "tipo": "explicacion",
+      "titulo": "La Regla 80/20 en el Griego del Nuevo Testamento",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Una verdad asombrosa: tan solo 200 palabras griegas (de un vocabulario total de ~5,400 palabras distintas en el NT) representan aproximadamente el 80% de todas las palabras que aparecen en el Nuevo Testamento."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Esto significa que si memorizas estas 200 palabras, puedes leer la mayor parte del Nuevo Testamento sin necesidad de consultar constantemente el léxico."
+        },
+        {
+          "tipo": "nota",
+          "titulo": "Estrategia de Aprendizaje",
+          "texto": "No es necesario memorizar todas de una vez. Aprende en grupos pequeños (20-30 palabras por semana). La repetición espaciada es clave para la retención a largo plazo."
+        }
+      ]
+    },
+    {
+      "id": "palabras-frecuentes",
+      "tipo": "explicacion",
+      "titulo": "Palabras Más Frecuentes (Top 50)",
+      "contenido": [
+        {
+          "tipo": "tabla-simple",
+          "cabeceras": ["Griego", "Transliteración", "Significado", "Frecuencia NT", "Tipo"],
+          "filas": [
+            ["καί", "kai", "y, también", "9158", "conjunción"],
+            ["αὐτός", "autos", "él, ella, eso, el mismo", "5597", "pronombre"],
+            ["ὁ", "ho", "el (artículo definido)", "19783", "artículo"],
+            ["ἐν", "en", "en", "2752", "preposición"],
+            ["λέγω", "lego", "digo, hablo", "2354", "verbo"],
+            ["δέ", "de", "pero, y", "2792", "conjunción"],
+            ["πρός", "pros", "a, hacia", "700", "preposición"],
+            ["εἰμί", "eimi", "soy, estoy", "2457", "verbo"],
+            ["ὅς", "hos", "quien, que (relativo)", "1407", "pronombre relativo"],
+            ["αἱρέω", "haireo", "tomo, cojo", "143", "verbo"],
+            ["τις", "tis", "alguno, cierto", "525", "pronombre indefinido"],
+            ["ὑπό", "hypo", "bajo, por", "220", "preposición"],
+            ["μετά", "meta", "con, después", "469", "preposición"],
+            ["διά", "dia", "por, a través de", "667", "preposición"],
+            ["ἀπό", "apo", "de, desde", "646", "preposición"],
+            ["ἀλλά", "alla", "pero, sino", "638", "conjunción"],
+            ["πᾶς", "pas", "todo", "1243", "adjetivo"],
+            ["θεός", "theos", "Dios", "1320", "sustantivo"],
+            ["ἐκ/ἐξ", "ek/ex", "de, desde (de dentro)", "914", "preposición"],
+            ["κύριος", "kyrios", "Señor", "717", "sustantivo"]
+          ]
+        },
+        {
+          "tipo": "nota",
+          "titulo": "¿Por qué memorizar palabras frecuentes?",
+          "texto": "Las palabras frecuentes son aquellas que aparecen más de 100 veces en el NT. Incluso si no sabes una palabra rara que aparece solo 2 veces, puedes leer y entender el contexto con las palabras frecuentes."
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ej-l12-01",
+      "tipo": "seleccion",
+      "titulo": "Identifica el significado",
+      "instrucciones": "Selecciona el significado correcto de cada palabra frecuente.",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "καί",
+          "opciones": ["pero", "y, también", "el", "no"],
+          "respuestaCorrecta": "y, también",
+          "explicacion": "καί es la conjunción más frecuente en griego, equivalente a 'y' o 'también'.",
+          "puntaje": 5
+        },
+        {
+          "id": "p2",
+          "estimulo": "κύριος",
+          "opciones": ["rey", "Dios", "Señor", "amo"],
+          "respuestaCorrecta": "Señor",
+          "explicacion": "κύριος (kyrios, Señor) es un título usado frecuentemente para Jesús en el NT.",
+          "puntaje": 5
+        },
+        {
+          "id": "p3",
+          "estimulo": "λέγω",
+          "opciones": ["digo, hablo", "veo", "hago", "pienso"],
+          "respuestaCorrecta": "digo, hablo",
+          "explicacion": "λέγω es el verbo más frecuente para 'decir' o 'hablar'.",
+          "puntaje": 5
+        }
+      ]
+    }
+  ],
+  "vocabulario": [
+    {
+      "griego": "καί",
+      "transliteracion": "kai",
+      "definicion": "y, también",
+      "categoria": "conjunción",
+      "frecuencia": "altísima",
+      "ejemplo": "Ἀβραὰμ καὶ Ἰσαάκ (Abraham y Isaac)",
+      "frecuenciaNT": 9158
+    },
+    {
+      "griego": "θεός",
+      "transliteracion": "theos",
+      "definicion": "Dios",
+      "categoria": "sustantivo masculino",
+      "frecuencia": "altísima",
+      "ejemplo": "ὁ θεὸς ἐστιν ἀγάπη (Dios es amor)",
+      "frecuenciaNT": 1320
+    },
+    {
+      "griego": "κύριος",
+      "transliteracion": "kyrios",
+      "definicion": "Señor, dueño",
+      "categoria": "sustantivo masculino",
+      "frecuencia": "altísima",
+      "ejemplo": "ὁ κύριος Ἰησοῦς (el Señor Jesús)",
+      "frecuenciaNT": 717
+    }
+  ],
+  "notasFinales": [
+    {
+      "titulo": "Felicitaciones: Completaste el Nivel 1",
+      "contenido": "Has aprendido los fundamentos del griego bíblico. Sabes:\n- El alfabeto completo y su pronunciación\n- Los cuatro casos griegos\n- Las dos primeras declinaciones (nominal)\n- Los tiempos y modos verbales básicos\n- Las palabras más frecuentes\n\nEstás listo para el Nivel 2: Morfología Verbal, donde profundizarás en el sistema verbal (que es el corazón del griego)."
+    }
+  ],
+  "siguienteLeccion": "n2-l01",
+  "puntajeMaximo": 100,
+  "tiempoPromedio": 60
+}

@@ -1,0 +1,169 @@
+{
+  "id": "n1-l03",
+  "nivel": 1,
+  "numero": 3,
+  "titulo": "Espíritus y Acentos",
+  "subtitulo": "Los diacríticos que modifican el sonido y significado",
+  "descripcion": "Aprende a reconocer e interpretar correctamente los espíritus (áspero y suave) y los tres tipos de acentos griegos.",
+  "duracionEstimada": 20,
+  "prerequisitos": ["n1-l01", "n1-l02"],
+  "objetivos": [
+    "Diferenciar entre espíritu áspero y espíritu suave",
+    "Identificar los tres tipos de acentos: agudo, grave y circunflejo",
+    "Entender cómo los acentos indican el énfasis silábico",
+    "Aplicar correctamente espíritus y acentos en la transliteración"
+  ],
+  "secciones": [
+    {
+      "id": "espiritus",
+      "tipo": "explicacion",
+      "titulo": "Los Espíritus: Áspero y Suave",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "En griego antiguo, toda vocal inicial de palabra debe llevar un espíritu (πνεῦμα). El espíritu indica si la palabra comienza con una aspiración de 'h' o no. Este es un diacrítico fundamental."
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Espíritu Áspero (Δασὺ Πνεῦμα)"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "Símbolo: ' (una marca que parece una apóstrofe pequeña sobre la vocal)",
+            "Pronunciación: la palabra comienza con 'h'",
+            "Ejemplo: ἁγάπη (hagápē) = 'amor' - pronunciar 'j-agá-pe'",
+            "En transliteración: se añade una 'h' al principio"
+          ]
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Espíritu Suave (Ψιλὸν Πνεῦμα)"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "Símbolo: , (una marca que parece una coma invertida)",
+            "Pronunciación: la palabra comienza sin aspiración",
+            "Ejemplo: ἀγάπη (agápē) = 'también amor' sin la 'h'",
+            "En transliteración: no se añade nada al principio"
+          ]
+        },
+        {
+          "tipo": "nota",
+          "titulo": "El rho siempre lleva espíritu áspero",
+          "texto": "La consonante ρ (rho) siempre comienza con espíritu áspero cuando está al inicio de palabra: Ῥόμη (Hrómi, 'Roma'). Por eso se translitiera como 'Rh' cuando está al principio."
+        }
+      ]
+    },
+    {
+      "id": "acentos",
+      "tipo": "tabla-interactiva",
+      "titulo": "Los Tres Acentos Griegos",
+      "descripcion": "En griego hay tres tipos de acentos. En la pronunciación erasmiana moderna, no se pronuncian como tonos musicales, sino que indican dónde va el énfasis silábico.",
+      "datos": {
+        "columnas": ["Acento", "Símbolo", "Nombre", "Sílaba", "Ejemplo"],
+        "filas": [
+          ["Agudo", "´", "Oxítono", "Tercera desde el final", "λόγος (lógos)"],
+          ["Grave", "`", "Barítono", "Segunda desde el final", "ἀγάπη (agápē)"],
+          ["Circunflejo", "῀", "Perispómeno", "Última de diptongo largo", "χοῦς (choûs)"]
+        ]
+      }
+    },
+    {
+      "id": "reglas-acentos",
+      "tipo": "explicacion",
+      "titulo": "Reglas Básicas de Acentuación",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El griego tiene reglas específicas sobre dónde puede caer el acento. Estas reglas son importantes para la transliteración y la pronunciación correcta."
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Regla de la Cantidad Vocal"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "Si la última sílaba es larga (contiene una vocal larga o diptongo), el acento puede estar en una de las tres últimas sílabas",
+            "Si la última sílaba es breve, el acento solo puede estar en una de las dos últimas sílabas",
+            "El acento nunca puede estar más allá de la tercera sílaba desde el final"
+          ]
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "El Circunflejo"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "El circunflejo solo puede ocurrir en sílabas largas (vocales largas o diptongos)",
+            "Si está en la última sílaba (palabra oxítona con circunflejo), se escribe como acento grave",
+            "Ejemplo: λόγος vs. ἡ δόξα (dóxa, con circunflejo)"
+          ]
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ej-l03-01",
+      "tipo": "seleccion",
+      "titulo": "Identifica el Espíritu",
+      "instrucciones": "¿Qué espíritu lleva la vocal inicial en cada palabra?",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "ἁγάπη",
+          "opciones": ["Espíritu Áspero", "Espíritu Suave"],
+          "respuestaCorrecta": "Espíritu Áspero",
+          "explicacion": "Ves la marca ' sobre la α, que indica espíritu áspero. Se pronuncia 'hagápē'.",
+          "puntaje": 10
+        },
+        {
+          "id": "p2",
+          "estimulo": "ἀγάπη",
+          "opciones": ["Espíritu Áspero", "Espíritu Suave"],
+          "respuestaCorrecta": "Espíritu Suave",
+          "explicacion": "Ves la marca , sobre la α, que indica espíritu suave. Se pronuncia 'agápē' (sin la h).",
+          "puntaje": 10
+        }
+      ]
+    },
+    {
+      "id": "ej-l03-02",
+      "tipo": "seleccion",
+      "titulo": "¿Dónde va el acento?",
+      "instrucciones": "Identifica en qué sílaba cae el acento en cada palabra.",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "λόγος (lógos)",
+          "opciones": ["Primera sílaba", "Segunda sílaba", "Tercera sílaba"],
+          "respuestaCorrecta": "Primera sílaba",
+          "explicacion": "El acento agudo ' está sobre la λό, que es la primera sílaba de esta palabra de tres sílabas.",
+          "puntaje": 15
+        }
+      ]
+    }
+  ],
+  "vocabulario": [
+    {
+      "griego": "ἅγιος",
+      "transliteracion": "hagios",
+      "definicion": "santo, sagrado",
+      "categoria": "adjetivo",
+      "frecuencia": "altísima",
+      "ejemplo": "ἅγιον πνεῦμα (santo espíritu)",
+      "frecuenciaNT": 232
+    }
+  ],
+  "siguienteLeccion": "n1-l04",
+  "puntajeMaximo": 100,
+  "tiempoPromedio": 20
+}
