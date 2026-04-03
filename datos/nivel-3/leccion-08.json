@@ -1,0 +1,70 @@
+{
+  "id": "n3-l08",
+  "nivel": 3,
+  "numero": 8,
+  "titulo": "Análisis del Discurso Avanzado",
+  "subtitulo": "Cómo el flujo de texto construye argumentación",
+  "descripcion": "El análisis del discurso examina cómo un texto ENTERO se estructura para comunicar un mensaje. No es solo frase por frase, sino cómo los párrafos y secciones se conectan lógicamente.",
+  "duracionEstimada": 45,
+  "prerequisitos": ["n3-l07"],
+  "objetivos": [
+    "Entender unidades de discurso (perícopas, secciones)",
+    "Identificar transiciones y cambios temáticos",
+    "Analizar estructura retórica y argumentativa",
+    "Aplicar análisis de discurso a pasajes complejos"
+  ],
+  "secciones": [
+    {
+      "id": "analisis-discurso-intro",
+      "tipo": "explicacion",
+      "titulo": "Más allá de la Oración Individual",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El ANÁLISIS DEL DISCURSO mira cómo un texto se ESTRUCTURA como un todo. Examina bloques de texto, transiciones, estructura temática, y cómo todo se conecta para crear un argumento o narrativa coherente."
+        }
+      ]
+    },
+    {
+      "id": "unidades-discurso",
+      "tipo": "explicacion",
+      "titulo": "Unidades de Discurso",
+      "contenido": [
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Niveles de Estructura"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "PERICOPA (perícope): unidad temática, a menudo un pasaje completo",
+            "PÁRRAFO: grupo de oraciones sobre un tema",
+            "ORACIÓN: proposición individual",
+            "CLÁUSULA: componente de oración"
+          ]
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ej-l08-01",
+      "tipo": "seleccion",
+      "titulo": "Estructura del discurso",
+      "instrucciones": "Identifica la unidad de discurso",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "¿Qué es una pericopa?",
+          "opciones": ["Una palabra griega", "Una oración", "Una unidad temática de texto", "Un tipo de verbo"],
+          "respuestaCorrecta": "Una unidad temática de texto",
+          "explicacion": "Una pericopa es una unidad completa de discurso con tema coherente, típicamente un pasaje entero.",
+          "puntaje": 10
+        }
+      ]
+    }
+  ],
+  "siguienteLeccion": "n3-l09",
+  "puntajeMaximo": 100
+}

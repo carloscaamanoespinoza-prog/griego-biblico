@@ -1,0 +1,137 @@
+{
+  "id": "n3-l06",
+  "nivel": 3,
+  "numero": 6,
+  "titulo": "Close Reading: Romanos 8:1-11",
+  "subtitulo": "La experiencia de libertad en Cristo según Pablo",
+  "descripcion": "Analizamos Romanos 8:1-11, donde Pablo presenta la libertad del creyente en relación al Espíritu. Este pasaje combina sintaxis compleja, argumentación lógica, y teología profunda.",
+  "duracionEstimada": 50,
+  "prerequisitos": ["n3-l05"],
+  "objetivos": [
+    "Leer Romanos 8:1-11 con análisis sintáctico completo",
+    "Entender la argumentación paulina sobre ley, carne, espíritu",
+    "Analizar construcciones condicionales y su fuerza lógica",
+    "Conectar gramática con implicaciones teológicas"
+  ],
+  "secciones": [
+    {
+      "id": "romanos-8-contexto",
+      "tipo": "explicacion",
+      "titulo": "Romanos 8:1-11 en Contexto",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Romanos 8:1-11 forma la respuesta de Pablo a la angustia de Romanos 7. Presenta la libertad en Cristo mediante el Espíritu Santo como la solución al conflicto entre carne y espíritu. El griego es técnico pero hermoso."
+        }
+      ]
+    },
+    {
+      "id": "romanos-8-1-analisis",
+      "tipo": "explicacion",
+      "titulo": "Romanos 8:1 - La Declaración de Libertad",
+      "contenido": [
+        {
+          "tipo": "cita",
+          "texto": "Ἄρα οὖν οὐδὲν κατάκριμα τοῖς ἐν Χριστῷ Ἰησοῦ.",
+          "transliteracion": "Ara oun ouden katakrimа tois en Christō Iēsou.",
+          "traduccion": "Por lo tanto, no hay condenación para los que están en Cristo Jesús.",
+          "referencia": "Romanos 8:1",
+          "clase": "normal"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "Ἄρα (por lo tanto - conclusión fuerte)",
+            "οὖν (pues, así pues - partícula conclusiva)",
+            "οὐδέν (acusativo neutro = nada, ninguna condenación)",
+            "κατάκριμα (sustantivo = condenación, veredicto de culpabilidad)",
+            "τοῖς ἐν Χριστῷ (dativo de personas + preposición locativa = a los que están EN Cristo)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "romanos-8-2-5",
+      "tipo": "explicacion",
+      "titulo": "Romanos 8:2-5 - La Explicación: Ley del Espíritu",
+      "contenido": [
+        {
+          "tipo": "cita",
+          "texto": "ὁ γὰρ νόμος τοῦ πνεύματος τῆς ζωῆς ἐν Χριστῷ Ἰησοῦ ἠλευθέρωσέν σε ἀπὸ τοῦ νόμου τῆς ἁμαρτίας καὶ τοῦ θανάτου.",
+          "transliteracion": "ho gar nomos tou pneumatos tēs zōēs en Christō Iēsou ēleutherōsen se apo tou nomou tēs hamartias kai tou thanatou.",
+          "traduccion": "Porque la ley del Espíritu de vida en Cristo Jesús te ha liberado de la ley del pecado y de la muerte.",
+          "referencia": "Romanos 8:2",
+          "clase": "normal"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "γάρ (porque - introduce explicación)",
+            "νόμος τοῦ πνεύματος (ley del Espíritu - un concepto revolucionario)",
+            "τῆς ζωῆς (genitivo posesivo = del/de vida, caracterizado por vida)",
+            "ἠλευθέρωσέν (aoristo = liberó de forma completa/puntual)",
+            "ἀπό (de + genitivo = separación de)",
+            "Contraste de dos leyes: Espíritu vs. pecado y muerte"
+          ]
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ej-l06-01",
+      "tipo": "seleccion",
+      "titulo": "Análisis de Romanos 8:1",
+      "instrucciones": "Responde sobre el análisis del versículo 1",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "¿Qué significa Ἄρα οὖν al inicio de 8:1?",
+          "opciones": ["Comienzo de nueva idea", "Conclusión de argumento previo", "Contraposición", "Ejemplificación"],
+          "respuestaCorrecta": "Conclusión de argumento previo",
+          "explicacion": "Ἄρα (por lo tanto) + οὖν (pues) forman una conclusión FUERTE. Resume el argumento de cap. 7.",
+          "puntaje": 10
+        },
+        {
+          "id": "p2",
+          "estimulo": "¿Por qué τοῖς ἐν Χριστῷ está en dativo?",
+          "opciones": ["Objeto del verbo", "Objeto de preposición ἐν", "Beneficiario de la acción", "Agente"],
+          "respuestaCorrecta": "Beneficiario de la acción",
+          "explicacion": "El dativo marca beneficiario: 'no hay condenación PARA LOS que están en Cristo' (a ellos, para su beneficio).",
+          "puntaje": 10
+        }
+      ]
+    }
+  ],
+  "vocabulario": [
+    {
+      "griego": "κατάκριμα",
+      "transliteracion": "katakrimа",
+      "definicion": "condenación, veredicto de culpabilidad",
+      "categoria": "sustantivo",
+      "frecuencia": "baja pero importante",
+      "ejemplo": "Οὐδὲν κατάκριμα τοῖς ἐν Χριστῷ (No hay condenación en Cristo)",
+      "frecuenciaNT": 3
+    },
+    {
+      "griego": "νόμος",
+      "transliteracion": "nomos",
+      "definicion": "ley, principio normativo",
+      "categoria": "sustantivo",
+      "frecuencia": "altísima",
+      "ejemplo": "Ὁ νόμος τοῦ πνεύματος (la ley del Espíritu)",
+      "frecuenciaNT": 194
+    },
+    {
+      "griego": "πνεῦμα",
+      "transliteracion": "pneuma",
+      "definicion": "espíritu (Espíritu Santo en contextos como este)",
+      "categoria": "sustantivo",
+      "frecuencia": "altísima",
+      "ejemplo": "Ὁ νόμος τοῦ πνεύματος τῆς ζωῆς (la ley del Espíritu de vida)",
+      "frecuenciaNT": 379
+    }
+  ],
+  "siguienteLeccion": "n3-l07",
+  "puntajeMaximo": 100
+}

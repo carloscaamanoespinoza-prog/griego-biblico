@@ -1,0 +1,220 @@
+{
+  "id": "n3-l02",
+  "nivel": 3,
+  "numero": 2,
+  "titulo": "Funciones de los Casos Profundizadas",
+  "subtitulo": "Más allá de nominativo, acusativo, genitivo, dativo",
+  "descripcion": "Ya conoces los cuatro casos, pero hay matices de significado dentro de cada uno. Una palabra en genitivo puede significar posesión, origen, tiempo, causa, calidad, etc. Dominar estos matices es clave para la exégesis.",
+  "duracionEstimada": 45,
+  "prerequisitos": ["n3-l01"],
+  "objetivos": [
+    "Profundizar en los significados múltiples de cada caso",
+    "Entender cómo el contexto determina la función exacta",
+    "Reconocer funciones especiales (nominativo predicativo, acusativo de relación)",
+    "Aplicar análisis de casos a textos reales"
+  ],
+  "secciones": [
+    {
+      "id": "nominativo-funciones",
+      "tipo": "explicacion",
+      "titulo": "Nominativo: El Sujeto y Más Allá",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El nominativo es principalmente el caso del SUJETO. Pero también puede aparecer como PREDICADO NOMINAL (complement of the copula 'ser') con un matiz diferente."
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Nominativo Predicativo"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "ὁ λόγος ἦν θεὸς (La palabra era Dios - θεὸς es predicado nominal)",
+            "El predicado describe la cualidad o identidad del sujeto después de εἰμί"
+          ]
+        },
+        {
+          "tipo": "nota",
+          "titulo": "Orden en Predicados",
+          "texto": "Cuando hay dos nominativos (sujeto + predicado), el orden típico es Sujeto-Verbo-Predicado, pero puede invertirse para énfasis (como vimos en L01)."
+        }
+      ]
+    },
+    {
+      "id": "acusativo-funciones",
+      "tipo": "tabla-interactiva",
+      "titulo": "Funciones del Acusativo",
+      "descripcion": "Los múltiples usos del acusativo en griego",
+      "datos": {
+        "columnas": ["Función", "Descripción", "Ejemplo"],
+        "filas": [
+          ["Objeto Directo", "Cosa que recibe la acción del verbo", "εἶδε τὸν κύριον (vio al Señor)"],
+          ["Acusativo de Extensión", "Tiempo o espacio de duración", "τρεῖς ἡμέρας (tres días)"],
+          ["Acusativo de Relación", "Relativo a, respecto a", "σοφὸς τὰ πνεύματα (sabio respecto a espíritus)"],
+          ["Acusativo Adverbial", "Expresiones adverbiales", "τὸ πρῶτον (primero)"],
+          ["Doble Acusativo", "Verbo ditransitivo", "ἐδίδαξε αὐτοὺς τὸν λόγον (enseñó a ellos la palabra)"]
+        ]
+      }
+    },
+    {
+      "id": "genitivo-funciones",
+      "tipo": "tabla-interactiva",
+      "titulo": "Funciones del Genitivo",
+      "descripcion": "El caso más versátil en griego antiguo",
+      "datos": {
+        "columnas": ["Función", "Descripción", "Ejemplo"],
+        "filas": [
+          ["Posesivo", "Posesión, pertenencia", "ὁ λόγος τοῦ θεοῦ (la palabra de Dios = la palabra que pertenece a Dios)"],
+          ["Partitivo", "Parte de un todo", "εἷς τῶν δώδεκα (uno de los doce)"],
+          ["Ablativo (Origen)", "Origen, fuente, separación", "εἶδον ἀπὸ τῆς γῆς (vi desde la tierra)"],
+          ["Cualitativo", "Calidad o característica", "ἀνὴρ ἀγάπης (un hombre de amor = un hombre lleno de amor)"],
+          ["Temporal", "Tiempo dentro del cual", "νύξ (durante la noche)"],
+          ["Precio/Valor", "Costo o equivalencia", "πραθεὶς διὰ τριάκοντα ἀργύρια (vendido por treinta monedas)"]
+        ]
+      }
+    },
+    {
+      "id": "dativo-funciones",
+      "tipo": "tabla-interactiva",
+      "titulo": "Funciones del Dativo",
+      "descripcion": "El dativo como herramienta de relación",
+      "datos": {
+        "columnas": ["Función", "Descripción", "Ejemplo"],
+        "filas": [
+          ["Objeto Indirecto", "Receptor de la acción", "ἔδωκεν αὐτῷ τὸ βιβλίον (le dio el libro)"],
+          ["Locativo", "Lugar donde", "ἐν τῇ σναγωγῇ (en la sinagoga)"],
+          ["Temporal", "Tiempo cuando", "τῇ ἡμέρᾳ τῇ τρίτῃ (en el tercer día)"],
+          ["Instrumental", "Instrumento, medio", "τῇ δυνάμει τοῦ πνεύματος (por el poder del espíritu)"],
+          ["Dativo Ético", "Interés personal", "τί μοι κἀγῷ (¿qué tengo que ver contigo? = qué interés tengo)"],
+          ["Agente (Raro)", "Quien realiza en pasiva", "ἐπέμφθη τῷ θεῷ (fue enviado por Dios)"]
+        ]
+      }
+    },
+    {
+      "id": "casos-sintaxis-compleja",
+      "tipo": "explicacion",
+      "titulo": "Casos en Construcciones Complejas",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Las funciones del caso se complican cuando intervienen preposiciones. Una preposición MARCA claramente la función, pero el caso sigue existiendo y debe concordar."
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Ejemplos de Preposición + Caso"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "ἐν τῇ ἐκκλησίᾳ (en [la iglesia-dativo] = locativo)",
+            "ἀπὸ τοῦ θεοῦ (desde [Dios-genitivo] = origen)",
+            "πρὸς τὸν κύριον (hacia [el Señor-acusativo] = dirección)"
+          ]
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ej-l02-01",
+      "tipo": "seleccion",
+      "titulo": "Identifica la función del caso",
+      "instrucciones": "¿Cuál es la función de la palabra en caso en cada frase?",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "ἦν πρὸς τὸν θεόν - función de τὸν θεόν (acusativo)",
+          "opciones": ["Sujeto", "Objeto directo de una preposición", "Posesor", "Tiempo"],
+          "respuestaCorrecta": "Objeto directo de una preposición",
+          "explicacion": "πρὸς requiere acusativo. τὸν θεόν es el objeto de la preposición (dirección hacia).",
+          "puntaje": 10
+        },
+        {
+          "id": "p2",
+          "estimulo": "ἐν τῇ ἀρχῇ - función de τῇ ἀρχῇ (dativo)",
+          "opciones": ["Objeto indirecto", "Locativo (lugar)", "Temporal", "Posesión"],
+          "respuestaCorrecta": "Locativo (lugar)",
+          "explicacion": "ἐν requiere dativo y expresa LUGAR. Literalmente: 'en el principio' (lugar/tiempo donde ocurre la acción).",
+          "puntaje": 10
+        },
+        {
+          "id": "p3",
+          "estimulo": "εἷς τῶν δώδεκα - función de τῶν δώδεκα (genitivo)",
+          "opciones": ["Posesión", "Origen", "Partitivo (parte de un todo)", "Cualitativo"],
+          "respuestaCorrecta": "Partitivo (parte de un todo)",
+          "explicacion": "El genitivo τῶν δώδεκα indica que 'uno' es parte de 'los doce'. Es una relación de parte-todo.",
+          "puntaje": 10
+        }
+      ]
+    },
+    {
+      "id": "ej-l02-02",
+      "tipo": "completar",
+      "titulo": "Analiza funciones de casos",
+      "instrucciones": "Completa el análisis de la función del caso",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "Θεὸς ἦν ὁ λόγος - función de θεὸς (nominativo)",
+          "tipo": "texto",
+          "respuestaCorrecta": "nominativo predicativo",
+          "alternativasAceptadas": ["nominativo predicativo", "predicado nominal", "predicative nominative"],
+          "explicacion": "θεὸς aparece después de εἰμί (ser). Es el predicado que describe al sujeto λόγος.",
+          "puntaje": 15
+        },
+        {
+          "id": "p2",
+          "estimulo": "ἡ χάρις τοῦ κυρίου - función de τοῦ κυρίου (genitivo)",
+          "tipo": "texto",
+          "respuestaCorrecta": "genitivo posesivo",
+          "alternativasAceptadas": ["posesivo", "genitivo posesivo", "possessive genitive"],
+          "explicacion": "τοῦ κυρίου (del Señor) indica posesión: la gracia que pertenece al/proviene del Señor.",
+          "puntaje": 15
+        },
+        {
+          "id": "p3",
+          "estimulo": "ἔδωκεν αὐτῷ τὸ πνεῦμα - función de αὐτῷ (dativo)",
+          "tipo": "texto",
+          "respuestaCorrecta": "dativo de objeto indirecto",
+          "alternativasAceptadas": ["objeto indirecto", "dativo indirecto", "indirect object"],
+          "explicacion": "αὐτῷ (a él) es el beneficiario de la acción. A quién se da el espíritu.",
+          "puntaje": 15
+        }
+      ]
+    }
+  ],
+  "vocabulario": [
+    {
+      "griego": "γενική πτῶσις",
+      "transliteracion": "genetikē ptōsis",
+      "definicion": "caso genitivo (literalmente 'caso generativo')",
+      "categoria": "gramática",
+      "frecuencia": "meta-gramática",
+      "ejemplo": "τοῦ θεοῦ (del Dios, caso genitivo)",
+      "frecuenciaNT": 0
+    },
+    {
+      "griego": "αἰτιατική πτῶσις",
+      "transliteracion": "aitiatiká ptōsis",
+      "definicion": "caso acusativo",
+      "categoria": "gramática",
+      "frecuencia": "meta-gramática",
+      "ejemplo": "τὸν λόγον (el logos, caso acusativo)",
+      "frecuenciaNT": 0
+    },
+    {
+      "griego": "δοτική πτῶσις",
+      "transliteracion": "dotiká ptōsis",
+      "definicion": "caso dativo",
+      "categoria": "gramática",
+      "frecuencia": "meta-gramática",
+      "ejemplo": "τῷ θεῷ (al Dios, caso dativo)",
+      "frecuenciaNT": 0
+    }
+  ],
+  "siguienteLeccion": "n3-l03",
+  "puntajeMaximo": 100
+}

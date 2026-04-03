@@ -1,0 +1,78 @@
+{
+  "id": "n3-l10",
+  "nivel": 3,
+  "numero": 10,
+  "titulo": "Integración: Análisis Exegético Completo",
+  "subtitulo": "Combinando todas las herramientas analíticas",
+  "descripcion": "Integramos morfología, sintaxis, partículas, análisis de discurso y semántica en un análisis exegético COMPLETO de un pasaje bíblico. Este es el modelo para la exégesis seria.",
+  "duracionEstimada": 60,
+  "prerequisitos": ["n3-l09"],
+  "objetivos": [
+    "Realizar análisis exegético completo usando todas las herramientas",
+    "Integrar forma y significado en interpretación coherente",
+    "Demostrar cómo la gramática informa la teología",
+    "Prepararse para Nivel 4: Exégesis y Crítica Textual"
+  ],
+  "secciones": [
+    {
+      "id": "metodologia-exegetica",
+      "tipo": "explicacion",
+      "titulo": "Metodología Exegética Completa",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "La EXÉGESIS es la interpretación sistemática de un texto basada en análisis riguroso de lenguaje, contexto histórico, y significado teológico. Aquí presentamos el método completo."
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Pasos de Análisis Exegético"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "1. ANÁLISIS TEXTUAL: ¿Cuál es el texto exacto? (variantes manuscritas)",
+            "2. ANÁLISIS LÉXICO: ¿Qué significa cada palabra? (semantic range)",
+            "3. ANÁLISIS MORFOLÓGICO: ¿Qué forma gramatical tiene cada palabra?",
+            "4. ANÁLISIS SINTÁCTICO: ¿Cómo se relacionan las palabras en la oración?",
+            "5. ANÁLISIS DISCURSIVO: ¿Cómo se estructura el argumento completo?",
+            "6. ANÁLISIS CONTEXTUAL: ¿Cuál es el contexto histórico e inmediato?",
+            "7. SÍNTESIS TEOLÓGICA: ¿Qué significa todo esto teológicamente?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "caso-estudio",
+      "tipo": "explicacion",
+      "titulo": "Caso de Estudio: Juan 1:1 (Análisis Completo)",
+      "contenido": [
+        {
+          "tipo": "cita",
+          "texto": "Ἐν ἀρχῇ ἦν ὁ λόγος, καὶ ὁ λόγος ἦν πρὸς τὸν θεόν, καὶ θεὸς ἦν ὁ λόγος.",
+          "transliteracion": "En archē ēn ho logos, kai ho logos ēn pros ton theon, kai theos ēn ho logos.",
+          "traduccion": "En el principio era la Palabra, y la Palabra estaba hacia Dios, y la Palabra era Dios.",
+          "referencia": "Juan 1:1 - Análisis Completo",
+          "clase": "normal"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "ANÁLISIS LÉXICO: λόγος (Logos divino), θεός (naturaleza divina), ἦν (imperfecto = existencia duradera)",
+            "ANÁLISIS SINTÁCTICO: Tres predicaciones paralelas, cada una aseverando una verdad",
+            "ANÁLISIS DISCURSIVO: Introducción teológica del prólogo, establece la naturaleza eterna y divina del Logos",
+            "SÍNTESIS: Juan presenta Cristo como eternalmente existente, en relación íntima con Dios, y siendo divino"
+          ]
+        }
+      ]
+    }
+  ],
+  "notasFinales": [
+    {
+      "titulo": "¡Completaste Nivel 3: Sintaxis y Análisis!",
+      "contenido": "Has dominado:\\n- Orden de palabras y énfasis\\n- Funciones profundas de los casos\\n- Tipos de cláusulas y sus conexiones\\n- Partículas y la estructura argumentativa\\n- Close reading de textos bíblicos complejos\\n- Análisis sintáctico y de discurso\\n- Semantic range y contexto\\n- Metodología exegética integrada\\n\\nAhora estás preparado para Nivel 4, donde profundizarás en crítica textual y metodología exegética avanzada, aplicando estos conocimientos a problemas reales de interpretación bíblica."
+    }
+  ],
+  "siguienteLeccion": "n4-l01",
+  "puntajeMaximo": 100
+}

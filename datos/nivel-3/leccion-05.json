@@ -1,0 +1,220 @@
+{
+  "id": "n3-l05",
+  "nivel": 3,
+  "numero": 5,
+  "titulo": "Close Reading: Juan 1:1-18",
+  "subtitulo": "El Prólogo del Evangelio de Juan analizado línea por línea",
+  "descripcion": "Aplicamos todo lo aprendido (morfología, sintaxis, partículas) a Juan 1:1-18, uno de los pasajes más theológicamente densos del NT. Leeremos palabra por palabra con atención exegética.",
+  "duracionEstimada": 50,
+  "prerequisitos": ["n3-l04"],
+  "objetivos": [
+    "Leer Juan 1:1-18 en griego con comprensión morfológica completa",
+    "Identificar estructuras sintácticas y su significado exegético",
+    "Analizar cómo las partículas guían la argumentación teológica",
+    "Conectar forma gramatical con significado teológico"
+  ],
+  "secciones": [
+    {
+      "id": "juan-1-1-contexto",
+      "tipo": "explicacion",
+      "titulo": "Juan 1:1-18: El Prólogo Teológico",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Juan 1:1-18 es el prólogo del Evangelio de Juan. Introduce el concepto central: ὁ λόγος (el Logos, la Palabra). Este prólogo es poético, teológicamente denso, y usa un griego cuidadosamente construido para expresar verdades sobre Cristo."
+        },
+        {
+          "tipo": "nota",
+          "titulo": "Estructura del Prólogo",
+          "texto": "El prólogo se divide en tres secciones: (1) la naturaleza del Logos (1:1-5), (2) el testimonio de Juan el Bautista (1:6-8, 15), (3) la encarnación y aceptación/rechazo (1:9-18)."
+        }
+      ]
+    },
+    {
+      "id": "juan-1-1-analisis",
+      "tipo": "explicacion",
+      "titulo": "Juan 1:1 - Palabra por Palabra",
+      "contenido": [
+        {
+          "tipo": "cita",
+          "texto": "Ἐν ἀρχῇ ἦν ὁ λόγος, καὶ ὁ λόγος ἦν πρὸς τὸν θεόν, καὶ θεὸς ἦν ὁ λόγος.",
+          "transliteracion": "En archē ēn ho logos, kai ho logos ēn pros ton theon, kai theos ēn ho logos.",
+          "traduccion": "En el principio era la Palabra, y la Palabra estaba hacia Dios, y la Palabra era Dios.",
+          "referencia": "Juan 1:1",
+          "clase": "normal"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "Ἐν ἀρχῇ (En + dativo locativo de ἀρχή = al principio, en el comienzo)",
+            "ἦν (imperfecto de εἰμί = era, estaba existiendo - aspecto durativo)",
+            "ὁ λόγος (nominativo articulado = la Palabra específica, definida)",
+            "καί (coordina dos afirmaciones sobre el Logos)",
+            "πρὸς τὸν θεόν (hacia + acusativo = relación de dirección/intimidad)",
+            "θεὸς ἦν ὁ λόγος (predicado al inicio = énfasis en naturaleza divina; sin artículo = énfasis cualitativo: 'divino')"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "juan-1-2-5-estructura",
+      "tipo": "explicacion",
+      "titulo": "Juan 1:2-5 - Estructura y Argumentación",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Los versículos 2-5 refuerzan y amplían la afirmación de 1:1. El verso 2 reitera, el 3 explica por qué el Logos es importante (todo fue hecho por/a través de él), y el 4-5 introducen el tema de vida y luz."
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Oὗτος ἦν ἐν ἀρχῇ πρὸς τὸν θεόν (1:2)"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "οὗτος (demostrativo 'este' con antecedente ὁ λόγος)",
+            "El verso reitera la relación eterna (ἐν ἀρχῇ = en el principio) del Logos con Dios"
+          ]
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Πάντα δι' αὐτοῦ ἐγένετο (1:3a)"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "πάντα (acusativo neutro = todas las cosas, el universo)",
+            "δι' αὐτοῦ (por/a través de + genitivo = instrumento o medio)",
+            "El Logos es el agente creador - aspecto teológico crucial"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "juan-1-luz-vida",
+      "tipo": "explicacion",
+      "titulo": "Juan 1:4-5 - La Introducción de Luz y Vida",
+      "contenido": [
+        {
+          "tipo": "cita",
+          "texto": "Ἐν αὐτῷ ζωὴ ἦν, καὶ ἡ ζωὴ ἦν τὸ φῶς τῶν ἀνθρώπων.",
+          "transliteracion": "En autō zōē ēn, kai hē zōē ēn to phōs tōn anthrōpōn.",
+          "traduccion": "En él estaba la vida, y la vida era la luz de los hombres.",
+          "referencia": "Juan 1:4",
+          "clase": "normal"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "Ἐν αὐτῷ (en + dativo = localización en el Logos)",
+            "ζωή (nominativo = vida, el concepto principal)",
+            "τὸ φῶς τῶν ἀνθρώπων (genitivo partitivo/posesivo = la luz que pertenece a/caracteriza a los hombres)",
+            "Estructuralmente: nominativo predicativo nuevamente - vida = luz"
+          ]
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ej-l05-01",
+      "tipo": "seleccion",
+      "titulo": "Análisis de Juan 1:1",
+      "instrucciones": "Responde basado en tu análisis de Juan 1:1",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "¿Cuál es el tiempo del verbo ἦν en 'Ἐν ἀρχῇ ἦν ὁ λόγος'?",
+          "opciones": ["Presente", "Aoristo", "Imperfecto", "Perfecto"],
+          "respuestaCorrecta": "Imperfecto",
+          "explicacion": "ἦν es imperfecto de εἰμί. El aspecto imperfectivo sugiere que el Logos EXISTÍA en el principio de forma continua/duradera.",
+          "puntaje": 10
+        },
+        {
+          "id": "p2",
+          "estimulo": "¿Por qué θεὸς aparece sin artículo en 'θεὸς ἦν ὁ λόγος'?",
+          "opciones": ["Error gramatical", "Énfasis en la cualidad/naturaleza divina", "Énfasis en identidad específica", "Por métrica"],
+          "respuestaCorrecta": "Énfasis en la cualidad/naturaleza divina",
+          "explicacion": "Sin artículo, θεὸς enfatiza la CUALIDAD de ser divino, no simplemente la identidad. Juan dice 'era divino' no 'era Dios específico'.",
+          "puntaje": 10
+        },
+        {
+          "id": "p3",
+          "estimulo": "¿Qué significa πρὸς τὸν θεόν (acusativo con πρός)?",
+          "opciones": ["Contra Dios", "Hacia/con Dios en relación", "Separado de Dios", "A través de Dios"],
+          "respuestaCorrecta": "Hacia/con Dios en relación",
+          "explicacion": "πρός + acusativo expresa relación de dirección/intimidad. No es hostilidad sino una relación especial con Dios.",
+          "puntaje": 10
+        }
+      ]
+    },
+    {
+      "id": "ej-l05-02",
+      "tipo": "completar",
+      "titulo": "Completa el análisis de Juan 1:3",
+      "instrucciones": "Analiza la estructura de 'Πάντα δι' αὐτοῦ ἐγένετο'",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "¿Cuál es la función de δι' αὐτοῦ (genitivo con δία)?",
+          "tipo": "texto",
+          "respuestaCorrecta": "instrumento o medio",
+          "alternativasAceptadas": ["agente instrumental", "medio", "agency"],
+          "explicacion": "διά + genitivo expresa el instrumento o medio: 'todas las cosas fueron hechas por (a través de) él'.",
+          "puntaje": 15
+        },
+        {
+          "id": "p2",
+          "estimulo": "¿Qué nos dice πάντα ἐγένετο sobre la importancia del Logos?",
+          "tipo": "texto",
+          "respuestaCorrecta": "el Logos es el creador",
+          "alternativasAceptadas": ["creador", "agente de creación", "instrumento de creación"],
+          "explicacion": "Πάντα (todas las cosas) ἐγένετο (fueron hechas) δι' αὐτοῦ (por/a través de él) = el Logos es el agente creador universal.",
+          "puntaje": 15
+        },
+        {
+          "id": "p3",
+          "estimulo": "En 'ἡ ζωὴ ἦν τὸ φῶς', ¿cuáles son los dos nominativos?",
+          "tipo": "texto",
+          "respuestaCorrecta": "ζωή y φῶς",
+          "alternativasAceptadas": ["vida y luz", "life and light"],
+          "explicacion": "Ambos están en nominativo: ζωή (sujeto) ἦν (verbo) τὸ φῶς (predicado nominal). La vida ES la luz.",
+          "puntaje": 15
+        }
+      ]
+    }
+  ],
+  "vocabulario": [
+    {
+      "griego": "ἀρχή",
+      "transliteracion": "archē",
+      "definicion": "comienzo, principio, origen",
+      "categoria": "sustantivo",
+      "frecuencia": "alta",
+      "ejemplo": "Ἐν ἀρχῇ (En el principio/comienzo)",
+      "frecuenciaNT": 55
+    },
+    {
+      "griego": "λόγος",
+      "transliteracion": "logos",
+      "definicion": "palabra, discurso, razón (concepto central en Juan)",
+      "categoria": "sustantivo",
+      "frecuencia": "altísima",
+      "ejemplo": "ὁ λόγος ἦν θεός (La Palabra era Dios)",
+      "frecuenciaNT": 330
+    },
+    {
+      "griego": "φῶς",
+      "transliteracion": "phōs",
+      "definicion": "luz (símbolo de verdad y revelación)",
+      "categoria": "sustantivo",
+      "frecuencia": "alta",
+      "ejemplo": "ἡ ζωὴ ἦν τὸ φῶς τῶν ἀνθρώπων (La vida era la luz de los hombres)",
+      "frecuenciaNT": 73
+    }
+  ],
+  "siguienteLeccion": "n3-l06",
+  "puntajeMaximo": 100
+}

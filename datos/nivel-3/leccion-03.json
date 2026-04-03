@@ -1,0 +1,265 @@
+{
+  "id": "n3-l03",
+  "nivel": 3,
+  "numero": 3,
+  "titulo": "Tipos de Cláusulas: La Arquitectura Oracional",
+  "subtitulo": "Principales, subordinadas, relativas, condicionales",
+  "descripcion": "El griego estructura la información a través de diferentes tipos de cláusulas. Entender cómo se conectan (coordinación vs. subordinación) es clave para interpretar el énfasis y la relación lógica entre ideas.",
+  "duracionEstimada": 45,
+  "prerequisitos": ["n3-l02"],
+  "objetivos": [
+    "Reconocer cláusulas principales vs. subordinadas",
+    "Identificar cláusulas de propósito, resultado, condición, y causa",
+    "Entender cláusulas relativas y sus antecedentes",
+    "Analizar la estructura lógica de oraciones complejas"
+  ],
+  "secciones": [
+    {
+      "id": "clausula-principal-subordinada",
+      "tipo": "explicacion",
+      "titulo": "Cláusulas Principales vs. Subordinadas",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Una CLÁUSULA PRINCIPAL es independiente—puede existir sola. Una CLÁUSULA SUBORDINADA depende de otra—introduce información adicional pero no puede estar sola."
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Marcadores de Subordinación"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "Conectores: ἵνα (para que), ὅτι (que), ἐπεί (porque), ὡς (como), κἂν (si), etc.",
+            "Estos marcan que lo siguiente es subordinado",
+            "La cláusula principal puede llevar otros marcadores (δέ, καί) o estar sin marca"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "clausulas-subordinadas-tipos",
+      "tipo": "tabla-interactiva",
+      "titulo": "Tipos de Cláusulas Subordinadas",
+      "descripcion": "Clasificación por función lógica",
+      "datos": {
+        "columnas": ["Tipo", "Marcador Típico", "Modo", "Función", "Ejemplo"],
+        "filas": [
+          ["Propósito", "ἵνα", "Subjuntivo", "Para que, a fin de que", "ἦλθεν ἵνα δῷ τὴν ζωήν"],
+          ["Resultado", "ὥστε", "Infinitivo", "De manera que, con resultado que", "ἐλάλησε ὥστε πάντες ἤκουσαν"],
+          ["Causal", "ὅτι, διότι", "Indicativo", "Porque, puesto que", "ἐχάρησαν ὅτι εἶδον τὸν κύριον"],
+          ["Temporal", "ὅτε, ὡς", "Indicativo", "Cuando, mientras que", "ἐγένετο ὅτε ἦλθεν ὁ Ἰησοῦς"],
+          ["Concesiva", "κἂν, ἐάν", "Subjuntivo", "Aunque, incluso si", "κἂν παντὸς τῶν ἀνθρώπων"],
+          ["Condicional", "εἰ, ἐάν", "Indicativo/Subj", "Si (real, potencial, contrafáctica)", "εἰ πιστεύετε... ἕξετε ζωήν"]
+        ]
+      }
+    },
+    {
+      "id": "clausulas-relativas",
+      "tipo": "explicacion",
+      "titulo": "Cláusulas Relativas: El Pronombre ὅς",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Una CLÁUSULA RELATIVA modifica un sustantivo (ANTECEDENTE) usando el pronombre relativo ὅς (quien, que). El relativo concuerda en GÉNERO y NÚMERO con el antecedente, pero su CASO depende de su función dentro de la cláusula."
+        },
+        {
+          "tipo": "cita",
+          "texto": "ὁ λόγος ὃν ἀκούσατε",
+          "transliteracion": "ho logos hon akousate",
+          "traduccion": "la palabra que oísteis",
+          "referencia": "λόγος (neutro, acusativo por objeto de ἀκούσατε)",
+          "clase": "normal"
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Concordancia del Relativo"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "GÉNERO y NÚMERO: debe coincidir con el antecedente",
+            "CASO: determinado por su función dentro de la cláusula relativa",
+            "Ejemplo: ὁ ἀπόστολος (m.nom) ὃς (m.nom - sujeto del relativo) ἦν (verbo del relativo)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "condicionales-griegos",
+      "tipo": "explicacion",
+      "titulo": "Las Cuatro Clases de Condicionales",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El griego antiguo tiene cuatro estructuras condicionales, cada una con un significado y una probabilidad diferentes. Estos son críticos para la exégesis."
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Primera Clase: Condición Presentada como Real"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "Estructura: εἰ + indicativo ... (protasis) + indicativo (apodosis)",
+            "Significado: 'Si (y se asume que) X, entonces Y'",
+            "Ejemplo: εἰ πιστεύετε, ἕξετε ζωήν (si creéis [y se asume que creéis], tendréis vida)"
+          ]
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Segunda Clase: Condición Contrafáctica"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "Estructura: εἰ + imperfecto indicativo ... + ἂν + imperfecto/aoristo (apodosis)",
+            "Significado: 'Si fuera X (pero no es), sería Y'",
+            "Ejemplo: εἰ ἦτε Μωϊσέως παῖδες, τὰ ἔργα αὐτοῦ ἐποιεῖτε ἄν (si fuerais hijos de Moisés [pero no lo sois], haríais sus obras)"
+          ]
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Tercera y Cuarta Clase: Más Matices"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "Tercera clase: ἐάν + subjuntivo (condición abierta al futuro, posible)",
+            "Cuarta clase: εἰ + optativo (hipotética, remota)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coordinacion-subordinacion",
+      "tipo": "explicacion",
+      "titulo": "Coordinación vs. Subordinación: Énfasis Lógico",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Las cláusulas pueden conectarse por COORDINACIÓN (kai, allos, de) donde ambas ideas son de igual rango, o por SUBORDINACIÓN donde una depende de la otra. Esto afecta cómo interpretamos la importancia relativa."
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Coordinadores Comunes"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "καί (y) - simplemente añade ideas",
+            "δέ (pero, ahora) - contrasta o introduce cambio",
+            "ἀλλά (pero) - contraste fuerte",
+            "οὖν (por lo tanto, pues) - conclusión"
+          ]
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ej-l03-01",
+      "tipo": "seleccion",
+      "titulo": "Identifica tipos de cláusulas",
+      "instrucciones": "¿Qué tipo de cláusula es la subordinada?",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "ἦλθεν ἵνα σώσῃ τὸν κόσμον",
+          "opciones": ["Causal", "Propósito", "Temporal", "Condicional"],
+          "respuestaCorrecta": "Propósito",
+          "explicacion": "ἵνα + subjuntivo siempre indica PROPÓSITO (para que, a fin de que). La segunda cláusula es cláusula de propósito.",
+          "puntaje": 10
+        },
+        {
+          "id": "p2",
+          "estimulo": "ἐχάρησαν ὅτι ἐθεώρησαν τὸν κύριον",
+          "opciones": ["Propósito", "Causal", "Temporal", "Condicional"],
+          "respuestaCorrecta": "Causal",
+          "explicacion": "ὅτι + indicativo indica CAUSA (porque, puesto que). Explica por qué se alegraron.",
+          "puntaje": 10
+        },
+        {
+          "id": "p3",
+          "estimulo": "ὁ ἀπόστολος ὃς ἦν σοφός - ¿Cuál es la función de ὃς?",
+          "opciones": ["Marca propósito", "Introduce una cláusula relativa", "Introduce una cláusula causal", "Es un coordinador"],
+          "respuestaCorrecta": "Introduce una cláusula relativa",
+          "explicacion": "ὃς (quien, que) es el pronombre relativo. Introduce una cláusula que modifica al antecedente ἀπόστολος.",
+          "puntaje": 10
+        }
+      ]
+    },
+    {
+      "id": "ej-l03-02",
+      "tipo": "completar",
+      "titulo": "Analiza condicionales",
+      "instrucciones": "Identifica la clase condicional",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "εἰ πιστεύετε, ἕξετε ζωήν - ¿Qué clase condicional?",
+          "tipo": "texto",
+          "respuestaCorrecta": "primera clase",
+          "alternativasAceptadas": ["primera clase", "condición real", "first class condition"],
+          "explicacion": "εἰ + indicativo presente (protasis) + indicativo futuro (apodosis) = primera clase = condición presentada como real.",
+          "puntaje": 15
+        },
+        {
+          "id": "p2",
+          "estimulo": "εἰ ἦτε Μωϊσέως παῖδες, ἐποιεῖτε ἂν τὰ ἔργα αὐτοῦ - ¿Qué clase?",
+          "tipo": "texto",
+          "respuestaCorrecta": "segunda clase",
+          "alternativasAceptadas": ["segunda clase", "contrafáctica", "second class condition"],
+          "explicacion": "εἰ + imperfecto indicativo (protasis) + ἂν + imperfecto (apodosis) = segunda clase = condición contrafáctica (irreal).",
+          "puntaje": 15
+        },
+        {
+          "id": "p3",
+          "estimulo": "ἐάν τις μένῃ ἐν τῷ λόγῳ τῷ ἐμῷ - ¿Qué clase?",
+          "tipo": "texto",
+          "respuestaCorrecta": "tercera clase",
+          "alternativasAceptadas": ["tercera clase", "potencial", "third class condition"],
+          "explicacion": "ἐάν + subjuntivo = tercera clase = condición abierta al futuro, potencialmente realizable.",
+          "puntaje": 15
+        }
+      ]
+    }
+  ],
+  "vocabulario": [
+    {
+      "griego": "ὅς",
+      "transliteracion": "hos",
+      "definicion": "quien, que (pronombre relativo)",
+      "categoria": "pronombre relativo",
+      "frecuencia": "altísima",
+      "ejemplo": "ὁ ἀπόστολος ὃς ἦν σοφός (el apóstol que era sabio)",
+      "frecuenciaNT": 1365
+    },
+    {
+      "griego": "ἵνα",
+      "transliteracion": "hina",
+      "definicion": "para que (marca propósito + subjuntivo)",
+      "categoria": "conjunción de propósito",
+      "frecuencia": "altísima",
+      "ejemplo": "ἦλθεν ἵνα δῷ τὴν ζωήν (vino para que diera la vida)",
+      "frecuenciaNT": 663
+    },
+    {
+      "griego": "ὡς",
+      "transliteracion": "hōs",
+      "definicion": "como, cuando, que (conjunción versátil)",
+      "categoria": "conjunción",
+      "frecuencia": "altísima",
+      "ejemplo": "ἐγένετο ὡς ἦλθεν (sucedió cuando vino)",
+      "frecuenciaNT": 504
+    }
+  ],
+  "siguienteLeccion": "n3-l04",
+  "puntajeMaximo": 100
+}

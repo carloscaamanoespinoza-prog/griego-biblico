@@ -1,0 +1,243 @@
+{
+  "id": "n3-l01",
+  "nivel": 3,
+  "numero": 1,
+  "titulo": "Orden de Palabras y Énfasis",
+  "subtitulo": "Cómo el griego usa la posición para enfatizar",
+  "descripcion": "A diferencia del español, el griego tiene libertad de orden de palabras (cases marcan función). Esta flexibilidad se usa estratégicamente para énfasis y información nueva. Aprenderás a leer el énfasis intencional.",
+  "duracionEstimada": 40,
+  "prerequisitos": ["n2-l12"],
+  "objetivos": [
+    "Entender que el orden de palabras en griego marca énfasis, no función gramatical",
+    "Reconocer el orden normal (SVO) vs. órdenes marcados",
+    "Identificar información tema vs. rema en la oración griega",
+    "Analizar cómo el énfasis afecta la interpretación exegética"
+  ],
+  "secciones": [
+    {
+      "id": "orden-palabras-intro",
+      "tipo": "explicacion",
+      "titulo": "La Libertad de Orden en Griego",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El griego es una lengua de CASOS. Los casos (nominativo, acusativo, genitivo, dativo) marcan la función gramatical de cada palabra. Por eso el orden puede ser flexible—el caso ya indica quién es sujeto, quién es objeto, etc."
+        },
+        {
+          "tipo": "cita",
+          "texto": "ὁ λόγος ἦν πρὸς τὸν θεόν",
+          "transliteracion": "ho logos ēn pros ton theon",
+          "traduccion": "La palabra estaba hacia Dios",
+          "referencia": "Juan 1:1 - SVO normal",
+          "clase": "normal"
+        },
+        {
+          "tipo": "cita",
+          "texto": "πρὸς τὸν θεόν ἦν ὁ λόγος",
+          "transliteracion": "pros ton theon ēn ho logos",
+          "traduccion": "Hacia Dios estaba la palabra (énfasis en destino)",
+          "referencia": "Alteración de orden",
+          "clase": "normal"
+        }
+      ]
+    },
+    {
+      "id": "orden-normal-vs-marcado",
+      "tipo": "tabla-interactiva",
+      "titulo": "Orden Normal vs. Orden Marcado",
+      "descripcion": "Patrones de orden y lo que indican",
+      "datos": {
+        "columnas": ["Orden", "Patrón", "Ejemplo", "Énfasis"],
+        "filas": [
+          ["NORMAL", "SVO (Sujeto-Verbo-Objeto)", "ὁ ἀπόστολος εἶδε τὸν κύριον", "neutro, información dada"],
+          ["MARCADO-1", "OSV", "τὸν κύριον εἶδε ὁ ἀπόστολος", "énfasis en objeto (Dios es central)"],
+          ["MARCADO-2", "VSO", "εἶδε ὁ ἀπόστολος τὸν κύριον", "énfasis en verbo (acción puntual)"],
+          ["MARCADO-3", "VOS", "εἶδε τὸν κύριον ὁ ἀπόστολος", "énfasis en objeto + acción"]
+        ]
+      }
+    },
+    {
+      "id": "tema-rema",
+      "tipo": "explicacion",
+      "titulo": "Tema vs. Rema: Información Vieja vs. Nueva",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "En lingüística, el TEMA es la información conocida o dada (lo que ya sabemos). El REMA es la información nueva o focal (lo que el hablante quiere enfatizar)."
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Patrón Usual: Tema al Inicio, Rema al Final"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "ὁ λόγος (TEMA: ya hablamos de esto) ἦν πρὸς τὸν θεόν (REMA: nueva información sobre él)",
+            "Pero este orden puede invertirse para énfasis"
+          ]
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Ejemplo de Rema Enfatizado al Inicio"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "Θεὸς ἦν ὁ λόγος (Dios era el Logos - ¡Dios! como información crucial)",
+            "El complemento predicativo al inicio para énfasis divino (Juan 1:1c)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anteposicion-articulo",
+      "tipo": "explicacion",
+      "titulo": "Anteposición del Artículo y Énfasis",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "En griego, cuando un ARTÍCULO precede a una palabra modificada por un ADJETIVO o GENITIVO, puede crear énfasis. Esto es especialmente importante en construcciones predicativas."
+        },
+        {
+          "tipo": "cita",
+          "texto": "θεὸς ἦν ὁ λόγος",
+          "transliteracion": "theos ēn ho logos",
+          "traduccion": "Dios era la palabra (predicado enfatizado)",
+          "referencia": "Sin artículo en θεὸς = énfasis cualitativo",
+          "clase": "normal"
+        },
+        {
+          "tipo": "nota",
+          "titulo": "Artículo y Categoría",
+          "texto": "La AUSENCIA de artículo (θεὸς sin ὁ) enfatiza la CUALIDAD de ser 'divino', mientras que (ὁ θεὸς) enfatiza la IDENTIDAD específica de Dios."
+        }
+      ]
+    },
+    {
+      "id": "negacion-orden",
+      "tipo": "explicacion",
+      "titulo": "Negación y Orden de Palabras",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Las palabras negativas (οὐ, μή) generalmente van ANTES de la palabra que niegan. Su posición puede cambiar el alcance de la negación y crear énfasis."
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Alcance de la Negación"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "οὐ πάντες πιστεύουσιν (no todos creen = hay algunos que no)",
+            "πάντες οὐ πιστεύουσιν (todos no creen = ninguno cree)",
+            "La posición de οὐ cambia drásticamente el significado"
+          ]
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ej-l03-01",
+      "tipo": "seleccion",
+      "titulo": "Identifica el énfasis según el orden",
+      "instrucciones": "¿Qué información está enfatizada por el orden de palabras?",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "τὸν κύριον εἶδε ὁ μαθητής (orden OSV)",
+          "opciones": ["El verbo (vio)", "El sujeto (el discípulo)", "El objeto (al Señor)", "No hay énfasis"],
+          "respuestaCorrecta": "El objeto (al Señor)",
+          "explicacion": "Cuando el objeto directo va al inicio, la frase enfatiza AL SEÑOR como lo central. El orden OSV marca énfasis sobre el objeto.",
+          "puntaje": 10
+        },
+        {
+          "id": "p2",
+          "estimulo": "Θεὸς ἦν ὁ λόγος (predicado al inicio)",
+          "opciones": ["Que el Logos es palabra", "La naturaleza divina del Logos", "Quién es el Logos", "El verbo 'ser'"],
+          "respuestaCorrecta": "La naturaleza divina del Logos",
+          "explicacion": "Al poner θεὸς al inicio sin artículo, Juan enfatiza la CUALIDAD de ser divino, no simplemente la identidad.",
+          "puntaje": 10
+        },
+        {
+          "id": "p3",
+          "estimulo": "¿Cuál es la función del orden normal SVO?",
+          "opciones": ["Máximo énfasis", "Información neutral, dada", "Énfasis en objeto", "Énfasis en verbo"],
+          "respuestaCorrecta": "Información neutral, dada",
+          "explicacion": "El orden SVO es el patrón no-marcado en griego, típico para información que se asume conocida o neutral.",
+          "puntaje": 10
+        }
+      ]
+    },
+    {
+      "id": "ej-l03-02",
+      "tipo": "completar",
+      "titulo": "Analiza el énfasis en textos",
+      "instrucciones": "Completa el análisis de énfasis según el orden de palabras",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "ὁ λόγος ἦν πρὸς τὸν θεόν - ¿Cuál es el patrón de orden?",
+          "tipo": "texto",
+          "respuestaCorrecta": "SVO",
+          "alternativasAceptadas": ["SVO", "orden normal", "sujeto verbo objeto"],
+          "explicacion": "ὁ λόγος (Sujeto) ἦν (Verbo) πρὸς τὸν θεόν (Objeto/Complemento) = patrón normal SVO.",
+          "puntaje": 15
+        },
+        {
+          "id": "p2",
+          "estimulo": "Θεὸς ἦν ὁ λόγος - ¿Dónde va la información REMA (nueva)?",
+          "tipo": "texto",
+          "respuestaCorrecta": "Al inicio",
+          "alternativasAceptadas": ["Al inicio", "Al principio", "En Θεὸς"],
+          "explicacion": "Θεὸς (predicado, información nueva) ἦν (verbo) ὁ λόγος (sujeto, tema conocido) = rema enfatizado al inicio.",
+          "puntaje": 15
+        },
+        {
+          "id": "p3",
+          "estimulo": "En una construcción 'οὐ πάντες...', ¿qué grupo se niega específicamente?",
+          "tipo": "texto",
+          "respuestaCorrecta": "Todos",
+          "alternativasAceptadas": ["Todos", "la totalidad", "el grupo completo"],
+          "explicacion": "La negación οὐ ante πάντες niega la TOTALIDAD. Si fuera 'πάντες οὐ', negaría la acción a todos.",
+          "puntaje": 15
+        }
+      ]
+    }
+  ],
+  "vocabulario": [
+    {
+      "griego": "θέμα",
+      "transliteracion": "thema",
+      "definicion": "tema, información conocida o dada",
+      "categoria": "concepto lingüístico",
+      "frecuencia": "meta-gramática",
+      "ejemplo": "En 'ὁ λόγος ἦν' (tema conocido de Juan 1:1)",
+      "frecuenciaNT": 0
+    },
+    {
+      "griego": "ρῆμα",
+      "transliteracion": "rhēma",
+      "definicion": "rema, información nueva o focal",
+      "categoria": "concepto lingüístico",
+      "frecuencia": "meta-gramática",
+      "ejemplo": "En 'ἦν πρὸς τὸν θεόν' (rema nuevo)",
+      "frecuenciaNT": 0
+    },
+    {
+      "griego": "ἐμφάσις",
+      "transliteracion": "emphasis",
+      "definicion": "énfasis, impacto o prominencia",
+      "categoria": "concepto retórico",
+      "frecuencia": "meta-gramática",
+      "ejemplo": "El orden de palabras crea énfasis exegético",
+      "frecuenciaNT": 0
+    }
+  ],
+  "siguienteLeccion": "n3-l02",
+  "puntajeMaximo": 100
+}

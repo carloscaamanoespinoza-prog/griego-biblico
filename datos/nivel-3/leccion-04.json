@@ -1,0 +1,233 @@
+{
+  "id": "n3-l04",
+  "nivel": 3,
+  "numero": 4,
+  "titulo": "Partículas Discursivas: Las Palabras que Conectan Ideas",
+  "subtitulo": "γάρ, δέ, καί, ἀλλά, οὖν y sus funciones",
+  "descripcion": "Las partículas griega son pequeñas palabras que guían cómo entendemos la relación entre cláusulas y oraciones. Saber qué significa γάρ o δέ es fundamental para leer griego con precisión exegética.",
+  "duracionEstimada": 45,
+  "prerequisitos": ["n3-l03"],
+  "objetivos": [
+    "Entender las funciones principales de cada partícula",
+    "Reconocer cómo las partículas guían la argumentación",
+    "Analizar la 'flow' del argumento usando partículas",
+    "Aplicar análisis de partículas a textos bíblicos complejos"
+  ],
+  "secciones": [
+    {
+      "id": "particulas-intro",
+      "tipo": "explicacion",
+      "titulo": "¿Qué son las Partículas Discursivas?",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Las PARTÍCULAS DISCURSIVAS son palabras pequeñas (a menudo de una sola sílaba) que NO tienen función sintáctica directa, pero GUÍAN cómo entendemos la relación lógica entre ideas. Son como 'señales de tráfico' para el lector griego."
+        },
+        {
+          "tipo": "nota",
+          "titulo": "Característica Única del Griego",
+          "texto": "El griego antiguo es riquísimo en partículas. Este sistema es una de las razones por las que el griego es tan claramente argumentativo y lógicamente preciso."
+        }
+      ]
+    },
+    {
+      "id": "gamma-ar",
+      "tipo": "explicacion",
+      "titulo": "γάρ: La Partícula de Causa y Explicación",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "γάρ significa literalmente 'pues', 'porque', 'ya que'. Introduce una EXPLICACIÓN o JUSTIFICACIÓN de lo que acaba de decirse. Es la partícula más frecuente en griego argumentativo."
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Uso de γάρ"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "EXPLICACIÓN: 'Esto es verdad, pues...' (introduce razón)",
+            "JUSTIFICACIÓN: 'Esto es importante, porque...' (introduce apoyo)",
+            "NUNCA va al inicio de una oración (es encláítica)"
+          ]
+        },
+        {
+          "tipo": "cita",
+          "texto": "Πιστεύε εἰς τὸν κύριον Ἰησοῦν, καὶ σωθήσῃ σὺ καὶ ὁ οἶκός σου. καὶ ἐλάλησαν αὐτῷ τὸν λόγον τοῦ κυρίου καὶ πᾶσιν τοῖς ἐν τῇ οἰκίᾳ αὐτοῦ.",
+          "transliteracion": "Pisteuе eis ton kyrion Iēsoun...",
+          "traduccion": "Cree en el Señor Jesús...Y le hablaron la palabra del Señor",
+          "referencia": "Hechos 16:31-32",
+          "clase": "normal"
+        }
+      ]
+    },
+    {
+      "id": "delta-epsilon",
+      "tipo": "explicacion",
+      "titulo": "δέ: La Partícula Versátil de Transición",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "δέ es increíblemente versátil. Puede significar 'pero', 'ahora', 'por otro lado', 'sin embargo'. Marca una TRANSICIÓN, a menudo un cambio de sujeto o perspectiva, pero no necesariamente una contraposición fuerte."
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Funciones de δέ"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "CONTRASTE SUAVE: 'Pero' (no es contraposición fuerte como ἀλλά)",
+            "TRANSICIÓN: 'Ahora', 'por otro lado' (marca cambio de sujeto o tema)",
+            "CONTINUACIÓN: A veces simplemente continúa la narrativa sin contrastar",
+            "Muy común en narrativa para marcar cambios de escena"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kai-alla-oun",
+      "tipo": "tabla-interactiva",
+      "titulo": "Otras Partículas Importantes",
+      "descripcion": "Funciones de καί, ἀλλά, οὖν y más",
+      "datos": {
+        "columnas": ["Partícula", "Significado Básico", "Función", "Ejemplo"],
+        "filas": [
+          ["καί", "y, también", "Coordinación, adición, intensificación", "ἦν καὶ ὁ λόγος πρὸς τὸν θεόν (y la palabra estaba hacia Dios)"],
+          ["ἀλλά", "pero, sino", "Contraste FUERTE, corrección", "οὐ δοῦλος, ἀλλὰ φίλος (no siervo, sino amigo)"],
+          ["οὖν", "por lo tanto, pues", "Conclusión, inferencia lógica", "εἰ πιστεύετε, τί ἔσεσθε; οὖν ἐστὲ (entonces sois)"],
+          ["ὅμως", "sin embargo, no obstante", "Concesión, giro inesperado", "ὅμως ἐπίστευσαν (sin embargo, creyeron)"],
+          ["οὐ μόνον...ἀλλὰ", "no solo...sino también", "Énfasis progresivo", "οὐ μόνον ἠκούσατε, ἀλλὰ καὶ ἐπιστεύσατε"]
+        ]
+      }
+    },
+    {
+      "id": "particulas-argumentacion",
+      "tipo": "explicacion",
+      "titulo": "Partículas y el Flujo Argumentativo",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Las partículas ESTRUCTURAN el argumento del autor. Leerlas correctamente nos permite seguir exactamente cómo el autor construye su lógica. Esto es crítico para la exégesis."
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Ejemplo: Estructura Argumentativa con Partículas"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "1. Proposición principal",
+            "2. γάρ - 'porque' (introduce razón/evidencia)",
+            "3. δέ - 'pero' / 'ahora' (introduce otra perspectiva o problema)",
+            "4. οὖν - 'por lo tanto' (trae conclusión)",
+            "5. ἀλλά - 'sino' (hace corrección si es necesaria)"
+          ]
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ej-l04-01",
+      "tipo": "seleccion",
+      "titulo": "Identifica la función de la partícula",
+      "instrucciones": "¿Cuál es la función de cada partícula?",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "Πιστεύε εἰς τὸν κύριον...γάρ τοῦτο σῶζον",
+          "opciones": ["Contraste", "Explicación/Justificación", "Conclusión", "Transición"],
+          "respuestaCorrecta": "Explicación/Justificación",
+          "explicacion": "γάρ introduce la RAZÓN por la cual creer es importante. Justifica la proposición anterior.",
+          "puntaje": 10
+        },
+        {
+          "id": "p2",
+          "estimulo": "Ὁ λόγος ἦν πρὸς τὸν θεόν· δὲ ὁ λόγος ἦν θεὸς",
+          "opciones": ["Explicación", "Contraste fuerte", "Transición a nueva perspectiva", "Conclusión"],
+          "respuestaCorrecta": "Transición a nueva perspectiva",
+          "explicacion": "δέ marca aquí una transición a una nueva afirmación sobre el mismo tema (el Logos), no un contraste fuerte.",
+          "puntaje": 10
+        },
+        {
+          "id": "p3",
+          "estimulo": "Ἐπίστευσαν, οὖν ἐσώθησαν",
+          "opciones": ["Contraste", "Explicación", "Conclusión lógica", "Énfasis"],
+          "respuestaCorrecta": "Conclusión lógica",
+          "explicacion": "οὖν introduce la CONCLUSIÓN que se sigue lógicamente. 'Entonces fueron salvos' es la consecuencia de creer.",
+          "puntaje": 10
+        }
+      ]
+    },
+    {
+      "id": "ej-l04-02",
+      "tipo": "completar",
+      "titulo": "Analiza partículas en contexto",
+      "instrucciones": "Completa el análisis de la partícula",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "¿Cuál es la función de γάρ? (introduce...)",
+          "tipo": "texto",
+          "respuestaCorrecta": "explicación o justificación",
+          "alternativasAceptadas": ["explicación", "justificación", "razón", "causa"],
+          "explicacion": "γάρ siempre introduce una EXPLICACIÓN o JUSTIFICACIÓN de lo que acaba de decirse.",
+          "puntaje": 15
+        },
+        {
+          "id": "p2",
+          "estimulo": "¿Cuál es la diferencia entre δέ y ἀλλά?",
+          "tipo": "texto",
+          "respuestaCorrecta": "δέ es transición suave, ἀλλά es contraste fuerte",
+          "alternativasAceptadas": ["δέ suave ἀλλά fuerte", "δέ es transición ἀλλά es corrección", "diferencia en fuerza"],
+          "explicacion": "δέ marca una transición sin necesariamente contrastar. ἀλλά marca un CONTRASTE FUERTE o una CORRECCIÓN.",
+          "puntaje": 15
+        },
+        {
+          "id": "p3",
+          "estimulo": "¿Qué partícula introduce conclusión?",
+          "tipo": "texto",
+          "respuestaCorrecta": "οὖν",
+          "alternativasAceptadas": ["οὖν", "oun", "por lo tanto"],
+          "explicacion": "οὖν introduce una conclusión lógica: 'por lo tanto', 'así pues', 'entonces'.",
+          "puntaje": 15
+        }
+      ]
+    }
+  ],
+  "vocabulario": [
+    {
+      "griego": "γάρ",
+      "transliteracion": "gar",
+      "definicion": "pues, porque, ya que (partícula causal)",
+      "categoria": "partícula",
+      "frecuencia": "altísima",
+      "ejemplo": "Πιστεύε, γάρ τοῦτο σῶζον (Cree, pues esto salva)",
+      "frecuenciaNT": 1041
+    },
+    {
+      "griego": "δέ",
+      "transliteracion": "de",
+      "definicion": "pero, ahora, por otro lado (partícula versátil de transición)",
+      "categoria": "partícula",
+      "frecuencia": "altísima",
+      "ejemplo": "ὁ λόγος ἦν θεός, δὲ ἦν πρὸς τὸν θεόν (la palabra era Dios, pero estaba con Dios)",
+      "frecuenciaNT": 2792
+    },
+    {
+      "griego": "οὖν",
+      "transliteracion": "oun",
+      "definicion": "por lo tanto, pues, así pues (partícula conclusiva)",
+      "categoria": "partícula",
+      "frecuencia": "alta",
+      "ejemplo": "Εἰ πιστεύετε, οὖν σωθήσεσθε (Si creéis, entonces seréis salvos)",
+      "frecuenciaNT": 504
+    }
+  ],
+  "siguienteLeccion": "n3-l05",
+  "puntajeMaximo": 100
+}
