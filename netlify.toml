@@ -7,6 +7,12 @@
 
 # Configurar rutas para SPA (Single Page Application)
 # Todos los requests van a index.html, y el router JS maneja las rutas
+# EXCEPTO archivos con extensión (JSON, CSS, JS, imágenes, etc)
+[[redirects]]
+  from = "/datos/*"
+  to = "/datos/:splat"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/index.html"
