@@ -1,0 +1,232 @@
+{
+  "id": "n2-l01",
+  "nivel": 2,
+  "numero": 1,
+  "titulo": "Imperfecto Indicativo Activo",
+  "subtitulo": "La acción repetida o progresiva en el pasado",
+  "descripcion": "El imperfecto es el tiempo que describe acciones habituales, repetidas o en progreso en el pasado. Es fundamental para entender narrativas bíblicas.",
+  "duracionEstimada": 35,
+  "prerequisitos": ["n1-l12"],
+  "objetivos": [
+    "Entender el aspecto imperfectivo del imperfecto",
+    "Conjugar verbos en imperfecto indicativo activo",
+    "Diferenciar entre aoristo (acción puntual) e imperfecto (acción habitual)",
+    "Reconocer el aumento temporal (ἠ-, ἐ-) en el imperfecto"
+  ],
+  "secciones": [
+    {
+      "id": "aspecto-imperfectivo",
+      "tipo": "explicacion",
+      "titulo": "El Aspecto Imperfectivo: Acción Incompleta",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El imperfecto presenta la acción como INCOMPLETA, habitual o en progreso. No nos dice cuándo empieza ni cuándo termina la acción; solo describe lo que estaba sucediendo."
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Diferencia entre Aoristo e Imperfecto"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "AORISTO: ἔλυσε (soltó) - acción completa, puntual, momentánea",
+            "IMPERFECTO: ἔλυε (soltaba, estaba soltando) - acción habitual, repetida o en progreso"
+          ]
+        },
+        {
+          "tipo": "cita",
+          "texto": "καί ἐλάλει αὐτοῖς",
+          "transliteracion": "kai elalei autois",
+          "traduccion": "y les hablaba (repetidamente, en progreso)",
+          "referencia": "Lucas 5:3",
+          "clase": "normal"
+        }
+      ]
+    },
+    {
+      "id": "aumento-temporal",
+      "tipo": "explicacion",
+      "titulo": "El Aumento Temporal (Augment)",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El imperfecto (y otros tiempos pasados) añaden un AUMENTO al inicio del verbo. Este es un prefijo que marca que la acción es pasada."
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Tipos de Aumento"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "AUMENTO SILÁBICO: verbos que comienzan con consonante → agregar ἐ",
+            "  λύω → ἔ-λυ-ον (soltaba)",
+            "AUMENTO TEMPORAL: verbos que comienzan con vocal → la vocal se alarga",
+            "  ἀγαπάω → ἠγάπα (amaba)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "imperfecto-paradigma",
+      "tipo": "tabla-interactiva",
+      "titulo": "Imperfecto Indicativo Activo: λύω (soltaba)",
+      "descripcion": "Forma completa del imperfecto con aumento silábico ἔ-",
+      "datos": {
+        "columnas": ["Persona", "Singular", "Plural"],
+        "filas": [
+          ["1ª", "ἔ-λυ-ον (soltaba)", "ἐ-λύ-ομεν (soltábamos)"],
+          ["2ª", "ἔ-λυ-ες (soltabas)", "ἐ-λύ-ετε (soltabais)"],
+          ["3ª", "ἔ-λυ-ε (soltaba)", "ἔ-λυ-ον (soltaban)"]
+        ]
+      }
+    },
+    {
+      "id": "estructura-imperfecto",
+      "tipo": "explicacion",
+      "titulo": "Estructura del Imperfecto",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "ἔλυον = AUMENTO (ἔ) + TEMA (λυ) + CARACTERÍSTICA TEMPORAL (ε) + DESINENCIA (ον)"
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Las Desinencias del Imperfecto Activo"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "1ª Singular: -ον",
+            "2ª Singular: -ες",
+            "3ª Singular: -ε",
+            "1ª Plural: -ομεν",
+            "2ª Plural: -ετε",
+            "3ª Plural: -ον"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "imperfecto-eimi",
+      "tipo": "tabla-interactiva",
+      "titulo": "El Verbo εἰμί en Imperfecto",
+      "descripcion": "El imperfecto del verbo ser, que es completamente irregular",
+      "datos": {
+        "columnas": ["Persona", "Forma", "Equivalente Español"],
+        "filas": [
+          ["1ª Singular", "ἤμην", "era, estaba"],
+          ["2ª Singular", "ἦς", "eras, estabas"],
+          ["3ª Singular", "ἦν", "era, estaba"],
+          ["1ª Plural", "ἦμεν", "éramos, estábamos"],
+          ["2ª Plural", "ἦτε", "erais, estabais"],
+          ["3ª Plural", "ἦσαν", "eran, estaban"]
+        ]
+      }
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ej-l02-01",
+      "tipo": "seleccion",
+      "titulo": "Identifica el tiempo verbal",
+      "instrucciones": "¿Es aoristo (acción puntual) o imperfecto (acción habitual)?",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "ἔλυσε (soltó - una sola vez)",
+          "opciones": ["Imperfecto", "Aoristo"],
+          "respuestaCorrecta": "Aoristo",
+          "explicacion": "El aoristo presenta la acción como completa y puntual. La forma -σε es característica del aoristo 1º.",
+          "puntaje": 10
+        },
+        {
+          "id": "p2",
+          "estimulo": "ἔλυε (soltaba - repetidamente)",
+          "opciones": ["Imperfecto", "Aoristo"],
+          "respuestaCorrecta": "Imperfecto",
+          "explicacion": "El imperfecto muestra la acción como habitual o en progreso. La desinencia -ε es característica del imperfecto 3ª singular.",
+          "puntaje": 10
+        },
+        {
+          "id": "p3",
+          "estimulo": "ἦν (era/estaba - de forma habitual o continua en el pasado)",
+          "opciones": ["Presente indicativo", "Imperfecto"],
+          "respuestaCorrecta": "Imperfecto",
+          "explicacion": "La forma ἦν es imperfecto de εἰμί. El aumento ἠ- muestra que es pasado.",
+          "puntaje": 10
+        }
+      ]
+    },
+    {
+      "id": "ej-l02-02",
+      "tipo": "completar",
+      "titulo": "Conjuga el imperfecto",
+      "instrucciones": "Escribe la forma correcta en imperfecto indicativo activo para λύω",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "3ª singular imperfecto de λύω",
+          "tipo": "texto",
+          "respuestaCorrecta": "ἔλυε",
+          "alternativasAceptadas": ["ἔλυε"],
+          "explicacion": "ἔ (aumento) + λυ (tema) + ε (característica) + ε (desinencia 3ª sing.) = ἔλυε",
+          "puntaje": 15
+        },
+        {
+          "id": "p2",
+          "estimulo": "1ª plural imperfecto de λύω",
+          "tipo": "texto",
+          "respuestaCorrecta": "ἐλύομεν",
+          "alternativasAceptadas": ["ἐλύομεν"],
+          "explicacion": "ἐ (aumento) + λύ (tema) + ο (característica) + μεν (desinencia 1ª plural) = ἐλύομεν",
+          "puntaje": 15
+        },
+        {
+          "id": "p3",
+          "estimulo": "2ª singular imperfecto de εἰμί",
+          "tipo": "texto",
+          "respuestaCorrecta": "ἦς",
+          "alternativasAceptadas": ["ἦς"],
+          "explicacion": "ἦς es la forma irregular de 2ª singular del imperfecto de εἰμί.",
+          "puntaje": 15
+        }
+      ]
+    }
+  ],
+  "vocabulario": [
+    {
+      "griego": "ἔλυον",
+      "transliteracion": "eluon",
+      "definicion": "soltaba (yo), estaba soltando",
+      "categoria": "verbo imperfecto",
+      "frecuencia": "media",
+      "ejemplo": "ἐδίδασκεν αὐτοὺς ἐν τῇ συναγωγῇ (enseñaba/estaba enseñando en la sinagoga)",
+      "frecuenciaNT": 1500
+    },
+    {
+      "griego": "ἐλάλει",
+      "transliteracion": "elalei",
+      "definicion": "hablaba (él), estaba hablando",
+      "categoria": "verbo imperfecto",
+      "frecuencia": "alta",
+      "ejemplo": "καί ἐλάλει αὐτοῖς (y les hablaba/estaba hablando)",
+      "frecuenciaNT": 296
+    },
+    {
+      "griego": "ἦν",
+      "transliteracion": "ēn",
+      "definicion": "era (él), estaba, existía",
+      "categoria": "verbo imperfecto",
+      "frecuencia": "altísima",
+      "ejemplo": "ἦν ἐν τῷ κόσμῳ (estaba en el mundo)",
+      "frecuenciaNT": 3954
+    }
+  ],
+  "siguienteLeccion": "n2-l02",
+  "puntajeMaximo": 100
+}

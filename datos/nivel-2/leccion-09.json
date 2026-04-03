@@ -1,0 +1,280 @@
+{
+  "id": "n2-l09",
+  "nivel": 2,
+  "numero": 9,
+  "titulo": "Modo Optativo: Deseos y Contrafácticas",
+  "subtitulo": "El modo de lo deseado y lo improbable",
+  "descripcion": "El optativo expresa deseos y situaciones contrafácticas (contrarias a la realidad). Es menos frecuente que el subjuntivo pero tiene usos muy específicos y poéticamente significativos.",
+  "duracionEstimada": 35,
+  "prerequisitos": ["n2-l08"],
+  "objetivos": [
+    "Entender el optativo como modo de deseo y contrafacticidad",
+    "Reconocer la formación del optativo (-οι-, -αι-)",
+    "Conjugar el optativo en diferentes tiempos y voces",
+    "Comprender sus usos principales en el NT"
+  ],
+  "secciones": [
+    {
+      "id": "optativo-intro",
+      "tipo": "explicacion",
+      "titulo": "El Optativo: El Modo del Deseo",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El optativo presenta una acción como deseada o como contrafáctica (algo que contradice la realidad actual). Es el modo más 'irrealista', el modo de lo que QUISIÉRAMOS que fuera."
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Optativo vs. Subjuntivo"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "SUBJUNTIVO: 'si ocurriera X' (potencialmente posible en el futuro)",
+            "OPTATIVO: 'ojalá que X' o 'si (pero no) X' (contrafáctico, irrealista)"
+          ]
+        },
+        {
+          "tipo": "cita",
+          "texto": "μὴ γένοιτο",
+          "transliteracion": "mē genoito",
+          "traduccion": "¡Dios no lo permita!, ¡Que no sea! (ojalá que no)",
+          "referencia": "Romanos 3:4",
+          "clase": "normal"
+        }
+      ]
+    },
+    {
+      "id": "optativo-formacion",
+      "tipo": "explicacion",
+      "titulo": "Formación del Optativo: -οι- y -αι-",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El optativo se caracteriza por dos infijos principales: -οι- (en voz activa, presente) y -αι- (en voz activa, aoristo). Estos infijos distinguen el optativo de otros modos."
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Estructura del Optativo Presente Activo"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "TEMA + -οι- + DESINENCIA SECUNDARIA",
+            "λύ-οι-μι (yo pudiera disolver) - 1ª singular",
+            "λύ-οι-ς (tú pudieras disolver) - 2ª singular"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "optativo-paradigma",
+      "tipo": "tabla-interactiva",
+      "titulo": "Optativo Presente Activo: λύω (pudiera disolver, ojalá disuelva)",
+      "descripcion": "Forma completa del optativo presente activo",
+      "datos": {
+        "columnas": ["Persona", "Singular", "Plural"],
+        "filas": [
+          ["1ª", "λύ-οι-μι (yo pudiera)", "λύ-οι-μεν (nosotros pudiéramos)"],
+          ["2ª", "λύ-οι-ς (tú pudieras)", "λύ-οι-τε (vosotros pudierais)"],
+          ["3ª", "λύ-οι (él pudiera)", "λύ-οι-εν (ellos pudieran)"]
+        ]
+      }
+    },
+    {
+      "id": "optativo-aoristo",
+      "tipo": "explicacion",
+      "titulo": "Optativo Aoristo: -αι- Característica",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El aoristo optativo usa -αι- como infijo. Mantiene la sigma aorística y las desinencias secundarias."
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Aoristo Optativo Activo"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "1ª Singular: λύ-σ-αι-μι (yo pudiera soltar)",
+            "2ª Singular: λύ-σ-αι-ς (tú pudieras soltar)",
+            "3ª Singular: λύ-σ-αι-ε (él pudiera soltar)",
+            "1ª Plural: λύ-σ-αι-μεν (nosotros pudiéramos soltar)",
+            "2ª Plural: λύ-σ-αι-τε (vosotros pudierais soltar)",
+            "3ª Plural: λύ-σ-αι-εν (ellos pudieran soltar)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "optativo-usos",
+      "tipo": "explicacion",
+      "titulo": "Usos Principales del Optativo en el NT",
+      "contenido": [
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "1. Deseo Realizable"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "δόξαν ἐπιτυχεῖν (pudieran tener gloria) - deseo de lo que es realizable",
+            "No es tan imposible como contrafáctico, pero es deseado"
+          ]
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "2. Contrafáctico (Opuesto a la Realidad)"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "μὴ γένοιτο (¡que no sea! - pero tememos que pueda ser)",
+            "Expresa un deseo que contradice lo que esperamos"
+          ]
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "3. Condicionales Contrafácticas (con εἰ)"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "εἰ τοῦτο ἦν, πῶς ἂν οὕτως ἔχοι; (si esto fuera así, ¿cómo pudiera ser?)",
+            "Usualmente con ἂν (partícula modal)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "optativo-medio-pasivo",
+      "tipo": "explicacion",
+      "titulo": "Optativo Medio y Pasivo",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El optativo medio mantiene -οι- pero usa desinencias medias (-μην, -σο, -το, etc.). El pasivo tiene su propia formación especial."
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Ejemplos de Optativo Medio"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "1ª Singular: λύ-ο-ί-μην (yo pudiera liberarme)",
+            "3ª Singular: λύ-ο-ί-το (él pudiera liberarse)"
+          ]
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ej-l09-01",
+      "tipo": "seleccion",
+      "titulo": "Identifica el optativo",
+      "instrucciones": "¿Cuál es la forma correcta del optativo?",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "1ª singular optativo presente de λύω",
+          "opciones": ["λύοιμι", "λύω", "λύοι", "λύοιμεν"],
+          "respuestaCorrecta": "λύοιμι",
+          "explicacion": "λύ (tema) + οι (infijo optativo) + μι (desinencia 1ª sing. secundaria) = λύοιμι",
+          "puntaje": 10
+        },
+        {
+          "id": "p2",
+          "estimulo": "¿Cuál es la característica del optativo presente?",
+          "opciones": ["-σ-", "-κ-", "-οι-", "-η-"],
+          "respuestaCorrecta": "-οι-",
+          "explicacion": "El optativo presente activo usa -οι- como infijo: λύοιμι, λύοις, λύοι.",
+          "puntaje": 10
+        },
+        {
+          "id": "p3",
+          "estimulo": "¿En qué contexto usamos el optativo?",
+          "opciones": ["Hechos reales", "Deseos o contrafácticas", "Órdenes directas", "Narración simple"],
+          "respuestaCorrecta": "Deseos o contrafácticas",
+          "explicacion": "El optativo expresa deseos ('¡ojalá que!') y situaciones contrafácticas ('si (pero no)...').",
+          "puntaje": 10
+        }
+      ]
+    },
+    {
+      "id": "ej-l09-02",
+      "tipo": "completar",
+      "titulo": "Conjuga en optativo",
+      "instrucciones": "Escribe la forma correcta del optativo",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "3ª singular optativo presente de λύω",
+          "tipo": "texto",
+          "respuestaCorrecta": "λύοι",
+          "alternativasAceptadas": ["λύοι"],
+          "explicacion": "λύ (tema) + οι (infijo optativo) + ø (desinencia 3ª sing.) = λύοι",
+          "puntaje": 15
+        },
+        {
+          "id": "p2",
+          "estimulo": "3ª singular aoristo optativo de λύω",
+          "tipo": "texto",
+          "respuestaCorrecta": "λύσαιε",
+          "alternativasAceptadas": ["λύσαιε"],
+          "explicacion": "λύ (tema) + σ (sigma aorística) + αι (infijo optativo aorístico) + ε (desinencia 3ª sing.) = λύσαιε",
+          "puntaje": 15
+        },
+        {
+          "id": "p3",
+          "estimulo": "2ª plural optativo presente de λύω",
+          "tipo": "texto",
+          "respuestaCorrecta": "λύοιτε",
+          "alternativasAceptadas": ["λύοιτε"],
+          "explicacion": "λύ (tema) + οι (infijo optativo) + τε (desinencia 2ª plural) = λύοιτε",
+          "puntaje": 15
+        }
+      ]
+    }
+  ],
+  "vocabulario": [
+    {
+      "griego": "γένοιτο",
+      "transliteracion": "genoito",
+      "definicion": "¡que sea!, ¡ojalá que sea! (optativo de γίνομαι)",
+      "categoria": "verbo optativo",
+      "frecuencia": "baja pero importante",
+      "ejemplo": "μὴ γένοιτο (¡que no sea!, Dios no lo quiera)",
+      "frecuenciaNT": 10
+    },
+    {
+      "griego": "μὴ γένοιτο",
+      "transliteracion": "mē genoito",
+      "definicion": "¡que no sea!, ¡Dios no lo permita!",
+      "categoria": "frase optativa",
+      "frecuencia": "media",
+      "ejemplo": "μὴ γένοιτο ἵνα ἐπὶ ἐμὲ ἡ κρίσις (¡que no caiga sobre mí el juicio!)",
+      "frecuenciaNT": 10
+    },
+    {
+      "griego": "δύναιτο",
+      "transliteracion": "dynaito",
+      "definicion": "pudiera ser capaz (optativo de δύναμαι)",
+      "categoria": "verbo optativo",
+      "frecuencia": "baja",
+      "ejemplo": "πῶς δύναιτο τοῦτο γενέσθαι (¿cómo pudiera esto suceder?)",
+      "frecuenciaNT": 5
+    }
+  ],
+  "siguienteLeccion": "n2-l10",
+  "puntajeMaximo": 100
+}

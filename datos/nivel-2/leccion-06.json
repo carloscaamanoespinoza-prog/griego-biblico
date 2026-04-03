@@ -1,0 +1,261 @@
+{
+  "id": "n2-l06",
+  "nivel": 2,
+  "numero": 6,
+  "titulo": "Voz Media: Aspectos Semánticos",
+  "subtitulo": "Cuando el sujeto actúa para sí mismo o es afectado",
+  "descripcion": "La voz media es una característica única del griego antiguo. Representa acciones donde el sujeto tiene interés personal en la acción. Exploraremos sus significados principales.",
+  "duracionEstimada": 35,
+  "prerequisitos": ["n2-l05"],
+  "objetivos": [
+    "Entender la semántica de la voz media en el NT",
+    "Reconocer los patrones semánticos: reflexivo, interés personal, comedio",
+    "Conjugar verbos en voz media para diferentes tiempos",
+    "Diferenciar medio de pasivo en contexto"
+  ],
+  "secciones": [
+    {
+      "id": "voz-media-intro",
+      "tipo": "explicacion",
+      "titulo": "La Voz Media: Una Categoría Única del Griego",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "La voz media no es simplemente 'reflexivo' ni 'pasivo'. Es una categoría propia que muestra que el sujeto participa activamente en la acción o tiene interés especial en ella."
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Tres Patrones Semánticos de la Voz Media"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "REFLEXIVO: el sujeto actúa sobre sí mismo",
+            "  λύομαι (me libero a mí mismo)",
+            "INTERÉS PERSONAL: el sujeto actúa para su propio beneficio",
+            "  αἱρέομαι (escojo para mí)",
+            "COMEDIO: el sujeto participa activamente, a menudo junto con otros",
+            "  μάχομαι (lucho, estoy en combate - participando activamente)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medio-paradigmas-tiempos",
+      "tipo": "tabla-interactiva",
+      "titulo": "Voz Media a través de los Tiempos",
+      "descripcion": "La voz media en presente, aoristo, y perfecto (ejemplo: λύομαι)",
+      "datos": {
+        "columnas": ["Tiempo", "1ª Singular", "3ª Singular", "Traducción"],
+        "filas": [
+          ["Presente", "λύ-ο-μαι", "λύ-ε-ται", "me libero (habitual)"],
+          ["Imperfecto", "ἐ-λυ-ό-μην", "ἐ-λύ-ε-το", "me liberaba (habitual)"],
+          ["Futuro", "λύ-σ-ο-μαι", "λύ-σ-ε-ται", "me liberaré"],
+          ["Aoristo", "ἐ-λυ-σά-μην", "ἐ-λύ-σα-το", "me libré (puntual)"],
+          ["Perfecto", "λέ-λυ-μ-αι", "λέ-λυ-ται", "me he liberado"]
+        ]
+      }
+    },
+    {
+      "id": "medio-desinencias",
+      "tipo": "explicacion",
+      "titulo": "Las Desinencias Medias",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Las desinencias medias cambian según el tiempo verbal, pero tienen en común que terminan con frecuencia en consonantes nasales (-μαι, -σαι, -ται) o nasales + iota."
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Desinencias Primarias Medias (Presente/Futuro)"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "1ª Singular: -ομαι",
+            "2ª Singular: -ῃ / -ει",
+            "3ª Singular: -εται",
+            "1ª Plural: -όμεθα",
+            "2ª Plural: -εσθε",
+            "3ª Plural: -ονται"
+          ]
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Desinencias Secundarias Medias (Imperfecto/Aoristo)"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "1ª Singular: -όμην / -σάμην",
+            "2ª Singular: -ου / -σω",
+            "3ª Singular: -ετο / -σατο",
+            "1ª Plural: -όμεθα / -σάμεθα",
+            "2ª Plural: -εσθε / -σασθε",
+            "3ª Plural: -οντο / -σαντο"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medio-ejemplos-semanticos",
+      "tipo": "explicacion",
+      "titulo": "Ejemplos Semánticos en el NT",
+      "contenido": [
+        {
+          "tipo": "cita",
+          "texto": "αἱρέομαι",
+          "transliteracion": "hairemai",
+          "traduccion": "escojo (para mí)",
+          "referencia": "Acción reflexivo-benefactiva",
+          "clase": "normal"
+        },
+        {
+          "tipo": "cita",
+          "texto": "ἀποθνῄσκομαι",
+          "transliteracion": "apothnēskomai",
+          "traduccion": "muero (para mí, en sentido de ser responsable)",
+          "referencia": "Acción comedio",
+          "clase": "normal"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Mientras que ἀποκτέννω (activo) significa 'mato a alguien', ἀποκτέννομαι (medio) puede significar 'me mato a mí mismo' o 'me destruyo'. El sujeto está implicado en la acción."
+        }
+      ]
+    },
+    {
+      "id": "deponent-verbos",
+      "tipo": "explicacion",
+      "titulo": "Verbos Deponentes: Forma Media, Significado Activo",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Algunos verbos se conjugan en voz media pero tienen significado activo. Se llaman 'deponentes' (porque han 'depuesto' la forma activa). Son muy comunes en el NT."
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Ejemplos de Verbos Deponentes"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "ἔρχομαι (vengo) - forma media, significado activo",
+            "δέχομαι (recibo) - forma media, significado activo",
+            "γίνομαι (me hago, soy) - forma media, significado activo",
+            "δύναμαι (puedo) - forma media, significado activo"
+          ]
+        },
+        {
+          "tipo": "nota",
+          "titulo": "Importante para la Lectura",
+          "texto": "Los deponentes NO son pasivos. Aunque usan desinencias medias, se traducen con verbos activos normales. Su forma es media pero su función es activa."
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ej-l06-01",
+      "tipo": "seleccion",
+      "titulo": "Identifica el significado de la voz media",
+      "instrucciones": "¿Cuál es el significado de cada forma media?",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "λύομαι",
+          "opciones": ["me libero a mí", "soy liberado", "libero", "estoy siendo liberado"],
+          "respuestaCorrecta": "me libero a mí",
+          "explicacion": "λύομαι es voz media: el sujeto se libera a sí mismo o se libera para su propio beneficio.",
+          "puntaje": 10
+        },
+        {
+          "id": "p2",
+          "estimulo": "¿Cuál es un verbo deponente frecuente?",
+          "opciones": ["λύω", "ἔρχομαι", "γράφω", "λέγω"],
+          "respuestaCorrecta": "ἔρχομαι",
+          "explicacion": "ἔρχομαι (vengo) es deponente: tiene forma media pero significado activo.",
+          "puntaje": 10
+        },
+        {
+          "id": "p3",
+          "estimulo": "δέχομαι (recibo) - ¿qué tipo de voz es?",
+          "opciones": ["Activa pura", "Deponente (media/activa)", "Pasiva pura", "Reflexiva"],
+          "respuestaCorrecta": "Deponente (media/activa)",
+          "explicacion": "δέχομαι es forma media con significado activo: es un verbo deponente.",
+          "puntaje": 10
+        }
+      ]
+    },
+    {
+      "id": "ej-l06-02",
+      "tipo": "completar",
+      "titulo": "Conjuga en voz media",
+      "instrucciones": "Escribe la forma media correcta",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "1ª singular presente medio de λύω",
+          "tipo": "texto",
+          "respuestaCorrecta": "λύομαι",
+          "alternativasAceptadas": ["λύομαι"],
+          "explicacion": "λύ (tema) + ομαι (desinencia 1ª sing. medio/pasivo presente) = λύομαι",
+          "puntaje": 15
+        },
+        {
+          "id": "p2",
+          "estimulo": "3ª singular aoristo medio de λύω",
+          "tipo": "texto",
+          "respuestaCorrecta": "ἐλύσατο",
+          "alternativasAceptadas": ["ἐλύσατο"],
+          "explicacion": "ἐ (aumento) + λύ (tema) + σα (característica aorística) + το (desinencia 3ª sing. aoristo medio) = ἐλύσατο",
+          "puntaje": 15
+        },
+        {
+          "id": "p3",
+          "estimulo": "1ª singular futuro medio de λύω",
+          "tipo": "texto",
+          "respuestaCorrecta": "λύσομαι",
+          "alternativasAceptadas": ["λύσομαι"],
+          "explicacion": "λύ (tema) + σ (sigma futuro) + ομαι (desinencia 1ª sing. futuro medio) = λύσομαι",
+          "puntaje": 15
+        }
+      ]
+    }
+  ],
+  "vocabulario": [
+    {
+      "griego": "λύομαι",
+      "transliteracion": "lyomai",
+      "definicion": "me libero, me cojo a mí mismo (voz media)",
+      "categoria": "verbo medio",
+      "frecuencia": "media",
+      "ejemplo": "λυόμεθα ἀπὸ τῆς δουλείας (nos liberamos de la esclavitud)",
+      "frecuenciaNT": 42
+    },
+    {
+      "griego": "ἔρχομαι",
+      "transliteracion": "erchomai",
+      "definicion": "vengo, voy (deponente)",
+      "categoria": "verbo deponente",
+      "frecuencia": "altísima",
+      "ejemplo": "ἔρχεται ὁ Ἰησοῦς (viene Jesús)",
+      "frecuenciaNT": 632
+    },
+    {
+      "griego": "δέχομαι",
+      "transliteracion": "dechomai",
+      "definicion": "recibo, acepto (deponente)",
+      "categoria": "verbo deponente",
+      "frecuencia": "alta",
+      "ejemplo": "δέχεσθε ἀλλήλους (recibíos los unos a los otros)",
+      "frecuenciaNT": 56
+    }
+  ],
+  "siguienteLeccion": "n2-l07",
+  "puntajeMaximo": 100
+}

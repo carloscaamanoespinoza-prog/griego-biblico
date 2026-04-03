@@ -1,0 +1,275 @@
+{
+  "id": "n2-l08",
+  "nivel": 2,
+  "numero": 8,
+  "titulo": "Modo Subjuntivo: La Acción Potencial",
+  "subtitulo": "Deseos, probabilidades, condiciones y deliberaciones",
+  "descripcion": "El subjuntivo presenta una acción como potencial, no como realidad. Es el modo de lo posible, lo deseado, lo hipotético. Fundamental para entender condicionales y construcciones de propósito.",
+  "duracionEstimada": 40,
+  "prerequisitos": ["n2-l07"],
+  "objetivos": [
+    "Entender el subjuntivo como modo de potencialidad",
+    "Reconocer la formación del subjuntivo (vocal temática larga)",
+    "Conjugar subjuntivo en voz activa, media y pasiva",
+    "Comprender los usos principales: propósito, miedo, condicionales"
+  ],
+  "secciones": [
+    {
+      "id": "subjuntivo-intro",
+      "tipo": "explicacion",
+      "titulo": "El Subjuntivo: Un Mundo de Posibilidades",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El subjuntivo no expresa hechos reales, sino situaciones potenciales: deseos, mandatos suavizados, temores, condiciones hipotéticas. Es el modo de la irrealidad o la no-realidad."
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Indicativo vs. Subjuntivo"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "INDICATIVO: 'si llueve' (realidad, hecho)",
+            "SUBJUNTIVO: 'si lloviera' (potencial, hipotético)",
+            "INDICATIVO: ἐάν + indicativo aoristo = realidad probable",
+            "SUBJUNTIVO: ἐάν + subjuntivo = acción potencial"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "subjuntivo-formacion",
+      "tipo": "explicacion",
+      "titulo": "Formación del Subjuntivo: Vocal Temática Larga",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "La característica del subjuntivo es el uso de VOCALES TEMÁTICAS LARGAS (-ω, -ῃ, -η, -ῶμεν, -ῆτε, -ῶσιν). Estas distinguen el subjuntivo del presente indicativo (-ω, -εις, -ει)."
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Comparación: Presente Indicativo vs. Subjuntivo"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "INDICATIVO: λύ-ε-ις (disuelves) - vocal temática breve ε",
+            "SUBJUNTIVO: λύ-ῃ-ς (disuelvas) - vocal temática larga η + desinencia -ς"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "subjuntivo-presente-paradigma",
+      "tipo": "tabla-interactiva",
+      "titulo": "Subjuntivo Presente Activo: λύω (suelte, disuelva)",
+      "descripcion": "Forma completa del subjuntivo presente activo",
+      "datos": {
+        "columnas": ["Persona", "Singular", "Plural"],
+        "filas": [
+          ["1ª", "λύ-ω (disuelva)", "λύ-ω-μεν (disolvamos)"],
+          ["2ª", "λύ-ῃ-ς (disuelvas)", "λύ-ῆ-τε (solváis)"],
+          ["3ª", "λύ-ῃ (disuelva)", "λύ-ω-σιν (disuelvan)"]
+        ]
+      }
+    },
+    {
+      "id": "subjuntivo-aoristo",
+      "tipo": "explicacion",
+      "titulo": "Aoristo Subjuntivo: La Sigma Persiste",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El aoristo subjuntivo mantiene la sigma característica (-σ-) y añade vocales temáticas largas. Así es distintos del presente subjuntivo pero similar en estructura de humor."
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Aoristo Subjuntivo Activo: λύσω"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "1ª Singular: λύ-σ-ω (suelte)",
+            "2ª Singular: λύ-σ-ῃ-ς (sueltes)",
+            "3ª Singular: λύ-σ-ῃ (suelte)",
+            "1ª Plural: λύ-σ-ω-μεν (soltemos)",
+            "2ª Plural: λύ-σ-ῆ-τε (soltéis)",
+            "3ª Plural: λύ-σ-ω-σιν (suelten)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "subjuntivo-usos",
+      "tipo": "explicacion",
+      "titulo": "Usos Principales del Subjuntivo en el NT",
+      "contenido": [
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "1. Propósito (Finalidad)"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "ἦλθεν ἵνα ἄγει τὸν λαόν (vino para que dirija al pueblo)",
+            "La cláusula de propósito usa ἵνα + subjuntivo"
+          ]
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "2. Miedo o Prevención (con μή)"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "φοβοῦμαι μή τι πάθητε (temo que algo les suceda)",
+            "Usa μή + subjuntivo para expresar temor"
+          ]
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "3. Condicionales Futuras (con ἐάν)"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "ἐάν τηρήσητε τὰς ἐντολάς μου (si guardáis mis mandamientos)",
+            "Construcción: ἐάν + subjuntivo = probabilidad futura"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "subjuntivo-medio-pasivo",
+      "tipo": "explicacion",
+      "titulo": "Subjuntivo Medio y Pasivo",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El subjuntivo medio y pasivo mantiene la regla de vocales temáticas largas pero usa desinencias medias y pasivas."
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Ejemplos de Subjuntivo Medio"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "1ª Singular: λύ-ω-μαι (me disuelva)",
+            "3ª Singular: λύ-ῃ-ται (se disuelva)",
+            "1ª Plural: λυ-ώ-μεθα (nos disolvamos)",
+            "3ª Plural: λύ-ω-νται (se disuelvan)"
+          ]
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ej-l08-01",
+      "tipo": "seleccion",
+      "titulo": "Identifica formas subjuntivas",
+      "instrucciones": "¿Cuál es el subjuntivo correcto?",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "3ª singular subjuntivo presente de λύω",
+          "opciones": ["λύει", "λύῃ", "λύῃς", "λύῃ(ν)"],
+          "respuestaCorrecta": "λύῃ",
+          "explicacion": "λύ (tema) + ῃ (vocal temática larga + desinencia 3ª sing. subjuntivo) = λύῃ. Note la vocal temática larga ῃ.",
+          "puntaje": 10
+        },
+        {
+          "id": "p2",
+          "estimulo": "¿Cuál es la característica del subjuntivo?",
+          "opciones": ["Aumento temporal", "Vocal temática larga", "Sigma característica", "Reduplicación"],
+          "respuestaCorrecta": "Vocal temática larga",
+          "explicacion": "El subjuntivo se caracteriza por usar -ω, -ῃ, -η, -ῶμεν, -ῆτε, -ῶσιν (vocales temáticas largas).",
+          "puntaje": 10
+        },
+        {
+          "id": "p3",
+          "estimulo": "¿Cuál es un uso común del subjuntivo?",
+          "opciones": ["Acción completada", "Propósito (con ἵνα)", "Acción habitual", "Realidad pasada"],
+          "respuestaCorrecta": "Propósito (con ἵνα)",
+          "explicacion": "El subjuntivo se usa frecuentemente con ἵνα para expresar propósito o finalidad.",
+          "puntaje": 10
+        }
+      ]
+    },
+    {
+      "id": "ej-l08-02",
+      "tipo": "completar",
+      "titulo": "Conjuga en subjuntivo",
+      "instrucciones": "Escribe la forma correcta del subjuntivo",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "1ª singular subjuntivo presente de λύω",
+          "tipo": "texto",
+          "respuestaCorrecta": "λύω",
+          "alternativasAceptadas": ["λύω"],
+          "explicacion": "λύ (tema) + ω (vocal temática larga + desinencia 1ª sing.) = λύω",
+          "puntaje": 15
+        },
+        {
+          "id": "p2",
+          "estimulo": "3ª singular aoristo subjuntivo de λύω",
+          "tipo": "texto",
+          "respuestaCorrecta": "λύσῃ",
+          "alternativasAceptadas": ["λύσῃ"],
+          "explicacion": "λύ (tema) + σ (sigma aorística) + ῃ (vocal temática larga 3ª sing.) = λύσῃ",
+          "puntaje": 15
+        },
+        {
+          "id": "p3",
+          "estimulo": "2ª plural subjuntivo presente de λύω",
+          "tipo": "texto",
+          "respuestaCorrecta": "λύητε",
+          "alternativasAceptadas": ["λύητε"],
+          "explicacion": "λύ (tema) + η (vocal temática larga) + τε (desinencia 2ª plural) = λύητε",
+          "puntaje": 15
+        }
+      ]
+    }
+  ],
+  "vocabulario": [
+    {
+      "griego": "λύω",
+      "transliteracion": "lyō",
+      "definicion": "disuelva (subjuntivo presente 1ª singular)",
+      "categoria": "verbo subjuntivo",
+      "frecuencia": "media",
+      "ejemplo": "ἵνα λύω τοὺς δεσμούς (para que suelte los lazos)",
+      "frecuenciaNT": 42
+    },
+    {
+      "griego": "ἵνα",
+      "transliteracion": "hina",
+      "definicion": "para que, a fin de que (partícula de propósito + subjuntivo)",
+      "categoria": "conjunción",
+      "frecuencia": "altísima",
+      "ejemplo": "ἦλθον ἵνα ἔχητε ζωήν (vinieron para que tengáis vida)",
+      "frecuenciaNT": 663
+    },
+    {
+      "griego": "ἐάν",
+      "transliteracion": "ean",
+      "definicion": "si (condicional + subjuntivo)",
+      "categoria": "conjunción condicional",
+      "frecuencia": "altísima",
+      "ejemplo": "ἐάν τηρήσητε τὸν λόγον (si guardáis la palabra)",
+      "frecuenciaNT": 371
+    }
+  ],
+  "siguienteLeccion": "n2-l09",
+  "puntajeMaximo": 100
+}

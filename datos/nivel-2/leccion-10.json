@@ -1,0 +1,279 @@
+{
+  "id": "n2-l10",
+  "nivel": 2,
+  "numero": 10,
+  "titulo": "Modo Imperativo: Los Mandatos",
+  "subtitulo": "Órdenes, súplicas, y exhortaciones",
+  "descripcion": "El imperativo expresa mandatos, peticiones, exhortaciones. Tiene dos tiempos principales (presente y aoristo) y tres personas. Fundamental para entender textos prescriptivos.",
+  "duracionEstimada": 35,
+  "prerequisitos": ["n2-l09"],
+  "objetivos": [
+    "Entender el imperativo como modo de mandato",
+    "Reconocer y formar el imperativo presente y aoristo",
+    "Comprender diferencias aspectuales entre imperativo presente y aoristo",
+    "Conjugar imperativos en las tres voces"
+  ],
+  "secciones": [
+    {
+      "id": "imperativo-intro",
+      "tipo": "explicacion",
+      "titulo": "El Imperativo: El Modo del Mandato",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El imperativo es el modo de la orden, la exhortación y la súplica. Expresa una acción que se demanda sea realizada. A diferencia de otros modos, el imperativo generalmente no existe en primera persona (uno no se ordena a sí mismo)."
+        },
+        {
+          "tipo": "nota",
+          "titulo": "Personas del Imperativo",
+          "texto": "El imperativo existe en 2ª persona (singular y plural) y a veces en 3ª persona (aunque esto es más raro). No existe 1ª persona."
+        }
+      ]
+    },
+    {
+      "id": "imperativo-presente",
+      "tipo": "explicacion",
+      "titulo": "Imperativo Presente: Mandatos Continuos o Habituales",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El imperativo presente ordena una acción como habitual, continua o repetida. Usa el tema verbal sin aumento, con desinencias especiales del imperativo."
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Formación del Imperativo Presente Activo"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "2ª Singular: TEMA + vocal temática (o sin ella) + ε",
+            "  λύ-ε (disuelve!) - el más simple",
+            "2ª Plural: TEMA + -ετε",
+            "  λύ-ετε (disolved!)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "imperativo-paradigma-presente",
+      "tipo": "tabla-interactiva",
+      "titulo": "Imperativo Presente Activo: λύω (disuelve, disolved)",
+      "descripcion": "Forma completa del imperativo presente activo",
+      "datos": {
+        "columnas": ["Persona", "Forma", "Traducción"],
+        "filas": [
+          ["2ª Singular", "λύ-ε", "disuelve!"],
+          ["2ª Plural", "λύ-ε-τε", "disolved!"],
+          ["3ª Singular", "λυ-έ-τω", "que disuelva (él) / deje que disuelva"],
+          ["3ª Plural", "λυ-έ-τωσαν", "que disuelvan (ellos)"]
+        ]
+      }
+    },
+    {
+      "id": "imperativo-aoristo",
+      "tipo": "explicacion",
+      "titulo": "Imperativo Aoristo: Mandatos Puntuales",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El imperativo aoristo ordena una acción puntual, momentánea, de una sola vez. Usa la sigma aorística (-σ-) y desinencias especiales."
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Imperativo Aoristo Activo"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "2ª Singular: λύ-σ-ον (¡suelta! - ahora, una sola vez)",
+            "2ª Plural: λύ-σ-ατε (¡soltad! - ahora, una sola vez)"
+          ]
+        },
+        {
+          "tipo": "nota",
+          "titulo": "Diferencia Aspectual Crítica",
+          "texto": "PRESENTE: λύε (sigue disolviendo, disuelve constantemente). AORISTO: λύσον (disuelve esto ahora, una sola acción)."
+        }
+      ]
+    },
+    {
+      "id": "imperativo-paradigma-aoristo",
+      "tipo": "tabla-interactiva",
+      "titulo": "Imperativo Aoristo Activo: λύω (suelta, soltad)",
+      "descripcion": "Forma completa del imperativo aoristo activo",
+      "datos": {
+        "columnas": ["Persona", "Forma", "Traducción"],
+        "filas": [
+          ["2ª Singular", "λύ-σ-ον", "suelta!"],
+          ["2ª Plural", "λύ-σ-ατε", "soltad!"],
+          ["3ª Singular", "λυ-σά-τω", "que suelte (él)"],
+          ["3ª Plural", "λυ-σά-τωσαν", "que suelten (ellos)"]
+        ]
+      }
+    },
+    {
+      "id": "imperativo-medio-pasivo",
+      "tipo": "explicacion",
+      "titulo": "Imperativo Medio y Pasivo",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El imperativo medio y pasivo mantiene la estructura básica pero usa desinencias medias y pasivas."
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Ejemplos de Imperativo Medio Presente"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "2ª Singular: λύ-ου (libérate a ti mismo!)",
+            "2ª Plural: λύ-ε-σθε (liberaos a vosotros mismos!)"
+          ]
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Ejemplos de Imperativo Pasivo Aoristo"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "2ª Singular: λύ-θ-ητι (¡sé liberado!)",
+            "2ª Plural: λύ-θ-ητε (¡sed liberados!)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "imperativo-negacion",
+      "tipo": "explicacion",
+      "titulo": "Negación en el Imperativo",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Para negar una orden (decir que NO haga algo), se usa μή + imperativo presente. Para prohibición más enfática, se usa ἵνα + μή + subjuntivo."
+        },
+        {
+          "tipo": "cita",
+          "texto": "μὴ λύε",
+          "transliteracion": "mē lye",
+          "traduccion": "¡no disuelvas! (prohibición de acción continua)",
+          "referencia": "μή + imperativo presente",
+          "clase": "normal"
+        },
+        {
+          "tipo": "cita",
+          "texto": "μὴ λύσῃς",
+          "transliteracion": "mē lysēs",
+          "traduccion": "¡que no disuelvas! (prohibición enfática de acción puntual)",
+          "referencia": "μή + subjuntivo aoristo",
+          "clase": "normal"
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ej-l10-01",
+      "tipo": "seleccion",
+      "titulo": "Identifica imperativos",
+      "instrucciones": "¿Cuál es el imperativo correcto?",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "2ª singular imperativo presente de λύω",
+          "opciones": ["λύε", "λύσον", "λύῃ", "λύω"],
+          "respuestaCorrecta": "λύε",
+          "explicacion": "λύ (tema) + ε (desinencia imperativo presente 2ª sing.) = λύε",
+          "puntaje": 10
+        },
+        {
+          "id": "p2",
+          "estimulo": "2ª singular imperativo aoristo de λύω",
+          "opciones": ["λύε", "λύσον", "λύῃς", "λύσῃ"],
+          "respuestaCorrecta": "λύσον",
+          "explicacion": "λύ (tema) + σ (sigma aorística) + ον (desinencia imperativo aoristo 2ª sing.) = λύσον",
+          "puntaje": 10
+        },
+        {
+          "id": "p3",
+          "estimulo": "¿Cuál es la diferencia aspectual principal?",
+          "opciones": ["Pasado vs. presente", "Presente (continuo) vs. aoristo (puntual)", "Indicativo vs. subjuntivo", "Activo vs. pasivo"],
+          "respuestaCorrecta": "Presente (continuo) vs. aoristo (puntual)",
+          "explicacion": "IMPERATIVO PRESENTE: sigue haciendo esto. IMPERATIVO AORISTO: haz esto ahora, de una sola vez.",
+          "puntaje": 10
+        }
+      ]
+    },
+    {
+      "id": "ej-l10-02",
+      "tipo": "completar",
+      "titulo": "Conjuga en imperativo",
+      "instrucciones": "Escribe la forma correcta del imperativo",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "2ª plural imperativo presente de λύω",
+          "tipo": "texto",
+          "respuestaCorrecta": "λύετε",
+          "alternativasAceptadas": ["λύετε"],
+          "explicacion": "λύ (tema) + ετε (desinencia imperativo presente 2ª plural) = λύετε",
+          "puntaje": 15
+        },
+        {
+          "id": "p2",
+          "estimulo": "2ª plural imperativo aoristo de λύω",
+          "tipo": "texto",
+          "respuestaCorrecta": "λύσατε",
+          "alternativasAceptadas": ["λύσατε"],
+          "explicacion": "λύ (tema) + σα (sigma + vocal temática aorística) + τε (desinencia 2ª plural) = λύσατε",
+          "puntaje": 15
+        },
+        {
+          "id": "p3",
+          "estimulo": "2ª singular imperativo medio presente de λύω",
+          "tipo": "texto",
+          "respuestaCorrecta": "λύου",
+          "alternativasAceptadas": ["λύου"],
+          "explicacion": "λύ (tema) + ου (desinencia imperativo medio presente 2ª sing.) = λύου",
+          "puntaje": 15
+        }
+      ]
+    }
+  ],
+  "vocabulario": [
+    {
+      "griego": "λύε",
+      "transliteracion": "lye",
+      "definicion": "disuelve (imperativo presente 2ª singular)",
+      "categoria": "verbo imperativo",
+      "frecuencia": "media",
+      "ejemplo": "λύε τὸν δεσμόν (disuelve la cuerda)",
+      "frecuenciaNT": 42
+    },
+    {
+      "griego": "λύσον",
+      "transliteracion": "lyson",
+      "definicion": "suelta (imperativo aoristo 2ª singular)",
+      "categoria": "verbo imperativo",
+      "frecuencia": "media",
+      "ejemplo": "λύσον ἡμῖν τοὺς δεσμούς (suéltalos de sus cadenas)",
+      "frecuenciaNT": 42
+    },
+    {
+      "griego": "μὴ λύε",
+      "transliteracion": "mē lye",
+      "definicion": "¡no disuelvas! (imperativo presente negado)",
+      "categoria": "verbo imperativo negativo",
+      "frecuencia": "media",
+      "ejemplo": "μὴ λύε τὰ ἄγια (no disuelvas lo sagrado)",
+      "frecuenciaNT": 5
+    }
+  ],
+  "siguienteLeccion": "n2-l11",
+  "puntajeMaximo": 100
+}

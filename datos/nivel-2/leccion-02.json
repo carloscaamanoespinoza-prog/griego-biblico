@@ -1,0 +1,226 @@
+{
+  "id": "n2-l02",
+  "nivel": 2,
+  "numero": 2,
+  "titulo": "Aoristo 1º Indicativo Activo",
+  "subtitulo": "La acción puntual y completa en el pasado",
+  "descripcion": "El aoristo es el tiempo que describe una acción puntual, momentánea y completa en el pasado. Es el tiempo más frecuente en narrativas bíblicas.",
+  "duracionEstimada": 35,
+  "prerequisitos": ["n2-l01"],
+  "objetivos": [
+    "Entender el aspecto aorístico (acción completa)",
+    "Formar y conjugar el aoristo 1º indicativo activo",
+    "Reconocer la característica temporal -σα- del aoristo 1º",
+    "Diferenciar semánticamente entre imperfecto y aoristo"
+  ],
+  "secciones": [
+    {
+      "id": "aspecto-aoristico",
+      "tipo": "explicacion",
+      "titulo": "El Aspecto Aorístico: Acción Completa",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El aoristo presenta la acción como PUNTUAL y COMPLETA. No nos interesa su duración ni su proceso; solo que sucedió. Es el tiempo narrativo por excelencia."
+        },
+        {
+          "tipo": "cita",
+          "texto": "καὶ εἶδεν ὁ Ἰησοῦς τὴν πίστιν αὐτῶν",
+          "transliteracion": "kai eiden ho Iēsous tēn pistin autōn",
+          "traduccion": "Y Jesús vio la fe de ellos (acción completa)",
+          "referencia": "Mateo 9:2",
+          "clase": "normal"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El aoristo no significa necesariamente 'pasado perfecto' (como en latín). Es simplemente la presentación de una acción completada, sin énfasis en su duración."
+        }
+      ]
+    },
+    {
+      "id": "aoristo-primero",
+      "tipo": "explicacion",
+      "titulo": "El Aoristo 1º (First Aorist)",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Hay dos formas de aoristo en griego. El aoristo 1º es la forma regular, caracterizada por el infijo -σα- (sigma aorística) entre el tema y la desinencia."
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Formación del Aoristo 1º"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "TEMA (λυ) + AUMENTO (ἔ-) + CARACTERÍSTICA (-σα-) + DESINENCIA (-ν, -ς, -ε, etc.)",
+            "Ejemplo: ἔλυσα (solté) = ἔ (aumento) + λυ (tema) + σα (característica) + ø (desinencia 1ª sing.)"
+          ]
+        },
+        {
+          "tipo": "nota",
+          "titulo": "Contracción de Vocales",
+          "texto": "Cuando el aumento se añade a un verbo que comienza con vocal, la vocal del aumento se contrae: ἀγαπάω → ἠγάπησα"
+        }
+      ]
+    },
+    {
+      "id": "aoristo-primera-paradigma",
+      "tipo": "tabla-interactiva",
+      "titulo": "Aoristo 1º Indicativo Activo: λύω (solté, soltaste, soltó...)",
+      "descripcion": "Forma completa del aoristo 1º con sigma característica",
+      "datos": {
+        "columnas": ["Persona", "Singular", "Plural"],
+        "filas": [
+          ["1ª", "ἔ-λυ-σ-α (solté)", "ἐ-λύ-σ-αμεν (soltamos)"],
+          ["2ª", "ἔ-λυ-σ-ας (soltaste)", "ἐ-λύ-σ-ατε (soltasteis)"],
+          ["3ª", "ἔ-λυ-σ-ε(ν) (soltó)", "ἔ-λυ-σ-αν (soltaron)"]
+        ]
+      }
+    },
+    {
+      "id": "aoristo-eimi",
+      "tipo": "explicacion",
+      "titulo": "Aoristo del Verbo εἰμί",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El verbo εἰμί (ser) tiene un aoristo completamente irregular: ἐγενόμην (me convertí, fui). Este es un aoristo 'segundo' (ἀορίστῳ δευτέρῳ)."
+        },
+        {
+          "tipo": "nota",
+          "titulo": "Uso del Aoristo de εἰμί",
+          "texto": "Aunque εἰμί significa 'ser', su aoristo ἐγενόμην significa literalmente 'me convertí' o 'fui generado'. Se usa cuando queremos presentar el 'ser' como un evento puntual: 'Yo fui' (en un momento específico)."
+        }
+      ]
+    },
+    {
+      "id": "aoristo-vs-imperfecto",
+      "tipo": "explicacion",
+      "titulo": "Aoristo vs. Imperfecto: Comparación Crítica",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "La diferencia no es temporal (tiempo histórico) sino aspectual (manera de presentar la acción):"
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Ejemplo de Diferencia Aspectual"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "ἡ γυνὴ ἔλεγεν (la mujer ESTABA DICIENDO) = Imperfecto = énfasis en el proceso, la repetición",
+            "ἡ γυνὴ εἶπεν (la mujer DIJO) = Aoristo = la acción como completa, puntual"
+          ]
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Ambas pueden ser 'pasado' en tiempo histórico, pero el aoristo enfatiza la acción como evento, mientras que el imperfecto enfatiza el proceso o la habitualidad."
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ej-l02-01",
+      "tipo": "seleccion",
+      "titulo": "Aoristo 1º: Identifica formas correctas",
+      "instrucciones": "¿Cuál es la forma correcta del aoristo 1º indicativo activo?",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "3ª singular aoristo de λύω",
+          "opciones": ["ἔλυε", "ἔλυσε", "ἔλυσεν", "ἔλυσα"],
+          "respuestaCorrecta": "ἔλυσε(ν)",
+          "explicacion": "La forma 3ª singular aoristo es ἔλυσε(ν). La sigma aorística (-σ-) es característica del aoristo 1º. El nu movible (ν) al final es opcional.",
+          "puntaje": 10
+        },
+        {
+          "id": "p2",
+          "estimulo": "1ª plural aoristo de λύω",
+          "opciones": ["ἐλύομεν", "ἐλύσαμεν", "ἐλύσατε", "ἔλυσαν"],
+          "respuestaCorrecta": "ἐλύσαμεν",
+          "explicacion": "La forma 1ª plural es ἐλύσαμεν = ἐ (aumento) + λύ + σα + μεν. El aumento es silábico porque es 1ª plural.",
+          "puntaje": 10
+        },
+        {
+          "id": "p3",
+          "estimulo": "¿Qué característica temporal del aoristo 1º aparece aquí?",
+          "opciones": ["ω", "ε", "σα", "α"],
+          "respuestaCorrecta": "σα",
+          "explicacion": "La característica temporal del aoristo 1º es -σα-, que aparece entre el tema y la desinencia: λύ + σα + ν.",
+          "puntaje": 10
+        }
+      ]
+    },
+    {
+      "id": "ej-l02-02",
+      "tipo": "completar",
+      "titulo": "Conjuga verbos en aoristo 1º",
+      "instrucciones": "Escribe la forma correcta en aoristo 1º indicativo activo",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "2ª singular aoristo de λύω",
+          "tipo": "texto",
+          "respuestaCorrecta": "ἔλυσας",
+          "alternativasAceptadas": ["ἔλυσας"],
+          "explicacion": "ἔ (aumento) + λυ + σα + ς (desinencia 2ª sing.) = ἔλυσας",
+          "puntaje": 15
+        },
+        {
+          "id": "p2",
+          "estimulo": "3ª plural aoristo de λύω",
+          "tipo": "texto",
+          "respuestaCorrecta": "ἔλυσαν",
+          "alternativasAceptadas": ["ἔλυσαν"],
+          "explicacion": "ἔ (aumento) + λυ + σα + ν (desinencia 3ª plural) = ἔλυσαν",
+          "puntaje": 15
+        },
+        {
+          "id": "p3",
+          "estimulo": "1ª singular aoristo de λύω",
+          "tipo": "texto",
+          "respuestaCorrecta": "ἔλυσα",
+          "alternativasAceptadas": ["ἔλυσα"],
+          "explicacion": "ἔ (aumento) + λυ + σα + ø (sin desinencia en 1ª sing.) = ἔλυσα",
+          "puntaje": 15
+        }
+      ]
+    }
+  ],
+  "vocabulario": [
+    {
+      "griego": "ἔλυσα",
+      "transliteracion": "elysa",
+      "definicion": "solté, destaqué (aoristo 1ª singular)",
+      "categoria": "verbo aoristo",
+      "frecuencia": "media",
+      "ejemplo": "ἔλυσαν τὸν δεσμὸν αὐτοῦ (soltaron sus cadenas)",
+      "frecuenciaNT": 42
+    },
+    {
+      "griego": "εἶπον",
+      "transliteracion": "eipon",
+      "definicion": "dije, hablé (aoristo de λέγω, verbo segundo aoristo)",
+      "categoria": "verbo aoristo",
+      "frecuencia": "altísima",
+      "ejemplo": "εἶπεν αὐτῷ ὁ Ἰησοῦς (Jesús le dijo)",
+      "frecuenciaNT": 2255
+    },
+    {
+      "griego": "ἐγενόμην",
+      "transliteracion": "egenomēn",
+      "definicion": "me convertí, fui (aoristo deponent de γίνομαι)",
+      "categoria": "verbo aoristo",
+      "frecuencia": "altísima",
+      "ejemplo": "ἐγενόμην ἐν τῷ πνεύματι (quedé en el espíritu)",
+      "frecuenciaNT": 686
+    }
+  ],
+  "siguienteLeccion": "n2-l03",
+  "puntajeMaximo": 100
+}

@@ -1,0 +1,233 @@
+{
+  "id": "n2-l03",
+  "nivel": 2,
+  "numero": 3,
+  "titulo": "Aoristo 2º Indicativo Activo",
+  "subtitulo": "Los aoristos irregulares más comunes",
+  "descripcion": "El aoristo 2º tiene la misma función que el aoristo 1º (acción puntual completa) pero utiliza un tema diferente y desinencias del imperfecto. Muchos verbos frecuentes en el NT usan este forma.",
+  "duracionEstimada": 35,
+  "prerequisitos": ["n2-l02"],
+  "objetivos": [
+    "Entender la formación del aoristo 2º",
+    "Reconocer y conjugar los aoristos 2º más comunes en el NT",
+    "Distinguir entre aoristo 1º (sigma) y aoristo 2º (sin sigma)",
+    "Memorizar los aoristos 2º más frecuentes"
+  ],
+  "secciones": [
+    {
+      "id": "aoristo-segundo-intro",
+      "tipo": "explicacion",
+      "titulo": "¿Qué es el Aoristo 2º?",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El aoristo 2º es una forma aorística (acción puntual) pero sin la característica sigma (-σ-). Usa un tema diferente (a menudo más antiguo) y desinencias similares al imperfecto, pero sin el aumento."
+        },
+        {
+          "tipo": "nota",
+          "titulo": "Aumento en el Aoristo 2º",
+          "texto": "A diferencia del aoristo 1º, el aoristo 2º SIEMPRE lleva aumento. Esto ayuda a distinguirlo del presente."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Muchos verbos comunes en el NT usan aoristo 2º en lugar de aoristo 1º: λέγω (eipon - dije), ἔρχομαι (ἦλθον - vine), ὁράω (εἶδον - vi)."
+        }
+      ]
+    },
+    {
+      "id": "aoristos-segundo-paradigmas",
+      "tipo": "tabla-interactiva",
+      "titulo": "Aoristos 2º Más Comunes en el NT",
+      "descripcion": "Formas paradigmáticas de los aoristos 2º más frecuentes",
+      "datos": {
+        "columnas": ["Verbo", "Aoristo 2º", "Traducción", "Frecuencia"],
+        "filas": [
+          ["λέγω (digo)", "εἶπον", "dije", "2255"],
+          ["ἔρχομαι (vengo)", "ἦλθον", "vine", "632"],
+          ["ὁράω (veo)", "εἶδον", "vi", "681"],
+          ["λαμβάνω (tomo)", "ἔλαβον", "tomé", "269"],
+          ["γίνομαι (me hago)", "ἐγενόμην", "me hice, fui", "686"],
+          ["ἐσθίω (como)", "ἔφαγον", "comí", "24"],
+          ["πίνω (bebo)", "ἔπιον", "bebí", "32"],
+          ["βάλλω (tiro)", "ἔβαλον", "tiré", "122"]
+        ]
+      }
+    },
+    {
+      "id": "aoristo-segundo-estructura",
+      "tipo": "explicacion",
+      "titulo": "Estructura del Aoristo 2º",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "AUMENTO + TEMA AORÍSTICO (modificado) + DESINENCIAS IMPERFECTIVAS (sin sigma)"
+        },
+        {
+          "tipo": "cita",
+          "texto": "ἦλθον",
+          "transliteracion": "ēlthon",
+          "traduccion": "vine (aoristo 2º de ἔρχομαι)",
+          "referencia": "Estructura: ἦ (aumento) + λθ (tema aorístico) + ον (desinencia)",
+          "clase": "normal"
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Paradigma Completo: ἔρχομαι → ἦλθον (vine)"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "1ª Singular: ἦλθον (vine)",
+            "2ª Singular: ἦλθες (viniste)",
+            "3ª Singular: ἦλθε(ν) (vino)",
+            "1ª Plural: ἦλθομεν (vinimos)",
+            "2ª Plural: ἦλθετε (vinisteis)",
+            "3ª Plural: ἦλθον (vinieron)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aoristo-segundo-paradigma",
+      "tipo": "tabla-interactiva",
+      "titulo": "Aoristo 2º Indicativo Activo: ἔρχομαι → ἦλθον",
+      "descripcion": "Forma completa del aoristo 2º sin sigma",
+      "datos": {
+        "columnas": ["Persona", "Singular", "Plural"],
+        "filas": [
+          ["1ª", "ἦλθ-ον (vine)", "ἦλθ-ομεν (vinimos)"],
+          ["2ª", "ἦλθ-ες (viniste)", "ἦλθ-ετε (vinisteis)"],
+          ["3ª", "ἦλθ-ε(ν) (vino)", "ἦλθ-ον (vinieron)"]
+        ]
+      }
+    },
+    {
+      "id": "aoristo-segundo-eido",
+      "tipo": "explicacion",
+      "titulo": "Aoristo Muy Importante: ὁράω → εἶδον (vi)",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El verbo ὁράω (veo) tiene un aoristo muy irregular que usa un tema completamente diferente: εἶδον. Este es uno de los aoristos más frecuentes en el NT."
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Paradigma de εἶδον (vi)"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "1ª Singular: εἶδον (vi)",
+            "2ª Singular: εἶδες (viste)",
+            "3ª Singular: εἶδε(ν) (vio)",
+            "1ª Plural: εἴδομεν (vimos)",
+            "2ª Plural: εἴδετε (visteis)",
+            "3ª Plural: εἶδον (vieron)"
+          ]
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ej-l03-01",
+      "tipo": "seleccion",
+      "titulo": "Identifica el aoristo 2º correcto",
+      "instrucciones": "Selecciona la forma correcta del aoristo 2º",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "3ª singular aoristo de λέγω (digo)",
+          "opciones": ["εἶπε(ν)", "ἔλεγε", "λέγει", "ἔλεξε"],
+          "respuestaCorrecta": "εἶπε(ν)",
+          "explicacion": "El aoristo de λέγω es irregular (segundo aoristo): εἶπον. La forma 3ª singular es εἶπε(ν) con aumento εἰ-.",
+          "puntaje": 10
+        },
+        {
+          "id": "p2",
+          "estimulo": "3ª singular aoristo de ὁράω (veo)",
+          "opciones": ["ἐώρα", "εἶδε(ν)", "ὁράω", "ἐόρα"],
+          "respuestaCorrecta": "εἶδε(ν)",
+          "explicacion": "ὁράω tiene un aoristo muy irregular con tema diferente: εἶδον. La forma 3ª singular es εἶδε(ν).",
+          "puntaje": 10
+        },
+        {
+          "id": "p3",
+          "estimulo": "1ª plural aoristo de ἔρχομαι (vengo)",
+          "opciones": ["ἐρχόμεθα", "ἦλθομεν", "ἔρχομεν", "ἡλθόμεθα"],
+          "respuestaCorrecta": "ἦλθομεν",
+          "explicacion": "El aoristo de ἔρχομαι es ἦλθον. La forma 1ª plural es ἦλθομεν con aumento ἦ-.",
+          "puntaje": 10
+        }
+      ]
+    },
+    {
+      "id": "ej-l03-02",
+      "tipo": "completar",
+      "titulo": "Conjuga aoristos 2º",
+      "instrucciones": "Escribe la forma correcta del aoristo 2º",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "2ª singular aoristo de ἔρχομαι",
+          "tipo": "texto",
+          "respuestaCorrecta": "ἦλθες",
+          "alternativasAceptadas": ["ἦλθες"],
+          "explicacion": "ἦ (aumento) + λθ (tema aorístico) + ες (desinencia 2ª sing.) = ἦλθες",
+          "puntaje": 15
+        },
+        {
+          "id": "p2",
+          "estimulo": "1ª singular aoristo de ὁράω (veo)",
+          "tipo": "texto",
+          "respuestaCorrecta": "εἶδον",
+          "alternativasAceptadas": ["εἶδον"],
+          "explicacion": "εἰ (aumento contraído de ἐ + ε) + δ (tema aorístico de ὁράω) + ον (desinencia 1ª sing.) = εἶδον",
+          "puntaje": 15
+        },
+        {
+          "id": "p3",
+          "estimulo": "3ª singular aoristo de λαμβάνω (tomo)",
+          "tipo": "texto",
+          "respuestaCorrecta": "ἔλαβε",
+          "alternativasAceptadas": ["ἔλαβε", "ἔλαβεν"],
+          "explicacion": "ἔ (aumento) + λαβ (tema aorístico) + ε (desinencia 3ª sing.) = ἔλαβε(ν)",
+          "puntaje": 15
+        }
+      ]
+    }
+  ],
+  "vocabulario": [
+    {
+      "griego": "εἶπον",
+      "transliteracion": "eipon",
+      "definicion": "dije, hablé (aoristo 2º de λέγω)",
+      "categoria": "verbo aoristo",
+      "frecuencia": "altísima",
+      "ejemplo": "εἶπεν αὐτῷ ὁ Ἰησοῦς (Jesús le dijo)",
+      "frecuenciaNT": 2255
+    },
+    {
+      "griego": "ἦλθον",
+      "transliteracion": "ēlthon",
+      "definicion": "vine (aoristo 2º de ἔρχομαι)",
+      "categoria": "verbo aoristo",
+      "frecuencia": "altísima",
+      "ejemplo": "ἦλθεν πρὸς αὐτόν (vino hacia él)",
+      "frecuenciaNT": 632
+    },
+    {
+      "griego": "εἶδον",
+      "transliteracion": "eidon",
+      "definicion": "vi (aoristo 2º de ὁράω)",
+      "categoria": "verbo aoristo",
+      "frecuencia": "altísima",
+      "ejemplo": "καὶ εἶδεν τὴν πίστιν αὐτῶν (y vio su fe)",
+      "frecuenciaNT": 681
+    }
+  ],
+  "siguienteLeccion": "n2-l04",
+  "puntajeMaximo": 100
+}

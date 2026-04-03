@@ -1,0 +1,243 @@
+{
+  "id": "n2-l04",
+  "nivel": 2,
+  "numero": 4,
+  "titulo": "Perfecto Indicativo Activo",
+  "subtitulo": "La acción completada con resultados presentes",
+  "descripcion": "El perfecto representa una acción completada en el pasado cuyo resultado es relevante en el presente. Tiene una estructura única con reduplicación del tema.",
+  "duracionEstimada": 35,
+  "prerequisitos": ["n2-l03"],
+  "objetivos": [
+    "Entender el aspecto perfectivo (estado resultante)",
+    "Reconocer y formar la reduplicación característica del perfecto",
+    "Conjugar verbos en perfecto indicativo activo",
+    "Diferenciar semánticamente entre aoristo y perfecto"
+  ],
+  "secciones": [
+    {
+      "id": "aspecto-perfectivo",
+      "tipo": "explicacion",
+      "titulo": "El Aspecto Perfectivo: Acción con Resultados Presentes",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El perfecto presenta una acción COMPLETADA en el pasado, pero enfatiza el RESULTADO o ESTADO presente de esa acción. No pregunta 'qué pasó' sino 'cuál es el estado presente resultante'."
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Diferencia Aspectual: Aoristo vs. Perfecto"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "AORISTO: ἔλυσα (solté) = enfoque en el evento como acción",
+            "PERFECTO: λέλυκα (he soltado, estoy en estado de haber soltado) = enfoque en el resultado presente"
+          ]
+        },
+        {
+          "tipo": "cita",
+          "texto": "γέγραφα",
+          "transliteracion": "gegrāpha",
+          "traduccion": "he escrito (y permanece escrito)",
+          "referencia": "Acción: escribí en el pasado. Resultado: el escrito permanece",
+          "clase": "normal"
+        }
+      ]
+    },
+    {
+      "id": "reduplicacion",
+      "tipo": "explicacion",
+      "titulo": "La Reduplicación: Marca Característica del Perfecto",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "La reduplicación es la repetición de la primera sílaba del tema. Es la característica más distintiva del perfecto en griego."
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Reglas de Reduplicación"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "CONSONANTE: la consonante inicial + ε + tema",
+            "  λύω → λέ-λυ-κα (he soltado)",
+            "  κράζω → κέ-κρα-κα (he gritado)",
+            "VOCAL: la vocal se alarga",
+            "  ἀγαπάω → ἠ-γάπη-κα (he amado)",
+            "  ἔχω → ἕ-σχη-κα (tengo, he tenido)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "perfecto-paradigma",
+      "tipo": "tabla-interactiva",
+      "titulo": "Perfecto Indicativo Activo: λύω (he soltado)",
+      "descripcion": "Forma completa del perfecto con reduplicación y característica -κ-",
+      "datos": {
+        "columnas": ["Persona", "Singular", "Plural"],
+        "filas": [
+          ["1ª", "λέ-λυ-κ-α (he soltado)", "λε-λύ-κ-αμεν (hemos soltado)"],
+          ["2ª", "λέ-λυ-κ-ας (has soltado)", "λε-λύ-κ-ατε (habéis soltado)"],
+          ["3ª", "λέ-λυ-κ-ε(ν) (ha soltado)", "λε-λύ-κ-ασιν (han soltado)"]
+        ]
+      }
+    },
+    {
+      "id": "perfecto-estructura",
+      "tipo": "explicacion",
+      "titulo": "Estructura del Perfecto Activo",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "REDUPLICACIÓN + TEMA + CARACTERÍSTICA (-κ-) + DESINENCIAS PRIMARIAS"
+        },
+        {
+          "tipo": "nota",
+          "titulo": "Desinencias del Perfecto",
+          "texto": "El perfecto usa desinencias primarias (presentes): -α, -ας, -ε, -αμεν, -ατε, -ασιν. Nótese que α y ε no se contraen como en presente."
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Ejemplos de Reduplicación"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "γράφω → γέγραφα (he escrito)",
+            "δέχομαι → δέδεγμαι (he recibido - forma media, será tratada después)",
+            "ὁράω → ἑόρακα (he visto - reduplicación con vocal alargada)",
+            "ἔχω → ἕσχηκα (tengo/he tenido)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "perfecto-semantica",
+      "tipo": "explicacion",
+      "titulo": "Semántica del Perfecto en el NT",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "En el NT, el perfecto enfatiza que una acción pasada tiene relevancia PRESENTE. A menudo se traduce con 'he' + participio, pero la idea griega es mucho más sobre el estado resultante."
+        },
+        {
+          "tipo": "cita",
+          "texto": "τετέλεσται",
+          "transliteracion": "tetelesmai",
+          "traduccion": "está completado (ha sido completado y permanece así)",
+          "referencia": "Juan 19:30",
+          "clase": "normal"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La última palabra de Jesús en la cruz no es solo 'lo hice' (aoristo) sino 'está completo' (perfecto), enfatizando el resultado que perdura."
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ej-l04-01",
+      "tipo": "seleccion",
+      "titulo": "Identifica la reduplicación correcta",
+      "instrucciones": "¿Cuál es la forma correcta del perfecto?",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "Perfecto de γράφω (escribo)",
+          "opciones": ["ἐγράφα", "γέγραφα", "γραφηκα", "ἐγράφηκα"],
+          "respuestaCorrecta": "γέγραφα",
+          "explicacion": "La reduplicación de γράφω es γε- (γ + ε): γέ-γραφα = he escrito. No lleva aumento temporal como el aoristo.",
+          "puntaje": 10
+        },
+        {
+          "id": "p2",
+          "estimulo": "¿Cuál es la característica del perfecto?",
+          "opciones": ["-σα-", "-κ-", "-ε-", "-ο-"],
+          "respuestaCorrecta": "-κ-",
+          "explicacion": "El perfecto activo usa -κ- como característica temporal: λέλυκα, γέγραφα, πεπίστευκα.",
+          "puntaje": 10
+        },
+        {
+          "id": "p3",
+          "estimulo": "3ª singular perfecto de λύω",
+          "opciones": ["λέλυκε", "ἐλύκει", "λύκει", "λέλυσεν"],
+          "respuestaCorrecta": "λέλυκε",
+          "explicacion": "λέ (reduplicación) + λυ (tema) + κ (característica) + ε (desinencia 3ª sing.) = λέλυκε",
+          "puntaje": 10
+        }
+      ]
+    },
+    {
+      "id": "ej-l04-02",
+      "tipo": "completar",
+      "titulo": "Conjuga en perfecto",
+      "instrucciones": "Escribe la forma correcta del perfecto indicativo activo",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "1ª singular perfecto de λύω",
+          "tipo": "texto",
+          "respuestaCorrecta": "λέλυκα",
+          "alternativasAceptadas": ["λέλυκα"],
+          "explicacion": "λέ (reduplicación) + λυ (tema) + κα (característica + desinencia) = λέλυκα",
+          "puntaje": 15
+        },
+        {
+          "id": "p2",
+          "estimulo": "2ª singular perfecto de γράφω",
+          "tipo": "texto",
+          "respuestaCorrecta": "γέγραφας",
+          "alternativasAceptadas": ["γέγραφας"],
+          "explicacion": "γέ (reduplicación) + γραφ (tema) + κας (característica + desinencia 2ª sing.) = γέγραφας",
+          "puntaje": 15
+        },
+        {
+          "id": "p3",
+          "estimulo": "3ª plural perfecto de πιστεύω (creo)",
+          "tipo": "texto",
+          "respuestaCorrecta": "πεπίστευκαν",
+          "alternativasAceptadas": ["πεπίστευκαν"],
+          "explicacion": "πε (reduplicación) + πιστευ (tema) + κασιν (característica + desinencia 3ª plural) = πεπίστευκαν",
+          "puntaje": 15
+        }
+      ]
+    }
+  ],
+  "vocabulario": [
+    {
+      "griego": "λέλυκα",
+      "transliteracion": "lelyka",
+      "definicion": "he soltado, estoy en estado de haber soltado",
+      "categoria": "verbo perfecto",
+      "frecuencia": "media",
+      "ejemplo": "τετέλεσται ἡ ἐντολή (se ha completado el mandamiento)",
+      "frecuenciaNT": 42
+    },
+    {
+      "griego": "γέγραφα",
+      "transliteracion": "gegrāpha",
+      "definicion": "he escrito, está escrito",
+      "categoria": "verbo perfecto",
+      "frecuencia": "alta",
+      "ejemplo": "γέγραφα ὑμῖν (os he escrito)",
+      "frecuenciaNT": 114
+    },
+    {
+      "griego": "τετέλεσται",
+      "transliteracion": "tetelestai",
+      "definicion": "está completado (perfecto pasivo, será tratado después)",
+      "categoria": "verbo perfecto",
+      "frecuencia": "media",
+      "ejemplo": "τετέλεσται πάντα (todo está completado)",
+      "frecuenciaNT": 28
+    }
+  ],
+  "siguienteLeccion": "n2-l05",
+  "puntajeMaximo": 100
+}

@@ -1,0 +1,257 @@
+{
+  "id": "n2-l07",
+  "nivel": 2,
+  "numero": 7,
+  "titulo": "Voz Pasiva: El Sujeto Recibe la Acción",
+  "subtitulo": "Cómo expresar que algo es hecho al sujeto",
+  "descripcion": "La voz pasiva presenta una acción realizada SOBRE el sujeto. Tiene características únicas en el aoristo y perfecto. Es fundamental para entender narrativas y textos expositivos.",
+  "duracionEstimada": 35,
+  "prerequisitos": ["n2-l06"],
+  "objetivos": [
+    "Entender la voz pasiva y su función gramatical",
+    "Reconocer que presente y imperfecto pasivo comparten desinencias con el medio",
+    "Aprender las desinencias pasivas propias del aoristo y perfecto",
+    "Entender cómo se expresa el agente (quien realiza la acción)"
+  ],
+  "secciones": [
+    {
+      "id": "pasiva-intro",
+      "tipo": "explicacion",
+      "titulo": "La Voz Pasiva: Una Perspectiva Diferente",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "En voz pasiva, el sujeto NO realiza la acción, sino que RECIBE la acción realizada por otro (el agente). Es la inversión completa del sujeto y el objeto de una oración activa."
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Comparación: Activo vs. Pasivo"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "ACTIVO: ὁ ἀπόστολος ἐκήρυξε τὸ εὐαγγέλιον (el apóstol predicó el evangelio)",
+            "PASIVO: τὸ εὐαγγέλιον ἐκηρύχθη ὑπὸ τοῦ ἀποστόλου (el evangelio fue predicado por el apóstol)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pasiva-presente-imperfecto",
+      "tipo": "explicacion",
+      "titulo": "Presente e Imperfecto Pasivo = Medio",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "En presente e imperfecto, la voz pasiva usa las MISMAS DESINENCIAS que la voz media. La diferencia es puramente semántica (interpretación) y contextual."
+        },
+        {
+          "tipo": "nota",
+          "titulo": "Ambigüedad en Presente e Imperfecto",
+          "texto": "La forma λύεται puede ser tanto medio ('se libera a sí mismo') como pasivo ('es liberado'). El contexto nos dirá cuál es la interpretación correcta."
+        },
+        {
+          "tipo": "cita",
+          "texto": "ἀκούουσιν",
+          "transliteracion": "akouousin",
+          "traduccion": "oyen / son oídos (presente pasivo = medio)",
+          "referencia": "El contexto determina si es activo-reflexivo o pasivo",
+          "clase": "normal"
+        }
+      ]
+    },
+    {
+      "id": "pasiva-aoristo",
+      "tipo": "tabla-interactiva",
+      "titulo": "Aoristo Pasivo: Formas Únicas",
+      "descripcion": "El aoristo pasivo tiene desinencias propias, distintas del medio",
+      "datos": {
+        "columnas": ["Persona", "Forma Pasiva", "Traducción"],
+        "filas": [
+          ["1ª Singular", "ἐ-λύ-θ-ην", "fui liberado"],
+          ["2ª Singular", "ἐ-λύ-θ-ης", "fuiste liberado"],
+          ["3ª Singular", "ἐ-λύ-θ-η", "fue liberado"],
+          ["1ª Plural", "ἐ-λύ-θ-ημεν", "fuimos liberados"],
+          ["2ª Plural", "ἐ-λύ-θ-ητε", "fuisteis liberados"],
+          ["3ª Plural", "ἐ-λύ-θ-ησαν", "fueron liberados"]
+        ]
+      }
+    },
+    {
+      "id": "pasiva-aoristo-caracteristica",
+      "tipo": "explicacion",
+      "titulo": "La Característica Pasiva: -θ-",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El aoristo pasivo usa una característica temporal única: -θ- (theta). Esto distingue claramente la forma pasiva de otras voces."
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Estructura del Aoristo Pasivo"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "AUMENTO + TEMA + -θ- (característica pasiva) + DESINENCIA PASIVA",
+            "ἐλύθην = ἐ (aumento) + λυ (tema) + θ (característica pasiva) + ην (desinencia 1ª singular pasiva)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pasiva-perfecto",
+      "tipo": "explicacion",
+      "titulo": "Perfecto Pasivo: Reduplicación + -μαι",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El perfecto pasivo mantiene la reduplicación (como el perfecto activo) pero usa desinencias medias (-μαι, -σαι, -ται)."
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Estructura del Perfecto Pasivo"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "REDUPLICACIÓN + TEMA + DESINENCIAS MEDIAS",
+            "λέλυμαι = λέ (reduplicación) + λυ (tema) + μαι (desinencia 1ª sing. perfecto pasivo)"
+          ]
+        },
+        {
+          "tipo": "nota",
+          "titulo": "Significado del Perfecto Pasivo",
+          "texto": "El perfecto pasivo enfatiza el resultado presente: 'he sido liberado y permanezco en estado de libertad'."
+        }
+      ]
+    },
+    {
+      "id": "agente-pasivo",
+      "tipo": "explicacion",
+      "titulo": "El Agente en la Voz Pasiva: ὑπὸ + Genitivo",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Cuando queremos decir QUIÉN realiza la acción en una construcción pasiva, usamos la preposición ὑπὸ (por) + genitivo."
+        },
+        {
+          "tipo": "cita",
+          "texto": "τὸ εὐαγγέλιον ἐκηρύχθη ὑπὸ τῶν ἀποστόλων",
+          "transliteracion": "to euangelion ekērychthē hypo tōn apostolōn",
+          "traduccion": "el evangelio fue predicado por los apóstoles",
+          "referencia": "ὑπὸ + genitivo introduce el agente",
+          "clase": "normal"
+        },
+        {
+          "tipo": "nota",
+          "titulo": "Instrumental: διὰ + Genitivo",
+          "texto": "A veces se usa διὰ + genitivo cuando el agente es un instrumento o causa secundaria: 'fue predicado a través de la fe'."
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ej-l07-01",
+      "tipo": "seleccion",
+      "titulo": "Identifica formas pasivas",
+      "instrucciones": "¿Cuál es la forma pasiva correcta?",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "3ª singular aoristo pasivo de λύω",
+          "opciones": ["ἐλύθη", "ἐλύσθη", "ἐλύθησαν", "λύθη"],
+          "respuestaCorrecta": "ἐλύθη",
+          "explicacion": "ἐ (aumento) + λύ (tema) + θη (característica + desinencia 3ª sing. aoristo pasivo) = ἐλύθη",
+          "puntaje": 10
+        },
+        {
+          "id": "p2",
+          "estimulo": "¿Cuál es la característica del aoristo pasivo?",
+          "opciones": ["-σ-", "-κ-", "-θ-", "-ο-"],
+          "respuestaCorrecta": "-θ-",
+          "explicacion": "El aoristo pasivo siempre usa -θ- como característica temporal: ἐλύθη, ἐγράφη, ἐκηρύχθη.",
+          "puntaje": 10
+        },
+        {
+          "id": "p3",
+          "estimulo": "¿Cómo se introduce el agente en pasiva?",
+          "opciones": ["por + acusativo", "ὑπὸ + genitivo", "διὰ + acusativo", "ἐν + dativo"],
+          "respuestaCorrecta": "ὑπὸ + genitivo",
+          "explicacion": "La preposición ὑπὸ + genitivo introduce el agente en voz pasiva: ὑπὸ τοῦ κυρίου (por el Señor).",
+          "puntaje": 10
+        }
+      ]
+    },
+    {
+      "id": "ej-l07-02",
+      "tipo": "completar",
+      "titulo": "Conjuga en voz pasiva",
+      "instrucciones": "Escribe la forma pasiva correcta",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "1ª singular aoristo pasivo de λύω",
+          "tipo": "texto",
+          "respuestaCorrecta": "ἐλύθην",
+          "alternativasAceptadas": ["ἐλύθην"],
+          "explicacion": "ἐ (aumento) + λύ (tema) + θη + ν (aumento + tema + característica + desinencia) = ἐλύθην",
+          "puntaje": 15
+        },
+        {
+          "id": "p2",
+          "estimulo": "3ª plural aoristo pasivo de γράφω",
+          "tipo": "texto",
+          "respuestaCorrecta": "ἐγράφησαν",
+          "alternativasAceptadas": ["ἐγράφησαν"],
+          "explicacion": "ἐ (aumento) + γράφ (tema) + θησαν (característica + desinencia 3ª plural) = ἐγράφησαν",
+          "puntaje": 15
+        },
+        {
+          "id": "p3",
+          "estimulo": "1ª singular perfecto pasivo de λύω",
+          "tipo": "texto",
+          "respuestaCorrecta": "λέλυμαι",
+          "alternativasAceptadas": ["λέλυμαι"],
+          "explicacion": "λέ (reduplicación) + λυ (tema) + μαι (desinencia 1ª sing. perfecto pasivo) = λέλυμαι",
+          "puntaje": 15
+        }
+      ]
+    }
+  ],
+  "vocabulario": [
+    {
+      "griego": "ἐλύθην",
+      "transliteracion": "elythēn",
+      "definicion": "fui liberado (aoristo pasivo 1ª singular)",
+      "categoria": "verbo pasivo",
+      "frecuencia": "media",
+      "ejemplo": "ἐλύθημεν ἀπὸ τῆς δουλείας (fuimos liberados de la esclavitud)",
+      "frecuenciaNT": 42
+    },
+    {
+      "griego": "ἐκηρύχθη",
+      "transliteracion": "ekērychthē",
+      "definicion": "fue predicado (aoristo pasivo 3ª singular)",
+      "categoria": "verbo pasivo",
+      "frecuencia": "alta",
+      "ejemplo": "τὸ εὐαγγέλιον ἐκηρύχθη ἐν ἁπάσῃ τῇ κτίσει (el evangelio fue predicado en toda la creación)",
+      "frecuenciaNT": 61
+    },
+    {
+      "griego": "λέλυμαι",
+      "transliteracion": "lelumai",
+      "definicion": "he sido liberado, estoy en estado de libertad (perfecto pasivo)",
+      "categoria": "verbo pasivo",
+      "frecuencia": "baja",
+      "ejemplo": "λέλυμαι ἀπὸ τοῦ νόμου (he sido liberado de la ley)",
+      "frecuenciaNT": 5
+    }
+  ],
+  "siguienteLeccion": "n2-l08",
+  "puntajeMaximo": 100
+}
