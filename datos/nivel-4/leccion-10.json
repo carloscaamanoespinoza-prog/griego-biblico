@@ -1,0 +1,145 @@
+{
+  "id": "n4-l10",
+  "nivel": 4,
+  "numero": 10,
+  "titulo": "Conclusión: Del Principiante al Exegeta",
+  "subtitulo": "Resumen integrado y próximos pasos",
+  "descripcion": "Resumimos el camino completo del Nivel 1 al Nivel 4, integrando todas las herramientas exegéticas. Establecemos un framework permanente para la exégesis seria del NT griego.",
+  "duracionEstimada": 45,
+  "prerequisitos": ["n4-l09"],
+  "objetivos": [
+    "Integrar todas las herramientas de los Niveles 1-4",
+    "Establecer una metodología permanente de exégesis",
+    "Entender cómo continuar estudiando griego exegético",
+    "Aplicar lo aprendido a nuevos textos independientemente"
+  ],
+  "secciones": [
+    {
+      "id": "resumen-niveles",
+      "tipo": "explicacion",
+      "titulo": "El Viaje de Principiante a Exegeta",
+      "contenido": [
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Nivel 1: Fundamentos"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "Alfabeto, casos, artículos, declinaciones, verbos básicos",
+            "200 palabras más frecuentes del NT",
+            "Capacidad: Leer oraciones simples con diccionario"
+          ]
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Nivel 2: Morfología Verbal Completa"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "Todos los tiempos, voces, modos",
+            "Participios, infinitivos",
+            "Capacidad: Reconocer y conjugar cualquier forma verbal, entender aspecto"
+          ]
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Nivel 3: Sintaxis y Análisis"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "Orden de palabras, funciones de casos, tipos de cláusulas",
+            "Partículas discursivas, análisis de discurso",
+            "Capacidad: Leer textos complejos, entender argumentación, analizar sintaxis"
+          ]
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Nivel 4: Exégesis y Crítica Textual"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "Crítica textual, metodología exegética, word studies",
+            "Teoría del aspecto de Porter, método Merkle, Kittel-Coenen",
+            "Capacidad: Hacer exégesis rigurosa, resolver problemas textuales, producir interpretación sólida"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "metodologia-permanente",
+      "tipo": "explicacion",
+      "titulo": "Marco Permanente para Exégesis",
+      "contenido": [
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Los Siete Pasos de Exégesis Seria"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "1. TEXTUAL: Establecer el texto más probable (NA28, aparato crítico)",
+            "2. LÉXICO: Entender significados de palabras clave (semantic range, TDNT, NIDNTT)",
+            "3. MORFOLÓGICO: Analizar formas gramaticales (tiempos, voces, modos, casos)",
+            "4. SINTÁCTICO: Analizar estructura oracional (relaciones de palabras, cláusulas)",
+            "5. DISCURSIVO: Entender argumento en contexto (partículas, flow del texto, estructura temática)",
+            "6. HISTÓRICO-CONTEXTUAL: Considerar contexto histórico, literario, cultural",
+            "7. TEOLÓGICO: Integrar en significado teológico coherente"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "proximos-pasos",
+      "tipo": "explicacion",
+      "titulo": "Recursos para Continuar",
+      "contenido": [
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Herramientas Esenciales"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "LÉXICOS: Danker (BDAG), Liddell-Scott",
+            "DICCIONARIOS TEOLÓGICOS: TDNT (Kittel), NIDNTT (Coenen)",
+            "COMENTARIOS: Metzger (Textual Criticism), Carson, Keener, Witherington",
+            "GRAMÁTICAS AVANZADAS: Porter, Wallace, Young",
+            "SOFTWARE: Logos, BibleWorks, e-Sword (concordancias y análisis)"
+          ]
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Práctica Continua"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "Leer uno o dos versículos del NT EN GRIEGO cada día",
+            "Seleccionar una palabra teológica cada semana para word study profundo",
+            "Analizar un párrafo completo cada mes usando los siete pasos",
+            "Leer comentarios exegéticos para aprender de exegetas expertos",
+            "Participar en comunidades de estudio griego (seminarios, grupos de iglesia)"
+          ]
+        }
+      ]
+    }
+  ],
+  "notasFinales": [
+    {
+      "titulo": "¡FELICITACIONES! ¡COMPLETASTE EL CURSO COMPLETO!",
+      "contenido": "Has completado un viaje extraordinario:\\n\\nDE:\\n- Novato absoluto en griego\\n- Sin conocimiento de gramática griega\\n- Incapaz de leer una letra griega\\n\\nA:\\n- Lector competente de griego bíblico\\n- Exegeta que puede hacer análisis riguroso\\n- Intérprete capaz de resolver problemas textuales y teológicos\\n- Estudiante que puede engancharse con comentarios académicos\\n\\nHas aprendido:\\n✓ Morfología completa (44 lecciones)\\n✓ Sintaxis y análisis discursivo\\n✓ Crítica textual y metodología exegética\\n✓ Aplicación a textos reales del NT\\n\\nAhora la responsabilidad es tuya. Continúa estudiando, practicando, y profundizando. El griego es una habilidad que se mejora con uso consistente. No dejes que decaiga.\\n\\n¡Que Dios te bendiga en tu estudio continuo de Su Palabra en el idioma original!"
+    }
+  ],
+  "puntajeMaximo": 100
+}

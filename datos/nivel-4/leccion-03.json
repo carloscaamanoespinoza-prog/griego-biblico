@@ -1,0 +1,117 @@
+{
+  "id": "n4-l03",
+  "nivel": 4,
+  "numero": 3,
+  "titulo": "Caso de Estudio: Juan 7:53-8:11",
+  "subtitulo": "La mujer sorprendida en adulterio - un problema textual real",
+  "descripcion": "Analizamos un caso real de crítica textual: Juan 7:53-8:11 (la mujer sorprendida en adulterio) NO APARECE en los manuscritos más antiguos. Aplicamos los principios de crítica textual a este pasaje.",
+  "duracionEstimada": 45,
+  "prerequisitos": ["n4-l02"],
+  "objetivos": [
+    "Entender cómo se evalúa evidencia textual en un caso real",
+    "Evaluar por qué Juan 7:53-8:11 es probablemente adición tardía",
+    "Aplicar principios de crítica textual a decisiones de traducción",
+    "Entender cómo el crítico textual trabaja en la práctica"
+  ],
+  "secciones": [
+    {
+      "id": "pericopa-adultera-problema",
+      "tipo": "explicacion",
+      "titulo": "El Problema: Dónde Aparece Este Pasaje",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Juan 7:53-8:11 (la pericopa de la mujer adultera) presenta un problema textual SERIO. Algunos manuscritos NO la incluyen; otros la incluyen en diferentes lugares (después de Juan 7:36, después de Juan 21:25, etc.)."
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "Los papiros antiguos NO incluyen este pasaje",
+            "Los unciales más antiguos (א, B, C) NO la incluyen",
+            "Aparece en manuscritos posteriores y en la mayoría de cursivos",
+            "Su ubicación varía entre manuscritos (¿señal de que no pertenecía originalmente?)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "evidencia-contra-inclusion",
+      "tipo": "explicacion",
+      "titulo": "Evidencia de que NO es Original",
+      "contenido": [
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Evidencia Externa"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "Ausente en P66, P75 (papiros antiguos)",
+            "Ausente en א, B, C (unciales del IV-V siglos)",
+            "Ausencia en la MAYORÍA de manuscritos griegos antiguos",
+            "Cuando aparece, su ubicación varía (señal de que fue interpolado después)"
+          ]
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Evidencia Interna"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "El estilo griego es DIFERENTE de Juan (más parecido a Lucas)",
+            "Se nota un 'salto' en la narrativa: 7:52 → 8:12 sin la pericopa",
+            "En 8:12, Jesús dice 'Yo soy la luz del mundo' - transición natural sin la pericopa",
+            "La conclusión de la controversia de 7:45-52 es completa sin 7:53-8:11"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "conclusion-textual",
+      "tipo": "explicacion",
+      "titulo": "Conclusión Textual Probable",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "La mayoría de críticos textuales concluyen que Juan 7:53-8:11 es una ADICIÓN TARDÍA, probablemente una historia legítima sobre Jesús pero que fue añadida después al Evangelio de Juan. No era parte del original de Juan."
+        },
+        {
+          "tipo": "nota",
+          "titulo": "Implicaciones",
+          "texto": "Esto NO significa que la historia sea 'falsa' - probablemente es historia auténtica de Jesús. Pero NO fue parte del texto original de Juan. Fue insertada después por copistas que la consideraban valiosa."
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ej-n4-l03-01",
+      "tipo": "seleccion",
+      "titulo": "Evalúa la evidencia",
+      "instrucciones": "Basado en la evidencia, ¿es Juan 7:53-8:11 probablemente original?",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "¿Qué evidencia externa es MÁS significativa?",
+          "opciones": ["Aparece en muchos cursivos", "Ausente en papiros y unciales antiguos", "Aparece en manuscritos posteriores", "Su estilo es diferente"],
+          "respuestaCorrecta": "Ausente en papiros y unciales antiguos",
+          "explicacion": "La ausencia en manuscritos MÁS ANTIGUOS (papiros, unciales IV-V siglos) es la evidencia externa más fuerte de que fue adición tardía.",
+          "puntaje": 10
+        },
+        {
+          "id": "p2",
+          "estimulo": "¿Qué explica mejor por qué este pasaje fue AÑADIDO?",
+          "opciones": ["Error de copia", "Armonización con otros evangelios", "Copistas preservando historia de tradición oral", "Cambio intencional del significado"],
+          "respuestaCorrecta": "Copistas preservando historia de tradición oral",
+          "explicacion": "Los copistas probablemente añadieron esta historia porque la consideraban parte de la tradición auténtica sobre Jesús.",
+          "puntaje": 10
+        }
+      ]
+    }
+  ],
+  "siguienteLeccion": "n4-l04",
+  "puntajeMaximo": 100
+}

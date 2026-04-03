@@ -1,0 +1,96 @@
+{
+  "id": "n4-l08",
+  "nivel": 4,
+  "numero": 8,
+  "titulo": "Exégesis Aplicada: Filipenses 2:5-11",
+  "subtitulo": "El himno cristológico - estructura, sintaxis, y teología",
+  "descripcion": "Filipenses 2:5-11 contiene un himno cristológico antiguo, posiblemente pre-paulino. Analizamos su estructura poética, sintaxis, y significado teológico sobre la naturaleza de Cristo.",
+  "duracionEstimada": 50,
+  "prerequisitos": ["n4-l07"],
+  "objetivos": [
+    "Analizar la estructura poética del himno de Filipenses 2:5-11",
+    "Entender conceptos clave: μορφή (forma), κένωσις (vaciamiento), ταπεινώσις (humillación)",
+    "Evaluar la cristología del himno",
+    "Aplicar análisis sintáctico a texto poético"
+  ],
+  "secciones": [
+    {
+      "id": "filipenses-himno-estructura",
+      "tipo": "explicacion",
+      "titulo": "La Estructura Poética del Himno",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Filipenses 2:6-11 es ampliamente reconocido como un HIMNO CRISTOLÓGICO, posiblemente pre-paulino que Pablo citó. La estructura poética tiene dos movimientos: DESCENSO (pre-encarnación, encarnación, muerte) y EXALTACIÓN (resurrección, ascensión, exaltación cósmica)."
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Estrofas del Himno"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "ESTROFA 1 (v.6): Preexistencia en forma de Dios",
+            "ESTROFA 2 (v.7): Encarnación y humillación",
+            "ESTROFA 3 (v.8): Muerte sacrificial",
+            "ESTROFA 4 (v.9-11): Exaltación y acclamación universal"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "conceptos-clave",
+      "tipo": "explicacion",
+      "titulo": "Conceptos Teológicos Clave",
+      "contenido": [
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "μορφή θεοῦ (Forma/Naturaleza de Dios)"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "μορφή (morfē) = forma, naturaleza, manifestación visible",
+            "Cristo EXISTÍA en μορφή θεοῦ - afirma preexistencia Y naturaleza divina",
+            "NO es simplemente apariencia (δόξα) sino realidad ontológica"
+          ]
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "ἐκένωσεν (Se vació)"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "κενόω (kenóō) = vaciar, despojar",
+            "¿QUÉ se vació? No su naturaleza divina, sino sus PRIVILEGIOS divinos",
+            "Tomó μορφή δούλου (forma de siervo) - la encarnación es auto-limitación voluntaria"
+          ]
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ej-n4-l08-01",
+      "tipo": "seleccion",
+      "titulo": "Análisis del Himno",
+      "instrucciones": "¿Cuál es la estructura del himno?",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "¿Cuál es la transición central del himno de Filipenses 2?",
+          "opciones": ["Preexistencia a encarnación", "Humillación a exaltación", "Muerte a resurrección", "Todas las anteriores"],
+          "respuestaCorrecta": "Humillación a exaltación",
+          "explicacion": "El himno tiene dos movimientos principales: DESCENSO (humillación en encarnación/muerte) y ASCENSO (exaltación cósmica).",
+          "puntaje": 10
+        }
+      ]
+    }
+  ],
+  "siguienteLeccion": "n4-l09",
+  "puntajeMaximo": 100
+}

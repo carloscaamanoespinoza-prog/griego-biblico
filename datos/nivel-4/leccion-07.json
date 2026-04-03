@@ -1,0 +1,106 @@
+{
+  "id": "n4-l07",
+  "nivel": 4,
+  "numero": 7,
+  "titulo": "Exégesis Aplicada: Gálatas 2:20",
+  "subtitulo": "Fe EN Cristo vs. Fe DE Cristo - un problema exegético real",
+  "descripcion": "Gálatas 2:20 contiene un genitivo (πίστις Χριστοῦ) que ha generado un gran debate exegético. ¿Significa 'fe en Cristo' o 'fe de Cristo'? Aplicamos metodología completa para resolver.",
+  "duracionEstimada": 50,
+  "prerequisitos": ["n4-l06"],
+  "objetivos": [
+    "Analizar Gálatas 2:20 con metodología completa",
+    "Resolver el debate sobre πίστις Χριστοῦ",
+    "Entender implicaciones teológicas de cada interpretación",
+    "Demostrar cómo la exégesis rigurosa informa la teología"
+  ],
+  "secciones": [
+    {
+      "id": "galatas-2-20-problema",
+      "tipo": "explicacion",
+      "titulo": "El Problema: πίστις Χριστοῦ",
+      "contenido": [
+        {
+          "tipo": "cita",
+          "texto": "Χριστῷ συνεσταύρωμαι· ζῶ δὲ οὐκέτι ἐγώ, ζῇ δὲ ἐν ἐμοὶ Χριστός· ὃ δὲ νῦν ζῶ ἐν σαρκί, ἐν πίστει ζῶ τῇ τοῦ υἱοῦ τοῦ θεοῦ τοῦ ἀγαπήσαντός με.",
+          "transliteracion": "Christō sunestaurōmai; zō de ouketi egō, zē de en emoi Christos; ho de nyn zō en sarki, en pistei zō tē tou huiou tou theou tou agapēsantos me.",
+          "traduccion": "Con Cristo he sido crucificado; no vivo ya yo, sino que Cristo vive en mí; y la vida que ahora vivo en la carne, la vivo por fe en/de el Hijo de Dios...",
+          "referencia": "Gálatas 2:20",
+          "clase": "normal"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La frase clave es 'ἐν πίστει ζῶ τῇ τοῦ υἱοῦ τοῦ θεοῦ'. El genitivo 'τοῦ υἱοῦ' (del Hijo) después de πίστις puede significar:\n1. Fe EN el Hijo (genitivo objetivo)\n2. Fe DEL Hijo (genitivo subjetivo) = la fidelidad de Cristo"
+        }
+      ]
+    },
+    {
+      "id": "analisis-gramatical",
+      "tipo": "explicacion",
+      "titulo": "Análisis Gramatical Completo",
+      "contenido": [
+        {
+          "tipo": "lista",
+          "items": [
+            "SUSTANTIVO CLAVE: πίστις (nominativo, con artículo τῇ)",
+            "MODIFICADOR: τοῦ υἱοῦ τοῦ θεοῦ (genitivo)",
+            "PREGUNTA GRAMATICAL: ¿Es genitivo objetivo (fe EN él) o subjetivo (fe/fidelidad DE él)?",
+            "SEMANTIC FIELD: πίστις usualmente toma objeto + εἰς (eis) cuando es 'fe en', pero aquí es genitivo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "evidencia-interpretacion",
+      "tipo": "explicacion",
+      "titulo": "Evidencia para Cada Interpretación",
+      "contenido": [
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "A Favor de 'Fe EN Cristo' (genitivo objetivo)"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "Teológicamente esperado: el tema de Gálatas es la justificación POR FE",
+            "Pablo espera que los lectores confíen EN Cristo",
+            "Gramaticalmente: el contexto de salvación personalmente sugiere fe del creyente"
+          ]
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "A Favor de 'Fe/Fidelidad DE Cristo' (genitivo subjetivo)"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "Simetría con 2:16: 'ἐπίστευσα Χριστῷ' (creí en Cristo) es fe objetiva + εἰς, pero 2:20 usa genitivo",
+            "La estructura de 2:20 (Yo muero, Cristo vive) sugiere énfasis en la fidelidad/vida DE Cristo",
+            "Patrón paulino: a menudo equilibra fe del creyente CON fidelidad de Cristo"
+          ]
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ej-n4-l07-01",
+      "tipo": "seleccion",
+      "titulo": "Análisis de Gálatas 2:20",
+      "instrucciones": "¿Cuál interpretación es más probable basada en contexto?",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "En Gálatas 2:20, ¿qué estructura sugiere 'fe EN Cristo'?",
+          "opciones": ["El genitivo τοῦ υἱοῦ", "El contexto temático de Gálatas sobre justificación", "La ausencia de εἰς", "La mención de 'morir'"],
+          "respuestaCorrecta": "El contexto temático de Gálatas sobre justificación",
+          "explicacion": "Gálatas 1-2 enfatiza repetidamente justificación POR FE. El contexto sugiere fe del creyente EN Cristo.",
+          "puntaje": 10
+        }
+      ]
+    }
+  ],
+  "siguienteLeccion": "n4-l08",
+  "puntajeMaximo": 100
+}

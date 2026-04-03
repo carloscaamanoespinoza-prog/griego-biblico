@@ -1,0 +1,122 @@
+{
+  "id": "n4-l05",
+  "nivel": 4,
+  "numero": 5,
+  "titulo": "Metodología Verbal: El Enfoque de Porter sobre Aspecto",
+  "subtitulo": "Cómo los tiempos verbales comunican significado exegético",
+  "descripcion": "Stanley Porter revolucionó nuestra comprensión del sistema verbal griego. En lugar de ver los tiempos como expresión de TIEMPO, los ve como expresión de ASPECTO (la presentación de la acción). Esto cambia la exégesis.",
+  "duracionEstimada": 50,
+  "prerequisitos": ["n4-l04"],
+  "objetivos": [
+    "Entender la teoría del aspecto verbal de Porter",
+    "Distinguir entre tiempo gramatical y aspecto",
+    "Aplicar el análisis de aspecto a la interpretación",
+    "Evaluar cómo el aspecto afecta significado teológico"
+  ],
+  "secciones": [
+    {
+      "id": "porter-aspecto",
+      "tipo": "explicacion",
+      "titulo": "Aspecto no Tiempo: La Revolución de Porter",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Tradicionalmente se enseña que los tiempos griegos indican TIEMPO (pasado, presente, futuro). Pero Porter argumenta que el sistema verbal PRIMARIAMENTE expresa ASPECTO - la perspectiva o presentación de la acción."
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "¿Qué es Aspecto?"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "ASPECTO = cómo se presenta la acción (completa, incompleta, habitual, etc.)",
+            "TIEMPO = cuándo ocurre la acción (pasado, presente, futuro)",
+            "En griego, el sistema verbal ENFATIZA aspecto sobre tiempo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "porter-aspectos",
+      "tipo": "explicacion",
+      "titulo": "Los Tres Aspectos Principales Según Porter",
+      "contenido": [
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Aspecto Perfectivo: Aoristo y Perfecto"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "AORISTO: acción vista como completa, sin atención a su desarrollo interno",
+            "PERFECTO: acción completa con énfasis en el estado resultante",
+            "Exegéticamente: importa cómo se PRESENTA la acción, no cuándo ocurrió"
+          ]
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Aspecto Imperfectivo: Presente e Imperfecto"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "PRESENTE: acción en progreso, sin límites internos definidos",
+            "IMPERFECTO: acción habitual o progresiva en el pasado",
+            "Exegéticamente: el aspecto muestra la PERSPECTIVA, no necesariamente el tiempo actual"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "porter-implicaciones",
+      "tipo": "explicacion",
+      "titulo": "Implicaciones Exegéticas del Aspecto",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Si el sistema verbal griego es primariamente ASPECTUAL, entonces la elección de aoristo vs. presente NO es primariamente sobre cuándo, sino sobre CÓMO se presenta el hablante la acción."
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "Un aoristo puede referirse a acción pasada, presente o futura - depende del contexto",
+            "La diferencia entre aoristo y presente es PERSPECTIVAL, no temporal",
+            "Para exégesis: ¿POR QUÉ eligió el autor este aspecto? ¿Qué enfatiza?"
+          ]
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ej-n4-l05-01",
+      "tipo": "seleccion",
+      "titulo": "Teoría de Porter sobre Aspecto",
+      "instrucciones": "¿Cuál es la diferencia fundamental según Porter?",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "¿Qué es ASPECTO en la teoría de Porter?",
+          "opciones": ["El tiempo en que ocurre", "La perspectiva/presentación de la acción", "La voz del verbo", "El modo del verbo"],
+          "respuestaCorrecta": "La perspectiva/presentación de la acción",
+          "explicacion": "Porter enfatiza que el sistema verbal griego es ASPECTUAL - expresa CÓMO se presenta la acción, no cuándo.",
+          "puntaje": 10
+        },
+        {
+          "id": "p2",
+          "estimulo": "Diferencia entre aoristo y presente según Porter:",
+          "opciones": ["Pasado vs. presente", "Completo vs. incompleto", "Perfectivo vs. imperfectivo", "Todas las anteriores"],
+          "respuestaCorrecta": "Perfectivo vs. imperfectivo",
+          "explicacion": "Ambos pueden referir a tiempo pasado, presente o futuro. La diferencia es ASPECTUAL: perspectiva de la acción.",
+          "puntaje": 10
+        }
+      ]
+    }
+  ],
+  "siguienteLeccion": "n4-l06",
+  "puntajeMaximo": 100
+}

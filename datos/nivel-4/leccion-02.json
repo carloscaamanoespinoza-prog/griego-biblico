@@ -1,0 +1,132 @@
+{
+  "id": "n4-l02",
+  "nivel": 4,
+  "numero": 2,
+  "titulo": "Crítica Textual II: Principios de Evaluación",
+  "subtitulo": "Cómo decidir cuál variante es más probable que sea original",
+  "descripcion": "Cuando hay variantes manuscritas, ¿cuál es la más probable que sea el texto ORIGINAL? Hay principios para decidir. Aprenderás la 'regla de oro' de la crítica textual y cómo evaluarla.",
+  "duracionEstimada": 45,
+  "prerequisitos": ["n4-l01"],
+  "objetivos": [
+    "Entender el principio de evidencia externa (manuscritos más antiguos y confiables)",
+    "Entender el principio de evidencia interna (variante más difícil, más corta, más dispar)",
+    "Aplicar estos principios a casos reales de variación textual",
+    "Evaluar la certeza de decisiones textuales usando UBS ratings"
+  ],
+  "secciones": [
+    {
+      "id": "evidencia-externa",
+      "tipo": "explicacion",
+      "titulo": "Evidencia Externa: El Apoyo Manuscrito",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "La EVIDENCIA EXTERNA examina qué manuscritos apoyan cada variante. Los manuscritos más antiguos (papiros, unciales antiguos) generalmente tienen más peso que los más recientes."
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "Papiros antiguos (II-III siglos) tienen máximo peso",
+            "Unciales antiguos (IV-V siglos) tienen peso significativo",
+            "Texto Alejandrino (P75, B, א) es generalmente preferido",
+            "Pero no es puramente democrático: un papiro del II vale más que 100 cursivos del siglo IX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "evidencia-interna",
+      "tipo": "explicacion",
+      "titulo": "Evidencia Interna: Cuál Variante es Más Probable",
+      "contenido": [
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Principio 1: Variante Más Difícil"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "Los copistas tendían a SIMPLIFICAR texto difícil",
+            "Por lo tanto, la variante MÁS DIFÍCIL de entender probablemente sea original",
+            "Ejemplo: ἴδε ὁ ἀρνός (he aquí el cordero) vs. ἴδε τὸ ἀρνίον (he aquí la oveja) - lo más difícil es lo más probable"
+          ]
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Principio 2: Variante Más Corta"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "Los copistas tendían a AÑADIR palabras (armonización, clarificación)",
+            "La variante MÁS CORTA es frecuentemente original",
+            "Pero no siempre: a veces se omitía por homoioteleuton (palabras iguales)"
+          ]
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Principio 3: Explicación Más Probable"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "¿Cómo explicaría un copista cambiar de una variante a otra?",
+            "Si la explicación es plausible (homoioteleuton, armonización), esa variante es probablemente original",
+            "Si no hay explicación plausible, probablemente no fue el cambio accidental"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ubs-ratings",
+      "tipo": "explicacion",
+      "titulo": "Certeza de Decisión Textual: UBS Ratings",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El aparato crítico de UBS usa ratings (A, B, C, D) para indicar qué tan seguro está que la lectura del texto es correcta."
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "A = Casi cierto (variantes son muy distintas pero evidencia es clara)",
+            "B = Probablemente correcto (buena evidencia pero cierta incertidumbre)",
+            "C = Incierto (evidencia bastante equilibrada)",
+            "D = Muy incierto (evidencia muy dividida, ambas formas posibles)"
+          ]
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ej-n4-l02-01",
+      "tipo": "seleccion",
+      "titulo": "Principios de crítica textual",
+      "instrucciones": "¿Cuál principio se aplica?",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "Variante A: πᾶς ὁ λαός (todos el pueblo) vs. Variante B: ὁ λαός (el pueblo). ¿Cuál es probablemente original?",
+          "opciones": ["Variante A (más larga)", "Variante B (más corta)", "No se puede determinar", "Depende de manuscritos"],
+          "respuestaCorrecta": "Variante B (más corta)",
+          "explicacion": "El principio de 'variante más corta' sugiere que los copistas añadían palabras. Aquí, πᾶς fue probablemente añadido.",
+          "puntaje": 10
+        },
+        {
+          "id": "p2",
+          "estimulo": "¿Qué significa un rating UBS 'C'?",
+          "opciones": ["Casi cierto", "Probablemente correcto", "Incierto, evidencia equilibrada", "Muy incierto"],
+          "respuestaCorrecta": "Incierto, evidencia equilibrada",
+          "explicacion": "Rating C indica que la evidencia textual está bastante dividida - ambas variantes tienen apoyo significativo.",
+          "puntaje": 10
+        }
+      ]
+    }
+  ],
+  "siguienteLeccion": "n4-l03",
+  "puntajeMaximo": 100
+}

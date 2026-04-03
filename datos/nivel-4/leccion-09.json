@@ -1,0 +1,64 @@
+{
+  "id": "n4-l09",
+  "nivel": 4,
+  "numero": 9,
+  "titulo": "Integración Total: Juan 1:1 Análisis Exegético Completo",
+  "subtitulo": "Aplicando crítica textual, semántica, sintaxis, y teología",
+  "descripcion": "Realizamos análisis COMPLETAMENTE INTEGRADO de Juan 1:1, demostrando cómo crítica textual, análisis lingüístico, sintáctico y teológico trabajan juntos.",
+  "duracionEstimada": 60,
+  "prerequisitos": ["n4-l08"],
+  "objetivos": [
+    "Realizar exégesis completa de Juan 1:1 usando todas las herramientas",
+    "Integrar crítica textual, léxica, sintáctica y teológica",
+    "Mostrar cómo la forma gramatical comunica teología",
+    "Demostrar la metodología completa de exégesis rigurosa"
+  ],
+  "secciones": [
+    {
+      "id": "juan-1-1-completo",
+      "tipo": "explicacion",
+      "titulo": "Juan 1:1 - Análisis Exegético Integrado",
+      "contenido": [
+        {
+          "tipo": "cita",
+          "texto": "Ἐν ἀρχῇ ἦν ὁ λόγος, καὶ ὁ λόγος ἦν πρὸς τὸν θεόν, καὶ θεὸς ἦν ὁ λόγος.",
+          "transliteracion": "En archē ēn ho logos, kai ho logos ēn pros ton theon, kai theos ēn ho logos.",
+          "traduccion": "En el principio era la Palabra, y la Palabra estaba con Dios, y la Palabra era Dios.",
+          "referencia": "Juan 1:1 - Análisis Completo",
+          "clase": "normal"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "CRÍTICA TEXTUAL: Todos los manuscritos importantes coinciden - NO hay variantes significativas aquí",
+            "ANÁLISIS LÉXICO:\n  - ἀρχή (principio) = origen, comienzo del tiempo o realidad\n  - λόγος (Logos) = concepto de Dios revelado, Palabra divina\n  - θεός (Dios) = divinidad, la naturaleza divina",
+            "ANÁLISIS SINTÁCTICO:\n  - Tres predicaciones paralelas, cada una afirma verdad sobre el Logos\n  - Orden de palabras: θεὸς ἦν ὁ λόγος (predicado al inicio) = énfasis en divinidad",
+            "ANÁLISIS ASPECTO (Porter):\n  - ἦν (imperfecto) = existencia duradera, no punto en tiempo",
+            "ANÁLISIS SEMÁNTICO:\n  - Sin artículo en θεὸς = énfasis cualitativo (ser 'divino') vs. identidad específica",
+            "CONCLUSIÓN TEOLÓGICA:\n  - El Logos es eternamente existente, divinamente cualificado, en relación íntima con Dios"
+          ]
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ej-n4-l09-01",
+      "tipo": "seleccion",
+      "titulo": "Integración exegética",
+      "instrucciones": "¿Cómo la forma comunica significado?",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "¿Por qué Juan usa TRES predicaciones paralelas en 1:1?",
+          "opciones": ["Repetición poética para énfasis", "Para afirmar múltiples verdades: preexistencia, relación, divinidad", "Métrica del griego", "Aclaración progresiva"],
+          "respuestaCorrecta": "Para afirmar múltiples verdades: preexistencia, relación, divinidad",
+          "explicacion": "Cada cláusula afirma una verdad diferente: ἦν (preexistencia), πρὸς τὸν θεόν (relación), θεὸς ἦν (divinidad).",
+          "puntaje": 10
+        }
+      ]
+    }
+  ],
+  "siguienteLeccion": "n4-l10",
+  "puntajeMaximo": 100
+}

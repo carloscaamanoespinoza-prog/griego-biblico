@@ -1,0 +1,115 @@
+{
+  "id": "n4-l04",
+  "nivel": 4,
+  "numero": 4,
+  "titulo": "Metodología Exegética: El Enfoque Merkle",
+      "subtitulo": "Un modelo sistemático para la interpretación bíblica",
+  "descripcion": "Benjamin Merkle propone un enfoque exegético que integra análisis histórico, lingüístico, y teológico. Aprenderás su metodología sistemática para interpretar textos bíblicos.",
+  "duracionEstimada": 50,
+  "prerequisitos": ["n4-l03"],
+  "objetivos": [
+    "Entender el modelo de Merkle para la exégesis",
+    "Aplicar análisis histórico, lingüístico y teológico integrados",
+    "Usar el método Merkle en pasajes del NT",
+    "Conectar forma gramatical con significado teológico"
+  ],
+  "secciones": [
+    {
+      "id": "merkle-model",
+      "tipo": "explicacion",
+      "titulo": "El Modelo de Merkle: Tres Dimensiones",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Merkle propone que la exégesis VÁLIDA requiere integrar TRES dimensiones: HISTÓRICA (¿cuál era el contexto?), LINGÜÍSTICA (¿qué dice el texto exactamente?), y TEOLÓGICA (¿qué significa para nosotros?)."
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "DIMENSIÓN HISTÓRICA: Contexto autor/audiencia, situación socio-cultural, convenciones literarias",
+            "DIMENSIÓN LINGÜÍSTICA: Análisis de palabras, frases, estructura gramatical, semántica",
+            "DIMENSIÓN TEOLÓGICA: Significado teológico, implicaciones para creencia/práctica, relevancia contemporánea"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "merkle-pasos",
+      "tipo": "explicacion",
+      "titulo": "Pasos del Análisis Merkle",
+      "contenido": [
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Paso 1: Análisis Textual"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "Determinar el texto más probable (crítica textual)",
+            "Establecer límites de la pericopa (¿dónde comienza y termina la unidad?)"
+          ]
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Paso 2: Análisis Lingüístico-Semántico"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "Análisis léxico de palabras clave",
+            "Análisis sintáctico de estructura oracional",
+            "Análisis de figuras literarias y retórica"
+          ]
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Paso 3: Análisis Histórico-Contextual"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "Contexto histórico (quién escribió, cuándo, a quién)",
+            "Contexto literario (qué viene antes y después)",
+            "Contexto cultural (convenciones de la época)"
+          ]
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Paso 4: Síntesis Teológica"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "¿Cuál es el significado teológico integrado?",
+            "¿Cómo se relaciona con la teología bíblica más amplia?",
+            "¿Cuáles son las implicaciones para interpretación e aplicación?"
+          ]
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ej-n4-l04-01",
+      "tipo": "seleccion",
+      "titulo": "Metodología Merkle",
+      "instrucciones": "¿Cuál dimensión es más importante?",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "En el análisis Merkle, ¿cuál es la PRIMERA dimensión a considerar?",
+          "opciones": ["Teológica", "Textual", "Histórica", "Lingüística"],
+          "respuestaCorrecta": "Textual",
+          "explicacion": "Primero debe establecer QUÉ DICE el texto (crítica textual, límites de pericopa) antes de interpretarlo.",
+          "puntaje": 10
+        }
+      ]
+    }
+  ],
+  "siguienteLeccion": "n4-l05",
+  "puntajeMaximo": 100
+}

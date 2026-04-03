@@ -1,0 +1,98 @@
+{
+  "id": "n4-l06",
+  "nivel": 4,
+  "numero": 6,
+  "titulo": "Estudio de Palabras: El Método Kittel-Coenen",
+  "subtitulo": "Análisis teológico-semántico de palabras clave",
+  "descripcion": "El diccionario teológico Kittel-Coenen es la referencia estándar para palabras teológicamente significativas en el NT. Aprenderás el método para hacer word studies que no caigan en falacias.",
+  "duracionEstimada": 45,
+  "prerequisitos": ["n4-l05"],
+  "objetivos": [
+    "Entender el método Kittel-Coenen para word studies",
+    "Usar etimología correctamente (sin caer en 'etimología falaz')",
+    "Analizar semantic field (campo semántico) de palabras",
+    "Aplicar word studies a interpretación teológica"
+  ],
+  "secciones": [
+    {
+      "id": "word-study-metodo",
+      "tipo": "explicacion",
+      "titulo": "Metodología Kittel-Coenen",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El diccionario teológico TDNT (Theological Dictionary of the New Testament) de Kittel-Friedrich propone un método riguroso para estudiar palabras teológicamente significativas. Coenen expandió esto en NIDNTT."
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "Pasos del Método"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "1. ETIMOLOGÍA: Entender la FORMACIÓN de la palabra (pero NO asumir que la forma original es el significado actual)",
+            "2. USO EN LITERATURA GRIEGA: ¿Cómo se usa en griego profano, clásico?",
+            "3. USO EN LXX (Septuaginta): ¿Cómo se usa en traducción griega del AT?",
+            "4. USO EN NT: ¿Cómo se usa en cada evangelio, Pablo, Juan, etc.?",
+            "5. CAMPO SEMÁNTICO: ¿Qué palabras son sinónimos o antónimos?",
+            "6. SIGNIFICADO TEOLÓGICO: ¿Qué significado teológico desarrolla el NT?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "word-study-errores",
+      "tipo": "explicacion",
+      "titulo": "Errores Comunes en Word Studies",
+      "contenido": [
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "La Falacia Etimológica"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "FALACIA: Asumir que el significado ORIGINAL de los componentes de una palabra es su significado actual",
+            "EJEMPLO FALAZ: σ-κότος (skótos) = 'sin luz' por etimología, pero significa 'oscuridad'",
+            "CORRECTO: El significado actual es lo que importa, no la etimología histórica"
+          ]
+        },
+        {
+          "tipo": "titulo-seccion",
+          "nivel": 4,
+          "texto": "El Problema del Rango Semántico"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "FALACIA: Asumir que TODOS los significados de una palabra son presentes en cada uso",
+            "EJEMPLO FALAZ: δύναμις puede significar 'poder', 'milagro', 'capacidad' - pero en cada texto significa UNA cosa",
+            "CORRECTO: Usar el contexto para determinar el significado ESPECÍFICO en ese texto"
+          ]
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ej-n4-l06-01",
+      "tipo": "seleccion",
+      "titulo": "Method Word Study",
+      "instrucciones": "¿Cuál es el primer paso en el método Kittel?",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "En word study de δύναμις (poder), ¿qué debes hacer PRIMERO?",
+          "opciones": ["Asumir significado etimológico", "Investigar uso en griego clásico y LXX", "Saltar al NT", "Buscar sinónimos"],
+          "respuestaCorrecta": "Investigar uso en griego clásico y LXX",
+          "explicacion": "El método Kittel comienza con contexto lingüístico más amplio antes de entrar al NT.",
+          "puntaje": 10
+        }
+      ]
+    }
+  ],
+  "siguienteLeccion": "n4-l07",
+  "puntajeMaximo": 100
+}

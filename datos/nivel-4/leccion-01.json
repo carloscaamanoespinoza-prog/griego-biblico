@@ -1,0 +1,116 @@
+{
+  "id": "n4-l01",
+  "nivel": 4,
+  "numero": 1,
+  "titulo": "Crítica Textual I: Los Manuscritos Griegos",
+  "subtitulo": "Papiros, unciales y cursivos - la base de nuestro texto",
+  "descripcion": "El NT que leemos no viene de 'original perfecto'. Tenemos copias manuscritas con variaciones. La CRÍTICA TEXTUAL intenta reconstruir el texto más probable. Aprenderás sobre los manuscritos que poseemos.",
+  "duracionEstimada": 45,
+  "prerequisitos": ["n3-l10"],
+  "objetivos": [
+    "Entender los tipos de manuscritos griegos (papiros, unciales, cursivos)",
+    "Reconocer las principales familias textuales (Alejandrino, Occidental, Bizantino)",
+    "Aprender qué es el aparato crítico de NA28",
+    "Evaluar evidencia manuscrita para decisiones textuales"
+  ],
+  "secciones": [
+    {
+      "id": "manuscritos-tipos",
+      "tipo": "explicacion",
+      "titulo": "Tipos de Manuscritos Griegos",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Tenemos tres tipos principales de manuscritos griegos del NT, clasificados por su antigüedad, material y estilo de escritura."
+        },
+        {
+          "tipo": "tabla-interactiva",
+          "titulo": "Tipos de Manuscritos",
+          "datos": {
+            "columnas": ["Tipo", "Período", "Material", "Características", "Ejemplos"],
+            "filas": [
+              ["Papiros", "II-VIII siglos", "Papiro (frágil)", "Muy antiguos, fragmentarios, escritura cursiva", "P45, P66, P75"],
+              ["Unciales", "IV-X siglos", "Pergamino", "Letras mayúsculas, sin espacios", "Codex Sinaiticus (א), Vaticanus (B), Alexandrinus (A)"],
+              ["Cursivos", "IX-XVI siglos", "Pergamino/papel", "Letras minúsculas, más recientes, mayoría del NT", "Familia mayoritaria (~5000)"]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "familias-textuales",
+      "tipo": "explicacion",
+      "titulo": "Las Principales Familias Textuales",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Los manuscritos griegos se agrupan en FAMILIAS textuales basadas en patrones de variación. Las cuatro principales son el Texto Alejandrino, Occidental, Cesareano, y Bizantino."
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "TEXTO ALEJANDRINO (P75, B, א): Más breve, más antiguo, considerado más confiable",
+            "TEXTO OCCIDENTAL (D, Old Latin): Más largo, expansionista, frecuentemente rechazado",
+            "TEXTO CESAREANO (familia W, familia 13): Intermedio, evidencia limitada",
+            "TEXTO BIZANTINO (Mayoría de cursivos): Más largo, más reciente, pero tiene cierto peso"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "na28-aparato",
+      "tipo": "explicacion",
+      "titulo": "El Aparato Crítico de NA28",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "NA28 (Nestle-Aland 28ª edición) es el texto griego estándar. Incluye un APARATO CRÍTICO que lista variantes manuscritas. Aprender a leerlo es esencial para crítica textual."
+        },
+        {
+          "tipo": "nota",
+          "titulo": "Estructura del Aparato",
+          "texto": "En NA28, debajo del texto principal aparecen:\n- Número de versículo\n- Palabra problemática\n- Variantes listadas\n- Manuscritos que apoyan cada variante\n- Marcas de certeza (UBS rating A-E)"
+        }
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ej-n4-l01-01",
+      "tipo": "seleccion",
+      "titulo": "Identifica tipos de manuscritos",
+      "instrucciones": "¿A qué tipo corresponde cada descripción?",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "Manuscrito del siglo II en papiro, muy antiguo pero fragmentario",
+          "opciones": ["Uncial", "Papiro", "Cursivo", "Minúscula"],
+          "respuestaCorrecta": "Papiro",
+          "explicacion": "Los papiros son los manuscritos más antiguos (II-VIII siglos), escritos en papiro frágil.",
+          "puntaje": 10
+        },
+        {
+          "id": "p2",
+          "estimulo": "Codex Sinaiticus (א) - ¿qué tipo de manuscrito?",
+          "opciones": ["Papiro", "Uncial", "Cursivo", "Palimpsesto"],
+          "respuestaCorrecta": "Uncial",
+          "explicacion": "Sinaiticus es un uncial del siglo IV, escrito en mayúsculas sin espacios entre palabras.",
+          "puntaje": 10
+        }
+      ]
+    }
+  ],
+  "vocabulario": [
+    {
+      "griego": "κριτική",
+      "transliteracion": "kritikē",
+      "definicion": "crítica (análisis evaluativo)",
+      "categoria": "sustantivo",
+      "frecuencia": "meta-gramática",
+      "ejemplo": "Crítica textual del NT",
+      "frecuenciaNT": 0
+    }
+  ],
+  "siguienteLeccion": "n4-l02",
+  "puntajeMaximo": 100
+}
