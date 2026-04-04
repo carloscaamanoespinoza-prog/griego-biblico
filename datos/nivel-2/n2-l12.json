@@ -6,7 +6,9 @@
   "subtitulo": "Formas verbales que funcionan como sustantivos",
   "descripcion": "El infinitivo es la forma verbal más 'sustantivada'. Expresa la acción verbal sin sujeto específico. Es fundamental para entender construcciones de propósito, resultado y dependencia.",
   "duracionEstimada": 40,
-  "prerequisitos": ["n2-l11"],
+  "prerequisitos": [
+    "n2-l11"
+  ],
   "objetivos": [
     "Entender el infinitivo como forma verbal sustantivada",
     "Reconocer infinitivos en diferentes tiempos y voces",
@@ -72,13 +74,37 @@
       "titulo": "Infinitivo Presente Activo: λύειν (soltar)",
       "descripcion": "Forma básica del infinitivo presente activo",
       "datos": {
-        "columnas": ["Tiempo/Voz", "Forma", "Traducción"],
+        "columnas": [
+          "Tiempo/Voz",
+          "Forma",
+          "Traducción"
+        ],
         "filas": [
-          ["Presente Activo", "λύ-ειν", "soltar (habitualmente), estar soltando"],
-          ["Presente Medio", "λύ-ε-σθαι", "soltarse a sí mismo (habitualmente)"],
-          ["Presente Pasivo", "λύ-ε-σθαι", "ser soltado (habitualmente)"],
-          ["Aoristo Activo", "λύ-σαι", "soltar (de una sola vez, puntualmente)"],
-          ["Aoristo Pasivo", "λυ-θ-ῆναι", "ser soltado (puntualmente)"]
+          [
+            "Presente Activo",
+            "λύ-ειν",
+            "soltar (habitualmente), estar soltando"
+          ],
+          [
+            "Presente Medio",
+            "λύ-ε-σθαι",
+            "soltarse a sí mismo (habitualmente)"
+          ],
+          [
+            "Presente Pasivo",
+            "λύ-ε-σθαι",
+            "ser soltado (habitualmente)"
+          ],
+          [
+            "Aoristo Activo",
+            "λύ-σαι",
+            "soltar (de una sola vez, puntualmente)"
+          ],
+          [
+            "Aoristo Pasivo",
+            "λυ-θ-ῆναι",
+            "ser soltado (puntualmente)"
+          ]
         ]
       }
     },
@@ -201,7 +227,12 @@
         {
           "id": "p1",
           "estimulo": "Infinitivo presente activo de λύω",
-          "opciones": ["λύσαι", "λύειν", "λύων", "λύσας"],
+          "opciones": [
+            "λύσαι",
+            "λύειν",
+            "λύων",
+            "λύσας"
+          ],
           "respuestaCorrecta": "λύειν",
           "explicacion": "λύ (tema) + ειν (terminación infinitivo presente activo) = λύειν",
           "puntaje": 10
@@ -209,7 +240,12 @@
         {
           "id": "p2",
           "estimulo": "Infinitivo aoristo activo de λύω",
-          "opciones": ["λύειν", "λύσαι", "λύσειν", "λύσας"],
+          "opciones": [
+            "λύειν",
+            "λύσαι",
+            "λύσειν",
+            "λύσας"
+          ],
           "respuestaCorrecta": "λύσαι",
           "explicacion": "λύ (tema) + σαι (sigma aorística + terminación infinitivo aoristo activo) = λύσαι",
           "puntaje": 10
@@ -217,7 +253,12 @@
         {
           "id": "p3",
           "estimulo": "¿Cuál es un uso común del infinitivo?",
-          "opciones": ["Modificar un sustantivo", "Expresar propósito", "Expresar emociones", "Indicar cantidad"],
+          "opciones": [
+            "Modificar un sustantivo",
+            "Expresar propósito",
+            "Expresar emociones",
+            "Indicar cantidad"
+          ],
           "respuestaCorrecta": "Expresar propósito",
           "explicacion": "El infinitivo se usa frecuentemente para expresar propósito: 'vino para soltar' (ἦλθεν λύσαι).",
           "puntaje": 10
@@ -235,7 +276,9 @@
           "estimulo": "Infinitivo presente activo de λύω",
           "tipo": "texto",
           "respuestaCorrecta": "λύειν",
-          "alternativasAceptadas": ["λύειν"],
+          "alternativasAceptadas": [
+            "λύειν"
+          ],
           "explicacion": "λύ (tema) + ειν (terminación infinitivo presente) = λύειν",
           "puntaje": 15
         },
@@ -244,7 +287,9 @@
           "estimulo": "Infinitivo aoristo pasivo de λύω",
           "tipo": "texto",
           "respuestaCorrecta": "λυθῆναι",
-          "alternativasAceptadas": ["λυθῆναι"],
+          "alternativasAceptadas": [
+            "λυθῆναι"
+          ],
           "explicacion": "λύ (tema) + θη + ναι (característica pasiva + terminación infinitivo aoristo pasivo) = λυθῆναι",
           "puntaje": 15
         },
@@ -253,9 +298,55 @@
           "estimulo": "Infinitivo presente medio de λύω",
           "tipo": "texto",
           "respuestaCorrecta": "λύεσθαι",
-          "alternativasAceptadas": ["λύεσθαι"],
+          "alternativasAceptadas": [
+            "λύεσθαι"
+          ],
           "explicacion": "λύ (tema) + εσθαι (terminación infinitivo presente medio) = λύεσθαι",
           "puntaje": 15
+        }
+      ]
+    },
+    {
+      "id": "ej-n2-l12-03",
+      "tipo": "seleccion",
+      "titulo": "Traduce las palabras",
+      "instrucciones": "Lee la palabra en griego y selecciona la traducción correcta al español.",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "λύειν",
+          "opciones": [
+            "soltar, disolver (infinitivo presente activo)",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "soltar, disolver (infinitivo presente activo)",
+          "explicacion": "✓ Correcto. λύειν (lyein) significa 'soltar, disolver (infinitivo presente activo)'.",
+          "puntaje": 10
+        },
+        {
+          "id": "p2",
+          "estimulo": "λύσαι",
+          "opciones": [
+            "soltar (infinitivo aoristo activo)",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "soltar (infinitivo aoristo activo)",
+          "explicacion": "✓ Correcto. λύσαι (lysai) significa 'soltar (infinitivo aoristo activo)'.",
+          "puntaje": 10
+        },
+        {
+          "id": "p3",
+          "estimulo": "λυθῆναι",
+          "opciones": [
+            "ser soltado (infinitivo aoristo pasivo)",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "ser soltado (infinitivo aoristo pasivo)",
+          "explicacion": "✓ Correcto. λυθῆναι (lythēnai) significa 'ser soltado (infinitivo aoristo pasivo)'.",
+          "puntaje": 10
         }
       ]
     }

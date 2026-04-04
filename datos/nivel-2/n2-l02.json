@@ -6,7 +6,9 @@
   "subtitulo": "La acción puntual y completa en el pasado",
   "descripcion": "El aoristo es el tiempo que describe una acción puntual, momentánea y completa en el pasado. Es el tiempo más frecuente en narrativas bíblicas.",
   "duracionEstimada": 35,
-  "prerequisitos": ["n2-l01"],
+  "prerequisitos": [
+    "n2-l01"
+  ],
   "objetivos": [
     "Entender el aspecto aorístico (acción completa)",
     "Formar y conjugar el aoristo 1º indicativo activo",
@@ -71,11 +73,27 @@
       "titulo": "Aoristo 1º Indicativo Activo: λύω (solté, soltaste, soltó...)",
       "descripcion": "Forma completa del aoristo 1º con sigma característica",
       "datos": {
-        "columnas": ["Persona", "Singular", "Plural"],
+        "columnas": [
+          "Persona",
+          "Singular",
+          "Plural"
+        ],
         "filas": [
-          ["1ª", "ἔ-λυ-σ-α (solté)", "ἐ-λύ-σ-αμεν (soltamos)"],
-          ["2ª", "ἔ-λυ-σ-ας (soltaste)", "ἐ-λύ-σ-ατε (soltasteis)"],
-          ["3ª", "ἔ-λυ-σ-ε(ν) (soltó)", "ἔ-λυ-σ-αν (soltaron)"]
+          [
+            "1ª",
+            "ἔ-λυ-σ-α (solté)",
+            "ἐ-λύ-σ-αμεν (soltamos)"
+          ],
+          [
+            "2ª",
+            "ἔ-λυ-σ-ας (soltaste)",
+            "ἐ-λύ-σ-ατε (soltasteis)"
+          ],
+          [
+            "3ª",
+            "ἔ-λυ-σ-ε(ν) (soltó)",
+            "ἔ-λυ-σ-αν (soltaron)"
+          ]
         ]
       }
     },
@@ -133,7 +151,12 @@
         {
           "id": "p1",
           "estimulo": "3ª singular aoristo de λύω",
-          "opciones": ["ἔλυε", "ἔλυσε", "ἔλυσεν", "ἔλυσα"],
+          "opciones": [
+            "ἔλυε",
+            "ἔλυσε",
+            "ἔλυσεν",
+            "ἔλυσα"
+          ],
           "respuestaCorrecta": "ἔλυσε(ν)",
           "explicacion": "La forma 3ª singular aoristo es ἔλυσε(ν). La sigma aorística (-σ-) es característica del aoristo 1º. El nu movible (ν) al final es opcional.",
           "puntaje": 10
@@ -141,7 +164,12 @@
         {
           "id": "p2",
           "estimulo": "1ª plural aoristo de λύω",
-          "opciones": ["ἐλύομεν", "ἐλύσαμεν", "ἐλύσατε", "ἔλυσαν"],
+          "opciones": [
+            "ἐλύομεν",
+            "ἐλύσαμεν",
+            "ἐλύσατε",
+            "ἔλυσαν"
+          ],
           "respuestaCorrecta": "ἐλύσαμεν",
           "explicacion": "La forma 1ª plural es ἐλύσαμεν = ἐ (aumento) + λύ + σα + μεν. El aumento es silábico porque es 1ª plural.",
           "puntaje": 10
@@ -149,7 +177,12 @@
         {
           "id": "p3",
           "estimulo": "¿Qué característica temporal del aoristo 1º aparece aquí?",
-          "opciones": ["ω", "ε", "σα", "α"],
+          "opciones": [
+            "ω",
+            "ε",
+            "σα",
+            "α"
+          ],
           "respuestaCorrecta": "σα",
           "explicacion": "La característica temporal del aoristo 1º es -σα-, que aparece entre el tema y la desinencia: λύ + σα + ν.",
           "puntaje": 10
@@ -167,7 +200,9 @@
           "estimulo": "2ª singular aoristo de λύω",
           "tipo": "texto",
           "respuestaCorrecta": "ἔλυσας",
-          "alternativasAceptadas": ["ἔλυσας"],
+          "alternativasAceptadas": [
+            "ἔλυσας"
+          ],
           "explicacion": "ἔ (aumento) + λυ + σα + ς (desinencia 2ª sing.) = ἔλυσας",
           "puntaje": 15
         },
@@ -176,7 +211,9 @@
           "estimulo": "3ª plural aoristo de λύω",
           "tipo": "texto",
           "respuestaCorrecta": "ἔλυσαν",
-          "alternativasAceptadas": ["ἔλυσαν"],
+          "alternativasAceptadas": [
+            "ἔλυσαν"
+          ],
           "explicacion": "ἔ (aumento) + λυ + σα + ν (desinencia 3ª plural) = ἔλυσαν",
           "puntaje": 15
         },
@@ -185,9 +222,55 @@
           "estimulo": "1ª singular aoristo de λύω",
           "tipo": "texto",
           "respuestaCorrecta": "ἔλυσα",
-          "alternativasAceptadas": ["ἔλυσα"],
+          "alternativasAceptadas": [
+            "ἔλυσα"
+          ],
           "explicacion": "ἔ (aumento) + λυ + σα + ø (sin desinencia en 1ª sing.) = ἔλυσα",
           "puntaje": 15
+        }
+      ]
+    },
+    {
+      "id": "ej-n2-l02-03",
+      "tipo": "seleccion",
+      "titulo": "Traduce las palabras",
+      "instrucciones": "Lee la palabra en griego y selecciona la traducción correcta al español.",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "ἔλυσα",
+          "opciones": [
+            "solté, destaqué (aoristo 1ª singular)",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "solté, destaqué (aoristo 1ª singular)",
+          "explicacion": "✓ Correcto. ἔλυσα (elysa) significa 'solté, destaqué (aoristo 1ª singular)'.",
+          "puntaje": 10
+        },
+        {
+          "id": "p2",
+          "estimulo": "εἶπον",
+          "opciones": [
+            "dije, hablé (aoristo de λέγω, verbo segundo aoristo)",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "dije, hablé (aoristo de λέγω, verbo segundo aoristo)",
+          "explicacion": "✓ Correcto. εἶπον (eipon) significa 'dije, hablé (aoristo de λέγω, verbo segundo aoristo)'.",
+          "puntaje": 10
+        },
+        {
+          "id": "p3",
+          "estimulo": "ἐγενόμην",
+          "opciones": [
+            "me convertí, fui (aoristo deponent de γίνομαι)",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "me convertí, fui (aoristo deponent de γίνομαι)",
+          "explicacion": "✓ Correcto. ἐγενόμην (egenomēn) significa 'me convertí, fui (aoristo deponent de γίνομαι)'.",
+          "puntaje": 10
         }
       ]
     }

@@ -6,7 +6,9 @@
   "subtitulo": "Memoriza el 80% de los textos del Nuevo Testamento",
   "descripcion": "Esta lección consolidadora te presenta las 200 palabras más frecuentes del NT. Dominarlas te permitirá leer la mayor parte del Nuevo Testamento.",
   "duracionEstimada": 60,
-  "prerequisitos": ["n1-l11"],
+  "prerequisitos": [
+    "n1-l11"
+  ],
   "objetivos": [
     "Aprender las 200 palabras más frecuentes del NT",
     "Entender que estas pocas palabras representan el 80% del texto",
@@ -40,28 +42,154 @@
       "contenido": [
         {
           "tipo": "tabla-simple",
-          "cabeceras": ["Griego", "Transliteración", "Significado", "Frecuencia NT", "Tipo"],
+          "cabeceras": [
+            "Griego",
+            "Transliteración",
+            "Significado",
+            "Frecuencia NT",
+            "Tipo"
+          ],
           "filas": [
-            ["καί", "kai", "y, también", "9158", "conjunción"],
-            ["αὐτός", "autos", "él, ella, eso, el mismo", "5597", "pronombre"],
-            ["ὁ", "ho", "el (artículo definido)", "19783", "artículo"],
-            ["ἐν", "en", "en", "2752", "preposición"],
-            ["λέγω", "lego", "digo, hablo", "2354", "verbo"],
-            ["δέ", "de", "pero, y", "2792", "conjunción"],
-            ["πρός", "pros", "a, hacia", "700", "preposición"],
-            ["εἰμί", "eimi", "soy, estoy", "2457", "verbo"],
-            ["ὅς", "hos", "quien, que (relativo)", "1407", "pronombre relativo"],
-            ["αἱρέω", "haireo", "tomo, cojo", "143", "verbo"],
-            ["τις", "tis", "alguno, cierto", "525", "pronombre indefinido"],
-            ["ὑπό", "hypo", "bajo, por", "220", "preposición"],
-            ["μετά", "meta", "con, después", "469", "preposición"],
-            ["διά", "dia", "por, a través de", "667", "preposición"],
-            ["ἀπό", "apo", "de, desde", "646", "preposición"],
-            ["ἀλλά", "alla", "pero, sino", "638", "conjunción"],
-            ["πᾶς", "pas", "todo", "1243", "adjetivo"],
-            ["θεός", "theos", "Dios", "1320", "sustantivo"],
-            ["ἐκ/ἐξ", "ek/ex", "de, desde (de dentro)", "914", "preposición"],
-            ["κύριος", "kyrios", "Señor", "717", "sustantivo"]
+            [
+              "καί",
+              "kai",
+              "y, también",
+              "9158",
+              "conjunción"
+            ],
+            [
+              "αὐτός",
+              "autos",
+              "él, ella, eso, el mismo",
+              "5597",
+              "pronombre"
+            ],
+            [
+              "ὁ",
+              "ho",
+              "el (artículo definido)",
+              "19783",
+              "artículo"
+            ],
+            [
+              "ἐν",
+              "en",
+              "en",
+              "2752",
+              "preposición"
+            ],
+            [
+              "λέγω",
+              "lego",
+              "digo, hablo",
+              "2354",
+              "verbo"
+            ],
+            [
+              "δέ",
+              "de",
+              "pero, y",
+              "2792",
+              "conjunción"
+            ],
+            [
+              "πρός",
+              "pros",
+              "a, hacia",
+              "700",
+              "preposición"
+            ],
+            [
+              "εἰμί",
+              "eimi",
+              "soy, estoy",
+              "2457",
+              "verbo"
+            ],
+            [
+              "ὅς",
+              "hos",
+              "quien, que (relativo)",
+              "1407",
+              "pronombre relativo"
+            ],
+            [
+              "αἱρέω",
+              "haireo",
+              "tomo, cojo",
+              "143",
+              "verbo"
+            ],
+            [
+              "τις",
+              "tis",
+              "alguno, cierto",
+              "525",
+              "pronombre indefinido"
+            ],
+            [
+              "ὑπό",
+              "hypo",
+              "bajo, por",
+              "220",
+              "preposición"
+            ],
+            [
+              "μετά",
+              "meta",
+              "con, después",
+              "469",
+              "preposición"
+            ],
+            [
+              "διά",
+              "dia",
+              "por, a través de",
+              "667",
+              "preposición"
+            ],
+            [
+              "ἀπό",
+              "apo",
+              "de, desde",
+              "646",
+              "preposición"
+            ],
+            [
+              "ἀλλά",
+              "alla",
+              "pero, sino",
+              "638",
+              "conjunción"
+            ],
+            [
+              "πᾶς",
+              "pas",
+              "todo",
+              "1243",
+              "adjetivo"
+            ],
+            [
+              "θεός",
+              "theos",
+              "Dios",
+              "1320",
+              "sustantivo"
+            ],
+            [
+              "ἐκ/ἐξ",
+              "ek/ex",
+              "de, desde (de dentro)",
+              "914",
+              "preposición"
+            ],
+            [
+              "κύριος",
+              "kyrios",
+              "Señor",
+              "717",
+              "sustantivo"
+            ]
           ]
         },
         {
@@ -82,7 +210,12 @@
         {
           "id": "p1",
           "estimulo": "καί",
-          "opciones": ["pero", "y, también", "el", "no"],
+          "opciones": [
+            "pero",
+            "y, también",
+            "el",
+            "no"
+          ],
           "respuestaCorrecta": "y, también",
           "explicacion": "καί es la conjunción más frecuente en griego, equivalente a 'y' o 'también'.",
           "puntaje": 5
@@ -90,7 +223,12 @@
         {
           "id": "p2",
           "estimulo": "κύριος",
-          "opciones": ["rey", "Dios", "Señor", "amo"],
+          "opciones": [
+            "rey",
+            "Dios",
+            "Señor",
+            "amo"
+          ],
           "respuestaCorrecta": "Señor",
           "explicacion": "κύριος (kyrios, Señor) es un título usado frecuentemente para Jesús en el NT.",
           "puntaje": 5
@@ -98,10 +236,59 @@
         {
           "id": "p3",
           "estimulo": "λέγω",
-          "opciones": ["digo, hablo", "veo", "hago", "pienso"],
+          "opciones": [
+            "digo, hablo",
+            "veo",
+            "hago",
+            "pienso"
+          ],
           "respuestaCorrecta": "digo, hablo",
           "explicacion": "λέγω es el verbo más frecuente para 'decir' o 'hablar'.",
           "puntaje": 5
+        }
+      ]
+    },
+    {
+      "id": "ej-n1-l12-02",
+      "tipo": "seleccion",
+      "titulo": "Traduce las palabras",
+      "instrucciones": "Lee la palabra en griego y selecciona la traducción correcta al español.",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "καί",
+          "opciones": [
+            "y, también",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "y, también",
+          "explicacion": "✓ Correcto. καί (kai) significa 'y, también'.",
+          "puntaje": 10
+        },
+        {
+          "id": "p2",
+          "estimulo": "θεός",
+          "opciones": [
+            "Dios",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "Dios",
+          "explicacion": "✓ Correcto. θεός (theos) significa 'Dios'.",
+          "puntaje": 10
+        },
+        {
+          "id": "p3",
+          "estimulo": "κύριος",
+          "opciones": [
+            "Señor, dueño",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "Señor, dueño",
+          "explicacion": "✓ Correcto. κύριος (kyrios) significa 'Señor, dueño'.",
+          "puntaje": 10
         }
       ]
     }

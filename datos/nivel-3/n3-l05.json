@@ -6,7 +6,9 @@
   "subtitulo": "El Prólogo del Evangelio de Juan analizado línea por línea",
   "descripcion": "Aplicamos todo lo aprendido (morfología, sintaxis, partículas) a Juan 1:1-18, uno de los pasajes más theológicamente densos del NT. Leeremos palabra por palabra con atención exegética.",
   "duracionEstimada": 50,
-  "prerequisitos": ["n3-l04"],
+  "prerequisitos": [
+    "n3-l04"
+  ],
   "objetivos": [
     "Leer Juan 1:1-18 en griego con comprensión morfológica completa",
     "Identificar estructuras sintácticas y su significado exegético",
@@ -127,7 +129,12 @@
         {
           "id": "p1",
           "estimulo": "¿Cuál es el tiempo del verbo ἦν en 'Ἐν ἀρχῇ ἦν ὁ λόγος'?",
-          "opciones": ["Presente", "Aoristo", "Imperfecto", "Perfecto"],
+          "opciones": [
+            "Presente",
+            "Aoristo",
+            "Imperfecto",
+            "Perfecto"
+          ],
           "respuestaCorrecta": "Imperfecto",
           "explicacion": "ἦν es imperfecto de εἰμί. El aspecto imperfectivo sugiere que el Logos EXISTÍA en el principio de forma continua/duradera.",
           "puntaje": 10
@@ -135,7 +142,12 @@
         {
           "id": "p2",
           "estimulo": "¿Por qué θεὸς aparece sin artículo en 'θεὸς ἦν ὁ λόγος'?",
-          "opciones": ["Error gramatical", "Énfasis en la cualidad/naturaleza divina", "Énfasis en identidad específica", "Por métrica"],
+          "opciones": [
+            "Error gramatical",
+            "Énfasis en la cualidad/naturaleza divina",
+            "Énfasis en identidad específica",
+            "Por métrica"
+          ],
           "respuestaCorrecta": "Énfasis en la cualidad/naturaleza divina",
           "explicacion": "Sin artículo, θεὸς enfatiza la CUALIDAD de ser divino, no simplemente la identidad. Juan dice 'era divino' no 'era Dios específico'.",
           "puntaje": 10
@@ -143,7 +155,12 @@
         {
           "id": "p3",
           "estimulo": "¿Qué significa πρὸς τὸν θεόν (acusativo con πρός)?",
-          "opciones": ["Contra Dios", "Hacia/con Dios en relación", "Separado de Dios", "A través de Dios"],
+          "opciones": [
+            "Contra Dios",
+            "Hacia/con Dios en relación",
+            "Separado de Dios",
+            "A través de Dios"
+          ],
           "respuestaCorrecta": "Hacia/con Dios en relación",
           "explicacion": "πρός + acusativo expresa relación de dirección/intimidad. No es hostilidad sino una relación especial con Dios.",
           "puntaje": 10
@@ -161,7 +178,11 @@
           "estimulo": "¿Cuál es la función de δι' αὐτοῦ (genitivo con δία)?",
           "tipo": "texto",
           "respuestaCorrecta": "instrumento o medio",
-          "alternativasAceptadas": ["agente instrumental", "medio", "agency"],
+          "alternativasAceptadas": [
+            "agente instrumental",
+            "medio",
+            "agency"
+          ],
           "explicacion": "διά + genitivo expresa el instrumento o medio: 'todas las cosas fueron hechas por (a través de) él'.",
           "puntaje": 15
         },
@@ -170,7 +191,11 @@
           "estimulo": "¿Qué nos dice πάντα ἐγένετο sobre la importancia del Logos?",
           "tipo": "texto",
           "respuestaCorrecta": "el Logos es el creador",
-          "alternativasAceptadas": ["creador", "agente de creación", "instrumento de creación"],
+          "alternativasAceptadas": [
+            "creador",
+            "agente de creación",
+            "instrumento de creación"
+          ],
           "explicacion": "Πάντα (todas las cosas) ἐγένετο (fueron hechas) δι' αὐτοῦ (por/a través de él) = el Logos es el agente creador universal.",
           "puntaje": 15
         },
@@ -179,9 +204,56 @@
           "estimulo": "En 'ἡ ζωὴ ἦν τὸ φῶς', ¿cuáles son los dos nominativos?",
           "tipo": "texto",
           "respuestaCorrecta": "ζωή y φῶς",
-          "alternativasAceptadas": ["vida y luz", "life and light"],
+          "alternativasAceptadas": [
+            "vida y luz",
+            "life and light"
+          ],
           "explicacion": "Ambos están en nominativo: ζωή (sujeto) ἦν (verbo) τὸ φῶς (predicado nominal). La vida ES la luz.",
           "puntaje": 15
+        }
+      ]
+    },
+    {
+      "id": "ej-n3-l05-03",
+      "tipo": "seleccion",
+      "titulo": "Traduce las palabras",
+      "instrucciones": "Lee la palabra en griego y selecciona la traducción correcta al español.",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "ἀρχή",
+          "opciones": [
+            "comienzo, principio, origen",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "comienzo, principio, origen",
+          "explicacion": "✓ Correcto. ἀρχή (archē) significa 'comienzo, principio, origen'.",
+          "puntaje": 10
+        },
+        {
+          "id": "p2",
+          "estimulo": "λόγος",
+          "opciones": [
+            "palabra, discurso, razón (concepto central en Juan)",
+            "santidad, gloria",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "palabra, discurso, razón (concepto central en Juan)",
+          "explicacion": "✓ Correcto. λόγος (logos) significa 'palabra, discurso, razón (concepto central en Juan)'.",
+          "puntaje": 10
+        },
+        {
+          "id": "p3",
+          "estimulo": "φῶς",
+          "opciones": [
+            "luz (símbolo de verdad y revelación)",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "luz (símbolo de verdad y revelación)",
+          "explicacion": "✓ Correcto. φῶς (phōs) significa 'luz (símbolo de verdad y revelación)'.",
+          "puntaje": 10
         }
       ]
     }

@@ -6,7 +6,9 @@
   "subtitulo": "Deseos, probabilidades, condiciones y deliberaciones",
   "descripcion": "El subjuntivo presenta una acción como potencial, no como realidad. Es el modo de lo posible, lo deseado, lo hipotético. Fundamental para entender condicionales y construcciones de propósito.",
   "duracionEstimada": 40,
-  "prerequisitos": ["n2-l07"],
+  "prerequisitos": [
+    "n2-l07"
+  ],
   "objetivos": [
     "Entender el subjuntivo como modo de potencialidad",
     "Reconocer la formación del subjuntivo (vocal temática larga)",
@@ -68,11 +70,27 @@
       "titulo": "Subjuntivo Presente Activo: λύω (suelte, disuelva)",
       "descripcion": "Forma completa del subjuntivo presente activo",
       "datos": {
-        "columnas": ["Persona", "Singular", "Plural"],
+        "columnas": [
+          "Persona",
+          "Singular",
+          "Plural"
+        ],
         "filas": [
-          ["1ª", "λύ-ω (disuelva)", "λύ-ω-μεν (disolvamos)"],
-          ["2ª", "λύ-ῃ-ς (disuelvas)", "λύ-ῆ-τε (solváis)"],
-          ["3ª", "λύ-ῃ (disuelva)", "λύ-ω-σιν (disuelvan)"]
+          [
+            "1ª",
+            "λύ-ω (disuelva)",
+            "λύ-ω-μεν (disolvamos)"
+          ],
+          [
+            "2ª",
+            "λύ-ῃ-ς (disuelvas)",
+            "λύ-ῆ-τε (solváis)"
+          ],
+          [
+            "3ª",
+            "λύ-ῃ (disuelva)",
+            "λύ-ω-σιν (disuelvan)"
+          ]
         ]
       }
     },
@@ -182,7 +200,12 @@
         {
           "id": "p1",
           "estimulo": "3ª singular subjuntivo presente de λύω",
-          "opciones": ["λύει", "λύῃ", "λύῃς", "λύῃ(ν)"],
+          "opciones": [
+            "λύει",
+            "λύῃ",
+            "λύῃς",
+            "λύῃ(ν)"
+          ],
           "respuestaCorrecta": "λύῃ",
           "explicacion": "λύ (tema) + ῃ (vocal temática larga + desinencia 3ª sing. subjuntivo) = λύῃ. Note la vocal temática larga ῃ.",
           "puntaje": 10
@@ -190,7 +213,12 @@
         {
           "id": "p2",
           "estimulo": "¿Cuál es la característica del subjuntivo?",
-          "opciones": ["Aumento temporal", "Vocal temática larga", "Sigma característica", "Reduplicación"],
+          "opciones": [
+            "Aumento temporal",
+            "Vocal temática larga",
+            "Sigma característica",
+            "Reduplicación"
+          ],
           "respuestaCorrecta": "Vocal temática larga",
           "explicacion": "El subjuntivo se caracteriza por usar -ω, -ῃ, -η, -ῶμεν, -ῆτε, -ῶσιν (vocales temáticas largas).",
           "puntaje": 10
@@ -198,7 +226,12 @@
         {
           "id": "p3",
           "estimulo": "¿Cuál es un uso común del subjuntivo?",
-          "opciones": ["Acción completada", "Propósito (con ἵνα)", "Acción habitual", "Realidad pasada"],
+          "opciones": [
+            "Acción completada",
+            "Propósito (con ἵνα)",
+            "Acción habitual",
+            "Realidad pasada"
+          ],
           "respuestaCorrecta": "Propósito (con ἵνα)",
           "explicacion": "El subjuntivo se usa frecuentemente con ἵνα para expresar propósito o finalidad.",
           "puntaje": 10
@@ -216,7 +249,9 @@
           "estimulo": "1ª singular subjuntivo presente de λύω",
           "tipo": "texto",
           "respuestaCorrecta": "λύω",
-          "alternativasAceptadas": ["λύω"],
+          "alternativasAceptadas": [
+            "λύω"
+          ],
           "explicacion": "λύ (tema) + ω (vocal temática larga + desinencia 1ª sing.) = λύω",
           "puntaje": 15
         },
@@ -225,7 +260,9 @@
           "estimulo": "3ª singular aoristo subjuntivo de λύω",
           "tipo": "texto",
           "respuestaCorrecta": "λύσῃ",
-          "alternativasAceptadas": ["λύσῃ"],
+          "alternativasAceptadas": [
+            "λύσῃ"
+          ],
           "explicacion": "λύ (tema) + σ (sigma aorística) + ῃ (vocal temática larga 3ª sing.) = λύσῃ",
           "puntaje": 15
         },
@@ -234,9 +271,55 @@
           "estimulo": "2ª plural subjuntivo presente de λύω",
           "tipo": "texto",
           "respuestaCorrecta": "λύητε",
-          "alternativasAceptadas": ["λύητε"],
+          "alternativasAceptadas": [
+            "λύητε"
+          ],
           "explicacion": "λύ (tema) + η (vocal temática larga) + τε (desinencia 2ª plural) = λύητε",
           "puntaje": 15
+        }
+      ]
+    },
+    {
+      "id": "ej-n2-l08-03",
+      "tipo": "seleccion",
+      "titulo": "Traduce las palabras",
+      "instrucciones": "Lee la palabra en griego y selecciona la traducción correcta al español.",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "λύω",
+          "opciones": [
+            "disuelva (subjuntivo presente 1ª singular)",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "disuelva (subjuntivo presente 1ª singular)",
+          "explicacion": "✓ Correcto. λύω (lyō) significa 'disuelva (subjuntivo presente 1ª singular)'.",
+          "puntaje": 10
+        },
+        {
+          "id": "p2",
+          "estimulo": "ἵνα",
+          "opciones": [
+            "para que, a fin de que (partícula de propósito + subjuntivo)",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "para que, a fin de que (partícula de propósito + subjuntivo)",
+          "explicacion": "✓ Correcto. ἵνα (hina) significa 'para que, a fin de que (partícula de propósito + subjuntivo)'.",
+          "puntaje": 10
+        },
+        {
+          "id": "p3",
+          "estimulo": "ἐάν",
+          "opciones": [
+            "si (condicional + subjuntivo)",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "si (condicional + subjuntivo)",
+          "explicacion": "✓ Correcto. ἐάν (ean) significa 'si (condicional + subjuntivo)'.",
+          "puntaje": 10
         }
       ]
     }

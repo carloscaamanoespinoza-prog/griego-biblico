@@ -6,7 +6,9 @@
   "subtitulo": "Sustantivos femeninos en -α y -η",
   "descripcion": "La primera declinación agrupa sustantivos principalmente femeninos. Aprenderás cómo cambian las formas en los cuatro casos.",
   "duracionEstimada": 30,
-  "prerequisitos": ["n1-l05"],
+  "prerequisitos": [
+    "n1-l05"
+  ],
   "objetivos": [
     "Reconocer los patrones de la primera declinación",
     "Declinar sustantivos femeninos en -α y -η",
@@ -19,12 +21,37 @@
       "titulo": "Paradigma de la Primera Declinación",
       "descripcion": "Observa cómo declina ἀγάπη (amor, femenino) en singular.",
       "datos": {
-        "columnas": ["Caso", "Artículo", "Sustantivo", "Forma Completa"],
+        "columnas": [
+          "Caso",
+          "Artículo",
+          "Sustantivo",
+          "Forma Completa"
+        ],
         "filas": [
-          ["Nominativo", "ἡ", "ἀγάπ-η", "ἡ ἀγάπη"],
-          ["Acusativo", "τ-ήν", "ἀγάπ-ην", "τὴν ἀγάπην"],
-          ["Genitivo", "τ-ῆς", "ἀγάπ-ης", "τῆς ἀγάπης"],
-          ["Dativo", "τ-ῇ", "ἀγάπ-ῃ", "τῇ ἀγάπῃ"]
+          [
+            "Nominativo",
+            "ἡ",
+            "ἀγάπ-η",
+            "ἡ ἀγάπη"
+          ],
+          [
+            "Acusativo",
+            "τ-ήν",
+            "ἀγάπ-ην",
+            "τὴν ἀγάπην"
+          ],
+          [
+            "Genitivo",
+            "τ-ῆς",
+            "ἀγάπ-ης",
+            "τῆς ἀγάπης"
+          ],
+          [
+            "Dativo",
+            "τ-ῇ",
+            "ἀγάπ-ῃ",
+            "τῇ ἀγάπῃ"
+          ]
         ]
       }
     },
@@ -78,9 +105,31 @@
           "estimulo": "ἀγάπη en acusativo singular",
           "tipo": "texto",
           "respuestaCorrecta": "τὴν ἀγάπην",
-          "alternativasAceptadas": ["τὴν ἀγάπην"],
+          "alternativasAceptadas": [
+            "τὴν ἀγάπην"
+          ],
           "explicacion": "Acusativo singular: τὴν (artículo acusativo femenino singular) + ἀγάπην (desinencia -ην).",
           "puntaje": 20
+        }
+      ]
+    },
+    {
+      "id": "ej-n1-l06-02",
+      "tipo": "seleccion",
+      "titulo": "Traduce las palabras",
+      "instrucciones": "Lee la palabra en griego y selecciona la traducción correcta al español.",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "ζωή",
+          "opciones": [
+            "vida",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "vida",
+          "explicacion": "✓ Correcto. ζωή (zōē) significa 'vida'.",
+          "puntaje": 10
         }
       ]
     }

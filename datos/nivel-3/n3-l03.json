@@ -6,7 +6,9 @@
   "subtitulo": "Principales, subordinadas, relativas, condicionales",
   "descripcion": "El griego estructura la información a través de diferentes tipos de cláusulas. Entender cómo se conectan (coordinación vs. subordinación) es clave para interpretar el énfasis y la relación lógica entre ideas.",
   "duracionEstimada": 45,
-  "prerequisitos": ["n3-l02"],
+  "prerequisitos": [
+    "n3-l02"
+  ],
   "objetivos": [
     "Reconocer cláusulas principales vs. subordinadas",
     "Identificar cláusulas de propósito, resultado, condición, y causa",
@@ -44,14 +46,56 @@
       "titulo": "Tipos de Cláusulas Subordinadas",
       "descripcion": "Clasificación por función lógica",
       "datos": {
-        "columnas": ["Tipo", "Marcador Típico", "Modo", "Función", "Ejemplo"],
+        "columnas": [
+          "Tipo",
+          "Marcador Típico",
+          "Modo",
+          "Función",
+          "Ejemplo"
+        ],
         "filas": [
-          ["Propósito", "ἵνα", "Subjuntivo", "Para que, a fin de que", "ἦλθεν ἵνα δῷ τὴν ζωήν"],
-          ["Resultado", "ὥστε", "Infinitivo", "De manera que, con resultado que", "ἐλάλησε ὥστε πάντες ἤκουσαν"],
-          ["Causal", "ὅτι, διότι", "Indicativo", "Porque, puesto que", "ἐχάρησαν ὅτι εἶδον τὸν κύριον"],
-          ["Temporal", "ὅτε, ὡς", "Indicativo", "Cuando, mientras que", "ἐγένετο ὅτε ἦλθεν ὁ Ἰησοῦς"],
-          ["Concesiva", "κἂν, ἐάν", "Subjuntivo", "Aunque, incluso si", "κἂν παντὸς τῶν ἀνθρώπων"],
-          ["Condicional", "εἰ, ἐάν", "Indicativo/Subj", "Si (real, potencial, contrafáctica)", "εἰ πιστεύετε... ἕξετε ζωήν"]
+          [
+            "Propósito",
+            "ἵνα",
+            "Subjuntivo",
+            "Para que, a fin de que",
+            "ἦλθεν ἵνα δῷ τὴν ζωήν"
+          ],
+          [
+            "Resultado",
+            "ὥστε",
+            "Infinitivo",
+            "De manera que, con resultado que",
+            "ἐλάλησε ὥστε πάντες ἤκουσαν"
+          ],
+          [
+            "Causal",
+            "ὅτι, διότι",
+            "Indicativo",
+            "Porque, puesto que",
+            "ἐχάρησαν ὅτι εἶδον τὸν κύριον"
+          ],
+          [
+            "Temporal",
+            "ὅτε, ὡς",
+            "Indicativo",
+            "Cuando, mientras que",
+            "ἐγένετο ὅτε ἦλθεν ὁ Ἰησοῦς"
+          ],
+          [
+            "Concesiva",
+            "κἂν, ἐάν",
+            "Subjuntivo",
+            "Aunque, incluso si",
+            "κἂν παντὸς τῶν ἀνθρώπων"
+          ],
+          [
+            "Condicional",
+            "εἰ, ἐάν",
+            "Indicativo/Subj",
+            "Si (real, potencial, contrafáctica)",
+            "εἰ πιστεύετε... ἕξετε ζωήν"
+          ]
         ]
       }
     },
@@ -172,7 +216,12 @@
         {
           "id": "p1",
           "estimulo": "ἦλθεν ἵνα σώσῃ τὸν κόσμον",
-          "opciones": ["Causal", "Propósito", "Temporal", "Condicional"],
+          "opciones": [
+            "Causal",
+            "Propósito",
+            "Temporal",
+            "Condicional"
+          ],
           "respuestaCorrecta": "Propósito",
           "explicacion": "ἵνα + subjuntivo siempre indica PROPÓSITO (para que, a fin de que). La segunda cláusula es cláusula de propósito.",
           "puntaje": 10
@@ -180,7 +229,12 @@
         {
           "id": "p2",
           "estimulo": "ἐχάρησαν ὅτι ἐθεώρησαν τὸν κύριον",
-          "opciones": ["Propósito", "Causal", "Temporal", "Condicional"],
+          "opciones": [
+            "Propósito",
+            "Causal",
+            "Temporal",
+            "Condicional"
+          ],
           "respuestaCorrecta": "Causal",
           "explicacion": "ὅτι + indicativo indica CAUSA (porque, puesto que). Explica por qué se alegraron.",
           "puntaje": 10
@@ -188,7 +242,12 @@
         {
           "id": "p3",
           "estimulo": "ὁ ἀπόστολος ὃς ἦν σοφός - ¿Cuál es la función de ὃς?",
-          "opciones": ["Marca propósito", "Introduce una cláusula relativa", "Introduce una cláusula causal", "Es un coordinador"],
+          "opciones": [
+            "Marca propósito",
+            "Introduce una cláusula relativa",
+            "Introduce una cláusula causal",
+            "Es un coordinador"
+          ],
           "respuestaCorrecta": "Introduce una cláusula relativa",
           "explicacion": "ὃς (quien, que) es el pronombre relativo. Introduce una cláusula que modifica al antecedente ἀπόστολος.",
           "puntaje": 10
@@ -206,7 +265,11 @@
           "estimulo": "εἰ πιστεύετε, ἕξετε ζωήν - ¿Qué clase condicional?",
           "tipo": "texto",
           "respuestaCorrecta": "primera clase",
-          "alternativasAceptadas": ["primera clase", "condición real", "first class condition"],
+          "alternativasAceptadas": [
+            "primera clase",
+            "condición real",
+            "first class condition"
+          ],
           "explicacion": "εἰ + indicativo presente (protasis) + indicativo futuro (apodosis) = primera clase = condición presentada como real.",
           "puntaje": 15
         },
@@ -215,7 +278,11 @@
           "estimulo": "εἰ ἦτε Μωϊσέως παῖδες, ἐποιεῖτε ἂν τὰ ἔργα αὐτοῦ - ¿Qué clase?",
           "tipo": "texto",
           "respuestaCorrecta": "segunda clase",
-          "alternativasAceptadas": ["segunda clase", "contrafáctica", "second class condition"],
+          "alternativasAceptadas": [
+            "segunda clase",
+            "contrafáctica",
+            "second class condition"
+          ],
           "explicacion": "εἰ + imperfecto indicativo (protasis) + ἂν + imperfecto (apodosis) = segunda clase = condición contrafáctica (irreal).",
           "puntaje": 15
         },
@@ -224,9 +291,57 @@
           "estimulo": "ἐάν τις μένῃ ἐν τῷ λόγῳ τῷ ἐμῷ - ¿Qué clase?",
           "tipo": "texto",
           "respuestaCorrecta": "tercera clase",
-          "alternativasAceptadas": ["tercera clase", "potencial", "third class condition"],
+          "alternativasAceptadas": [
+            "tercera clase",
+            "potencial",
+            "third class condition"
+          ],
           "explicacion": "ἐάν + subjuntivo = tercera clase = condición abierta al futuro, potencialmente realizable.",
           "puntaje": 15
+        }
+      ]
+    },
+    {
+      "id": "ej-n3-l03-03",
+      "tipo": "seleccion",
+      "titulo": "Traduce las palabras",
+      "instrucciones": "Lee la palabra en griego y selecciona la traducción correcta al español.",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "ὅς",
+          "opciones": [
+            "quien, que (pronombre relativo)",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "quien, que (pronombre relativo)",
+          "explicacion": "✓ Correcto. ὅς (hos) significa 'quien, que (pronombre relativo)'.",
+          "puntaje": 10
+        },
+        {
+          "id": "p2",
+          "estimulo": "ἵνα",
+          "opciones": [
+            "para que (marca propósito + subjuntivo)",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "para que (marca propósito + subjuntivo)",
+          "explicacion": "✓ Correcto. ἵνα (hina) significa 'para que (marca propósito + subjuntivo)'.",
+          "puntaje": 10
+        },
+        {
+          "id": "p3",
+          "estimulo": "ὡς",
+          "opciones": [
+            "como, cuando, que (conjunción versátil)",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "como, cuando, que (conjunción versátil)",
+          "explicacion": "✓ Correcto. ὡς (hōs) significa 'como, cuando, que (conjunción versátil)'.",
+          "puntaje": 10
         }
       ]
     }

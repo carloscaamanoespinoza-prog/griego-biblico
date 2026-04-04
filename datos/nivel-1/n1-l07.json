@@ -6,7 +6,9 @@
   "subtitulo": "Sustantivos masculinos en -ος y neutros en -ον",
   "descripcion": "La segunda declinación incluye sustantivos masculinos (terminados en -ος) y neutros (terminados en -ον). Es una de las más comunes.",
   "duracionEstimada": 30,
-  "prerequisitos": ["n1-l06"],
+  "prerequisitos": [
+    "n1-l06"
+  ],
   "objetivos": [
     "Declinar sustantivos masculinos y neutros de segunda declinación",
     "Diferenciar entre patrones masculinos y neutros",
@@ -19,12 +21,32 @@
       "titulo": "Segunda Declinación: Sustantivos Masculinos",
       "descripcion": "Paradigma de λόγος (palabra, masculino)",
       "datos": {
-        "columnas": ["Caso", "Singular", "Plural"],
+        "columnas": [
+          "Caso",
+          "Singular",
+          "Plural"
+        ],
         "filas": [
-          ["Nominativo", "ὁ λόγος", "οἱ λόγοι"],
-          ["Acusativo", "τὸν λόγον", "τοὺς λόγους"],
-          ["Genitivo", "τοῦ λόγου", "τῶν λόγων"],
-          ["Dativo", "τῷ λόγῳ", "τοῖς λόγοις"]
+          [
+            "Nominativo",
+            "ὁ λόγος",
+            "οἱ λόγοι"
+          ],
+          [
+            "Acusativo",
+            "τὸν λόγον",
+            "τοὺς λόγους"
+          ],
+          [
+            "Genitivo",
+            "τοῦ λόγου",
+            "τῶν λόγων"
+          ],
+          [
+            "Dativo",
+            "τῷ λόγῳ",
+            "τοῖς λόγοις"
+          ]
         ]
       }
     },
@@ -34,12 +56,32 @@
       "titulo": "Segunda Declinación: Sustantivos Neutros",
       "descripcion": "Paradigma de δῶρον (regalo, neutro)",
       "datos": {
-        "columnas": ["Caso", "Singular", "Plural"],
+        "columnas": [
+          "Caso",
+          "Singular",
+          "Plural"
+        ],
         "filas": [
-          ["Nominativo", "τὸ δῶρον", "τὰ δῶρα"],
-          ["Acusativo", "τὸ δῶρον", "τὰ δῶρα"],
-          ["Genitivo", "τοῦ δώρου", "τῶν δώρων"],
-          ["Dativo", "τῷ δώρῳ", "τοῖς δώροις"]
+          [
+            "Nominativo",
+            "τὸ δῶρον",
+            "τὰ δῶρα"
+          ],
+          [
+            "Acusativo",
+            "τὸ δῶρον",
+            "τὰ δῶρα"
+          ],
+          [
+            "Genitivo",
+            "τοῦ δώρου",
+            "τῶν δώρων"
+          ],
+          [
+            "Dativo",
+            "τῷ δώρῳ",
+            "τοῖς δώροις"
+          ]
         ]
       }
     },
@@ -66,9 +108,34 @@
         {
           "id": "p1",
           "estimulo": "λόγος (sin artículo)",
-          "opciones": ["Nominativo", "Acusativo", "Genitivo", "Dativo"],
+          "opciones": [
+            "Nominativo",
+            "Acusativo",
+            "Genitivo",
+            "Dativo"
+          ],
           "respuestaCorrecta": "Nominativo",
           "explicacion": "λόγος es la forma nominativa de segunda declinación masculina.",
+          "puntaje": 10
+        }
+      ]
+    },
+    {
+      "id": "ej-n1-l07-02",
+      "tipo": "seleccion",
+      "titulo": "Traduce las palabras",
+      "instrucciones": "Lee la palabra en griego y selecciona la traducción correcta al español.",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "κόσμος",
+          "opciones": [
+            "mundo, orden",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "mundo, orden",
+          "explicacion": "✓ Correcto. κόσμος (kosmos) significa 'mundo, orden'.",
           "puntaje": 10
         }
       ]

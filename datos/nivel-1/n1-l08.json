@@ -6,7 +6,10 @@
   "subtitulo": "Los adjetivos deben concordar con los sustantivos",
   "descripcion": "Los adjetivos en griego cambian para concordar en género, número y caso con el sustantivo. Aprenderás el patrón básico.",
   "duracionEstimada": 25,
-  "prerequisitos": ["n1-l06", "n1-l07"],
+  "prerequisitos": [
+    "n1-l06",
+    "n1-l07"
+  ],
   "objetivos": [
     "Entender la concordancia gramatical",
     "Declinar adjetivos de tres terminaciones",
@@ -42,12 +45,37 @@
       "titulo": "Adjetivo de Tres Terminaciones: ἀγαθός (bueno)",
       "descripcion": "Tiene tres formas en nominativo singular: masculina, femenina y neutra",
       "datos": {
-        "columnas": ["", "Masculino", "Femenino", "Neutro"],
+        "columnas": [
+          "",
+          "Masculino",
+          "Femenino",
+          "Neutro"
+        ],
         "filas": [
-          ["Nominativo sing.", "ἀγαθ-ός", "ἀγαθ-ή", "ἀγαθ-όν"],
-          ["Acusativo sing.", "ἀγαθ-όν", "ἀγαθ-ήν", "ἀγαθ-όν"],
-          ["Genitivo sing.", "ἀγαθ-οῦ", "ἀγαθ-ῆς", "ἀγαθ-οῦ"],
-          ["Dativo sing.", "ἀγαθ-ῷ", "ἀγαθ-ῇ", "ἀγαθ-ῷ"]
+          [
+            "Nominativo sing.",
+            "ἀγαθ-ός",
+            "ἀγαθ-ή",
+            "ἀγαθ-όν"
+          ],
+          [
+            "Acusativo sing.",
+            "ἀγαθ-όν",
+            "ἀγαθ-ήν",
+            "ἀγαθ-όν"
+          ],
+          [
+            "Genitivo sing.",
+            "ἀγαθ-οῦ",
+            "ἀγαθ-ῆς",
+            "ἀγαθ-οῦ"
+          ],
+          [
+            "Dativo sing.",
+            "ἀγαθ-ῷ",
+            "ἀγαθ-ῇ",
+            "ἀγαθ-ῷ"
+          ]
         ]
       }
     }
@@ -62,10 +90,34 @@
         {
           "id": "p1",
           "estimulo": "Palabra femenina singular en nominativo",
-          "opciones": ["ὁ ἀγαθὸς λόγος", "ἡ ἀγαθὴ ζωή", "τὸ ἀγαθὸν δῶρον"],
+          "opciones": [
+            "ὁ ἀγαθὸς λόγος",
+            "ἡ ἀγαθὴ ζωή",
+            "τὸ ἀγαθὸν δῶρον"
+          ],
           "respuestaCorrecta": "ἡ ἀγαθὴ ζωή",
           "explicacion": "ἡ (artículo femenino), ἀγαθὴ (adjetivo femenino), ζωή (sustantivo femenino). Todo concuerda.",
           "puntaje": 15
+        }
+      ]
+    },
+    {
+      "id": "ej-n1-l08-02",
+      "tipo": "seleccion",
+      "titulo": "Traduce las palabras",
+      "instrucciones": "Lee la palabra en griego y selecciona la traducción correcta al español.",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "ἀγαθός",
+          "opciones": [
+            "bueno, noble",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "bueno, noble",
+          "explicacion": "✓ Correcto. ἀγαθός (agathos) significa 'bueno, noble'.",
+          "puntaje": 10
         }
       ]
     }

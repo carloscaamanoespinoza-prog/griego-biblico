@@ -6,7 +6,9 @@
   "subtitulo": "yo, tú, él/ella/eso",
   "descripcion": "Los pronombres personales en griego tienen formas especiales. A diferencia del español, el sujeto se puede omitir porque el verbo indica la persona.",
   "duracionEstimada": 20,
-  "prerequisitos": ["n1-l05"],
+  "prerequisitos": [
+    "n1-l05"
+  ],
   "objetivos": [
     "Reconocer los pronombres personales griegos",
     "Entender que en griego el sujeto puede omitirse",
@@ -19,13 +21,49 @@
       "titulo": "Pronombres Personales Principales",
       "descripcion": "Los pronombres personales tienen formas diferentes para cada caso.",
       "datos": {
-        "columnas": ["Persona", "Nominativo", "Acusativo", "Genitivo", "Dativo"],
+        "columnas": [
+          "Persona",
+          "Nominativo",
+          "Acusativo",
+          "Genitivo",
+          "Dativo"
+        ],
         "filas": [
-          ["1ª Singular (yo)", "ἐγώ", "με", "ἐμοῦ/μου", "ἐμοί/μοι"],
-          ["2ª Singular (tú)", "σύ", "σε", "σοῦ/σου", "σοί/σοι"],
-          ["3ª Singular (él/ella)", "αὐτός", "αὐτόν", "αὐτοῦ", "αὐτῷ"],
-          ["1ª Plural (nosotros)", "ἡμεῖς", "ἡμᾶς", "ἡμῶν", "ἡμῖν"],
-          ["2ª Plural (vosotros)", "ὑμεῖς", "ὑμᾶς", "ὑμῶν", "ὑμῖν"]
+          [
+            "1ª Singular (yo)",
+            "ἐγώ",
+            "με",
+            "ἐμοῦ/μου",
+            "ἐμοί/μοι"
+          ],
+          [
+            "2ª Singular (tú)",
+            "σύ",
+            "σε",
+            "σοῦ/σου",
+            "σοί/σοι"
+          ],
+          [
+            "3ª Singular (él/ella)",
+            "αὐτός",
+            "αὐτόν",
+            "αὐτοῦ",
+            "αὐτῷ"
+          ],
+          [
+            "1ª Plural (nosotros)",
+            "ἡμεῖς",
+            "ἡμᾶς",
+            "ἡμῶν",
+            "ἡμῖν"
+          ],
+          [
+            "2ª Plural (vosotros)",
+            "ὑμεῖς",
+            "ὑμᾶς",
+            "ὑμῶν",
+            "ὑμῖν"
+          ]
         ]
       }
     },
@@ -65,8 +103,30 @@
           "estimulo": "Nominativo singular '_____ soy' (yo)",
           "tipo": "texto",
           "respuestaCorrecta": "ἐγώ",
-          "alternativasAceptadas": ["ἐγώ"],
+          "alternativasAceptadas": [
+            "ἐγώ"
+          ],
           "explicacion": "ἐγώ es el pronombre de 1ª persona singular nominativo.",
+          "puntaje": 10
+        }
+      ]
+    },
+    {
+      "id": "ej-n1-l09-02",
+      "tipo": "seleccion",
+      "titulo": "Traduce las palabras",
+      "instrucciones": "Lee la palabra en griego y selecciona la traducción correcta al español.",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "αὐτός",
+          "opciones": [
+            "él, ella, eso; mismo/a/o",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "él, ella, eso; mismo/a/o",
+          "explicacion": "✓ Correcto. αὐτός (autos) significa 'él, ella, eso; mismo/a/o'.",
           "puntaje": 10
         }
       ]

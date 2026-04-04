@@ -6,7 +6,9 @@
   "subtitulo": "Cómo expresar que algo es hecho al sujeto",
   "descripcion": "La voz pasiva presenta una acción realizada SOBRE el sujeto. Tiene características únicas en el aoristo y perfecto. Es fundamental para entender narrativas y textos expositivos.",
   "duracionEstimada": 35,
-  "prerequisitos": ["n2-l06"],
+  "prerequisitos": [
+    "n2-l06"
+  ],
   "objetivos": [
     "Entender la voz pasiva y su función gramatical",
     "Reconocer que presente y imperfecto pasivo comparten desinencias con el medio",
@@ -67,14 +69,42 @@
       "titulo": "Aoristo Pasivo: Formas Únicas",
       "descripcion": "El aoristo pasivo tiene desinencias propias, distintas del medio",
       "datos": {
-        "columnas": ["Persona", "Forma Pasiva", "Traducción"],
+        "columnas": [
+          "Persona",
+          "Forma Pasiva",
+          "Traducción"
+        ],
         "filas": [
-          ["1ª Singular", "ἐ-λύ-θ-ην", "fui liberado"],
-          ["2ª Singular", "ἐ-λύ-θ-ης", "fuiste liberado"],
-          ["3ª Singular", "ἐ-λύ-θ-η", "fue liberado"],
-          ["1ª Plural", "ἐ-λύ-θ-ημεν", "fuimos liberados"],
-          ["2ª Plural", "ἐ-λύ-θ-ητε", "fuisteis liberados"],
-          ["3ª Plural", "ἐ-λύ-θ-ησαν", "fueron liberados"]
+          [
+            "1ª Singular",
+            "ἐ-λύ-θ-ην",
+            "fui liberado"
+          ],
+          [
+            "2ª Singular",
+            "ἐ-λύ-θ-ης",
+            "fuiste liberado"
+          ],
+          [
+            "3ª Singular",
+            "ἐ-λύ-θ-η",
+            "fue liberado"
+          ],
+          [
+            "1ª Plural",
+            "ἐ-λύ-θ-ημεν",
+            "fuimos liberados"
+          ],
+          [
+            "2ª Plural",
+            "ἐ-λύ-θ-ητε",
+            "fuisteis liberados"
+          ],
+          [
+            "3ª Plural",
+            "ἐ-λύ-θ-ησαν",
+            "fueron liberados"
+          ]
         ]
       }
     },
@@ -164,7 +194,12 @@
         {
           "id": "p1",
           "estimulo": "3ª singular aoristo pasivo de λύω",
-          "opciones": ["ἐλύθη", "ἐλύσθη", "ἐλύθησαν", "λύθη"],
+          "opciones": [
+            "ἐλύθη",
+            "ἐλύσθη",
+            "ἐλύθησαν",
+            "λύθη"
+          ],
           "respuestaCorrecta": "ἐλύθη",
           "explicacion": "ἐ (aumento) + λύ (tema) + θη (característica + desinencia 3ª sing. aoristo pasivo) = ἐλύθη",
           "puntaje": 10
@@ -172,7 +207,12 @@
         {
           "id": "p2",
           "estimulo": "¿Cuál es la característica del aoristo pasivo?",
-          "opciones": ["-σ-", "-κ-", "-θ-", "-ο-"],
+          "opciones": [
+            "-σ-",
+            "-κ-",
+            "-θ-",
+            "-ο-"
+          ],
           "respuestaCorrecta": "-θ-",
           "explicacion": "El aoristo pasivo siempre usa -θ- como característica temporal: ἐλύθη, ἐγράφη, ἐκηρύχθη.",
           "puntaje": 10
@@ -180,7 +220,12 @@
         {
           "id": "p3",
           "estimulo": "¿Cómo se introduce el agente en pasiva?",
-          "opciones": ["por + acusativo", "ὑπὸ + genitivo", "διὰ + acusativo", "ἐν + dativo"],
+          "opciones": [
+            "por + acusativo",
+            "ὑπὸ + genitivo",
+            "διὰ + acusativo",
+            "ἐν + dativo"
+          ],
           "respuestaCorrecta": "ὑπὸ + genitivo",
           "explicacion": "La preposición ὑπὸ + genitivo introduce el agente en voz pasiva: ὑπὸ τοῦ κυρίου (por el Señor).",
           "puntaje": 10
@@ -198,7 +243,9 @@
           "estimulo": "1ª singular aoristo pasivo de λύω",
           "tipo": "texto",
           "respuestaCorrecta": "ἐλύθην",
-          "alternativasAceptadas": ["ἐλύθην"],
+          "alternativasAceptadas": [
+            "ἐλύθην"
+          ],
           "explicacion": "ἐ (aumento) + λύ (tema) + θη + ν (aumento + tema + característica + desinencia) = ἐλύθην",
           "puntaje": 15
         },
@@ -207,7 +254,9 @@
           "estimulo": "3ª plural aoristo pasivo de γράφω",
           "tipo": "texto",
           "respuestaCorrecta": "ἐγράφησαν",
-          "alternativasAceptadas": ["ἐγράφησαν"],
+          "alternativasAceptadas": [
+            "ἐγράφησαν"
+          ],
           "explicacion": "ἐ (aumento) + γράφ (tema) + θησαν (característica + desinencia 3ª plural) = ἐγράφησαν",
           "puntaje": 15
         },
@@ -216,9 +265,55 @@
           "estimulo": "1ª singular perfecto pasivo de λύω",
           "tipo": "texto",
           "respuestaCorrecta": "λέλυμαι",
-          "alternativasAceptadas": ["λέλυμαι"],
+          "alternativasAceptadas": [
+            "λέλυμαι"
+          ],
           "explicacion": "λέ (reduplicación) + λυ (tema) + μαι (desinencia 1ª sing. perfecto pasivo) = λέλυμαι",
           "puntaje": 15
+        }
+      ]
+    },
+    {
+      "id": "ej-n2-l07-03",
+      "tipo": "seleccion",
+      "titulo": "Traduce las palabras",
+      "instrucciones": "Lee la palabra en griego y selecciona la traducción correcta al español.",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "ἐλύθην",
+          "opciones": [
+            "fui liberado (aoristo pasivo 1ª singular)",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "fui liberado (aoristo pasivo 1ª singular)",
+          "explicacion": "✓ Correcto. ἐλύθην (elythēn) significa 'fui liberado (aoristo pasivo 1ª singular)'.",
+          "puntaje": 10
+        },
+        {
+          "id": "p2",
+          "estimulo": "ἐκηρύχθη",
+          "opciones": [
+            "fue predicado (aoristo pasivo 3ª singular)",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "fue predicado (aoristo pasivo 3ª singular)",
+          "explicacion": "✓ Correcto. ἐκηρύχθη (ekērychthē) significa 'fue predicado (aoristo pasivo 3ª singular)'.",
+          "puntaje": 10
+        },
+        {
+          "id": "p3",
+          "estimulo": "λέλυμαι",
+          "opciones": [
+            "he sido liberado, estoy en estado de libertad (perfecto pasivo)",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "he sido liberado, estoy en estado de libertad (perfecto pasivo)",
+          "explicacion": "✓ Correcto. λέλυμαι (lelumai) significa 'he sido liberado, estoy en estado de libertad (perfecto pasivo)'.",
+          "puntaje": 10
         }
       ]
     }

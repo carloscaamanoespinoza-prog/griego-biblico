@@ -6,7 +6,9 @@
   "subtitulo": "La acción completada con resultados presentes",
   "descripcion": "El perfecto representa una acción completada en el pasado cuyo resultado es relevante en el presente. Tiene una estructura única con reduplicación del tema.",
   "duracionEstimada": 35,
-  "prerequisitos": ["n2-l03"],
+  "prerequisitos": [
+    "n2-l03"
+  ],
   "objetivos": [
     "Entender el aspecto perfectivo (estado resultante)",
     "Reconocer y formar la reduplicación característica del perfecto",
@@ -78,11 +80,27 @@
       "titulo": "Perfecto Indicativo Activo: λύω (he soltado)",
       "descripcion": "Forma completa del perfecto con reduplicación y característica -κ-",
       "datos": {
-        "columnas": ["Persona", "Singular", "Plural"],
+        "columnas": [
+          "Persona",
+          "Singular",
+          "Plural"
+        ],
         "filas": [
-          ["1ª", "λέ-λυ-κ-α (he soltado)", "λε-λύ-κ-αμεν (hemos soltado)"],
-          ["2ª", "λέ-λυ-κ-ας (has soltado)", "λε-λύ-κ-ατε (habéis soltado)"],
-          ["3ª", "λέ-λυ-κ-ε(ν) (ha soltado)", "λε-λύ-κ-ασιν (han soltado)"]
+          [
+            "1ª",
+            "λέ-λυ-κ-α (he soltado)",
+            "λε-λύ-κ-αμεν (hemos soltado)"
+          ],
+          [
+            "2ª",
+            "λέ-λυ-κ-ας (has soltado)",
+            "λε-λύ-κ-ατε (habéis soltado)"
+          ],
+          [
+            "3ª",
+            "λέ-λυ-κ-ε(ν) (ha soltado)",
+            "λε-λύ-κ-ασιν (han soltado)"
+          ]
         ]
       }
     },
@@ -150,7 +168,12 @@
         {
           "id": "p1",
           "estimulo": "Perfecto de γράφω (escribo)",
-          "opciones": ["ἐγράφα", "γέγραφα", "γραφηκα", "ἐγράφηκα"],
+          "opciones": [
+            "ἐγράφα",
+            "γέγραφα",
+            "γραφηκα",
+            "ἐγράφηκα"
+          ],
           "respuestaCorrecta": "γέγραφα",
           "explicacion": "La reduplicación de γράφω es γε- (γ + ε): γέ-γραφα = he escrito. No lleva aumento temporal como el aoristo.",
           "puntaje": 10
@@ -158,7 +181,12 @@
         {
           "id": "p2",
           "estimulo": "¿Cuál es la característica del perfecto?",
-          "opciones": ["-σα-", "-κ-", "-ε-", "-ο-"],
+          "opciones": [
+            "-σα-",
+            "-κ-",
+            "-ε-",
+            "-ο-"
+          ],
           "respuestaCorrecta": "-κ-",
           "explicacion": "El perfecto activo usa -κ- como característica temporal: λέλυκα, γέγραφα, πεπίστευκα.",
           "puntaje": 10
@@ -166,7 +194,12 @@
         {
           "id": "p3",
           "estimulo": "3ª singular perfecto de λύω",
-          "opciones": ["λέλυκε", "ἐλύκει", "λύκει", "λέλυσεν"],
+          "opciones": [
+            "λέλυκε",
+            "ἐλύκει",
+            "λύκει",
+            "λέλυσεν"
+          ],
           "respuestaCorrecta": "λέλυκε",
           "explicacion": "λέ (reduplicación) + λυ (tema) + κ (característica) + ε (desinencia 3ª sing.) = λέλυκε",
           "puntaje": 10
@@ -184,7 +217,9 @@
           "estimulo": "1ª singular perfecto de λύω",
           "tipo": "texto",
           "respuestaCorrecta": "λέλυκα",
-          "alternativasAceptadas": ["λέλυκα"],
+          "alternativasAceptadas": [
+            "λέλυκα"
+          ],
           "explicacion": "λέ (reduplicación) + λυ (tema) + κα (característica + desinencia) = λέλυκα",
           "puntaje": 15
         },
@@ -193,7 +228,9 @@
           "estimulo": "2ª singular perfecto de γράφω",
           "tipo": "texto",
           "respuestaCorrecta": "γέγραφας",
-          "alternativasAceptadas": ["γέγραφας"],
+          "alternativasAceptadas": [
+            "γέγραφας"
+          ],
           "explicacion": "γέ (reduplicación) + γραφ (tema) + κας (característica + desinencia 2ª sing.) = γέγραφας",
           "puntaje": 15
         },
@@ -202,9 +239,55 @@
           "estimulo": "3ª plural perfecto de πιστεύω (creo)",
           "tipo": "texto",
           "respuestaCorrecta": "πεπίστευκαν",
-          "alternativasAceptadas": ["πεπίστευκαν"],
+          "alternativasAceptadas": [
+            "πεπίστευκαν"
+          ],
           "explicacion": "πε (reduplicación) + πιστευ (tema) + κασιν (característica + desinencia 3ª plural) = πεπίστευκαν",
           "puntaje": 15
+        }
+      ]
+    },
+    {
+      "id": "ej-n2-l04-03",
+      "tipo": "seleccion",
+      "titulo": "Traduce las palabras",
+      "instrucciones": "Lee la palabra en griego y selecciona la traducción correcta al español.",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "λέλυκα",
+          "opciones": [
+            "he soltado, estoy en estado de haber soltado",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "he soltado, estoy en estado de haber soltado",
+          "explicacion": "✓ Correcto. λέλυκα (lelyka) significa 'he soltado, estoy en estado de haber soltado'.",
+          "puntaje": 10
+        },
+        {
+          "id": "p2",
+          "estimulo": "γέγραφα",
+          "opciones": [
+            "he escrito, está escrito",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "he escrito, está escrito",
+          "explicacion": "✓ Correcto. γέγραφα (gegrāpha) significa 'he escrito, está escrito'.",
+          "puntaje": 10
+        },
+        {
+          "id": "p3",
+          "estimulo": "τετέλεσται",
+          "opciones": [
+            "está completado (perfecto pasivo, será tratado después)",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "está completado (perfecto pasivo, será tratado después)",
+          "explicacion": "✓ Correcto. τετέλεσται (tetelestai) significa 'está completado (perfecto pasivo, será tratado después)'.",
+          "puntaje": 10
         }
       ]
     }

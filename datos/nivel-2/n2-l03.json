@@ -6,7 +6,9 @@
   "subtitulo": "Los aoristos irregulares más comunes",
   "descripcion": "El aoristo 2º tiene la misma función que el aoristo 1º (acción puntual completa) pero utiliza un tema diferente y desinencias del imperfecto. Muchos verbos frecuentes en el NT usan este forma.",
   "duracionEstimada": 35,
-  "prerequisitos": ["n2-l02"],
+  "prerequisitos": [
+    "n2-l02"
+  ],
   "objetivos": [
     "Entender la formación del aoristo 2º",
     "Reconocer y conjugar los aoristos 2º más comunes en el NT",
@@ -40,16 +42,61 @@
       "titulo": "Aoristos 2º Más Comunes en el NT",
       "descripcion": "Formas paradigmáticas de los aoristos 2º más frecuentes",
       "datos": {
-        "columnas": ["Verbo", "Aoristo 2º", "Traducción", "Frecuencia"],
+        "columnas": [
+          "Verbo",
+          "Aoristo 2º",
+          "Traducción",
+          "Frecuencia"
+        ],
         "filas": [
-          ["λέγω (digo)", "εἶπον", "dije", "2255"],
-          ["ἔρχομαι (vengo)", "ἦλθον", "vine", "632"],
-          ["ὁράω (veo)", "εἶδον", "vi", "681"],
-          ["λαμβάνω (tomo)", "ἔλαβον", "tomé", "269"],
-          ["γίνομαι (me hago)", "ἐγενόμην", "me hice, fui", "686"],
-          ["ἐσθίω (como)", "ἔφαγον", "comí", "24"],
-          ["πίνω (bebo)", "ἔπιον", "bebí", "32"],
-          ["βάλλω (tiro)", "ἔβαλον", "tiré", "122"]
+          [
+            "λέγω (digo)",
+            "εἶπον",
+            "dije",
+            "2255"
+          ],
+          [
+            "ἔρχομαι (vengo)",
+            "ἦλθον",
+            "vine",
+            "632"
+          ],
+          [
+            "ὁράω (veo)",
+            "εἶδον",
+            "vi",
+            "681"
+          ],
+          [
+            "λαμβάνω (tomo)",
+            "ἔλαβον",
+            "tomé",
+            "269"
+          ],
+          [
+            "γίνομαι (me hago)",
+            "ἐγενόμην",
+            "me hice, fui",
+            "686"
+          ],
+          [
+            "ἐσθίω (como)",
+            "ἔφαγον",
+            "comí",
+            "24"
+          ],
+          [
+            "πίνω (bebo)",
+            "ἔπιον",
+            "bebí",
+            "32"
+          ],
+          [
+            "βάλλω (tiro)",
+            "ἔβαλον",
+            "tiré",
+            "122"
+          ]
         ]
       }
     },
@@ -94,11 +141,27 @@
       "titulo": "Aoristo 2º Indicativo Activo: ἔρχομαι → ἦλθον",
       "descripcion": "Forma completa del aoristo 2º sin sigma",
       "datos": {
-        "columnas": ["Persona", "Singular", "Plural"],
+        "columnas": [
+          "Persona",
+          "Singular",
+          "Plural"
+        ],
         "filas": [
-          ["1ª", "ἦλθ-ον (vine)", "ἦλθ-ομεν (vinimos)"],
-          ["2ª", "ἦλθ-ες (viniste)", "ἦλθ-ετε (vinisteis)"],
-          ["3ª", "ἦλθ-ε(ν) (vino)", "ἦλθ-ον (vinieron)"]
+          [
+            "1ª",
+            "ἦλθ-ον (vine)",
+            "ἦλθ-ομεν (vinimos)"
+          ],
+          [
+            "2ª",
+            "ἦλθ-ες (viniste)",
+            "ἦλθ-ετε (vinisteis)"
+          ],
+          [
+            "3ª",
+            "ἦλθ-ε(ν) (vino)",
+            "ἦλθ-ον (vinieron)"
+          ]
         ]
       }
     },
@@ -140,7 +203,12 @@
         {
           "id": "p1",
           "estimulo": "3ª singular aoristo de λέγω (digo)",
-          "opciones": ["εἶπε(ν)", "ἔλεγε", "λέγει", "ἔλεξε"],
+          "opciones": [
+            "εἶπε(ν)",
+            "ἔλεγε",
+            "λέγει",
+            "ἔλεξε"
+          ],
           "respuestaCorrecta": "εἶπε(ν)",
           "explicacion": "El aoristo de λέγω es irregular (segundo aoristo): εἶπον. La forma 3ª singular es εἶπε(ν) con aumento εἰ-.",
           "puntaje": 10
@@ -148,7 +216,12 @@
         {
           "id": "p2",
           "estimulo": "3ª singular aoristo de ὁράω (veo)",
-          "opciones": ["ἐώρα", "εἶδε(ν)", "ὁράω", "ἐόρα"],
+          "opciones": [
+            "ἐώρα",
+            "εἶδε(ν)",
+            "ὁράω",
+            "ἐόρα"
+          ],
           "respuestaCorrecta": "εἶδε(ν)",
           "explicacion": "ὁράω tiene un aoristo muy irregular con tema diferente: εἶδον. La forma 3ª singular es εἶδε(ν).",
           "puntaje": 10
@@ -156,7 +229,12 @@
         {
           "id": "p3",
           "estimulo": "1ª plural aoristo de ἔρχομαι (vengo)",
-          "opciones": ["ἐρχόμεθα", "ἦλθομεν", "ἔρχομεν", "ἡλθόμεθα"],
+          "opciones": [
+            "ἐρχόμεθα",
+            "ἦλθομεν",
+            "ἔρχομεν",
+            "ἡλθόμεθα"
+          ],
           "respuestaCorrecta": "ἦλθομεν",
           "explicacion": "El aoristo de ἔρχομαι es ἦλθον. La forma 1ª plural es ἦλθομεν con aumento ἦ-.",
           "puntaje": 10
@@ -174,7 +252,9 @@
           "estimulo": "2ª singular aoristo de ἔρχομαι",
           "tipo": "texto",
           "respuestaCorrecta": "ἦλθες",
-          "alternativasAceptadas": ["ἦλθες"],
+          "alternativasAceptadas": [
+            "ἦλθες"
+          ],
           "explicacion": "ἦ (aumento) + λθ (tema aorístico) + ες (desinencia 2ª sing.) = ἦλθες",
           "puntaje": 15
         },
@@ -183,7 +263,9 @@
           "estimulo": "1ª singular aoristo de ὁράω (veo)",
           "tipo": "texto",
           "respuestaCorrecta": "εἶδον",
-          "alternativasAceptadas": ["εἶδον"],
+          "alternativasAceptadas": [
+            "εἶδον"
+          ],
           "explicacion": "εἰ (aumento contraído de ἐ + ε) + δ (tema aorístico de ὁράω) + ον (desinencia 1ª sing.) = εἶδον",
           "puntaje": 15
         },
@@ -192,9 +274,56 @@
           "estimulo": "3ª singular aoristo de λαμβάνω (tomo)",
           "tipo": "texto",
           "respuestaCorrecta": "ἔλαβε",
-          "alternativasAceptadas": ["ἔλαβε", "ἔλαβεν"],
+          "alternativasAceptadas": [
+            "ἔλαβε",
+            "ἔλαβεν"
+          ],
           "explicacion": "ἔ (aumento) + λαβ (tema aorístico) + ε (desinencia 3ª sing.) = ἔλαβε(ν)",
           "puntaje": 15
+        }
+      ]
+    },
+    {
+      "id": "ej-n2-l03-03",
+      "tipo": "seleccion",
+      "titulo": "Traduce las palabras",
+      "instrucciones": "Lee la palabra en griego y selecciona la traducción correcta al español.",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "εἶπον",
+          "opciones": [
+            "dije, hablé (aoristo 2º de λέγω)",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "dije, hablé (aoristo 2º de λέγω)",
+          "explicacion": "✓ Correcto. εἶπον (eipon) significa 'dije, hablé (aoristo 2º de λέγω)'.",
+          "puntaje": 10
+        },
+        {
+          "id": "p2",
+          "estimulo": "ἦλθον",
+          "opciones": [
+            "vine (aoristo 2º de ἔρχομαι)",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "vine (aoristo 2º de ἔρχομαι)",
+          "explicacion": "✓ Correcto. ἦλθον (ēlthon) significa 'vine (aoristo 2º de ἔρχομαι)'.",
+          "puntaje": 10
+        },
+        {
+          "id": "p3",
+          "estimulo": "εἶδον",
+          "opciones": [
+            "vi (aoristo 2º de ὁράω)",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "vi (aoristo 2º de ὁράω)",
+          "explicacion": "✓ Correcto. εἶδον (eidon) significa 'vi (aoristo 2º de ὁράω)'.",
+          "puntaje": 10
         }
       ]
     }

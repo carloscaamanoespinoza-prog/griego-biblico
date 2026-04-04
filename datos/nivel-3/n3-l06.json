@@ -6,7 +6,9 @@
   "subtitulo": "La experiencia de libertad en Cristo según Pablo",
   "descripcion": "Analizamos Romanos 8:1-11, donde Pablo presenta la libertad del creyente en relación al Espíritu. Este pasaje combina sintaxis compleja, argumentación lógica, y teología profunda.",
   "duracionEstimada": 50,
-  "prerequisitos": ["n3-l05"],
+  "prerequisitos": [
+    "n3-l05"
+  ],
   "objetivos": [
     "Leer Romanos 8:1-11 con análisis sintáctico completo",
     "Entender la argumentación paulina sobre ley, carne, espíritu",
@@ -87,7 +89,12 @@
         {
           "id": "p1",
           "estimulo": "¿Qué significa Ἄρα οὖν al inicio de 8:1?",
-          "opciones": ["Comienzo de nueva idea", "Conclusión de argumento previo", "Contraposición", "Ejemplificación"],
+          "opciones": [
+            "Comienzo de nueva idea",
+            "Conclusión de argumento previo",
+            "Contraposición",
+            "Ejemplificación"
+          ],
           "respuestaCorrecta": "Conclusión de argumento previo",
           "explicacion": "Ἄρα (por lo tanto) + οὖν (pues) forman una conclusión FUERTE. Resume el argumento de cap. 7.",
           "puntaje": 10
@@ -95,9 +102,58 @@
         {
           "id": "p2",
           "estimulo": "¿Por qué τοῖς ἐν Χριστῷ está en dativo?",
-          "opciones": ["Objeto del verbo", "Objeto de preposición ἐν", "Beneficiario de la acción", "Agente"],
+          "opciones": [
+            "Objeto del verbo",
+            "Objeto de preposición ἐν",
+            "Beneficiario de la acción",
+            "Agente"
+          ],
           "respuestaCorrecta": "Beneficiario de la acción",
           "explicacion": "El dativo marca beneficiario: 'no hay condenación PARA LOS que están en Cristo' (a ellos, para su beneficio).",
+          "puntaje": 10
+        }
+      ]
+    },
+    {
+      "id": "ej-n3-l06-02",
+      "tipo": "seleccion",
+      "titulo": "Traduce las palabras",
+      "instrucciones": "Lee la palabra en griego y selecciona la traducción correcta al español.",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "κατάκριμα",
+          "opciones": [
+            "condenación, veredicto de culpabilidad",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "condenación, veredicto de culpabilidad",
+          "explicacion": "✓ Correcto. κατάκριμα (katakrimа) significa 'condenación, veredicto de culpabilidad'.",
+          "puntaje": 10
+        },
+        {
+          "id": "p2",
+          "estimulo": "νόμος",
+          "opciones": [
+            "ley, principio normativo",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "ley, principio normativo",
+          "explicacion": "✓ Correcto. νόμος (nomos) significa 'ley, principio normativo'.",
+          "puntaje": 10
+        },
+        {
+          "id": "p3",
+          "estimulo": "πνεῦμα",
+          "opciones": [
+            "espíritu (Espíritu Santo en contextos como este)",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "espíritu (Espíritu Santo en contextos como este)",
+          "explicacion": "✓ Correcto. πνεῦμα (pneuma) significa 'espíritu (Espíritu Santo en contextos como este)'.",
           "puntaje": 10
         }
       ]

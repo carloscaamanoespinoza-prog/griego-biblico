@@ -6,7 +6,9 @@
   "subtitulo": "γάρ, δέ, καί, ἀλλά, οὖν y sus funciones",
   "descripcion": "Las partículas griega son pequeñas palabras que guían cómo entendemos la relación entre cláusulas y oraciones. Saber qué significa γάρ o δέ es fundamental para leer griego con precisión exegética.",
   "duracionEstimada": 45,
-  "prerequisitos": ["n3-l03"],
+  "prerequisitos": [
+    "n3-l03"
+  ],
   "objetivos": [
     "Entender las funciones principales de cada partícula",
     "Reconocer cómo las partículas guían la argumentación",
@@ -93,13 +95,43 @@
       "titulo": "Otras Partículas Importantes",
       "descripcion": "Funciones de καί, ἀλλά, οὖν y más",
       "datos": {
-        "columnas": ["Partícula", "Significado Básico", "Función", "Ejemplo"],
+        "columnas": [
+          "Partícula",
+          "Significado Básico",
+          "Función",
+          "Ejemplo"
+        ],
         "filas": [
-          ["καί", "y, también", "Coordinación, adición, intensificación", "ἦν καὶ ὁ λόγος πρὸς τὸν θεόν (y la palabra estaba hacia Dios)"],
-          ["ἀλλά", "pero, sino", "Contraste FUERTE, corrección", "οὐ δοῦλος, ἀλλὰ φίλος (no siervo, sino amigo)"],
-          ["οὖν", "por lo tanto, pues", "Conclusión, inferencia lógica", "εἰ πιστεύετε, τί ἔσεσθε; οὖν ἐστὲ (entonces sois)"],
-          ["ὅμως", "sin embargo, no obstante", "Concesión, giro inesperado", "ὅμως ἐπίστευσαν (sin embargo, creyeron)"],
-          ["οὐ μόνον...ἀλλὰ", "no solo...sino también", "Énfasis progresivo", "οὐ μόνον ἠκούσατε, ἀλλὰ καὶ ἐπιστεύσατε"]
+          [
+            "καί",
+            "y, también",
+            "Coordinación, adición, intensificación",
+            "ἦν καὶ ὁ λόγος πρὸς τὸν θεόν (y la palabra estaba hacia Dios)"
+          ],
+          [
+            "ἀλλά",
+            "pero, sino",
+            "Contraste FUERTE, corrección",
+            "οὐ δοῦλος, ἀλλὰ φίλος (no siervo, sino amigo)"
+          ],
+          [
+            "οὖν",
+            "por lo tanto, pues",
+            "Conclusión, inferencia lógica",
+            "εἰ πιστεύετε, τί ἔσεσθε; οὖν ἐστὲ (entonces sois)"
+          ],
+          [
+            "ὅμως",
+            "sin embargo, no obstante",
+            "Concesión, giro inesperado",
+            "ὅμως ἐπίστευσαν (sin embargo, creyeron)"
+          ],
+          [
+            "οὐ μόνον...ἀλλὰ",
+            "no solo...sino también",
+            "Énfasis progresivo",
+            "οὐ μόνον ἠκούσατε, ἀλλὰ καὶ ἐπιστεύσατε"
+          ]
         ]
       }
     },
@@ -140,7 +172,12 @@
         {
           "id": "p1",
           "estimulo": "Πιστεύε εἰς τὸν κύριον...γάρ τοῦτο σῶζον",
-          "opciones": ["Contraste", "Explicación/Justificación", "Conclusión", "Transición"],
+          "opciones": [
+            "Contraste",
+            "Explicación/Justificación",
+            "Conclusión",
+            "Transición"
+          ],
           "respuestaCorrecta": "Explicación/Justificación",
           "explicacion": "γάρ introduce la RAZÓN por la cual creer es importante. Justifica la proposición anterior.",
           "puntaje": 10
@@ -148,7 +185,12 @@
         {
           "id": "p2",
           "estimulo": "Ὁ λόγος ἦν πρὸς τὸν θεόν· δὲ ὁ λόγος ἦν θεὸς",
-          "opciones": ["Explicación", "Contraste fuerte", "Transición a nueva perspectiva", "Conclusión"],
+          "opciones": [
+            "Explicación",
+            "Contraste fuerte",
+            "Transición a nueva perspectiva",
+            "Conclusión"
+          ],
           "respuestaCorrecta": "Transición a nueva perspectiva",
           "explicacion": "δέ marca aquí una transición a una nueva afirmación sobre el mismo tema (el Logos), no un contraste fuerte.",
           "puntaje": 10
@@ -156,7 +198,12 @@
         {
           "id": "p3",
           "estimulo": "Ἐπίστευσαν, οὖν ἐσώθησαν",
-          "opciones": ["Contraste", "Explicación", "Conclusión lógica", "Énfasis"],
+          "opciones": [
+            "Contraste",
+            "Explicación",
+            "Conclusión lógica",
+            "Énfasis"
+          ],
           "respuestaCorrecta": "Conclusión lógica",
           "explicacion": "οὖν introduce la CONCLUSIÓN que se sigue lógicamente. 'Entonces fueron salvos' es la consecuencia de creer.",
           "puntaje": 10
@@ -174,7 +221,12 @@
           "estimulo": "¿Cuál es la función de γάρ? (introduce...)",
           "tipo": "texto",
           "respuestaCorrecta": "explicación o justificación",
-          "alternativasAceptadas": ["explicación", "justificación", "razón", "causa"],
+          "alternativasAceptadas": [
+            "explicación",
+            "justificación",
+            "razón",
+            "causa"
+          ],
           "explicacion": "γάρ siempre introduce una EXPLICACIÓN o JUSTIFICACIÓN de lo que acaba de decirse.",
           "puntaje": 15
         },
@@ -183,7 +235,11 @@
           "estimulo": "¿Cuál es la diferencia entre δέ y ἀλλά?",
           "tipo": "texto",
           "respuestaCorrecta": "δέ es transición suave, ἀλλά es contraste fuerte",
-          "alternativasAceptadas": ["δέ suave ἀλλά fuerte", "δέ es transición ἀλλά es corrección", "diferencia en fuerza"],
+          "alternativasAceptadas": [
+            "δέ suave ἀλλά fuerte",
+            "δέ es transición ἀλλά es corrección",
+            "diferencia en fuerza"
+          ],
           "explicacion": "δέ marca una transición sin necesariamente contrastar. ἀλλά marca un CONTRASTE FUERTE o una CORRECCIÓN.",
           "puntaje": 15
         },
@@ -192,9 +248,57 @@
           "estimulo": "¿Qué partícula introduce conclusión?",
           "tipo": "texto",
           "respuestaCorrecta": "οὖν",
-          "alternativasAceptadas": ["οὖν", "oun", "por lo tanto"],
+          "alternativasAceptadas": [
+            "οὖν",
+            "oun",
+            "por lo tanto"
+          ],
           "explicacion": "οὖν introduce una conclusión lógica: 'por lo tanto', 'así pues', 'entonces'.",
           "puntaje": 15
+        }
+      ]
+    },
+    {
+      "id": "ej-n3-l04-03",
+      "tipo": "seleccion",
+      "titulo": "Traduce las palabras",
+      "instrucciones": "Lee la palabra en griego y selecciona la traducción correcta al español.",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "γάρ",
+          "opciones": [
+            "pues, porque, ya que (partícula causal)",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "pues, porque, ya que (partícula causal)",
+          "explicacion": "✓ Correcto. γάρ (gar) significa 'pues, porque, ya que (partícula causal)'.",
+          "puntaje": 10
+        },
+        {
+          "id": "p2",
+          "estimulo": "δέ",
+          "opciones": [
+            "pero, ahora, por otro lado (partícula versátil de transición)",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "pero, ahora, por otro lado (partícula versátil de transición)",
+          "explicacion": "✓ Correcto. δέ (de) significa 'pero, ahora, por otro lado (partícula versátil de transición)'.",
+          "puntaje": 10
+        },
+        {
+          "id": "p3",
+          "estimulo": "οὖν",
+          "opciones": [
+            "por lo tanto, pues, así pues (partícula conclusiva)",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "por lo tanto, pues, así pues (partícula conclusiva)",
+          "explicacion": "✓ Correcto. οὖν (oun) significa 'por lo tanto, pues, así pues (partícula conclusiva)'.",
+          "puntaje": 10
         }
       ]
     }

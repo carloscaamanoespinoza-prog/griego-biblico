@@ -6,7 +6,9 @@
   "subtitulo": "Papiros, unciales y cursivos - la base de nuestro texto",
   "descripcion": "El NT que leemos no viene de 'original perfecto'. Tenemos copias manuscritas con variaciones. La CRÍTICA TEXTUAL intenta reconstruir el texto más probable. Aprenderás sobre los manuscritos que poseemos.",
   "duracionEstimada": 45,
-  "prerequisitos": ["n3-l10"],
+  "prerequisitos": [
+    "n3-l10"
+  ],
   "objetivos": [
     "Entender los tipos de manuscritos griegos (papiros, unciales, cursivos)",
     "Reconocer las principales familias textuales (Alejandrino, Occidental, Bizantino)",
@@ -27,11 +29,35 @@
           "tipo": "tabla-interactiva",
           "titulo": "Tipos de Manuscritos",
           "datos": {
-            "columnas": ["Tipo", "Período", "Material", "Características", "Ejemplos"],
+            "columnas": [
+              "Tipo",
+              "Período",
+              "Material",
+              "Características",
+              "Ejemplos"
+            ],
             "filas": [
-              ["Papiros", "II-VIII siglos", "Papiro (frágil)", "Muy antiguos, fragmentarios, escritura cursiva", "P45, P66, P75"],
-              ["Unciales", "IV-X siglos", "Pergamino", "Letras mayúsculas, sin espacios", "Codex Sinaiticus (א), Vaticanus (B), Alexandrinus (A)"],
-              ["Cursivos", "IX-XVI siglos", "Pergamino/papel", "Letras minúsculas, más recientes, mayoría del NT", "Familia mayoritaria (~5000)"]
+              [
+                "Papiros",
+                "II-VIII siglos",
+                "Papiro (frágil)",
+                "Muy antiguos, fragmentarios, escritura cursiva",
+                "P45, P66, P75"
+              ],
+              [
+                "Unciales",
+                "IV-X siglos",
+                "Pergamino",
+                "Letras mayúsculas, sin espacios",
+                "Codex Sinaiticus (א), Vaticanus (B), Alexandrinus (A)"
+              ],
+              [
+                "Cursivos",
+                "IX-XVI siglos",
+                "Pergamino/papel",
+                "Letras minúsculas, más recientes, mayoría del NT",
+                "Familia mayoritaria (~5000)"
+              ]
             ]
           }
         }
@@ -84,7 +110,12 @@
         {
           "id": "p1",
           "estimulo": "Manuscrito del siglo II en papiro, muy antiguo pero fragmentario",
-          "opciones": ["Uncial", "Papiro", "Cursivo", "Minúscula"],
+          "opciones": [
+            "Uncial",
+            "Papiro",
+            "Cursivo",
+            "Minúscula"
+          ],
           "respuestaCorrecta": "Papiro",
           "explicacion": "Los papiros son los manuscritos más antiguos (II-VIII siglos), escritos en papiro frágil.",
           "puntaje": 10
@@ -92,9 +123,34 @@
         {
           "id": "p2",
           "estimulo": "Codex Sinaiticus (א) - ¿qué tipo de manuscrito?",
-          "opciones": ["Papiro", "Uncial", "Cursivo", "Palimpsesto"],
+          "opciones": [
+            "Papiro",
+            "Uncial",
+            "Cursivo",
+            "Palimpsesto"
+          ],
           "respuestaCorrecta": "Uncial",
           "explicacion": "Sinaiticus es un uncial del siglo IV, escrito en mayúsculas sin espacios entre palabras.",
+          "puntaje": 10
+        }
+      ]
+    },
+    {
+      "id": "ej-n4-l01-02",
+      "tipo": "seleccion",
+      "titulo": "Traduce las palabras",
+      "instrucciones": "Lee la palabra en griego y selecciona la traducción correcta al español.",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "κριτική",
+          "opciones": [
+            "crítica (análisis evaluativo)",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "crítica (análisis evaluativo)",
+          "explicacion": "✓ Correcto. κριτική (kritikē) significa 'crítica (análisis evaluativo)'.",
           "puntaje": 10
         }
       ]

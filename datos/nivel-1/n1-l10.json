@@ -6,7 +6,9 @@
   "subtitulo": "El tiempo presente: lo que sucede ahora o habitualmente",
   "descripcion": "Aprenderás a conjugar verbos regulares en presente indicativo activo. Este es el tiempo más básico y fundamental.",
   "duracionEstimada": 30,
-  "prerequisitos": ["n1-l09"],
+  "prerequisitos": [
+    "n1-l09"
+  ],
   "objetivos": [
     "Entender el presente indicativo en griego",
     "Conjugar verbos temáticos en presente",
@@ -19,11 +21,27 @@
       "titulo": "Presente Indicativo Activo: λύω (disuelvo, libero)",
       "descripcion": "Paradigma completo del verbo temático más común",
       "datos": {
-        "columnas": ["Persona", "Singular", "Plural"],
+        "columnas": [
+          "Persona",
+          "Singular",
+          "Plural"
+        ],
         "filas": [
-          ["1ª", "λύ-ω (disuelvo)", "λύ-ομεν (disolvemos)"],
-          ["2ª", "λύ-εις (disuelves)", "λύ-ετε (disolvéis)"],
-          ["3ª", "λύ-ει (disuelve)", "λύ-ουσιν (disuelven)"]
+          [
+            "1ª",
+            "λύ-ω (disuelvo)",
+            "λύ-ομεν (disolvemos)"
+          ],
+          [
+            "2ª",
+            "λύ-εις (disuelves)",
+            "λύ-ετε (disolvéis)"
+          ],
+          [
+            "3ª",
+            "λύ-ει (disuelve)",
+            "λύ-ουσιν (disuelven)"
+          ]
         ]
       }
     },
@@ -67,9 +85,31 @@
           "estimulo": "3ª singular presente indicativo activo de λύω",
           "tipo": "texto",
           "respuestaCorrecta": "λύει",
-          "alternativasAceptadas": ["λύει"],
+          "alternativasAceptadas": [
+            "λύει"
+          ],
           "explicacion": "λύ (tema) + ει (desinencia 3ª singular) = λύει",
           "puntaje": 15
+        }
+      ]
+    },
+    {
+      "id": "ej-n1-l10-02",
+      "tipo": "seleccion",
+      "titulo": "Traduce las palabras",
+      "instrucciones": "Lee la palabra en griego y selecciona la traducción correcta al español.",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "λύω",
+          "opciones": [
+            "disuelvo, libero, cierro",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "disuelvo, libero, cierro",
+          "explicacion": "✓ Correcto. λύω (lyō) significa 'disuelvo, libero, cierro'.",
+          "puntaje": 10
         }
       ]
     }

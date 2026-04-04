@@ -6,7 +6,9 @@
   "subtitulo": "La acción repetida o progresiva en el pasado",
   "descripcion": "El imperfecto es el tiempo que describe acciones habituales, repetidas o en progreso en el pasado. Es fundamental para entender narrativas bíblicas.",
   "duracionEstimada": 35,
-  "prerequisitos": ["n1-l12"],
+  "prerequisitos": [
+    "n1-l12"
+  ],
   "objetivos": [
     "Entender el aspecto imperfectivo del imperfecto",
     "Conjugar verbos en imperfecto indicativo activo",
@@ -76,11 +78,27 @@
       "titulo": "Imperfecto Indicativo Activo: λύω (soltaba)",
       "descripcion": "Forma completa del imperfecto con aumento silábico ἔ-",
       "datos": {
-        "columnas": ["Persona", "Singular", "Plural"],
+        "columnas": [
+          "Persona",
+          "Singular",
+          "Plural"
+        ],
         "filas": [
-          ["1ª", "ἔ-λυ-ον (soltaba)", "ἐ-λύ-ομεν (soltábamos)"],
-          ["2ª", "ἔ-λυ-ες (soltabas)", "ἐ-λύ-ετε (soltabais)"],
-          ["3ª", "ἔ-λυ-ε (soltaba)", "ἔ-λυ-ον (soltaban)"]
+          [
+            "1ª",
+            "ἔ-λυ-ον (soltaba)",
+            "ἐ-λύ-ομεν (soltábamos)"
+          ],
+          [
+            "2ª",
+            "ἔ-λυ-ες (soltabas)",
+            "ἐ-λύ-ετε (soltabais)"
+          ],
+          [
+            "3ª",
+            "ἔ-λυ-ε (soltaba)",
+            "ἔ-λυ-ον (soltaban)"
+          ]
         ]
       }
     },
@@ -117,14 +135,42 @@
       "titulo": "El Verbo εἰμί en Imperfecto",
       "descripcion": "El imperfecto del verbo ser, que es completamente irregular",
       "datos": {
-        "columnas": ["Persona", "Forma", "Equivalente Español"],
+        "columnas": [
+          "Persona",
+          "Forma",
+          "Equivalente Español"
+        ],
         "filas": [
-          ["1ª Singular", "ἤμην", "era, estaba"],
-          ["2ª Singular", "ἦς", "eras, estabas"],
-          ["3ª Singular", "ἦν", "era, estaba"],
-          ["1ª Plural", "ἦμεν", "éramos, estábamos"],
-          ["2ª Plural", "ἦτε", "erais, estabais"],
-          ["3ª Plural", "ἦσαν", "eran, estaban"]
+          [
+            "1ª Singular",
+            "ἤμην",
+            "era, estaba"
+          ],
+          [
+            "2ª Singular",
+            "ἦς",
+            "eras, estabas"
+          ],
+          [
+            "3ª Singular",
+            "ἦν",
+            "era, estaba"
+          ],
+          [
+            "1ª Plural",
+            "ἦμεν",
+            "éramos, estábamos"
+          ],
+          [
+            "2ª Plural",
+            "ἦτε",
+            "erais, estabais"
+          ],
+          [
+            "3ª Plural",
+            "ἦσαν",
+            "eran, estaban"
+          ]
         ]
       }
     }
@@ -139,7 +185,10 @@
         {
           "id": "p1",
           "estimulo": "ἔλυσε (soltó - una sola vez)",
-          "opciones": ["Imperfecto", "Aoristo"],
+          "opciones": [
+            "Imperfecto",
+            "Aoristo"
+          ],
           "respuestaCorrecta": "Aoristo",
           "explicacion": "El aoristo presenta la acción como completa y puntual. La forma -σε es característica del aoristo 1º.",
           "puntaje": 10
@@ -147,7 +196,10 @@
         {
           "id": "p2",
           "estimulo": "ἔλυε (soltaba - repetidamente)",
-          "opciones": ["Imperfecto", "Aoristo"],
+          "opciones": [
+            "Imperfecto",
+            "Aoristo"
+          ],
           "respuestaCorrecta": "Imperfecto",
           "explicacion": "El imperfecto muestra la acción como habitual o en progreso. La desinencia -ε es característica del imperfecto 3ª singular.",
           "puntaje": 10
@@ -155,7 +207,10 @@
         {
           "id": "p3",
           "estimulo": "ἦν (era/estaba - de forma habitual o continua en el pasado)",
-          "opciones": ["Presente indicativo", "Imperfecto"],
+          "opciones": [
+            "Presente indicativo",
+            "Imperfecto"
+          ],
           "respuestaCorrecta": "Imperfecto",
           "explicacion": "La forma ἦν es imperfecto de εἰμί. El aumento ἠ- muestra que es pasado.",
           "puntaje": 10
@@ -173,7 +228,9 @@
           "estimulo": "3ª singular imperfecto de λύω",
           "tipo": "texto",
           "respuestaCorrecta": "ἔλυε",
-          "alternativasAceptadas": ["ἔλυε"],
+          "alternativasAceptadas": [
+            "ἔλυε"
+          ],
           "explicacion": "ἔ (aumento) + λυ (tema) + ε (característica) + ε (desinencia 3ª sing.) = ἔλυε",
           "puntaje": 15
         },
@@ -182,7 +239,9 @@
           "estimulo": "1ª plural imperfecto de λύω",
           "tipo": "texto",
           "respuestaCorrecta": "ἐλύομεν",
-          "alternativasAceptadas": ["ἐλύομεν"],
+          "alternativasAceptadas": [
+            "ἐλύομεν"
+          ],
           "explicacion": "ἐ (aumento) + λύ (tema) + ο (característica) + μεν (desinencia 1ª plural) = ἐλύομεν",
           "puntaje": 15
         },
@@ -191,9 +250,55 @@
           "estimulo": "2ª singular imperfecto de εἰμί",
           "tipo": "texto",
           "respuestaCorrecta": "ἦς",
-          "alternativasAceptadas": ["ἦς"],
+          "alternativasAceptadas": [
+            "ἦς"
+          ],
           "explicacion": "ἦς es la forma irregular de 2ª singular del imperfecto de εἰμί.",
           "puntaje": 15
+        }
+      ]
+    },
+    {
+      "id": "ej-n2-l01-03",
+      "tipo": "seleccion",
+      "titulo": "Traduce las palabras",
+      "instrucciones": "Lee la palabra en griego y selecciona la traducción correcta al español.",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "ἔλυον",
+          "opciones": [
+            "soltaba (yo), estaba soltando",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "soltaba (yo), estaba soltando",
+          "explicacion": "✓ Correcto. ἔλυον (eluon) significa 'soltaba (yo), estaba soltando'.",
+          "puntaje": 10
+        },
+        {
+          "id": "p2",
+          "estimulo": "ἐλάλει",
+          "opciones": [
+            "hablaba (él), estaba hablando",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "hablaba (él), estaba hablando",
+          "explicacion": "✓ Correcto. ἐλάλει (elalei) significa 'hablaba (él), estaba hablando'.",
+          "puntaje": 10
+        },
+        {
+          "id": "p3",
+          "estimulo": "ἦν",
+          "opciones": [
+            "era (él), estaba, existía",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "era (él), estaba, existía",
+          "explicacion": "✓ Correcto. ἦν (ēn) significa 'era (él), estaba, existía'.",
+          "puntaje": 10
         }
       ]
     }

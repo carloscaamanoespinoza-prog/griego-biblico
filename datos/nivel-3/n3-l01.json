@@ -6,7 +6,9 @@
   "subtitulo": "Cómo el griego usa la posición para enfatizar",
   "descripcion": "A diferencia del español, el griego tiene libertad de orden de palabras (cases marcan función). Esta flexibilidad se usa estratégicamente para énfasis y información nueva. Aprenderás a leer el énfasis intencional.",
   "duracionEstimada": 40,
-  "prerequisitos": ["n2-l12"],
+  "prerequisitos": [
+    "n2-l12"
+  ],
   "objetivos": [
     "Entender que el orden de palabras en griego marca énfasis, no función gramatical",
     "Reconocer el orden normal (SVO) vs. órdenes marcados",
@@ -47,12 +49,37 @@
       "titulo": "Orden Normal vs. Orden Marcado",
       "descripcion": "Patrones de orden y lo que indican",
       "datos": {
-        "columnas": ["Orden", "Patrón", "Ejemplo", "Énfasis"],
+        "columnas": [
+          "Orden",
+          "Patrón",
+          "Ejemplo",
+          "Énfasis"
+        ],
         "filas": [
-          ["NORMAL", "SVO (Sujeto-Verbo-Objeto)", "ὁ ἀπόστολος εἶδε τὸν κύριον", "neutro, información dada"],
-          ["MARCADO-1", "OSV", "τὸν κύριον εἶδε ὁ ἀπόστολος", "énfasis en objeto (Dios es central)"],
-          ["MARCADO-2", "VSO", "εἶδε ὁ ἀπόστολος τὸν κύριον", "énfasis en verbo (acción puntual)"],
-          ["MARCADO-3", "VOS", "εἶδε τὸν κύριον ὁ ἀπόστολος", "énfasis en objeto + acción"]
+          [
+            "NORMAL",
+            "SVO (Sujeto-Verbo-Objeto)",
+            "ὁ ἀπόστολος εἶδε τὸν κύριον",
+            "neutro, información dada"
+          ],
+          [
+            "MARCADO-1",
+            "OSV",
+            "τὸν κύριον εἶδε ὁ ἀπόστολος",
+            "énfasis en objeto (Dios es central)"
+          ],
+          [
+            "MARCADO-2",
+            "VSO",
+            "εἶδε ὁ ἀπόστολος τὸν κύριον",
+            "énfasis en verbo (acción puntual)"
+          ],
+          [
+            "MARCADO-3",
+            "VOS",
+            "εἶδε τὸν κύριον ὁ ἀπόστολος",
+            "énfasis en objeto + acción"
+          ]
         ]
       }
     },
@@ -150,7 +177,12 @@
         {
           "id": "p1",
           "estimulo": "τὸν κύριον εἶδε ὁ μαθητής (orden OSV)",
-          "opciones": ["El verbo (vio)", "El sujeto (el discípulo)", "El objeto (al Señor)", "No hay énfasis"],
+          "opciones": [
+            "El verbo (vio)",
+            "El sujeto (el discípulo)",
+            "El objeto (al Señor)",
+            "No hay énfasis"
+          ],
           "respuestaCorrecta": "El objeto (al Señor)",
           "explicacion": "Cuando el objeto directo va al inicio, la frase enfatiza AL SEÑOR como lo central. El orden OSV marca énfasis sobre el objeto.",
           "puntaje": 10
@@ -158,7 +190,12 @@
         {
           "id": "p2",
           "estimulo": "Θεὸς ἦν ὁ λόγος (predicado al inicio)",
-          "opciones": ["Que el Logos es palabra", "La naturaleza divina del Logos", "Quién es el Logos", "El verbo 'ser'"],
+          "opciones": [
+            "Que el Logos es palabra",
+            "La naturaleza divina del Logos",
+            "Quién es el Logos",
+            "El verbo 'ser'"
+          ],
           "respuestaCorrecta": "La naturaleza divina del Logos",
           "explicacion": "Al poner θεὸς al inicio sin artículo, Juan enfatiza la CUALIDAD de ser divino, no simplemente la identidad.",
           "puntaje": 10
@@ -166,7 +203,12 @@
         {
           "id": "p3",
           "estimulo": "¿Cuál es la función del orden normal SVO?",
-          "opciones": ["Máximo énfasis", "Información neutral, dada", "Énfasis en objeto", "Énfasis en verbo"],
+          "opciones": [
+            "Máximo énfasis",
+            "Información neutral, dada",
+            "Énfasis en objeto",
+            "Énfasis en verbo"
+          ],
           "respuestaCorrecta": "Información neutral, dada",
           "explicacion": "El orden SVO es el patrón no-marcado en griego, típico para información que se asume conocida o neutral.",
           "puntaje": 10
@@ -184,7 +226,11 @@
           "estimulo": "ὁ λόγος ἦν πρὸς τὸν θεόν - ¿Cuál es el patrón de orden?",
           "tipo": "texto",
           "respuestaCorrecta": "SVO",
-          "alternativasAceptadas": ["SVO", "orden normal", "sujeto verbo objeto"],
+          "alternativasAceptadas": [
+            "SVO",
+            "orden normal",
+            "sujeto verbo objeto"
+          ],
           "explicacion": "ὁ λόγος (Sujeto) ἦν (Verbo) πρὸς τὸν θεόν (Objeto/Complemento) = patrón normal SVO.",
           "puntaje": 15
         },
@@ -193,7 +239,11 @@
           "estimulo": "Θεὸς ἦν ὁ λόγος - ¿Dónde va la información REMA (nueva)?",
           "tipo": "texto",
           "respuestaCorrecta": "Al inicio",
-          "alternativasAceptadas": ["Al inicio", "Al principio", "En Θεὸς"],
+          "alternativasAceptadas": [
+            "Al inicio",
+            "Al principio",
+            "En Θεὸς"
+          ],
           "explicacion": "Θεὸς (predicado, información nueva) ἦν (verbo) ὁ λόγος (sujeto, tema conocido) = rema enfatizado al inicio.",
           "puntaje": 15
         },
@@ -202,9 +252,57 @@
           "estimulo": "En una construcción 'οὐ πάντες...', ¿qué grupo se niega específicamente?",
           "tipo": "texto",
           "respuestaCorrecta": "Todos",
-          "alternativasAceptadas": ["Todos", "la totalidad", "el grupo completo"],
+          "alternativasAceptadas": [
+            "Todos",
+            "la totalidad",
+            "el grupo completo"
+          ],
           "explicacion": "La negación οὐ ante πάντες niega la TOTALIDAD. Si fuera 'πάντες οὐ', negaría la acción a todos.",
           "puntaje": 15
+        }
+      ]
+    },
+    {
+      "id": "ej-n3-l01-03",
+      "tipo": "seleccion",
+      "titulo": "Traduce las palabras",
+      "instrucciones": "Lee la palabra en griego y selecciona la traducción correcta al español.",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "θέμα",
+          "opciones": [
+            "tema, información conocida o dada",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "tema, información conocida o dada",
+          "explicacion": "✓ Correcto. θέμα (thema) significa 'tema, información conocida o dada'.",
+          "puntaje": 10
+        },
+        {
+          "id": "p2",
+          "estimulo": "ρῆμα",
+          "opciones": [
+            "rema, información nueva o focal",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "rema, información nueva o focal",
+          "explicacion": "✓ Correcto. ρῆμα (rhēma) significa 'rema, información nueva o focal'.",
+          "puntaje": 10
+        },
+        {
+          "id": "p3",
+          "estimulo": "ἐμφάσις",
+          "opciones": [
+            "énfasis, impacto o prominencia",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "énfasis, impacto o prominencia",
+          "explicacion": "✓ Correcto. ἐμφάσις (emphasis) significa 'énfasis, impacto o prominencia'.",
+          "puntaje": 10
         }
       ]
     }

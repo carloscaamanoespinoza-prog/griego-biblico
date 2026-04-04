@@ -6,7 +6,9 @@
   "subtitulo": "Formas verbales que funcionan como adjetivos",
   "descripcion": "Los participios son formas verbales que funcionan como adjetivos. Conjugan género, número y caso como los adjetivos, pero mantienen características verbales. Son extremadamente frecuentes en el NT.",
   "duracionEstimada": 40,
-  "prerequisitos": ["n2-l10"],
+  "prerequisitos": [
+    "n2-l10"
+  ],
   "objetivos": [
     "Entender los participios como verbos adjetivales",
     "Reconocer la formación de participios en diferentes tiempos y voces",
@@ -43,12 +45,37 @@
       "titulo": "Participio Presente Activo: λύων (soltando)",
       "descripcion": "Forma del participio presente activo declinada en los cuatro casos singulares masculinos",
       "datos": {
-        "columnas": ["Caso", "Singular Masculino", "Singular Femenino", "Singular Neutro"],
+        "columnas": [
+          "Caso",
+          "Singular Masculino",
+          "Singular Femenino",
+          "Singular Neutro"
+        ],
         "filas": [
-          ["Nominativo", "λύ-ων", "λύ-ουσα", "λύ-ον"],
-          ["Acusativo", "λύ-οντα", "λύ-ουσαν", "λύ-ον"],
-          ["Genitivo", "λύ-οντος", "λυ-ούσης", "λύ-οντος"],
-          ["Dativo", "λύ-οντι", "λυ-ούσῃ", "λύ-οντι"]
+          [
+            "Nominativo",
+            "λύ-ων",
+            "λύ-ουσα",
+            "λύ-ον"
+          ],
+          [
+            "Acusativo",
+            "λύ-οντα",
+            "λύ-ουσαν",
+            "λύ-ον"
+          ],
+          [
+            "Genitivo",
+            "λύ-οντος",
+            "λυ-ούσης",
+            "λύ-οντος"
+          ],
+          [
+            "Dativo",
+            "λύ-οντι",
+            "λυ-ούσῃ",
+            "λύ-οντι"
+          ]
         ]
       }
     },
@@ -98,12 +125,37 @@
       "titulo": "Participios Medio y Pasivo",
       "descripcion": "Participios de voz media (presente y aoristo) y pasiva (aoristo y perfecto)",
       "datos": {
-        "columnas": ["Tiempo/Voz", "Masculino Nominativo", "Femenino Nominativo", "Neutro Nominativo"],
+        "columnas": [
+          "Tiempo/Voz",
+          "Masculino Nominativo",
+          "Femenino Nominativo",
+          "Neutro Nominativo"
+        ],
         "filas": [
-          ["Presente Medio", "λυ-ό-μενος", "λυ-ο-μένη", "λυ-ό-μενον"],
-          ["Aoristo Medio", "λυ-σά-μενος", "λυ-σα-μένη", "λυ-σά-μενον"],
-          ["Aoristo Pasivo", "λυ-θείς", "λυ-θεῖσα", "λυ-θέν"],
-          ["Perfecto Pasivo", "λε-λυ-μένος", "λε-λυ-μένη", "λε-λυ-μένον"]
+          [
+            "Presente Medio",
+            "λυ-ό-μενος",
+            "λυ-ο-μένη",
+            "λυ-ό-μενον"
+          ],
+          [
+            "Aoristo Medio",
+            "λυ-σά-μενος",
+            "λυ-σα-μένη",
+            "λυ-σά-μενον"
+          ],
+          [
+            "Aoristo Pasivo",
+            "λυ-θείς",
+            "λυ-θεῖσα",
+            "λυ-θέν"
+          ],
+          [
+            "Perfecto Pasivo",
+            "λε-λυ-μένος",
+            "λε-λυ-μένη",
+            "λε-λυ-μένον"
+          ]
         ]
       }
     },
@@ -161,7 +213,12 @@
         {
           "id": "p1",
           "estimulo": "Participio presente activo masculino nominativo de λύω",
-          "opciones": ["λύων", "λύσας", "λελυκώς", "λυόμενος"],
+          "opciones": [
+            "λύων",
+            "λύσας",
+            "λελυκώς",
+            "λυόμενος"
+          ],
           "respuestaCorrecta": "λύων",
           "explicacion": "λύ (tema) + ων (terminación participio presente activo masculino nominativo) = λύων",
           "puntaje": 10
@@ -169,7 +226,12 @@
         {
           "id": "p2",
           "estimulo": "¿Cuál es la característica del participio aoristo activo?",
-          "opciones": ["-οι-", "-σα-", "-κ-", "-θ-"],
+          "opciones": [
+            "-οι-",
+            "-σα-",
+            "-κ-",
+            "-θ-"
+          ],
           "respuestaCorrecta": "-σα-",
           "explicacion": "El participio aoristo activo usa -σα- entre el tema y la desinencia: λύσας, λύσαντος, etc.",
           "puntaje": 10
@@ -177,7 +239,12 @@
         {
           "id": "p3",
           "estimulo": "¿Cuál es una característica del participio?",
-          "opciones": ["Solo tiene tiempo", "Solo tiene caso", "Tiene tiempo Y se declina por caso/género/número", "No tiene aspectos verbales"],
+          "opciones": [
+            "Solo tiene tiempo",
+            "Solo tiene caso",
+            "Tiene tiempo Y se declina por caso/género/número",
+            "No tiene aspectos verbales"
+          ],
           "respuestaCorrecta": "Tiene tiempo Y se declina por caso/género/número",
           "explicacion": "Los participios combinan características verbales (tiempo, voz, aspecto) con características adjetivales (género, número, caso).",
           "puntaje": 10
@@ -195,7 +262,9 @@
           "estimulo": "Participio presente activo λύω en acusativo masculino singular",
           "tipo": "texto",
           "respuestaCorrecta": "λύοντα",
-          "alternativasAceptadas": ["λύοντα"],
+          "alternativasAceptadas": [
+            "λύοντα"
+          ],
           "explicacion": "λύ (tema) + οντα (desinencia acusativo singular masculino) = λύοντα",
           "puntaje": 15
         },
@@ -204,7 +273,9 @@
           "estimulo": "Participio aoristo activo λύω en nominativo femenino singular",
           "tipo": "texto",
           "respuestaCorrecta": "λύσασα",
-          "alternativasAceptadas": ["λύσασα"],
+          "alternativasAceptadas": [
+            "λύσασα"
+          ],
           "explicacion": "λύ (tema) + σασα (sigma aorística + desinencia nominativo femenino singular) = λύσασα",
           "puntaje": 15
         },
@@ -213,9 +284,55 @@
           "estimulo": "Participio aoristo pasivo λύω en nominativo masculino singular",
           "tipo": "texto",
           "respuestaCorrecta": "λυθείς",
-          "alternativasAceptadas": ["λυθείς"],
+          "alternativasAceptadas": [
+            "λυθείς"
+          ],
           "explicacion": "λύ (tema) + θ (característica pasiva) + είς (desinencia nominativo masculino aoristo pasivo) = λυθείς",
           "puntaje": 15
+        }
+      ]
+    },
+    {
+      "id": "ej-n2-l11-03",
+      "tipo": "seleccion",
+      "titulo": "Traduce las palabras",
+      "instrucciones": "Lee la palabra en griego y selecciona la traducción correcta al español.",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "λύων",
+          "opciones": [
+            "soltando, el que suelta (participio presente activo masculino)",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "soltando, el que suelta (participio presente activo masculino)",
+          "explicacion": "✓ Correcto. λύων (lyōn) significa 'soltando, el que suelta (participio presente activo masculino)'.",
+          "puntaje": 10
+        },
+        {
+          "id": "p2",
+          "estimulo": "λύσας",
+          "opciones": [
+            "habiendo soltado (participio aoristo activo masculino)",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "habiendo soltado (participio aoristo activo masculino)",
+          "explicacion": "✓ Correcto. λύσας (lysas) significa 'habiendo soltado (participio aoristo activo masculino)'.",
+          "puntaje": 10
+        },
+        {
+          "id": "p3",
+          "estimulo": "λυθείς",
+          "opciones": [
+            "habiendo sido soltado (participio aoristo pasivo masculino)",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "habiendo sido soltado (participio aoristo pasivo masculino)",
+          "explicacion": "✓ Correcto. λυθείς (lytheis) significa 'habiendo sido soltado (participio aoristo pasivo masculino)'.",
+          "puntaje": 10
         }
       ]
     }

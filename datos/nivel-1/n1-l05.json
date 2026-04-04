@@ -6,7 +6,9 @@
   "subtitulo": "Cómo funcionan los casos y sus funciones principales",
   "descripcion": "El griego antiguo usa casos (no solo la posición de las palabras) para indicar la función sintáctica. Hay 4 casos principales, cada uno con funciones específicas.",
   "duracionEstimada": 30,
-  "prerequisitos": ["n1-l04"],
+  "prerequisitos": [
+    "n1-l04"
+  ],
   "objetivos": [
     "Entender qué es un caso gramatical en griego",
     "Identificar los 4 casos principales y sus funciones",
@@ -40,12 +42,37 @@
       "titulo": "Los Cuatro Casos Griegos",
       "descripcion": "Cada caso tiene una función principal. El artículo y el sustantivo cambian para mostrar cuál es el caso.",
       "datos": {
-        "columnas": ["Caso", "Función Principal", "Ejemplo", "Pregunta"],
+        "columnas": [
+          "Caso",
+          "Función Principal",
+          "Ejemplo",
+          "Pregunta"
+        ],
         "filas": [
-          ["NOMINATIVO", "Sujeto de la oración; predicado nominal", "ὁ λόγος (la palabra)", "¿Quién?"],
-          ["ACUSATIVO", "Objeto directo; complemento directo", "τὸν λόγον (la palabra)", "¿Qué?"],
-          ["GENITIVO", "Posesión, origen, parte de un todo", "τοῦ λόγου (de la palabra)", "¿De quién?"],
-          ["DATIVO", "Objeto indirecto; complemento de persona; ubicación", "τῷ λόγῳ (al/para la palabra)", "¿A quién?"]
+          [
+            "NOMINATIVO",
+            "Sujeto de la oración; predicado nominal",
+            "ὁ λόγος (la palabra)",
+            "¿Quién?"
+          ],
+          [
+            "ACUSATIVO",
+            "Objeto directo; complemento directo",
+            "τὸν λόγον (la palabra)",
+            "¿Qué?"
+          ],
+          [
+            "GENITIVO",
+            "Posesión, origen, parte de un todo",
+            "τοῦ λόγου (de la palabra)",
+            "¿De quién?"
+          ],
+          [
+            "DATIVO",
+            "Objeto indirecto; complemento de persona; ubicación",
+            "τῷ λόγῳ (al/para la palabra)",
+            "¿A quién?"
+          ]
         ]
       }
     },
@@ -60,12 +87,32 @@
         },
         {
           "tipo": "tabla-simple",
-          "cabeceras": ["Caso", "Con Artículo", "Sin Artículo"],
+          "cabeceras": [
+            "Caso",
+            "Con Artículo",
+            "Sin Artículo"
+          ],
           "filas": [
-            ["Nominativo", "ὁ λόγος", "λόγος"],
-            ["Acusativo", "τὸν λόγον", "λόγον"],
-            ["Genitivo", "τοῦ λόγου", "λόγου"],
-            ["Dativo", "τῷ λόγῳ", "λόγῳ"]
+            [
+              "Nominativo",
+              "ὁ λόγος",
+              "λόγος"
+            ],
+            [
+              "Acusativo",
+              "τὸν λόγον",
+              "λόγον"
+            ],
+            [
+              "Genitivo",
+              "τοῦ λόγου",
+              "λόγου"
+            ],
+            [
+              "Dativo",
+              "τῷ λόγῳ",
+              "λόγῳ"
+            ]
           ]
         },
         {
@@ -85,7 +132,12 @@
         {
           "id": "p1",
           "estimulo": "Nominativo",
-          "opciones": ["Sujeto", "Objeto directo", "Posesión", "Objeto indirecto"],
+          "opciones": [
+            "Sujeto",
+            "Objeto directo",
+            "Posesión",
+            "Objeto indirecto"
+          ],
           "respuestaCorrecta": "Sujeto",
           "explicacion": "El nominativo es el caso del sujeto de la oración, quien realiza la acción.",
           "puntaje": 10
@@ -93,9 +145,34 @@
         {
           "id": "p2",
           "estimulo": "Genitivo",
-          "opciones": ["Sujeto", "Objeto directo", "Posesión", "Objeto indirecto"],
+          "opciones": [
+            "Sujeto",
+            "Objeto directo",
+            "Posesión",
+            "Objeto indirecto"
+          ],
           "respuestaCorrecta": "Posesión",
           "explicacion": "El genitivo indica posesión o relación de pertenencia, equivalente a la preposición 'de'.",
+          "puntaje": 10
+        }
+      ]
+    },
+    {
+      "id": "ej-n1-l05-02",
+      "tipo": "seleccion",
+      "titulo": "Traduce las palabras",
+      "instrucciones": "Lee la palabra en griego y selecciona la traducción correcta al español.",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "θεός",
+          "opciones": [
+            "Dios, dios",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "Dios, dios",
+          "explicacion": "✓ Correcto. θεός (theos) significa 'Dios, dios'.",
           "puntaje": 10
         }
       ]

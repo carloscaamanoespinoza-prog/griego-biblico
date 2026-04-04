@@ -6,7 +6,9 @@
   "subtitulo": "Órdenes, súplicas, y exhortaciones",
   "descripcion": "El imperativo expresa mandatos, peticiones, exhortaciones. Tiene dos tiempos principales (presente y aoristo) y tres personas. Fundamental para entender textos prescriptivos.",
   "duracionEstimada": 35,
-  "prerequisitos": ["n2-l09"],
+  "prerequisitos": [
+    "n2-l09"
+  ],
   "objetivos": [
     "Entender el imperativo como modo de mandato",
     "Reconocer y formar el imperativo presente y aoristo",
@@ -61,12 +63,32 @@
       "titulo": "Imperativo Presente Activo: λύω (disuelve, disolved)",
       "descripcion": "Forma completa del imperativo presente activo",
       "datos": {
-        "columnas": ["Persona", "Forma", "Traducción"],
+        "columnas": [
+          "Persona",
+          "Forma",
+          "Traducción"
+        ],
         "filas": [
-          ["2ª Singular", "λύ-ε", "disuelve!"],
-          ["2ª Plural", "λύ-ε-τε", "disolved!"],
-          ["3ª Singular", "λυ-έ-τω", "que disuelva (él) / deje que disuelva"],
-          ["3ª Plural", "λυ-έ-τωσαν", "que disuelvan (ellos)"]
+          [
+            "2ª Singular",
+            "λύ-ε",
+            "disuelve!"
+          ],
+          [
+            "2ª Plural",
+            "λύ-ε-τε",
+            "disolved!"
+          ],
+          [
+            "3ª Singular",
+            "λυ-έ-τω",
+            "que disuelva (él) / deje que disuelva"
+          ],
+          [
+            "3ª Plural",
+            "λυ-έ-τωσαν",
+            "que disuelvan (ellos)"
+          ]
         ]
       }
     },
@@ -104,12 +126,32 @@
       "titulo": "Imperativo Aoristo Activo: λύω (suelta, soltad)",
       "descripcion": "Forma completa del imperativo aoristo activo",
       "datos": {
-        "columnas": ["Persona", "Forma", "Traducción"],
+        "columnas": [
+          "Persona",
+          "Forma",
+          "Traducción"
+        ],
         "filas": [
-          ["2ª Singular", "λύ-σ-ον", "suelta!"],
-          ["2ª Plural", "λύ-σ-ατε", "soltad!"],
-          ["3ª Singular", "λυ-σά-τω", "que suelte (él)"],
-          ["3ª Plural", "λυ-σά-τωσαν", "que suelten (ellos)"]
+          [
+            "2ª Singular",
+            "λύ-σ-ον",
+            "suelta!"
+          ],
+          [
+            "2ª Plural",
+            "λύ-σ-ατε",
+            "soltad!"
+          ],
+          [
+            "3ª Singular",
+            "λυ-σά-τω",
+            "que suelte (él)"
+          ],
+          [
+            "3ª Plural",
+            "λυ-σά-τωσαν",
+            "que suelten (ellos)"
+          ]
         ]
       }
     },
@@ -186,7 +228,12 @@
         {
           "id": "p1",
           "estimulo": "2ª singular imperativo presente de λύω",
-          "opciones": ["λύε", "λύσον", "λύῃ", "λύω"],
+          "opciones": [
+            "λύε",
+            "λύσον",
+            "λύῃ",
+            "λύω"
+          ],
           "respuestaCorrecta": "λύε",
           "explicacion": "λύ (tema) + ε (desinencia imperativo presente 2ª sing.) = λύε",
           "puntaje": 10
@@ -194,7 +241,12 @@
         {
           "id": "p2",
           "estimulo": "2ª singular imperativo aoristo de λύω",
-          "opciones": ["λύε", "λύσον", "λύῃς", "λύσῃ"],
+          "opciones": [
+            "λύε",
+            "λύσον",
+            "λύῃς",
+            "λύσῃ"
+          ],
           "respuestaCorrecta": "λύσον",
           "explicacion": "λύ (tema) + σ (sigma aorística) + ον (desinencia imperativo aoristo 2ª sing.) = λύσον",
           "puntaje": 10
@@ -202,7 +254,12 @@
         {
           "id": "p3",
           "estimulo": "¿Cuál es la diferencia aspectual principal?",
-          "opciones": ["Pasado vs. presente", "Presente (continuo) vs. aoristo (puntual)", "Indicativo vs. subjuntivo", "Activo vs. pasivo"],
+          "opciones": [
+            "Pasado vs. presente",
+            "Presente (continuo) vs. aoristo (puntual)",
+            "Indicativo vs. subjuntivo",
+            "Activo vs. pasivo"
+          ],
           "respuestaCorrecta": "Presente (continuo) vs. aoristo (puntual)",
           "explicacion": "IMPERATIVO PRESENTE: sigue haciendo esto. IMPERATIVO AORISTO: haz esto ahora, de una sola vez.",
           "puntaje": 10
@@ -220,7 +277,9 @@
           "estimulo": "2ª plural imperativo presente de λύω",
           "tipo": "texto",
           "respuestaCorrecta": "λύετε",
-          "alternativasAceptadas": ["λύετε"],
+          "alternativasAceptadas": [
+            "λύετε"
+          ],
           "explicacion": "λύ (tema) + ετε (desinencia imperativo presente 2ª plural) = λύετε",
           "puntaje": 15
         },
@@ -229,7 +288,9 @@
           "estimulo": "2ª plural imperativo aoristo de λύω",
           "tipo": "texto",
           "respuestaCorrecta": "λύσατε",
-          "alternativasAceptadas": ["λύσατε"],
+          "alternativasAceptadas": [
+            "λύσατε"
+          ],
           "explicacion": "λύ (tema) + σα (sigma + vocal temática aorística) + τε (desinencia 2ª plural) = λύσατε",
           "puntaje": 15
         },
@@ -238,9 +299,55 @@
           "estimulo": "2ª singular imperativo medio presente de λύω",
           "tipo": "texto",
           "respuestaCorrecta": "λύου",
-          "alternativasAceptadas": ["λύου"],
+          "alternativasAceptadas": [
+            "λύου"
+          ],
           "explicacion": "λύ (tema) + ου (desinencia imperativo medio presente 2ª sing.) = λύου",
           "puntaje": 15
+        }
+      ]
+    },
+    {
+      "id": "ej-n2-l10-03",
+      "tipo": "seleccion",
+      "titulo": "Traduce las palabras",
+      "instrucciones": "Lee la palabra en griego y selecciona la traducción correcta al español.",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "λύε",
+          "opciones": [
+            "disuelve (imperativo presente 2ª singular)",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "disuelve (imperativo presente 2ª singular)",
+          "explicacion": "✓ Correcto. λύε (lye) significa 'disuelve (imperativo presente 2ª singular)'.",
+          "puntaje": 10
+        },
+        {
+          "id": "p2",
+          "estimulo": "λύσον",
+          "opciones": [
+            "suelta (imperativo aoristo 2ª singular)",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "suelta (imperativo aoristo 2ª singular)",
+          "explicacion": "✓ Correcto. λύσον (lyson) significa 'suelta (imperativo aoristo 2ª singular)'.",
+          "puntaje": 10
+        },
+        {
+          "id": "p3",
+          "estimulo": "μὴ λύε",
+          "opciones": [
+            "¡no disuelvas! (imperativo presente negado)",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "¡no disuelvas! (imperativo presente negado)",
+          "explicacion": "✓ Correcto. μὴ λύε (mē lye) significa '¡no disuelvas! (imperativo presente negado)'.",
+          "puntaje": 10
         }
       ]
     }

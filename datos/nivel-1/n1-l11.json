@@ -6,7 +6,9 @@
   "subtitulo": "El verbo ser y las otras dos voces verbales",
   "descripcion": "Aprenderás el verbo más importante (εἰμί = ser) y entenderás la voz media y pasiva, que son fundamentales en griego.",
   "duracionEstimada": 30,
-  "prerequisitos": ["n1-l10"],
+  "prerequisitos": [
+    "n1-l10"
+  ],
   "objetivos": [
     "Conjugar el verbo irregular εἰμί (ser/estar)",
     "Entender la voz media y pasiva",
@@ -20,14 +22,42 @@
       "titulo": "El Verbo εἰμί (ser, estar): Presente Indicativo",
       "descripcion": "El verbo más importante y único del griego. Es completamente irregular.",
       "datos": {
-        "columnas": ["Persona", "Forma", "Equivalente Español"],
+        "columnas": [
+          "Persona",
+          "Forma",
+          "Equivalente Español"
+        ],
         "filas": [
-          ["1ª Singular", "εἰμί", "soy/estoy"],
-          ["2ª Singular", "εἶ", "eres/estás"],
-          ["3ª Singular", "ἐστί(ν)", "es/está"],
-          ["1ª Plural", "ἐσμέν", "somos/estamos"],
-          ["2ª Plural", "ἐστέ", "sois/estáis"],
-          ["3ª Plural", "εἰσί(ν)", "son/están"]
+          [
+            "1ª Singular",
+            "εἰμί",
+            "soy/estoy"
+          ],
+          [
+            "2ª Singular",
+            "εἶ",
+            "eres/estás"
+          ],
+          [
+            "3ª Singular",
+            "ἐστί(ν)",
+            "es/está"
+          ],
+          [
+            "1ª Plural",
+            "ἐσμέν",
+            "somos/estamos"
+          ],
+          [
+            "2ª Plural",
+            "ἐστέ",
+            "sois/estáis"
+          ],
+          [
+            "3ª Plural",
+            "εἰσί(ν)",
+            "son/están"
+          ]
         ]
       }
     },
@@ -85,14 +115,35 @@
       "titulo": "Presente Medio/Pasivo: λύομαι (me libero / soy liberado)",
       "descripcion": "Las terminaciones de voz media y pasiva en presente.",
       "datos": {
-        "columnas": ["Persona", "Forma"],
+        "columnas": [
+          "Persona",
+          "Forma"
+        ],
         "filas": [
-          ["1ª Singular", "λύ-ομαι"],
-          ["2ª Singular", "λύ-ῃ/-ει"],
-          ["3ª Singular", "λύ-εται"],
-          ["1ª Plural", "λυ-όμεθα"],
-          ["2ª Plural", "λύ-εσθε"],
-          ["3ª Plural", "λύ-ονται"]
+          [
+            "1ª Singular",
+            "λύ-ομαι"
+          ],
+          [
+            "2ª Singular",
+            "λύ-ῃ/-ει"
+          ],
+          [
+            "3ª Singular",
+            "λύ-εται"
+          ],
+          [
+            "1ª Plural",
+            "λυ-όμεθα"
+          ],
+          [
+            "2ª Plural",
+            "λύ-εσθε"
+          ],
+          [
+            "3ª Plural",
+            "λύ-ονται"
+          ]
         ]
       }
     }
@@ -107,9 +158,34 @@
         {
           "id": "p1",
           "estimulo": "3ª singular presente de εἰμί",
-          "opciones": ["εἰμί", "ἐστί", "εἶ", "ἐσμέν"],
+          "opciones": [
+            "εἰμί",
+            "ἐστί",
+            "εἶ",
+            "ἐσμέν"
+          ],
           "respuestaCorrecta": "ἐστί",
           "explicacion": "ἐστί(ν) es la forma de 3ª singular. Se pronuncia 'estín' y significa 'es/está'.",
+          "puntaje": 10
+        }
+      ]
+    },
+    {
+      "id": "ej-n1-l11-02",
+      "tipo": "seleccion",
+      "titulo": "Traduce las palabras",
+      "instrucciones": "Lee la palabra en griego y selecciona la traducción correcta al español.",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "εἰμί",
+          "opciones": [
+            "ser, estar, existir",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "ser, estar, existir",
+          "explicacion": "✓ Correcto. εἰμί (eimi) significa 'ser, estar, existir'.",
           "puntaje": 10
         }
       ]

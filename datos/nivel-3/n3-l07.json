@@ -6,7 +6,9 @@
   "subtitulo": "Cómo dibujar la estructura de la oración griega",
   "descripcion": "Aprenderás a crear diagramas sintácticos que muestren cómo se relacionan las palabras en una oración. Útil para ver la estructura lógica de argumentos complejos.",
   "duracionEstimada": 40,
-  "prerequisitos": ["n3-l06"],
+  "prerequisitos": [
+    "n3-l06"
+  ],
   "objetivos": [
     "Dominar la diagramación sintáctica griega básica",
     "Mostrar relaciones entre clausulas principales y subordinadas",
@@ -58,9 +60,34 @@
         {
           "id": "p1",
           "estimulo": "ἦλθεν ἵνα σώσῃ τὸν κόσμον",
-          "opciones": ["σώσῃ τὸν κόσμον", "ἦλθεν", "ἦλθεν...σώσῃ", "τὸν κόσμον"],
+          "opciones": [
+            "σώσῃ τὸν κόσμον",
+            "ἦλθεν",
+            "ἦλθεν...σώσῃ",
+            "τὸν κόσμον"
+          ],
           "respuestaCorrecta": "ἦλθεν",
           "explicacion": "ἦλθεν (vino) es la cláusula principal independiente. ἵνα σώσῃ (para que salvara) es subordinada.",
+          "puntaje": 10
+        }
+      ]
+    },
+    {
+      "id": "ej-n3-l07-02",
+      "tipo": "seleccion",
+      "titulo": "Traduce las palabras",
+      "instrucciones": "Lee la palabra en griego y selecciona la traducción correcta al español.",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "διάγραμμα",
+          "opciones": [
+            "diagrama, representación visual (concepto meta-gramatical)",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "diagrama, representación visual (concepto meta-gramatical)",
+          "explicacion": "✓ Correcto. διάγραμμα (diagramma) significa 'diagrama, representación visual (concepto meta-gramatical)'.",
           "puntaje": 10
         }
       ]

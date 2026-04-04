@@ -6,7 +6,9 @@
   "subtitulo": "El modo de lo deseado y lo improbable",
   "descripcion": "El optativo expresa deseos y situaciones contrafácticas (contrarias a la realidad). Es menos frecuente que el subjuntivo pero tiene usos muy específicos y poéticamente significativos.",
   "duracionEstimada": 35,
-  "prerequisitos": ["n2-l08"],
+  "prerequisitos": [
+    "n2-l08"
+  ],
   "objetivos": [
     "Entender el optativo como modo de deseo y contrafacticidad",
     "Reconocer la formación del optativo (-οι-, -αι-)",
@@ -75,11 +77,27 @@
       "titulo": "Optativo Presente Activo: λύω (pudiera disolver, ojalá disuelva)",
       "descripcion": "Forma completa del optativo presente activo",
       "datos": {
-        "columnas": ["Persona", "Singular", "Plural"],
+        "columnas": [
+          "Persona",
+          "Singular",
+          "Plural"
+        ],
         "filas": [
-          ["1ª", "λύ-οι-μι (yo pudiera)", "λύ-οι-μεν (nosotros pudiéramos)"],
-          ["2ª", "λύ-οι-ς (tú pudieras)", "λύ-οι-τε (vosotros pudierais)"],
-          ["3ª", "λύ-οι (él pudiera)", "λύ-οι-εν (ellos pudieran)"]
+          [
+            "1ª",
+            "λύ-οι-μι (yo pudiera)",
+            "λύ-οι-μεν (nosotros pudiéramos)"
+          ],
+          [
+            "2ª",
+            "λύ-οι-ς (tú pudieras)",
+            "λύ-οι-τε (vosotros pudierais)"
+          ],
+          [
+            "3ª",
+            "λύ-οι (él pudiera)",
+            "λύ-οι-εν (ellos pudieran)"
+          ]
         ]
       }
     },
@@ -187,7 +205,12 @@
         {
           "id": "p1",
           "estimulo": "1ª singular optativo presente de λύω",
-          "opciones": ["λύοιμι", "λύω", "λύοι", "λύοιμεν"],
+          "opciones": [
+            "λύοιμι",
+            "λύω",
+            "λύοι",
+            "λύοιμεν"
+          ],
           "respuestaCorrecta": "λύοιμι",
           "explicacion": "λύ (tema) + οι (infijo optativo) + μι (desinencia 1ª sing. secundaria) = λύοιμι",
           "puntaje": 10
@@ -195,7 +218,12 @@
         {
           "id": "p2",
           "estimulo": "¿Cuál es la característica del optativo presente?",
-          "opciones": ["-σ-", "-κ-", "-οι-", "-η-"],
+          "opciones": [
+            "-σ-",
+            "-κ-",
+            "-οι-",
+            "-η-"
+          ],
           "respuestaCorrecta": "-οι-",
           "explicacion": "El optativo presente activo usa -οι- como infijo: λύοιμι, λύοις, λύοι.",
           "puntaje": 10
@@ -203,7 +231,12 @@
         {
           "id": "p3",
           "estimulo": "¿En qué contexto usamos el optativo?",
-          "opciones": ["Hechos reales", "Deseos o contrafácticas", "Órdenes directas", "Narración simple"],
+          "opciones": [
+            "Hechos reales",
+            "Deseos o contrafácticas",
+            "Órdenes directas",
+            "Narración simple"
+          ],
           "respuestaCorrecta": "Deseos o contrafácticas",
           "explicacion": "El optativo expresa deseos ('¡ojalá que!') y situaciones contrafácticas ('si (pero no)...').",
           "puntaje": 10
@@ -221,7 +254,9 @@
           "estimulo": "3ª singular optativo presente de λύω",
           "tipo": "texto",
           "respuestaCorrecta": "λύοι",
-          "alternativasAceptadas": ["λύοι"],
+          "alternativasAceptadas": [
+            "λύοι"
+          ],
           "explicacion": "λύ (tema) + οι (infijo optativo) + ø (desinencia 3ª sing.) = λύοι",
           "puntaje": 15
         },
@@ -230,7 +265,9 @@
           "estimulo": "3ª singular aoristo optativo de λύω",
           "tipo": "texto",
           "respuestaCorrecta": "λύσαιε",
-          "alternativasAceptadas": ["λύσαιε"],
+          "alternativasAceptadas": [
+            "λύσαιε"
+          ],
           "explicacion": "λύ (tema) + σ (sigma aorística) + αι (infijo optativo aorístico) + ε (desinencia 3ª sing.) = λύσαιε",
           "puntaje": 15
         },
@@ -239,9 +276,55 @@
           "estimulo": "2ª plural optativo presente de λύω",
           "tipo": "texto",
           "respuestaCorrecta": "λύοιτε",
-          "alternativasAceptadas": ["λύοιτε"],
+          "alternativasAceptadas": [
+            "λύοιτε"
+          ],
           "explicacion": "λύ (tema) + οι (infijo optativo) + τε (desinencia 2ª plural) = λύοιτε",
           "puntaje": 15
+        }
+      ]
+    },
+    {
+      "id": "ej-n2-l09-03",
+      "tipo": "seleccion",
+      "titulo": "Traduce las palabras",
+      "instrucciones": "Lee la palabra en griego y selecciona la traducción correcta al español.",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "γένοιτο",
+          "opciones": [
+            "¡que sea!, ¡ojalá que sea! (optativo de γίνομαι)",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "¡que sea!, ¡ojalá que sea! (optativo de γίνομαι)",
+          "explicacion": "✓ Correcto. γένοιτο (genoito) significa '¡que sea!, ¡ojalá que sea! (optativo de γίνομαι)'.",
+          "puntaje": 10
+        },
+        {
+          "id": "p2",
+          "estimulo": "μὴ γένοιτο",
+          "opciones": [
+            "¡que no sea!, ¡Dios no lo permita!",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "¡que no sea!, ¡Dios no lo permita!",
+          "explicacion": "✓ Correcto. μὴ γένοιτο (mē genoito) significa '¡que no sea!, ¡Dios no lo permita!'.",
+          "puntaje": 10
+        },
+        {
+          "id": "p3",
+          "estimulo": "δύναιτο",
+          "opciones": [
+            "pudiera ser capaz (optativo de δύναμαι)",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "pudiera ser capaz (optativo de δύναμαι)",
+          "explicacion": "✓ Correcto. δύναιτο (dynaito) significa 'pudiera ser capaz (optativo de δύναμαι)'.",
+          "puntaje": 10
         }
       ]
     }

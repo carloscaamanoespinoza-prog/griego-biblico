@@ -6,7 +6,9 @@
   "subtitulo": "La acción venidera y sus aspectos",
   "descripcion": "El futuro presenta una acción que ocurrirá en el tiempo venidero. Hay dos formas: futuro 1º (sigmático) y futuro 2º. Ambas tienen características propias.",
   "duracionEstimada": 35,
-  "prerequisitos": ["n2-l04"],
+  "prerequisitos": [
+    "n2-l04"
+  ],
   "objetivos": [
     "Entender el futuro como acción venidera",
     "Formar y conjugar el futuro 1º (sigmático)",
@@ -60,11 +62,27 @@
       "titulo": "Futuro 1º Indicativo Activo: λύω (soltaré)",
       "descripcion": "Forma completa del futuro con sigma característica",
       "datos": {
-        "columnas": ["Persona", "Singular", "Plural"],
+        "columnas": [
+          "Persona",
+          "Singular",
+          "Plural"
+        ],
         "filas": [
-          ["1ª", "λύ-σ-ω (soltaré)", "λύ-σ-ομεν (soltaremos)"],
-          ["2ª", "λύ-σ-εις (soltarás)", "λύ-σ-ετε (soltaréis)"],
-          ["3ª", "λύ-σ-ει (soltará)", "λύ-σ-ουσιν (soltarán)"]
+          [
+            "1ª",
+            "λύ-σ-ω (soltaré)",
+            "λύ-σ-ομεν (soltaremos)"
+          ],
+          [
+            "2ª",
+            "λύ-σ-εις (soltarás)",
+            "λύ-σ-ετε (soltaréis)"
+          ],
+          [
+            "3ª",
+            "λύ-σ-ει (soltará)",
+            "λύ-σ-ουσιν (soltarán)"
+          ]
         ]
       }
     },
@@ -103,14 +121,42 @@
       "titulo": "Futuro de εἰμί: ἔσομαι (seré)",
       "descripcion": "El futuro completamente irregular del verbo ser",
       "datos": {
-        "columnas": ["Persona", "Forma", "Equivalente Español"],
+        "columnas": [
+          "Persona",
+          "Forma",
+          "Equivalente Español"
+        ],
         "filas": [
-          ["1ª Singular", "ἔσομαι", "seré"],
-          ["2ª Singular", "ἔσῃ/-εσῃ", "serás"],
-          ["3ª Singular", "ἔσται", "será"],
-          ["1ª Plural", "ἐσόμεθα", "seremos"],
-          ["2ª Plural", "ἔσεσθε", "seréis"],
-          ["3ª Plural", "ἔσονται", "serán"]
+          [
+            "1ª Singular",
+            "ἔσομαι",
+            "seré"
+          ],
+          [
+            "2ª Singular",
+            "ἔσῃ/-εσῃ",
+            "serás"
+          ],
+          [
+            "3ª Singular",
+            "ἔσται",
+            "será"
+          ],
+          [
+            "1ª Plural",
+            "ἐσόμεθα",
+            "seremos"
+          ],
+          [
+            "2ª Plural",
+            "ἔσεσθε",
+            "seréis"
+          ],
+          [
+            "3ª Plural",
+            "ἔσονται",
+            "serán"
+          ]
         ]
       }
     }
@@ -125,7 +171,12 @@
         {
           "id": "p1",
           "estimulo": "3ª singular futuro de λύω",
-          "opciones": ["λύσει", "λύει", "ἐλύσει", "λύσε"],
+          "opciones": [
+            "λύσει",
+            "λύει",
+            "ἐλύσει",
+            "λύσε"
+          ],
           "respuestaCorrecta": "λύσει",
           "explicacion": "λύ (tema) + σ (sigma) + ει (desinencia 3ª sing.) = λύσει. No lleva aumento porque es futuro, no pasado.",
           "puntaje": 10
@@ -133,7 +184,12 @@
         {
           "id": "p2",
           "estimulo": "¿Qué característica tiene el futuro 1º?",
-          "opciones": ["-κ-", "-σ-", "-ε-", "-η-"],
+          "opciones": [
+            "-κ-",
+            "-σ-",
+            "-ε-",
+            "-η-"
+          ],
           "respuestaCorrecta": "-σ-",
           "explicacion": "El futuro 1º es sigmático: λύ-σ-ω, γράψ-ε-ι (escribirá), etc.",
           "puntaje": 10
@@ -141,7 +197,12 @@
         {
           "id": "p3",
           "estimulo": "1ª plural futuro de λύω",
-          "opciones": ["λυόμεν", "λύσομεν", "ἐλύσομεν", "λύων"],
+          "opciones": [
+            "λυόμεν",
+            "λύσομεν",
+            "ἐλύσομεν",
+            "λύων"
+          ],
           "respuestaCorrecta": "λύσομεν",
           "explicacion": "λύ (tema) + σ (sigma) + ο (vocal temática) + μεν (desinencia 1ª plural) = λύσομεν",
           "puntaje": 10
@@ -159,7 +220,9 @@
           "estimulo": "1ª singular futuro de λύω",
           "tipo": "texto",
           "respuestaCorrecta": "λύσω",
-          "alternativasAceptadas": ["λύσω"],
+          "alternativasAceptadas": [
+            "λύσω"
+          ],
           "explicacion": "λύ (tema) + σω (sigma + desinencia 1ª sing.) = λύσω",
           "puntaje": 15
         },
@@ -168,7 +231,9 @@
           "estimulo": "2ª plural futuro de γράφω",
           "tipo": "texto",
           "respuestaCorrecta": "γράψετε",
-          "alternativasAceptadas": ["γράψετε"],
+          "alternativasAceptadas": [
+            "γράψετε"
+          ],
           "explicacion": "γράφ (tema) + σ (sigma) + ετε (desinencia 2ª plural) = γράψετε",
           "puntaje": 15
         },
@@ -177,9 +242,55 @@
           "estimulo": "3ª singular futuro de εἰμί",
           "tipo": "texto",
           "respuestaCorrecta": "ἔσται",
-          "alternativasAceptadas": ["ἔσται"],
+          "alternativasAceptadas": [
+            "ἔσται"
+          ],
           "explicacion": "ἔσ (tema futuro irregular) + ται (desinencia media) = ἔσται. Note que εἰμί usa desinencias medias/pasivas en futuro.",
           "puntaje": 15
+        }
+      ]
+    },
+    {
+      "id": "ej-n2-l05-03",
+      "tipo": "seleccion",
+      "titulo": "Traduce las palabras",
+      "instrucciones": "Lee la palabra en griego y selecciona la traducción correcta al español.",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "λύσω",
+          "opciones": [
+            "soltaré (futuro 1ª singular)",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "soltaré (futuro 1ª singular)",
+          "explicacion": "✓ Correcto. λύσω (lysō) significa 'soltaré (futuro 1ª singular)'.",
+          "puntaje": 10
+        },
+        {
+          "id": "p2",
+          "estimulo": "ἔσται",
+          "opciones": [
+            "será (futuro 3ª singular de εἰμί)",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "será (futuro 3ª singular de εἰμί)",
+          "explicacion": "✓ Correcto. ἔσται (estai) significa 'será (futuro 3ª singular de εἰμί)'.",
+          "puntaje": 10
+        },
+        {
+          "id": "p3",
+          "estimulo": "γράψω",
+          "opciones": [
+            "escribiré (futuro 1ª singular de γράφω)",
+            "palabra, discurso, verbo",
+            "amor, caridad"
+          ],
+          "respuestaCorrecta": "escribiré (futuro 1ª singular de γράφω)",
+          "explicacion": "✓ Correcto. γράψω (grāpsō) significa 'escribiré (futuro 1ª singular de γράφω)'.",
+          "puntaje": 10
         }
       ]
     }
