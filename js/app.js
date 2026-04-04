@@ -12,6 +12,7 @@ const App = (() => {
    * Inicializa la aplicación
    */
   async function inicializar() {
+    // Force redeploy to clear cache
     console.log('Inicializando Griego Bíblico...');
 
     try {
