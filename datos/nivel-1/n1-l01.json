@@ -260,6 +260,38 @@
       "instrucciones": "Lee la letra o el nombre mostrado y selecciona la respuesta correcta. El modo es aleatorio. Debes identificar todas las 24 letras del alfabeto griego.",
       "numPreguntas": 24,
       "puntajeTotal": 240
+    },
+    {
+      "id": "ej-alfa-05",
+      "tipo": "seleccion",
+      "titulo": "Traduce el griego al español",
+      "instrucciones": "Lee la palabra o frase en griego y selecciona la traducción correcta al español.",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "ἀρχή",
+          "opciones": ["principio, comienzo", "palabra, discurso", "Dios, dios"],
+          "respuestaCorrecta": "principio, comienzo",
+          "explicacion": "✓ Correcto. ἀρχή (archē) significa 'principio' o 'comienzo'. Se usa en Juan 1:1: 'Ἐν ἀρχῇ' (En el principio)",
+          "puntaje": 10
+        },
+        {
+          "id": "p2",
+          "estimulo": "λόγος",
+          "opciones": ["palabra, discurso, verbo", "principio, comienzo", "amor"],
+          "respuestaCorrecta": "palabra, discurso, verbo",
+          "explicacion": "✓ Correcto. λόγος (lógos) significa 'palabra' o 'discurso'. En Juan 1:1 aparece: 'ὁ λόγος' (el Verbo/Palabra)",
+          "puntaje": 10
+        },
+        {
+          "id": "p3",
+          "estimulo": "θεός",
+          "opciones": ["Dios, dios", "palabra, discurso", "principio, comienzo"],
+          "respuestaCorrecta": "Dios, dios",
+          "explicacion": "✓ Correcto. θεός (theós) significa 'Dios' o 'un dios'. Aparece frecuentemente en el Nuevo Testamento, como en Juan 1:1: 'θεός' (Dios)",
+          "puntaje": 10
+        }
+      ]
     }
   ],
   "vocabulario": [

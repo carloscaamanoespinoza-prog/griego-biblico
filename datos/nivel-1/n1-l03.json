@@ -151,6 +151,39 @@
         }
       ]
     }
+    },
+    {
+      "id": "ej-l03-03",
+      "tipo": "seleccion",
+      "titulo": "Traduce las palabras",
+      "instrucciones": "Lee la palabra en griego y selecciona la traducción correcta al español.",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "ἅγιος",
+          "opciones": ["santo, sagrado", "palabra, discurso", "principio, comienzo"],
+          "respuestaCorrecta": "santo, sagrado",
+          "explicacion": "✓ Correcto. ἅγιος (hagios) significa 'santo' o 'sagrado'. Se usa frecuentemente en expresiones como 'ἅγιον πνεῦμα' (Espíritu Santo).",
+          "puntaje": 10
+        },
+        {
+          "id": "p2",
+          "estimulo": "ἁγάπη",
+          "opciones": ["amor", "principio, comienzo", "santo, sagrado"],
+          "respuestaCorrecta": "amor",
+          "explicacion": "✓ Correcto. ἁγάπη (hagápē) significa 'amor', específicamente el amor divino desinteresado. Es un concepto clave en la teología cristiana.",
+          "puntaje": 10
+        },
+        {
+          "id": "p3",
+          "estimulo": "ἀγάπη",
+          "opciones": ["amor", "Dios, dios", "palabra, discurso"],
+          "respuestaCorrecta": "amor",
+          "explicacion": "✓ Correcto. ἀγάπη (agápē) también significa 'amor'. Cuando aparece con espíritu suave (,) en lugar de espíritu áspero, sigue siendo la misma palabra con la misma traducción.",
+          "puntaje": 10
+        }
+      ]
+    }
   ],
   "vocabulario": [
     {

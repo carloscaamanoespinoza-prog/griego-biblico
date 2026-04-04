@@ -156,6 +156,38 @@
           "puntaje": 15
         }
       ]
+    },
+    {
+      "id": "ej-vocal-02",
+      "tipo": "seleccion",
+      "titulo": "Traduce palabras y frases",
+      "instrucciones": "Lee la palabra o frase en griego y selecciona la traducción correcta al español.",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "αὖ",
+          "opciones": ["de nuevo, otra vez", "o, o bien", "y, también"],
+          "respuestaCorrecta": "de nuevo, otra vez",
+          "explicacion": "✓ Correcto. αὖ (au) significa 'de nuevo' u 'otra vez'. Se usa para indicar repetición o renovación de una acción.",
+          "puntaje": 10
+        },
+        {
+          "id": "p2",
+          "estimulo": "ἤ",
+          "opciones": ["o, o bien", "de nuevo, otra vez", "si"],
+          "respuestaCorrecta": "o, o bien",
+          "explicacion": "✓ Correcto. ἤ (ē) es una conjunción disyuntiva que significa 'o' u 'o bien'. Se usa para presentar alternativas: εἰ...ἤ (si...o)",
+          "puntaje": 10
+        },
+        {
+          "id": "p3",
+          "estimulo": "ἀρχή ἐστιν",
+          "opciones": ["es el principio", "es palabra", "es Dios"],
+          "respuestaCorrecta": "es el principio",
+          "explicacion": "✓ Correcto. ἀρχή (principio) + ἐστιν (es). Esta frase significa 'es el principio'. Recuerda que los artículos y verbos son fundamentales en griego.",
+          "puntaje": 10
+        }
+      ]
     }
   ],
   "vocabulario": [

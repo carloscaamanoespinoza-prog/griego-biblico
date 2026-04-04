@@ -140,6 +140,39 @@
         }
       ]
     }
+    },
+    {
+      "id": "ej-articulo-02",
+      "tipo": "seleccion",
+      "titulo": "Traduce frases con artículo",
+      "instrucciones": "Lee la frase en griego y selecciona la traducción correcta al español.",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "ὁ λόγος",
+          "opciones": ["la palabra", "un palabra", "las palabras"],
+          "respuestaCorrecta": "la palabra",
+          "explicacion": "✓ Correcto. ὁ (ho) es el artículo definido masculino singular. λόγος (logos) = palabra. Por lo tanto: 'la palabra'",
+          "puntaje": 10
+        },
+        {
+          "id": "p2",
+          "estimulo": "ἡ ἀγάπη",
+          "opciones": ["el amor", "la amor", "la amo"],
+          "respuestaCorrecta": "el amor",
+          "explicacion": "✓ Correcto. ἡ (he) es el artículo definido femenino singular. ἀγάπη (agápē) = amor. Se traduce como 'el amor' (en español neutral, aunque el artículo es femenino).",
+          "puntaje": 10
+        },
+        {
+          "id": "p3",
+          "estimulo": "ὁ λόγος τοῦ θεοῦ",
+          "opciones": ["la palabra de Dios", "la palabra del dios", "las palabras de Dios"],
+          "respuestaCorrecta": "la palabra de Dios",
+          "explicacion": "✓ Correcto. Esta es una frase completa: 'ὁ λόγος' = la palabra, 'τοῦ θεοῦ' = de Dios. Traducción: 'la palabra de Dios'",
+          "puntaje": 10
+        }
+      ]
+    }
   ],
   "vocabulario": [
     {
