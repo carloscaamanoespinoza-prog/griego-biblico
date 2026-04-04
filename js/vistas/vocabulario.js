@@ -330,7 +330,7 @@ const VistaVocabulario = (() => {
       .sort(() => Math.random() - 0.5)
       .slice(0, 3);
 
-    // Generar opciones como array de textos
+    // Generar opciones de traducción como array de definiciones
     const opcionesArray = [
       palabra.definicion,
       ...incorrectas.map(p => p.definicion)
@@ -343,16 +343,16 @@ const VistaVocabulario = (() => {
     const datos = {
       id: 'practica-vocab',
       tipo: 'seleccion',
-      titulo: 'Práctica de Vocabulario',
-      instrucciones: 'Selecciona la definición correcta para la palabra griega',
+      titulo: 'Traducción de Griego Bíblico',
+      instrucciones: 'Lee la palabra griega y selecciona su traducción correcta al español',
       puntajeTotal: 10,
       preguntas: [
         {
-          pregunta: `¿Cuál es la definición de <em>${palabra.griego}</em>?`,
+          pregunta: `Traduce la palabra griega: <strong>${palabra.griego}</strong> <span style="color: var(--color-texto-suave); font-size: 0.9rem;">(${palabra.transliteracion})</span>`,
           estimulo: palabra.griego,
           opciones: opcionesArray,
           respuestaCorrecta: respuestaCorrecta,
-          explicacion: `<strong>${palabra.griego}</strong> (${palabra.transliteracion}) significa: <em>${palabra.definicion}</em>`
+          explicacion: `✓ Correcto. <strong>${palabra.griego}</strong> significa: <em>${palabra.definicion}</em><br><br><em style="color: var(--color-texto-suave);">${palabra.ejemplo}</em>`
         }
       ]
     };
@@ -380,7 +380,7 @@ const VistaVocabulario = (() => {
       // Mostrar botón siguiente
       const btnSiguiente = document.createElement('button');
       btnSiguiente.className = 'boton primario';
-      btnSiguiente.textContent = 'Siguiente pregunta';
+      btnSiguiente.textContent = 'Siguiente traducción';
       btnSiguiente.style.marginTop = '2rem';
       btnSiguiente.addEventListener('click', () => generarEjercicioPractica(contenedor));
 
