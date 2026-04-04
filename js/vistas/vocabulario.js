@@ -330,25 +330,28 @@ const VistaVocabulario = (() => {
       .sort(() => Math.random() - 0.5)
       .slice(0, 3);
 
-    // Generar opciones
-    const opciones = [
-      { valor: palabra.definicion, correcta: true },
-      ...incorrectas.map(p => ({ valor: p.definicion, correcta: false }))
+    // Generar opciones como array de textos
+    const opcionesArray = [
+      palabra.definicion,
+      ...incorrectas.map(p => p.definicion)
     ].sort(() => Math.random() - 0.5);
 
-    // Crear ejercicio
+    // Encontrar índice de la respuesta correcta
+    const respuestaCorrecta = opcionesArray.indexOf(palabra.definicion);
+
+    // Crear estructura de datos esperada por EjercicioSeleccion
     const datos = {
       id: 'practica-vocab',
-      pregunta: `¿Cuál es la definición de <em>${palabra.griego}</em>?`,
       tipo: 'seleccion',
-      instrucciones: 'Selecciona la definición correcta',
-      enunciado: '',
-      opciones: opciones.map((o, i) => ({
-        id: `opcion-${i}`,
-        texto: o.valor
-      })),
-      respuestaCorrecta: opciones.findIndex(o => o.correcta),
-      explicacion: `<strong>${palabra.griego}</strong> (${palabra.transliteracion}) significa: <em>${palabra.definicion}</em>`
+      preguntas: [
+        {
+          pregunta: `¿Cuál es la definición de <em>${palabra.griego}</em>?`,
+          estimulo: palabra.griego,
+          opciones: opcionesArray,
+          respuestaCorrecta: respuestaCorrecta,
+          explicacion: `<strong>${palabra.griego}</strong> (${palabra.transliteracion}) significa: <em>${palabra.definicion}</em>`
+        }
+      ]
     };
 
     contenedor.innerHTML = '';
