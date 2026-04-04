@@ -69,10 +69,10 @@ const App = (() => {
       VistaLeccion.renderizar(parametros);
     });
 
-    // Página de vocabulario (futuro)
+    // Página de vocabulario
     Router.registrar('/vocabulario', (parametros) => {
       Estado.despachar('CAMBIAR_VISTA', { vista: 'vocabulario' });
-      mostrarEnConstruccion('Vocabulario');
+      VistaVocabulario.renderizar();
     });
 
     // Página de mi progreso (futuro)
