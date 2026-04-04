@@ -183,44 +183,40 @@
     },
     {
       "id": "ej-alfa-02",
-      "tipo": "completar",
-      "titulo": "Escribe la forma minúscula",
-      "instrucciones": "Escribe la forma minúscula de cada letra griega mayúscula. Usa la palabra griega como referencia.",
+      "tipo": "seleccion",
+      "titulo": "Relaciona mayúscula con minúscula",
+      "instrucciones": "Selecciona la forma minúscula correcta para cada letra griega mayúscula mostrada.",
       "preguntas": [
         {
           "id": "p1",
           "estimulo": "Α",
-          "tipo": "texto",
+          "opciones": ["α", "β", "γ", "δ"],
           "respuestaCorrecta": "α",
-          "alternativasAceptadas": ["α"],
-          "explicacion": "Alpha (Α/α) es la primera letra. La minúscula se escribe como un pequeño círculo con una cola.",
+          "explicacion": "Alpha (Α/α) es la primera letra. La minúscula α es un pequeño círculo con una cola.",
           "puntaje": 10
         },
         {
           "id": "p2",
           "estimulo": "Β",
-          "tipo": "texto",
+          "opciones": ["α", "β", "γ", "δ"],
           "respuestaCorrecta": "β",
-          "alternativasAceptadas": ["β"],
-          "explicacion": "Beta (Β/β) es la segunda letra. En minúscula se parece a la 'b' inglesa.",
+          "explicacion": "Beta (Β/β) es la segunda letra. En minúscula β se parece a la 'b' inglesa.",
           "puntaje": 10
         },
         {
           "id": "p3",
           "estimulo": "Γ",
-          "tipo": "texto",
+          "opciones": ["γ", "δ", "ε", "ζ"],
           "respuestaCorrecta": "γ",
-          "alternativasAceptadas": ["γ"],
-          "explicacion": "Gamma (Γ/γ) es la tercera letra. En minúscula tiene una forma de 'y' griega.",
+          "explicacion": "Gamma (Γ/γ) es la tercera letra. En minúscula γ tiene una forma característica.",
           "puntaje": 10
         },
         {
           "id": "p4",
           "estimulo": "Ω",
-          "tipo": "texto",
+          "opciones": ["ω", "ψ", "χ", "φ"],
           "respuestaCorrecta": "ω",
-          "alternativasAceptadas": ["ω"],
-          "explicacion": "Omega (Ω/ω) es la última letra. En minúscula parece una 'w' pequeña.",
+          "explicacion": "Omega (Ω/ω) es la última letra. En minúscula ω parece una 'w' pequeña.",
           "puntaje": 10
         }
       ]
@@ -256,6 +252,14 @@
           "puntaje": 10
         }
       ]
+    },
+    {
+      "id": "ej-alfa-04",
+      "tipo": "identificar-letra",
+      "titulo": "Identifica todas las letras griegas",
+      "instrucciones": "Lee la letra o el nombre mostrado y selecciona la respuesta correcta. El modo es aleatorio. Debes identificar todas las 24 letras del alfabeto griego.",
+      "numPreguntas": 24,
+      "puntajeTotal": 240
     }
   ],
   "vocabulario": [

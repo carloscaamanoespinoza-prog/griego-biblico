@@ -238,6 +238,8 @@ class VisorLeccion {
       instancia = new EjercicioSeleccion(ejercicio, contenedor);
     } else if (ejercicio.tipo === 'completar') {
       instancia = new EjercicioCompletar(ejercicio, contenedor);
+    } else if (ejercicio.tipo === 'identificar-letra') {
+      instancia = new EjercicioIdentificarLetra(ejercicio, contenedor);
     } else {
       console.error(`Tipo de ejercicio desconocido: ${ejercicio.tipo}`);
       return;
