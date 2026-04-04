@@ -317,6 +317,33 @@ const Progreso = (() => {
     }
   }
 
+  /**
+   * Verifica si una lección cumple con sus prerequisitos
+   * @param {Array} prerequisitos - Array de IDs de lecciones requisitos
+   * @returns {boolean} true si todos los prerequisitos están completados
+   */
+  function verificarPrerequisitos(prerequisitos) {
+    if (!prerequisitos || prerequisitos.length === 0) {
+      return true; // Sin prerequisitos = puede acceder
+    }
+
+    const progreso = obtenerProgreso();
+
+    for (const leccionId of prerequisitos) {
+      const match = leccionId.match(/^n(\d+)-l(\d+)$/);
+      if (!match) continue;
+
+      const nivelId = `nivel-${match[1]}`;
+      const estado = obtenerEstadoLeccion(nivelId, leccionId);
+
+      if (estado.estado !== 'completada') {
+        return false; // Al menos un prerequisito no está completado
+      }
+    }
+
+    return true; // Todos los prerequisitos están completados
+  }
+
   // Funciones privadas
 
   function contarLeccionesCompletadas(progreso) {
@@ -363,6 +390,7 @@ const Progreso = (() => {
     registrarEjercicio,
     exportarProgreso,
     importarProgreso,
-    limpiarProgreso
+    limpiarProgreso,
+    verificarPrerequisitos
   };
 })();

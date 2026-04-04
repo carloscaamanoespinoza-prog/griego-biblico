@@ -25,6 +25,14 @@ const VistaLeccion = (() => {
         throw new Error(`Lección no encontrada: ${leccionId}`);
       }
 
+      // Validar prerequisitos
+      if (!Progreso.verificarPrerequisitos(leccion.prerequisitos)) {
+        throw new Error(
+          'No has completado las lecciones requisito para acceder a esta lección. ' +
+          'Por favor, completa las lecciones anteriores primero.'
+        );
+      }
+
       // Crear visor y renderizar
       visor = new VisorLeccion(leccion, contenedor);
       visor.renderizar();

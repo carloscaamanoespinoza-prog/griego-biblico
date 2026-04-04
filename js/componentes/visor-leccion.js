@@ -46,7 +46,7 @@ class VisorLeccion {
    * Renderiza barra de progreso
    */
   renderizarBarraProgreso() {
-    const totalSecciones = this.leccion.secciones.length + this.leccion.ejercicios.length;
+    const totalSecciones = this.leccion.secciones.length + (this.leccion.ejercicios?.length || 0);
     const completadas = this.seccionActual;
     const porcentaje = Math.round((completadas / totalSecciones) * 100);
 
@@ -63,7 +63,7 @@ class VisorLeccion {
     `;
 
     // Segmentos de progreso
-    const totalElementos = this.leccion.secciones.length + this.leccion.ejercicios.length;
+    const totalElementos = this.leccion.secciones.length + (this.leccion.ejercicios?.length || 0);
     for (let i = 0; i < totalElementos; i++) {
       const clase = i < this.seccionActual ? 'completado' : (i === this.seccionActual ? 'actual' : '');
       html += `<div class="segmento ${clase}"></div>`;
