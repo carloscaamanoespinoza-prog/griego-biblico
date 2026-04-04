@@ -63,9 +63,11 @@ const Navegacion = (() => {
     const badge = itemNav.querySelector('.badge');
 
     // Determinar si está desbloqueado
-    const bloqueado = nivel.prerequisito &&
-                     (!progreso.progreso[nivel.prerequisito] ||
-                      progreso.progreso[nivel.prerequisito].estado !== 'completado');
+    // TEMPORALMENTE DESHABILITADO: todos los niveles desbloqueados para exploración
+    // const bloqueado = nivel.prerequisito &&
+    //                  (!progreso.progreso[nivel.prerequisito] ||
+    //                   progreso.progreso[nivel.prerequisito].estado !== 'completado');
+    const bloqueado = false;
 
     if (bloqueado) {
       itemNav.classList.add('bloqueado');
