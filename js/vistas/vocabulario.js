@@ -343,6 +343,9 @@ const VistaVocabulario = (() => {
     const datos = {
       id: 'practica-vocab',
       tipo: 'seleccion',
+      titulo: 'Práctica de Vocabulario',
+      instrucciones: 'Selecciona la definición correcta para la palabra griega',
+      puntajeTotal: 10,
       preguntas: [
         {
           pregunta: `¿Cuál es la definición de <em>${palabra.griego}</em>?`,
@@ -354,30 +357,39 @@ const VistaVocabulario = (() => {
       ]
     };
 
-    contenedor.innerHTML = '';
+    // Crear contenedor para el ejercicio
+    const ejercicioContenedor = document.createElement('div');
+    ejercicioContenedor.style.marginBottom = '2rem';
 
-    ejercicioActual = new EjercicioSeleccion(datos, {
-      onCompleted: (resultado) => {
-        if (resultado.correcta) {
-          // Agregar puntos si es correcto
-          const progreso = Progreso.obtenerProgreso();
-          progreso.usuario.puntosTotales = (progreso.usuario.puntosTotales || 0) + 10;
-          Progreso.guardarProgreso(progreso);
-          Navegacion.actualizarProgreso();
-        }
+    // Crear ejercicio
+    ejercicioActual = new EjercicioSeleccion(datos, ejercicioContenedor);
 
-        // Mostrar botón siguiente
-        const btnSiguiente = document.createElement('button');
-        btnSiguiente.className = 'boton primario';
-        btnSiguiente.textContent = 'Siguiente pregunta';
-        btnSiguiente.style.marginTop = '2rem';
-        btnSiguiente.addEventListener('click', () => generarEjercicioPractica(contenedor));
+    // Extender la clase para capturar el evento de completación
+    const registrarComplecionOriginal = ejercicioActual.registrarComplecion.bind(ejercicioActual);
+    ejercicioActual.registrarComplecion = function() {
+      registrarComplecionOriginal();
 
-        contenedor.appendChild(btnSiguiente);
+      // Agregar puntos si es correcto
+      if (this.completado) {
+        const progreso = Progreso.obtenerProgreso();
+        progreso.usuario.puntosTotales = (progreso.usuario.puntosTotales || 0) + 10;
+        Progreso.guardarProgreso(progreso);
+        Navegacion.actualizarProgreso();
       }
-    });
 
-    ejercicioActual.renderizar(contenedor);
+      // Mostrar botón siguiente
+      const btnSiguiente = document.createElement('button');
+      btnSiguiente.className = 'boton primario';
+      btnSiguiente.textContent = 'Siguiente pregunta';
+      btnSiguiente.style.marginTop = '2rem';
+      btnSiguiente.addEventListener('click', () => generarEjercicioPractica(contenedor));
+
+      ejercicioContenedor.appendChild(btnSiguiente);
+    };
+
+    contenedor.innerHTML = '';
+    contenedor.appendChild(ejercicioContenedor);
+    ejercicioActual.renderizar();
   }
 
   /**

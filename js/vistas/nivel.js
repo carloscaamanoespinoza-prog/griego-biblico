@@ -29,7 +29,7 @@ const VistaNivel = (() => {
 
       progreso = Progreso.obtenerProgreso();
 
-      let html = generarHTML();
+      let html = await generarHTML();
       contenedor.innerHTML = html;
       setupEventListeners();
 
@@ -47,7 +47,8 @@ const VistaNivel = (() => {
   /**
    * Genera el HTML de la vista
    */
-  function generarHTML() {
+  async function generarHTML() {
+    const tarjetas = await generarTarjetasLecciones();
     let html = `
       <div style="max-width: 1000px; margin: 0 auto;">
         <div style="margin-bottom: 2rem;">
@@ -63,7 +64,7 @@ const VistaNivel = (() => {
         </div>
 
         <div class="grid-lecciones">
-          ${generarTarjetasLecciones()}
+          ${tarjetas}
         </div>
       </div>
     `;
@@ -74,10 +75,12 @@ const VistaNivel = (() => {
   /**
    * Genera tarjetas de lecciones
    */
-  function generarTarjetasLecciones() {
-    return nivel.lecciones.map((leccionId, index) => {
+  async function generarTarjetasLecciones() {
+    const promesas = nivel.lecciones.map((leccionId, index) => {
       return generarTarjetaLeccion(leccionId, index + 1);
-    }).join('');
+    });
+    const tarjetas = await Promise.all(promesas);
+    return tarjetas.join('');
   }
 
   /**
