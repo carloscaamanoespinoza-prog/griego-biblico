@@ -151,140 +151,240 @@
           "estimulo": "ὁ ἄνθρωπος",
           "respuestaCorrecta": "el hombre",
           "explicacion": "Traducción de 'ὁ ἄνθρωπος'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "el hombre",
+            "el camino",
+            "la iglesia"
+          ]
         },
         {
           "id": "p2",
           "estimulo": "τοῦ ἀνθρώπου",
           "respuestaCorrecta": "del hombre",
           "explicacion": "Traducción de 'τοῦ ἀνθρώπου'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "el hombre",
+            "el siervo",
+            "del hombre"
+          ]
         },
         {
           "id": "p3",
           "estimulo": "τῷ ἀνθρώπῳ",
           "respuestaCorrecta": "al hombre / para el hombre",
           "explicacion": "Traducción de 'τῷ ἀνθρώπῳ'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "el camino",
+            "la voz",
+            "al hombre / para el hombre"
+          ]
         },
         {
           "id": "p4",
           "estimulo": "τὸν ἄνθρωπον",
           "respuestaCorrecta": "al hombre",
           "explicacion": "Traducción de 'τὸν ἄνθρωπον'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "la verdad",
+            "el siervo",
+            "al hombre"
+          ]
         },
         {
           "id": "p5",
           "estimulo": "ἄνθρωπε",
           "respuestaCorrecta": "¡oh hombre!",
           "explicacion": "Traducción de 'ἄνθρωπε'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "el regalo",
+            "¡oh hombre!",
+            "el hermano"
+          ]
         },
         {
           "id": "p6",
           "estimulo": "οἱ ἄνθρωποι",
           "respuestaCorrecta": "los hombres",
           "explicacion": "Traducción de 'οἱ ἄνθρωποι'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "el día",
+            "el siervo",
+            "los hombres"
+          ]
         },
         {
           "id": "p7",
           "estimulo": "τῶν ἀνθρώπων",
           "respuestaCorrecta": "de los hombres",
           "explicacion": "Traducción de 'τῶν ἀνθρώπων'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "el camino",
+            "de los hombres",
+            "la gloria"
+          ]
         },
         {
           "id": "p8",
           "estimulo": "τὸ τέκνον",
           "respuestaCorrecta": "el niño",
           "explicacion": "Traducción de 'τὸ τέκνον'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "la verdad",
+            "el siervo",
+            "el niño"
+          ]
         },
         {
           "id": "p9",
           "estimulo": "τοῦ τέκνου",
           "respuestaCorrecta": "del niño",
           "explicacion": "Traducción de 'τοῦ τέκνου'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "del niño",
+            "la gloria",
+            "la voz"
+          ]
         },
         {
           "id": "p10",
           "estimulo": "τῷ τέκνῳ",
           "respuestaCorrecta": "al niño / para el niño",
           "explicacion": "Traducción de 'τῷ τέκνῳ'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "el regalo",
+            "el hermano",
+            "al niño / para el niño"
+          ]
         },
         {
           "id": "p11",
           "estimulo": "τὰ τέκνα",
           "respuestaCorrecta": "los niños",
           "explicacion": "Traducción de 'τὰ τέκνα'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "los niños",
+            "el camino",
+            "la iglesia"
+          ]
         },
         {
           "id": "p12",
           "estimulo": "τῶν τέκνων",
           "respuestaCorrecta": "de los niños",
           "explicacion": "Traducción de 'τῶν τέκνων'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "de los niños",
+            "el siervo",
+            "el hombre"
+          ]
         },
         {
           "id": "p13",
           "estimulo": "τὸ δῶρον",
           "respuestaCorrecta": "el regalo / la ofrenda",
           "explicacion": "Traducción de 'τὸ δῶρον'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "el hermano",
+            "el regalo / la ofrenda",
+            "la voz"
+          ]
         },
         {
           "id": "p14",
           "estimulo": "τοῦ δώρου",
           "respuestaCorrecta": "del regalo / de la ofrenda",
           "explicacion": "Traducción de 'τοῦ δώρου'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "del regalo / de la ofrenda",
+            "el día",
+            "el camino"
+          ]
         },
         {
           "id": "p15",
           "estimulo": "τῷ δώρῳ",
           "respuestaCorrecta": "al regalo / a la ofrenda",
           "explicacion": "Traducción de 'τῷ δώρῳ'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "la gloria",
+            "al regalo / a la ofrenda",
+            "el hermano"
+          ]
         },
         {
           "id": "p16",
           "estimulo": "τὰ δῶρα",
           "respuestaCorrecta": "los regalos / las ofrendas",
           "explicacion": "Traducción de 'τὰ δῶρα'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "los regalos / las ofrendas",
+            "el camino",
+            "el hombre"
+          ]
         },
         {
           "id": "p17",
           "estimulo": "ὁ υἱός",
           "respuestaCorrecta": "el hijo",
           "explicacion": "Traducción de 'ὁ υἱός'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "el hijo",
+            "la voz",
+            "el regalo"
+          ]
         },
         {
           "id": "p18",
           "estimulo": "τοῦ υἱοῦ",
           "respuestaCorrecta": "del hijo",
           "explicacion": "Traducción de 'τοῦ υἱοῦ'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "la verdad",
+            "del hijo",
+            "la gloria"
+          ]
         },
         {
           "id": "p19",
           "estimulo": "τῷ υἱῷ",
           "respuestaCorrecta": "al hijo / para el hijo",
           "explicacion": "Traducción de 'τῷ υἱῷ'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "el siervo",
+            "el camino",
+            "al hijo / para el hijo"
+          ]
         },
         {
           "id": "p20",
           "estimulo": "οἱ υἱοί",
           "respuestaCorrecta": "los hijos",
           "explicacion": "Traducción de 'οἱ υἱοί'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "el camino",
+            "los hijos",
+            "el regalo"
+          ]
         }
       ]
     }
