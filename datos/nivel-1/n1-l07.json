@@ -139,6 +139,154 @@
           "puntaje": 10
         }
       ]
+    },
+    {
+      "id": "ej-l7-traduccion",
+      "tipo": "traduccion",
+      "titulo": "Traduce del griego al español",
+      "instrucciones": "Lee la palabra o frase griega y proporciona la traducción correcta al español",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "ὁ ἄνθρωπος",
+          "respuestaCorrecta": "el hombre",
+          "explicacion": "Traducción de 'ὁ ἄνθρωπος'",
+          "puntaje": 5
+        },
+        {
+          "id": "p2",
+          "estimulo": "τοῦ ἀνθρώπου",
+          "respuestaCorrecta": "del hombre",
+          "explicacion": "Traducción de 'τοῦ ἀνθρώπου'",
+          "puntaje": 5
+        },
+        {
+          "id": "p3",
+          "estimulo": "τῷ ἀνθρώπῳ",
+          "respuestaCorrecta": "al hombre / para el hombre",
+          "explicacion": "Traducción de 'τῷ ἀνθρώπῳ'",
+          "puntaje": 5
+        },
+        {
+          "id": "p4",
+          "estimulo": "τὸν ἄνθρωπον",
+          "respuestaCorrecta": "al hombre",
+          "explicacion": "Traducción de 'τὸν ἄνθρωπον'",
+          "puntaje": 5
+        },
+        {
+          "id": "p5",
+          "estimulo": "ἄνθρωπε",
+          "respuestaCorrecta": "¡oh hombre!",
+          "explicacion": "Traducción de 'ἄνθρωπε'",
+          "puntaje": 5
+        },
+        {
+          "id": "p6",
+          "estimulo": "οἱ ἄνθρωποι",
+          "respuestaCorrecta": "los hombres",
+          "explicacion": "Traducción de 'οἱ ἄνθρωποι'",
+          "puntaje": 5
+        },
+        {
+          "id": "p7",
+          "estimulo": "τῶν ἀνθρώπων",
+          "respuestaCorrecta": "de los hombres",
+          "explicacion": "Traducción de 'τῶν ἀνθρώπων'",
+          "puntaje": 5
+        },
+        {
+          "id": "p8",
+          "estimulo": "τὸ τέκνον",
+          "respuestaCorrecta": "el niño",
+          "explicacion": "Traducción de 'τὸ τέκνον'",
+          "puntaje": 5
+        },
+        {
+          "id": "p9",
+          "estimulo": "τοῦ τέκνου",
+          "respuestaCorrecta": "del niño",
+          "explicacion": "Traducción de 'τοῦ τέκνου'",
+          "puntaje": 5
+        },
+        {
+          "id": "p10",
+          "estimulo": "τῷ τέκνῳ",
+          "respuestaCorrecta": "al niño / para el niño",
+          "explicacion": "Traducción de 'τῷ τέκνῳ'",
+          "puntaje": 5
+        },
+        {
+          "id": "p11",
+          "estimulo": "τὰ τέκνα",
+          "respuestaCorrecta": "los niños",
+          "explicacion": "Traducción de 'τὰ τέκνα'",
+          "puntaje": 5
+        },
+        {
+          "id": "p12",
+          "estimulo": "τῶν τέκνων",
+          "respuestaCorrecta": "de los niños",
+          "explicacion": "Traducción de 'τῶν τέκνων'",
+          "puntaje": 5
+        },
+        {
+          "id": "p13",
+          "estimulo": "τὸ δῶρον",
+          "respuestaCorrecta": "el regalo / la ofrenda",
+          "explicacion": "Traducción de 'τὸ δῶρον'",
+          "puntaje": 5
+        },
+        {
+          "id": "p14",
+          "estimulo": "τοῦ δώρου",
+          "respuestaCorrecta": "del regalo / de la ofrenda",
+          "explicacion": "Traducción de 'τοῦ δώρου'",
+          "puntaje": 5
+        },
+        {
+          "id": "p15",
+          "estimulo": "τῷ δώρῳ",
+          "respuestaCorrecta": "al regalo / a la ofrenda",
+          "explicacion": "Traducción de 'τῷ δώρῳ'",
+          "puntaje": 5
+        },
+        {
+          "id": "p16",
+          "estimulo": "τὰ δῶρα",
+          "respuestaCorrecta": "los regalos / las ofrendas",
+          "explicacion": "Traducción de 'τὰ δῶρα'",
+          "puntaje": 5
+        },
+        {
+          "id": "p17",
+          "estimulo": "ὁ υἱός",
+          "respuestaCorrecta": "el hijo",
+          "explicacion": "Traducción de 'ὁ υἱός'",
+          "puntaje": 5
+        },
+        {
+          "id": "p18",
+          "estimulo": "τοῦ υἱοῦ",
+          "respuestaCorrecta": "del hijo",
+          "explicacion": "Traducción de 'τοῦ υἱοῦ'",
+          "puntaje": 5
+        },
+        {
+          "id": "p19",
+          "estimulo": "τῷ υἱῷ",
+          "respuestaCorrecta": "al hijo / para el hijo",
+          "explicacion": "Traducción de 'τῷ υἱῷ'",
+          "puntaje": 5
+        },
+        {
+          "id": "p20",
+          "estimulo": "οἱ υἱοί",
+          "respuestaCorrecta": "los hijos",
+          "explicacion": "Traducción de 'οἱ υἱοί'",
+          "puntaje": 5
+        }
+      ]
     }
   ],
   "vocabulario": [
