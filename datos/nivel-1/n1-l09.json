@@ -130,6 +130,154 @@
           "puntaje": 10
         }
       ]
+    },
+    {
+      "id": "ej-l9-traduccion",
+      "tipo": "traduccion",
+      "titulo": "Traduce del griego al español",
+      "instrucciones": "Lee la palabra o frase griega y proporciona la traducción correcta al español",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "ἐγώ",
+          "respuestaCorrecta": "yo",
+          "explicacion": "Traducción de 'ἐγώ'",
+          "puntaje": 5
+        },
+        {
+          "id": "p2",
+          "estimulo": "ἐμοῦ / μου",
+          "respuestaCorrecta": "mi / mío / de mí",
+          "explicacion": "Traducción de 'ἐμοῦ / μου'",
+          "puntaje": 5
+        },
+        {
+          "id": "p3",
+          "estimulo": "ἐμοί / μοι",
+          "respuestaCorrecta": "a mí / me",
+          "explicacion": "Traducción de 'ἐμοί / μοι'",
+          "puntaje": 5
+        },
+        {
+          "id": "p4",
+          "estimulo": "ἐμέ / με",
+          "respuestaCorrecta": "me / a mí",
+          "explicacion": "Traducción de 'ἐμέ / με'",
+          "puntaje": 5
+        },
+        {
+          "id": "p5",
+          "estimulo": "ἡμεῖς",
+          "respuestaCorrecta": "nosotros",
+          "explicacion": "Traducción de 'ἡμεῖς'",
+          "puntaje": 5
+        },
+        {
+          "id": "p6",
+          "estimulo": "ἡμῶν",
+          "respuestaCorrecta": "nuestro / de nosotros",
+          "explicacion": "Traducción de 'ἡμῶν'",
+          "puntaje": 5
+        },
+        {
+          "id": "p7",
+          "estimulo": "ἡμῖν",
+          "respuestaCorrecta": "nos / a nosotros",
+          "explicacion": "Traducción de 'ἡμῖν'",
+          "puntaje": 5
+        },
+        {
+          "id": "p8",
+          "estimulo": "ἡμᾶς",
+          "respuestaCorrecta": "nos / a nosotros",
+          "explicacion": "Traducción de 'ἡμᾶς'",
+          "puntaje": 5
+        },
+        {
+          "id": "p9",
+          "estimulo": "σύ",
+          "respuestaCorrecta": "tú",
+          "explicacion": "Traducción de 'σύ'",
+          "puntaje": 5
+        },
+        {
+          "id": "p10",
+          "estimulo": "σοῦ / σου",
+          "respuestaCorrecta": "tu / tuyo / de ti",
+          "explicacion": "Traducción de 'σοῦ / σου'",
+          "puntaje": 5
+        },
+        {
+          "id": "p11",
+          "estimulo": "σοί / σοι",
+          "respuestaCorrecta": "a ti / te",
+          "explicacion": "Traducción de 'σοί / σοι'",
+          "puntaje": 5
+        },
+        {
+          "id": "p12",
+          "estimulo": "σέ / σε",
+          "respuestaCorrecta": "te / a ti",
+          "explicacion": "Traducción de 'σέ / σε'",
+          "puntaje": 5
+        },
+        {
+          "id": "p13",
+          "estimulo": "ὑμεῖς",
+          "respuestaCorrecta": "vosotros / ustedes",
+          "explicacion": "Traducción de 'ὑμεῖς'",
+          "puntaje": 5
+        },
+        {
+          "id": "p14",
+          "estimulo": "ὑμῶν",
+          "respuestaCorrecta": "vuestro / de vosotros",
+          "explicacion": "Traducción de 'ὑμῶν'",
+          "puntaje": 5
+        },
+        {
+          "id": "p15",
+          "estimulo": "ὑμῖν",
+          "respuestaCorrecta": "os / a vosotros",
+          "explicacion": "Traducción de 'ὑμῖν'",
+          "puntaje": 5
+        },
+        {
+          "id": "p16",
+          "estimulo": "ὑμᾶς",
+          "respuestaCorrecta": "os / a vosotros",
+          "explicacion": "Traducción de 'ὑμᾶς'",
+          "puntaje": 5
+        },
+        {
+          "id": "p17",
+          "estimulo": "αὐτός",
+          "respuestaCorrecta": "él",
+          "explicacion": "Traducción de 'αὐτός'",
+          "puntaje": 5
+        },
+        {
+          "id": "p18",
+          "estimulo": "αὐτή",
+          "respuestaCorrecta": "ella",
+          "explicacion": "Traducción de 'αὐτή'",
+          "puntaje": 5
+        },
+        {
+          "id": "p19",
+          "estimulo": "αὐτό",
+          "respuestaCorrecta": "ello / neutro",
+          "explicacion": "Traducción de 'αὐτό'",
+          "puntaje": 5
+        },
+        {
+          "id": "p20",
+          "estimulo": "αὐτοί",
+          "respuestaCorrecta": "ellos",
+          "explicacion": "Traducción de 'αὐτοί'",
+          "puntaje": 5
+        }
+      ]
     }
   ],
   "vocabulario": [
