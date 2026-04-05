@@ -291,6 +291,154 @@
           "puntaje": 10
         }
       ]
+    },
+    {
+      "id": "ej-l12-traduccion",
+      "tipo": "traduccion",
+      "titulo": "Traduce del griego al español",
+      "instrucciones": "Lee la palabra o frase griega y proporciona la traducción correcta al español",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "ἀγαθός",
+          "respuestaCorrecta": "bueno",
+          "explicacion": "Traducción de 'ἀγαθός'",
+          "puntaje": 5
+        },
+        {
+          "id": "p2",
+          "estimulo": "ἀγαπάω",
+          "respuestaCorrecta": "amar / querer",
+          "explicacion": "Traducción de 'ἀγαπάω'",
+          "puntaje": 5
+        },
+        {
+          "id": "p3",
+          "estimulo": "ἀγάπη",
+          "respuestaCorrecta": "amor",
+          "explicacion": "Traducción de 'ἀγάπη'",
+          "puntaje": 5
+        },
+        {
+          "id": "p4",
+          "estimulo": "ἀγαπητός",
+          "respuestaCorrecta": "amado",
+          "explicacion": "Traducción de 'ἀγαπητός'",
+          "puntaje": 5
+        },
+        {
+          "id": "p5",
+          "estimulo": "ἄγγελος",
+          "respuestaCorrecta": "mensajero / ángel",
+          "explicacion": "Traducción de 'ἄγγελος'",
+          "puntaje": 5
+        },
+        {
+          "id": "p6",
+          "estimulo": "ἅγιος",
+          "respuestaCorrecta": "santo",
+          "explicacion": "Traducción de 'ἅγιος'",
+          "puntaje": 5
+        },
+        {
+          "id": "p7",
+          "estimulo": "ἀγρός",
+          "respuestaCorrecta": "campo / terreno",
+          "explicacion": "Traducción de 'ἀγρός'",
+          "puntaje": 5
+        },
+        {
+          "id": "p8",
+          "estimulo": "ἄγω",
+          "respuestaCorrecta": "guiar / conducir",
+          "explicacion": "Traducción de 'ἄγω'",
+          "puntaje": 5
+        },
+        {
+          "id": "p9",
+          "estimulo": "ἀδελφός",
+          "respuestaCorrecta": "hermano",
+          "explicacion": "Traducción de 'ἀδελφός'",
+          "puntaje": 5
+        },
+        {
+          "id": "p10",
+          "estimulo": "αἷμα",
+          "respuestaCorrecta": "sangre",
+          "explicacion": "Traducción de 'αἷμα'",
+          "puntaje": 5
+        },
+        {
+          "id": "p11",
+          "estimulo": "αἴρω",
+          "respuestaCorrecta": "tomar / recoger",
+          "explicacion": "Traducción de 'αἴρω'",
+          "puntaje": 5
+        },
+        {
+          "id": "p12",
+          "estimulo": "αἰτέω",
+          "respuestaCorrecta": "pedir / solicitar",
+          "explicacion": "Traducción de 'αἰτέω'",
+          "puntaje": 5
+        },
+        {
+          "id": "p13",
+          "estimulo": "αἰών",
+          "respuestaCorrecta": "era / eternidad",
+          "explicacion": "Traducción de 'αἰών'",
+          "puntaje": 5
+        },
+        {
+          "id": "p14",
+          "estimulo": "αἰώνιος",
+          "respuestaCorrecta": "eterno",
+          "explicacion": "Traducción de 'αἰώνιος'",
+          "puntaje": 5
+        },
+        {
+          "id": "p15",
+          "estimulo": "ἀκολουθέω",
+          "respuestaCorrecta": "seguir / acompañar",
+          "explicacion": "Traducción de 'ἀκολουθέω'",
+          "puntaje": 5
+        },
+        {
+          "id": "p16",
+          "estimulo": "ἀκούω",
+          "respuestaCorrecta": "escuchar",
+          "explicacion": "Traducción de 'ἀκούω'",
+          "puntaje": 5
+        },
+        {
+          "id": "p17",
+          "estimulo": "ἀλήθεια",
+          "respuestaCorrecta": "verdad",
+          "explicacion": "Traducción de 'ἀλήθεια'",
+          "puntaje": 5
+        },
+        {
+          "id": "p18",
+          "estimulo": "ἀλλά",
+          "respuestaCorrecta": "pero / sino",
+          "explicacion": "Traducción de 'ἀλλά'",
+          "puntaje": 5
+        },
+        {
+          "id": "p19",
+          "estimulo": "ἀλλήλων",
+          "respuestaCorrecta": "unos a otros",
+          "explicacion": "Traducción de 'ἀλλήλων'",
+          "puntaje": 5
+        },
+        {
+          "id": "p20",
+          "estimulo": "ἄλλος",
+          "respuestaCorrecta": "otro / diferente",
+          "explicacion": "Traducción de 'ἄλλος'",
+          "puntaje": 5
+        }
+      ]
     }
   ],
   "vocabulario": [
