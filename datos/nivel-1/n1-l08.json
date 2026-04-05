@@ -132,140 +132,240 @@
           "estimulo": "ὁ ἀγαθὸς ἄνθρωπος",
           "respuestaCorrecta": "el hombre bueno",
           "explicacion": "Traducción de 'ὁ ἀγαθὸς ἄνθρωπος'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "el hombre bueno",
+            "la gloria",
+            "la iglesia"
+          ]
         },
         {
           "id": "p2",
           "estimulo": "τοῦ ἀγαθοῦ ἀνθρώπου",
           "respuestaCorrecta": "del hombre bueno",
           "explicacion": "Traducción de 'τοῦ ἀγαθοῦ ἀνθρώπου'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "la verdad",
+            "el hermano",
+            "del hombre bueno"
+          ]
         },
         {
           "id": "p3",
           "estimulo": "τῷ ἀγαθῷ ἀνθρώπῳ",
           "respuestaCorrecta": "al hombre bueno / para el hombre bueno",
           "explicacion": "Traducción de 'τῷ ἀγαθῷ ἀνθρώπῳ'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "al hombre bueno / para el hombre bueno",
+            "el camino",
+            "el regalo"
+          ]
         },
         {
           "id": "p4",
           "estimulo": "τὸν ἀγαθὸν ἄνθρωπον",
           "respuestaCorrecta": "al hombre bueno (objeto directo)",
           "explicacion": "Traducción de 'τὸν ἀγαθὸν ἄνθρωπον'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "el camino",
+            "el día",
+            "al hombre bueno (objeto directo)"
+          ]
         },
         {
           "id": "p5",
           "estimulo": "οἱ ἀγαθοὶ ἄνθρωποι",
           "respuestaCorrecta": "los hombres buenos",
           "explicacion": "Traducción de 'οἱ ἀγαθοὶ ἄνθρωποι'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "el regalo",
+            "la iglesia",
+            "los hombres buenos"
+          ]
         },
         {
           "id": "p6",
           "estimulo": "ἡ καλὴ ἐκκλησία",
           "respuestaCorrecta": "la buena iglesia",
           "explicacion": "Traducción de 'ἡ καλὴ ἐκκλησία'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "la verdad",
+            "la buena iglesia",
+            "el hombre"
+          ]
         },
         {
           "id": "p7",
           "estimulo": "τῆς καλῆς ἐκκλησίας",
           "respuestaCorrecta": "de la buena iglesia",
           "explicacion": "Traducción de 'τῆς καλῆς ἐκκλησίας'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "el camino",
+            "de la buena iglesia",
+            "la voz"
+          ]
         },
         {
           "id": "p8",
           "estimulo": "τῇ καλῇ ἐκκλησίᾳ",
           "respuestaCorrecta": "a la buena iglesia / para la buena iglesia",
           "explicacion": "Traducción de 'τῇ καλῇ ἐκκλησίᾳ'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "a la buena iglesia / para la buena iglesia",
+            "el hermano",
+            "la casa"
+          ]
         },
         {
           "id": "p9",
           "estimulo": "τὴν καλὴν ἐκκλησίαν",
           "respuestaCorrecta": "a la buena iglesia (objeto directo)",
           "explicacion": "Traducción de 'τὴν καλὴν ἐκκλησίαν'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "a la buena iglesia (objeto directo)",
+            "la casa",
+            "el regalo"
+          ]
         },
         {
           "id": "p10",
           "estimulo": "αἱ καλαὶ ἐκκλησίαι",
           "respuestaCorrecta": "las buenas iglesias",
           "explicacion": "Traducción de 'αἱ καλαὶ ἐκκλησίαι'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "el camino",
+            "las buenas iglesias",
+            "el hermano"
+          ]
         },
         {
           "id": "p11",
           "estimulo": "τὸ ἅγιον ἱερόν",
           "respuestaCorrecta": "el templo santo",
           "explicacion": "Traducción de 'τὸ ἅγιον ἱερόν'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "el templo santo",
+            "el día",
+            "el regalo"
+          ]
         },
         {
           "id": "p12",
           "estimulo": "τοῦ ἁγίου ἱεροῦ",
           "respuestaCorrecta": "del templo santo",
           "explicacion": "Traducción de 'τοῦ ἁγίου ἱεροῦ'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "la voz",
+            "del templo santo",
+            "el regalo"
+          ]
         },
         {
           "id": "p13",
           "estimulo": "τῷ ἁγίῳ ἱερῷ",
           "respuestaCorrecta": "al templo santo / para el templo santo",
           "explicacion": "Traducción de 'τῷ ἁγίῳ ἱερῷ'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "al templo santo / para el templo santo",
+            "el camino",
+            "el hermano"
+          ]
         },
         {
           "id": "p14",
           "estimulo": "τὰ ἅγια ἱερά",
           "respuestaCorrecta": "los templos santos",
           "explicacion": "Traducción de 'τὰ ἅγια ἱερά'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "los templos santos",
+            "el regalo",
+            "la verdad"
+          ]
         },
         {
           "id": "p15",
           "estimulo": "τῶν ἁγίων ἱερῶν",
           "respuestaCorrecta": "de los templos santos",
           "explicacion": "Traducción de 'τῶν ἁγίων ἱερῶν'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "la gloria",
+            "el hermano",
+            "de los templos santos"
+          ]
         },
         {
           "id": "p16",
           "estimulo": "τοὺς κακοὺς δούλους",
           "respuestaCorrecta": "a los siervos malos (objeto directo)",
           "explicacion": "Traducción de 'τοὺς κακοὺς δούλους'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "a los siervos malos (objeto directo)",
+            "el hombre",
+            "la iglesia"
+          ]
         },
         {
           "id": "p17",
           "estimulo": "τὰ μικρὰ τέκνα",
           "respuestaCorrecta": "los niños pequeños",
           "explicacion": "Traducción de 'τὰ μικρὰ τέκνα'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "los niños pequeños",
+            "el regalo",
+            "la gloria"
+          ]
         },
         {
           "id": "p18",
           "estimulo": "τῆς δικαίας βασιλείας",
           "respuestaCorrecta": "del reino justo",
           "explicacion": "Traducción de 'τῆς δικαίας βασιλείας'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "del reino justo",
+            "la gloria",
+            "la verdad"
+          ]
         },
         {
           "id": "p19",
           "estimulo": "τῷ πιστῷ ἀδελφῷ",
           "respuestaCorrecta": "al hermano fiel / para el hermano fiel",
           "explicacion": "Traducción de 'τῷ πιστῷ ἀδελφῷ'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "la voz",
+            "al hermano fiel / para el hermano fiel",
+            "el camino"
+          ]
         },
         {
           "id": "p20",
           "estimulo": "τὰς κακὰς ὁδούς",
           "respuestaCorrecta": "los malos caminos (objeto directo)",
           "explicacion": "Traducción de 'τὰς κακὰς ὁδούς'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "el camino",
+            "el día",
+            "los malos caminos (objeto directo)"
+          ]
         }
       ]
     }
