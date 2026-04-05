@@ -6,7 +6,10 @@
   "subtitulo": "Los diacríticos que modifican el sonido y significado",
   "descripcion": "Aprende a reconocer e interpretar correctamente los espíritus (áspero y suave) y los tres tipos de acentos griegos.",
   "duracionEstimada": 20,
-  "prerequisitos": ["n1-l01", "n1-l02"],
+  "prerequisitos": [
+    "n1-l01",
+    "n1-l02"
+  ],
   "objetivos": [
     "Diferenciar entre espíritu áspero y espíritu suave",
     "Identificar los tres tipos de acentos: agudo, grave y circunflejo",
@@ -64,11 +67,35 @@
       "titulo": "Los Tres Acentos Griegos",
       "descripcion": "En griego hay tres tipos de acentos. En la pronunciación erasmiana moderna, no se pronuncian como tonos musicales, sino que indican dónde va el énfasis silábico.",
       "datos": {
-        "columnas": ["Acento", "Símbolo", "Nombre", "Sílaba", "Ejemplo"],
+        "columnas": [
+          "Acento",
+          "Símbolo",
+          "Nombre",
+          "Sílaba",
+          "Ejemplo"
+        ],
         "filas": [
-          ["Agudo", "´", "Oxítono", "Tercera desde el final", "λόγος (lógos)"],
-          ["Grave", "`", "Barítono", "Segunda desde el final", "ἀγάπη (agápē)"],
-          ["Circunflejo", "῀", "Perispómeno", "Última de diptongo largo", "χοῦς (choûs)"]
+          [
+            "Agudo",
+            "´",
+            "Oxítono",
+            "Tercera desde el final",
+            "λόγος (lógos)"
+          ],
+          [
+            "Grave",
+            "`",
+            "Barítono",
+            "Segunda desde el final",
+            "ἀγάπη (agápē)"
+          ],
+          [
+            "Circunflejo",
+            "῀",
+            "Perispómeno",
+            "Última de diptongo largo",
+            "χοῦς (choûs)"
+          ]
         ]
       }
     },
@@ -120,7 +147,10 @@
         {
           "id": "p1",
           "estimulo": "ἁγάπη",
-          "opciones": ["Espíritu Áspero", "Espíritu Suave"],
+          "opciones": [
+            "Espíritu Áspero",
+            "Espíritu Suave"
+          ],
           "respuestaCorrecta": "Espíritu Áspero",
           "explicacion": "Ves la marca ' sobre la α, que indica espíritu áspero. Se pronuncia 'hagápē'.",
           "puntaje": 10
@@ -128,7 +158,10 @@
         {
           "id": "p2",
           "estimulo": "ἀγάπη",
-          "opciones": ["Espíritu Áspero", "Espíritu Suave"],
+          "opciones": [
+            "Espíritu Áspero",
+            "Espíritu Suave"
+          ],
           "respuestaCorrecta": "Espíritu Suave",
           "explicacion": "Ves la marca , sobre la α, que indica espíritu suave. Se pronuncia 'agápē' (sin la h).",
           "puntaje": 10
@@ -144,7 +177,11 @@
         {
           "id": "p1",
           "estimulo": "λόγος (lógos)",
-          "opciones": ["Primera sílaba", "Segunda sílaba", "Tercera sílaba"],
+          "opciones": [
+            "Primera sílaba",
+            "Segunda sílaba",
+            "Tercera sílaba"
+          ],
           "respuestaCorrecta": "Primera sílaba",
           "explicacion": "El acento agudo ' está sobre la λό, que es la primera sílaba de esta palabra de tres sílabas.",
           "puntaje": 15
@@ -160,7 +197,11 @@
         {
           "id": "p1",
           "estimulo": "ἅγιος",
-          "opciones": ["santo, sagrado", "palabra, discurso", "principio, comienzo"],
+          "opciones": [
+            "santo, sagrado",
+            "palabra, discurso",
+            "principio, comienzo"
+          ],
           "respuestaCorrecta": "santo, sagrado",
           "explicacion": "✓ Correcto. ἅγιος (hagios) significa 'santo' o 'sagrado'. Se usa frecuentemente en expresiones como 'ἅγιον πνεῦμα' (Espíritu Santo).",
           "puntaje": 10
@@ -168,7 +209,11 @@
         {
           "id": "p2",
           "estimulo": "ἁγάπη",
-          "opciones": ["amor", "principio, comienzo", "santo, sagrado"],
+          "opciones": [
+            "amor",
+            "principio, comienzo",
+            "santo, sagrado"
+          ],
           "respuestaCorrecta": "amor",
           "explicacion": "✓ Correcto. ἁγάπη (hagápē) significa 'amor', específicamente el amor divino desinteresado. Es un concepto clave en la teología cristiana.",
           "puntaje": 10
@@ -176,10 +221,183 @@
         {
           "id": "p3",
           "estimulo": "ἀγάπη",
-          "opciones": ["amor", "Dios, dios", "palabra, discurso"],
+          "opciones": [
+            "amor",
+            "Dios, dios",
+            "palabra, discurso"
+          ],
           "respuestaCorrecta": "amor",
           "explicacion": "✓ Correcto. ἀγάπη (agápē) también significa 'amor'. Cuando aparece con espíritu suave (,) en lugar de espíritu áspero, sigue siendo la misma palabra con la misma traducción.",
           "puntaje": 10
+        }
+      ]
+    },
+    {
+      "id": "ej-l3-traduccion",
+      "tipo": "traduccion",
+      "titulo": "Traduce del griego al español",
+      "instrucciones": "Lee la palabra o frase griega y proporciona la traducción correcta al español",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "ἀκούω",
+          "respuestaCorrecta": "escucho",
+          "explicacion": "Traducción de 'ἀκούω'",
+          "puntaje": 5
+        },
+        {
+          "id": "p2",
+          "estimulo": "ἅγιος",
+          "respuestaCorrecta": "santo",
+          "explicacion": "Traducción de 'ἅγιος'",
+          "puntaje": 5
+        },
+        {
+          "id": "p3",
+          "estimulo": "ἄγγελος",
+          "respuestaCorrecta": "el mensajero / el ángel",
+          "explicacion": "Traducción de 'ἄγγελος'",
+          "puntaje": 5
+        },
+        {
+          "id": "p4",
+          "estimulo": "ἐσθίω",
+          "respuestaCorrecta": "como",
+          "explicacion": "Traducción de 'ἐσθίω'",
+          "puntaje": 5
+        },
+        {
+          "id": "p5",
+          "estimulo": "ἵππος",
+          "respuestaCorrecta": "el caballo",
+          "explicacion": "Traducción de 'ἵππος'",
+          "puntaje": 5
+        },
+        {
+          "id": "p6",
+          "estimulo": "εὑρίσκω",
+          "respuestaCorrecta": "encuentro / hallo",
+          "explicacion": "Traducción de 'εὑρίσκω'",
+          "puntaje": 5
+        },
+        {
+          "id": "p7",
+          "estimulo": "Ἰησοῦς",
+          "respuestaCorrecta": "Jesús",
+          "explicacion": "Traducción de 'Ἰησοῦς'",
+          "puntaje": 5
+        },
+        {
+          "id": "p8",
+          "estimulo": "ἄνθρωπος",
+          "respuestaCorrecta": "el hombre",
+          "explicacion": "Traducción de 'ἄνθρωπος'",
+          "puntaje": 5
+        },
+        {
+          "id": "p9",
+          "estimulo": "ὁδός",
+          "respuestaCorrecta": "camino",
+          "explicacion": "Traducción de 'ὁδός'",
+          "puntaje": 5
+        },
+        {
+          "id": "p10",
+          "estimulo": "οἶκος",
+          "respuestaCorrecta": "la casa / la familia",
+          "explicacion": "Traducción de 'οἶκος'",
+          "puntaje": 5
+        },
+        {
+          "id": "p11",
+          "estimulo": "ἀδελφός",
+          "respuestaCorrecta": "el hermano",
+          "explicacion": "Traducción de 'ἀδελφός'",
+          "puntaje": 5
+        },
+        {
+          "id": "p12",
+          "estimulo": "ἔχω",
+          "respuestaCorrecta": "tengo",
+          "explicacion": "Traducción de 'ἔχω'",
+          "puntaje": 5
+        },
+        {
+          "id": "p13",
+          "estimulo": "ὑμεῖς",
+          "respuestaCorrecta": "ustedes",
+          "explicacion": "Traducción de 'ὑμεῖς'",
+          "puntaje": 5
+        },
+        {
+          "id": "p14",
+          "estimulo": "ἡμεῖς",
+          "respuestaCorrecta": "nosotros",
+          "explicacion": "Traducción de 'ἡμεῖς'",
+          "puntaje": 5
+        },
+        {
+          "id": "p15",
+          "estimulo": "ἐγώ",
+          "respuestaCorrecta": "yo",
+          "explicacion": "Traducción de 'ἐγώ'",
+          "puntaje": 5
+        },
+        {
+          "id": "p16",
+          "estimulo": "ἄρτος",
+          "respuestaCorrecta": "el pan",
+          "explicacion": "Traducción de 'ἄρτος'",
+          "puntaje": 5
+        },
+        {
+          "id": "p17",
+          "estimulo": "ἀπόστολος",
+          "respuestaCorrecta": "el apóstol / el enviado",
+          "explicacion": "Traducción de 'ἀπόστολος'",
+          "puntaje": 5
+        },
+        {
+          "id": "p18",
+          "estimulo": "ὕδωρ",
+          "respuestaCorrecta": "agua",
+          "explicacion": "Traducción de 'ὕδωρ'",
+          "puntaje": 5
+        },
+        {
+          "id": "p19",
+          "estimulo": "αἷμα",
+          "respuestaCorrecta": "sangre",
+          "explicacion": "Traducción de 'αἷμα'",
+          "puntaje": 5
+        },
+        {
+          "id": "p20",
+          "estimulo": "αἰών",
+          "respuestaCorrecta": "era / eternidad",
+          "explicacion": "Traducción de 'αἰών'",
+          "puntaje": 5
+        },
+        {
+          "id": "p21",
+          "estimulo": "ἀμήν",
+          "respuestaCorrecta": "amén",
+          "explicacion": "Traducción de 'ἀμήν'",
+          "puntaje": 5
+        },
+        {
+          "id": "p22",
+          "estimulo": "ἁμαρτία",
+          "respuestaCorrecta": "pecado",
+          "explicacion": "Traducción de 'ἁμαρτία'",
+          "puntaje": 5
+        },
+        {
+          "id": "p23",
+          "estimulo": "ἡμέρα",
+          "respuestaCorrecta": "día",
+          "explicacion": "Traducción de 'ἡμέρα'",
+          "puntaje": 5
         }
       ]
     }
