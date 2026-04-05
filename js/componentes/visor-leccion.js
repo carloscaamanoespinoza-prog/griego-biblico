@@ -238,6 +238,8 @@ class VisorLeccion {
       instancia = new EjercicioSeleccion(ejercicio, contenedor);
     } else if (ejercicio.tipo === 'completar') {
       instancia = new EjercicioCompletar(ejercicio, contenedor);
+    } else if (ejercicio.tipo === 'traduccion') {
+      instancia = new EjercicioTraduccion(ejercicio, contenedor);
     } else if (ejercicio.tipo === 'identificar-letra') {
       instancia = new EjercicioIdentificarLetra(ejercicio, contenedor);
     } else {
