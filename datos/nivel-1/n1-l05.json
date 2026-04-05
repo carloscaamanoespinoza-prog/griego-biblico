@@ -188,140 +188,240 @@
           "estimulo": "ὁ ἄνθρωπος",
           "respuestaCorrecta": "el hombre (sujeto)",
           "explicacion": "Traducción de 'ὁ ἄνθρωπος'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "el hombre (sujeto)",
+            "el siervo",
+            "la casa"
+          ]
         },
         {
           "id": "p2",
           "estimulo": "τοῦ ἀνθρώπου",
           "respuestaCorrecta": "del hombre",
           "explicacion": "Traducción de 'τοῦ ἀνθρώπου'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "el siervo",
+            "el hermano",
+            "del hombre"
+          ]
         },
         {
           "id": "p3",
           "estimulo": "τῷ ἀνθρώπῳ",
           "respuestaCorrecta": "al hombre / para el hombre",
           "explicacion": "Traducción de 'τῷ ἀνθρώπῳ'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "la gloria",
+            "el regalo",
+            "al hombre / para el hombre"
+          ]
         },
         {
           "id": "p4",
           "estimulo": "τὸν ἄνθρωπον",
           "respuestaCorrecta": "al hombre (objeto directo)",
           "explicacion": "Traducción de 'τὸν ἄνθρωπον'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "al hombre (objeto directo)",
+            "el hermano",
+            "el camino"
+          ]
         },
         {
           "id": "p5",
           "estimulo": "ἄνθρωπε",
           "respuestaCorrecta": "¡oh hombre! / hombre (invocación)",
           "explicacion": "Traducción de 'ἄνθρωπε'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "el camino",
+            "el día",
+            "¡oh hombre! / hombre (invocación)"
+          ]
         },
         {
           "id": "p6",
           "estimulo": "ὁ δοῦλος",
           "respuestaCorrecta": "el siervo (sujeto)",
           "explicacion": "Traducción de 'ὁ δοῦλος'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "la casa",
+            "el día",
+            "el siervo (sujeto)"
+          ]
         },
         {
           "id": "p7",
           "estimulo": "τοῦ δούλου",
           "respuestaCorrecta": "del siervo",
           "explicacion": "Traducción de 'τοῦ δούλου'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "la iglesia",
+            "la verdad",
+            "del siervo"
+          ]
         },
         {
           "id": "p8",
           "estimulo": "τῷ δούλῳ",
           "respuestaCorrecta": "al siervo / para el siervo",
           "explicacion": "Traducción de 'τῷ δούλῳ'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "la gloria",
+            "la verdad",
+            "al siervo / para el siervo"
+          ]
         },
         {
           "id": "p9",
           "estimulo": "τὸν δοῦλον",
           "respuestaCorrecta": "al siervo (objeto directo)",
           "explicacion": "Traducción de 'τὸν δοῦλον'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "el día",
+            "el regalo",
+            "al siervo (objeto directo)"
+          ]
         },
         {
           "id": "p10",
           "estimulo": "δοῦλε",
           "respuestaCorrecta": "¡oh siervo! / siervo (invocación)",
           "explicacion": "Traducción de 'δοῦλε'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "la voz",
+            "¡oh siervo! / siervo (invocación)",
+            "el día"
+          ]
         },
         {
           "id": "p11",
           "estimulo": "ὁ ἀδελφός",
           "respuestaCorrecta": "el hermano (sujeto)",
           "explicacion": "Traducción de 'ὁ ἀδελφός'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "la voz",
+            "la gloria",
+            "el hermano (sujeto)"
+          ]
         },
         {
           "id": "p12",
           "estimulo": "τοῦ ἀδελφοῦ",
           "respuestaCorrecta": "del hermano",
           "explicacion": "Traducción de 'τοῦ ἀδελφοῦ'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "del hermano",
+            "el camino",
+            "la iglesia"
+          ]
         },
         {
           "id": "p13",
           "estimulo": "τῷ ἀδελφῷ",
           "respuestaCorrecta": "al hermano / para el hermano",
           "explicacion": "Traducción de 'τῷ ἀδελφῷ'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "el camino",
+            "al hermano / para el hermano",
+            "la casa"
+          ]
         },
         {
           "id": "p14",
           "estimulo": "τὸν ἀδελφόν",
           "respuestaCorrecta": "al hermano (objeto directo)",
           "explicacion": "Traducción de 'τὸν ἀδελφόν'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "la iglesia",
+            "al hermano (objeto directo)",
+            "la gloria"
+          ]
         },
         {
           "id": "p15",
           "estimulo": "ἄδελφε",
           "respuestaCorrecta": "¡oh hermano! / hermano (invocación)",
           "explicacion": "Traducción de 'ἄδελφε'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "la voz",
+            "la casa",
+            "¡oh hermano! / hermano (invocación)"
+          ]
         },
         {
           "id": "p16",
           "estimulo": "ὁ κύριος",
           "respuestaCorrecta": "el señor (sujeto)",
           "explicacion": "Traducción de 'ὁ κύριος'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "el hermano",
+            "el señor (sujeto)",
+            "el siervo"
+          ]
         },
         {
           "id": "p17",
           "estimulo": "τοῦ κυρίου",
           "respuestaCorrecta": "del señor",
           "explicacion": "Traducción de 'τοῦ κυρίου'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "la voz",
+            "del señor",
+            "el hermano"
+          ]
         },
         {
           "id": "p18",
           "estimulo": "τῷ κυρίῳ",
           "respuestaCorrecta": "al señor / para el señor",
           "explicacion": "Traducción de 'τῷ κυρίῳ'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "la verdad",
+            "el día",
+            "al señor / para el señor"
+          ]
         },
         {
           "id": "p19",
           "estimulo": "τὸν κύριον",
           "respuestaCorrecta": "al señor (objeto directo)",
           "explicacion": "Traducción de 'τὸν κύριον'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "la iglesia",
+            "el camino",
+            "al señor (objeto directo)"
+          ]
         },
         {
           "id": "p20",
           "estimulo": "κύριε",
           "respuestaCorrecta": "¡oh señor! / señor (invocación)",
           "explicacion": "Traducción de 'κύριε'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "¡oh señor! / señor (invocación)",
+            "la voz",
+            "la gloria"
+          ]
         }
       ]
     }
