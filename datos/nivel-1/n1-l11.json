@@ -201,140 +201,240 @@
           "estimulo": "εἰμί",
           "respuestaCorrecta": "yo soy / yo estoy",
           "explicacion": "Traducción de 'εἰμί'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "yo soy / yo estoy",
+            "voy",
+            "respondo"
+          ]
         },
         {
           "id": "p2",
           "estimulo": "εἶ",
           "respuestaCorrecta": "tú eres / tú estás",
           "explicacion": "Traducción de 'εἶ'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "voy",
+            "viajo",
+            "tú eres / tú estás"
+          ]
         },
         {
           "id": "p3",
           "estimulo": "ἐστί(ν)",
           "respuestaCorrecta": "él es / él está",
           "explicacion": "Traducción de 'ἐστί(ν)'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "eres desatado",
+            "somos desatados",
+            "él es / él está"
+          ]
         },
         {
           "id": "p4",
           "estimulo": "ἐσμέν",
           "respuestaCorrecta": "nosotros somos / nosotros estamos",
           "explicacion": "Traducción de 'ἐσμέν'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "eres desatado",
+            "nosotros somos / nosotros estamos",
+            "viajo"
+          ]
         },
         {
           "id": "p5",
           "estimulo": "ἐστέ",
           "respuestaCorrecta": "vosotros sois / ustedes están",
           "explicacion": "Traducción de 'ἐστέ'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "vosotros sois / ustedes están",
+            "soy desatado",
+            "respondo"
+          ]
         },
         {
           "id": "p6",
           "estimulo": "εἰσί(ν)",
           "respuestaCorrecta": "ellos son / ellos están",
           "explicacion": "Traducción de 'εἰσί(ν)'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "somos desatados",
+            "soy desatado",
+            "ellos son / ellos están"
+          ]
         },
         {
           "id": "p7",
           "estimulo": "λύομαι",
           "respuestaCorrecta": "soy desatado (pasiva) / me desato (media)",
           "explicacion": "Traducción de 'λύομαι'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "soy desatado (pasiva) / me desato (media)",
+            "vengo",
+            "voy"
+          ]
         },
         {
           "id": "p8",
           "estimulo": "λύῃ",
           "respuestaCorrecta": "eres desatado (pasiva) / te desatas (media)",
           "explicacion": "Traducción de 'λύῃ'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "somos desatados",
+            "respondo",
+            "eres desatado (pasiva) / te desatas (media)"
+          ]
         },
         {
           "id": "p9",
           "estimulo": "λύεται",
           "respuestaCorrecta": "es desatado (pasiva) / se desata (media)",
           "explicacion": "Traducción de 'λύεται'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "somos desatados",
+            "soy desatado",
+            "es desatado (pasiva) / se desata (media)"
+          ]
         },
         {
           "id": "p10",
           "estimulo": "λυόμεθα",
           "respuestaCorrecta": "somos desatados (pasiva) / nos desatamos (media)",
           "explicacion": "Traducción de 'λυόμεθα'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "eres desatado",
+            "somos desatados (pasiva) / nos desatamos (media)",
+            "son desatados"
+          ]
         },
         {
           "id": "p11",
           "estimulo": "λύεσθε",
           "respuestaCorrecta": "sois desatados (pasiva) / os desatáis (media)",
           "explicacion": "Traducción de 'λύεσθε'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "sois desatados (pasiva) / os desatáis (media)",
+            "soy desatado",
+            "vengo"
+          ]
         },
         {
           "id": "p12",
           "estimulo": "λύονται",
           "respuestaCorrecta": "son desatados (pasiva) / se desatan (media)",
           "explicacion": "Traducción de 'λύονται'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "son desatados (pasiva) / se desatan (media)",
+            "sois desatados",
+            "viajo"
+          ]
         },
         {
           "id": "p13",
           "estimulo": "ἔρχομαι",
           "respuestaCorrecta": "yo vengo / yo voy (verbo deponente)",
           "explicacion": "Traducción de 'ἔρχομαι'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "yo vengo / yo voy (verbo deponente)",
+            "sois desatados",
+            "viajo"
+          ]
         },
         {
           "id": "p14",
           "estimulo": "ἔρχεται",
           "respuestaCorrecta": "él viene / él va (verbo deponente)",
           "explicacion": "Traducción de 'ἔρχεται'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "él viene / él va (verbo deponente)",
+            "somos desatados",
+            "son desatados"
+          ]
         },
         {
           "id": "p15",
           "estimulo": "πορεύομαι",
           "respuestaCorrecta": "yo viajo / yo ando (verbo deponente)",
           "explicacion": "Traducción de 'πορεύομαι'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "yo viajo / yo ando (verbo deponente)",
+            "son desatados",
+            "sois desatados"
+          ]
         },
         {
           "id": "p16",
           "estimulo": "γίνομαι",
           "respuestaCorrecta": "yo llego a ser / yo me hago (verbo deponente)",
           "explicacion": "Traducción de 'γίνομαι'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "es desatado",
+            "voy",
+            "yo llego a ser / yo me hago (verbo deponente)"
+          ]
         },
         {
           "id": "p17",
           "estimulo": "γίνεται",
           "respuestaCorrecta": "él llega a ser / sucede (verbo deponente)",
           "explicacion": "Traducción de 'γίνεται'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "viajo",
+            "él llega a ser / sucede (verbo deponente)",
+            "vengo"
+          ]
         },
         {
           "id": "p18",
           "estimulo": "ἀποκρίνομαι",
           "respuestaCorrecta": "yo respondo / yo contesto (verbo deponente)",
           "explicacion": "Traducción de 'ἀποκρίνομαι'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "yo respondo / yo contesto (verbo deponente)",
+            "somos desatados",
+            "son desatados"
+          ]
         },
         {
           "id": "p19",
           "estimulo": "δύναμαι",
           "respuestaCorrecta": "yo puedo / yo soy capaz (verbo deponente)",
           "explicacion": "Traducción de 'δύναμαι'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "yo puedo / yo soy capaz (verbo deponente)",
+            "sois desatados",
+            "viajo"
+          ]
         },
         {
           "id": "p20",
           "estimulo": "σῴζεται",
           "respuestaCorrecta": "es salvado / está siendo salvado (voz pasiva)",
           "explicacion": "Traducción de 'σῴζεται'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "es salvado / está siendo salvado (voz pasiva)",
+            "sois desatados",
+            "vengo"
+          ]
         }
       ]
     }
