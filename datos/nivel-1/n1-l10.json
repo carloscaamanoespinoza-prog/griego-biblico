@@ -112,6 +112,154 @@
           "puntaje": 10
         }
       ]
+    },
+    {
+      "id": "ej-l10-traduccion",
+      "tipo": "traduccion",
+      "titulo": "Traduce del griego al español",
+      "instrucciones": "Lee la palabra o frase griega y proporciona la traducción correcta al español",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "βλέπεις",
+          "respuestaCorrecta": "ves",
+          "explicacion": "Traducción de 'βλέπεις'",
+          "puntaje": 5
+        },
+        {
+          "id": "p2",
+          "estimulo": "γινώσκεις",
+          "respuestaCorrecta": "conoces",
+          "explicacion": "Traducción de 'γινώσκεις'",
+          "puntaje": 5
+        },
+        {
+          "id": "p3",
+          "estimulo": "λαμβάνεις",
+          "respuestaCorrecta": "recibes / tomas",
+          "explicacion": "Traducción de 'λαμβάνεις'",
+          "puntaje": 5
+        },
+        {
+          "id": "p4",
+          "estimulo": "γράφει",
+          "respuestaCorrecta": "escribe",
+          "explicacion": "Traducción de 'γράφει'",
+          "puntaje": 5
+        },
+        {
+          "id": "p5",
+          "estimulo": "ἔχει",
+          "respuestaCorrecta": "tiene",
+          "explicacion": "Traducción de 'ἔχει'",
+          "puntaje": 5
+        },
+        {
+          "id": "p6",
+          "estimulo": "λέγει",
+          "respuestaCorrecta": "dice",
+          "explicacion": "Traducción de 'λέγει'",
+          "puntaje": 5
+        },
+        {
+          "id": "p7",
+          "estimulo": "λύει",
+          "respuestaCorrecta": "desata / destruye",
+          "explicacion": "Traducción de 'λύει'",
+          "puntaje": 5
+        },
+        {
+          "id": "p8",
+          "estimulo": "διδάσκει",
+          "respuestaCorrecta": "enseña",
+          "explicacion": "Traducción de 'διδάσκει'",
+          "puntaje": 5
+        },
+        {
+          "id": "p9",
+          "estimulo": "λαμβάνομεν",
+          "respuestaCorrecta": "recibimos / tomamos",
+          "explicacion": "Traducción de 'λαμβάνομεν'",
+          "puntaje": 5
+        },
+        {
+          "id": "p10",
+          "estimulo": "ἔχομεν",
+          "respuestaCorrecta": "tenemos",
+          "explicacion": "Traducción de 'ἔχομεν'",
+          "puntaje": 5
+        },
+        {
+          "id": "p11",
+          "estimulo": "γινώσκομεν",
+          "respuestaCorrecta": "conocemos",
+          "explicacion": "Traducción de 'γινώσκομεν'",
+          "puntaje": 5
+        },
+        {
+          "id": "p12",
+          "estimulo": "βλέπετε",
+          "respuestaCorrecta": "veis / ustedes ven",
+          "explicacion": "Traducción de 'βλέπετε'",
+          "puntaje": 5
+        },
+        {
+          "id": "p13",
+          "estimulo": "λέγετε",
+          "respuestaCorrecta": "decís / ustedes dicen",
+          "explicacion": "Traducción de 'λέγετε'",
+          "puntaje": 5
+        },
+        {
+          "id": "p14",
+          "estimulo": "γράφετε",
+          "respuestaCorrecta": "escribís / ustedes escriben",
+          "explicacion": "Traducción de 'γράφετε'",
+          "puntaje": 5
+        },
+        {
+          "id": "p15",
+          "estimulo": "διδάσκουσι",
+          "respuestaCorrecta": "enseñan",
+          "explicacion": "Traducción de 'διδάσκουσι'",
+          "puntaje": 5
+        },
+        {
+          "id": "p16",
+          "estimulo": "λαμβάνουσι",
+          "respuestaCorrecta": "reciben / toman",
+          "explicacion": "Traducción de 'λαμβάνουσι'",
+          "puntaje": 5
+        },
+        {
+          "id": "p17",
+          "estimulo": "λύουσι",
+          "respuestaCorrecta": "desatan / destruyen",
+          "explicacion": "Traducción de 'λύουσι'",
+          "puntaje": 5
+        },
+        {
+          "id": "p18",
+          "estimulo": "γινώσκετε",
+          "respuestaCorrecta": "conocéis / ustedes conocen",
+          "explicacion": "Traducción de 'γινώσκετε'",
+          "puntaje": 5
+        },
+        {
+          "id": "p19",
+          "estimulo": "πιστεύομεν",
+          "respuestaCorrecta": "creemos",
+          "explicacion": "Traducción de 'πιστεύομεν'",
+          "puntaje": 5
+        },
+        {
+          "id": "p20",
+          "estimulo": "μένομεν",
+          "respuestaCorrecta": "permanecemos",
+          "explicacion": "Traducción de 'μένομεν'",
+          "puntaje": 5
+        }
+      ]
     }
   ],
   "vocabulario": [
