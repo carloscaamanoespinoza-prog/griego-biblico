@@ -144,140 +144,240 @@
           "estimulo": "ἡ γραφή",
           "respuestaCorrecta": "la escritura",
           "explicacion": "Traducción de 'ἡ γραφή'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "la escritura",
+            "el día",
+            "el hermano"
+          ]
         },
         {
           "id": "p2",
           "estimulo": "τῆς γραφῆς",
           "respuestaCorrecta": "de la escritura",
           "explicacion": "Traducción de 'τῆς γραφῆς'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "el hermano",
+            "de la escritura",
+            "la verdad"
+          ]
         },
         {
           "id": "p3",
           "estimulo": "τῇ γραφῇ",
           "respuestaCorrecta": "a la escritura / mediante la escritura",
           "explicacion": "Traducción de 'τῇ γραφῇ'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "el siervo",
+            "a la escritura / mediante la escritura",
+            "la voz"
+          ]
         },
         {
           "id": "p4",
           "estimulo": "τὴν γραφήν",
           "respuestaCorrecta": "la escritura",
           "explicacion": "Traducción de 'τὴν γραφήν'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "la escritura",
+            "el regalo",
+            "el camino"
+          ]
         },
         {
           "id": "p5",
           "estimulo": "ὦ γραφή",
           "respuestaCorrecta": "¡oh escritura!",
           "explicacion": "Traducción de 'ὦ γραφή'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "el hombre",
+            "el siervo",
+            "¡oh escritura!"
+          ]
         },
         {
           "id": "p6",
           "estimulo": "αἱ γραφαί",
           "respuestaCorrecta": "las escrituras",
           "explicacion": "Traducción de 'αἱ γραφαί'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "la iglesia",
+            "el hermano",
+            "las escrituras"
+          ]
         },
         {
           "id": "p7",
           "estimulo": "τῶν γραφῶν",
           "respuestaCorrecta": "de las escrituras",
           "explicacion": "Traducción de 'τῶν γραφῶν'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "el día",
+            "de las escrituras",
+            "la voz"
+          ]
         },
         {
           "id": "p8",
           "estimulo": "ταῖς γραφαῖς",
           "respuestaCorrecta": "a las escrituras / mediante las escrituras",
           "explicacion": "Traducción de 'ταῖς γραφαῖς'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "a las escrituras / mediante las escrituras",
+            "la iglesia",
+            "la gloria"
+          ]
         },
         {
           "id": "p9",
           "estimulo": "τὰς γραφάς",
           "respuestaCorrecta": "las escrituras",
           "explicacion": "Traducción de 'τὰς γραφάς'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "el siervo",
+            "las escrituras",
+            "la gloria"
+          ]
         },
         {
           "id": "p10",
           "estimulo": "ὦ γραφαί",
           "respuestaCorrecta": "¡oh escrituras!",
           "explicacion": "Traducción de 'ὦ γραφαί'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "la iglesia",
+            "el hermano",
+            "¡oh escrituras!"
+          ]
         },
         {
           "id": "p11",
           "estimulo": "ἡ ἡμέρα",
           "respuestaCorrecta": "el día",
           "explicacion": "Traducción de 'ἡ ἡμέρα'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "el día",
+            "el camino",
+            "el siervo"
+          ]
         },
         {
           "id": "p12",
           "estimulo": "τῆς ἡμέρας",
           "respuestaCorrecta": "del día",
           "explicacion": "Traducción de 'τῆς ἡμέρας'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "del día",
+            "el camino",
+            "la iglesia"
+          ]
         },
         {
           "id": "p13",
           "estimulo": "τῇ ἡμέρᾳ",
           "respuestaCorrecta": "al día",
           "explicacion": "Traducción de 'τῇ ἡμέρᾳ'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "al día",
+            "el regalo",
+            "el siervo"
+          ]
         },
         {
           "id": "p14",
           "estimulo": "τὴν ἡμέραν",
           "respuestaCorrecta": "el día",
           "explicacion": "Traducción de 'τὴν ἡμέραν'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "la verdad",
+            "el regalo",
+            "el día"
+          ]
         },
         {
           "id": "p15",
           "estimulo": "ὦ ἡμέρα",
           "respuestaCorrecta": "¡oh día!",
           "explicacion": "Traducción de 'ὦ ἡμέρα'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "la voz",
+            "el día",
+            "¡oh día!"
+          ]
         },
         {
           "id": "p16",
           "estimulo": "ἡ δόξα",
           "respuestaCorrecta": "la gloria",
           "explicacion": "Traducción de 'ἡ δόξα'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "la verdad",
+            "el hermano",
+            "la gloria"
+          ]
         },
         {
           "id": "p17",
           "estimulo": "τῆς δόξης",
           "respuestaCorrecta": "de la gloria",
           "explicacion": "Traducción de 'τῆς δόξης'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "el día",
+            "de la gloria",
+            "el hombre"
+          ]
         },
         {
           "id": "p18",
           "estimulo": "τῇ δόξῃ",
           "respuestaCorrecta": "a la gloria",
           "explicacion": "Traducción de 'τῇ δόξῃ'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "a la gloria",
+            "la verdad",
+            "el día"
+          ]
         },
         {
           "id": "p19",
           "estimulo": "τὴν δόξαν",
           "respuestaCorrecta": "la gloria",
           "explicacion": "Traducción de 'τὴν δόξαν'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "el día",
+            "la gloria",
+            "la verdad"
+          ]
         },
         {
           "id": "p20",
           "estimulo": "ὦ δόξα",
           "respuestaCorrecta": "¡oh gloria!",
           "explicacion": "Traducción de 'ὦ δόξα'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "el regalo",
+            "¡oh gloria!",
+            "la verdad"
+          ]
         }
       ]
     }
