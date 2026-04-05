@@ -120,6 +120,154 @@
           "puntaje": 10
         }
       ]
+    },
+    {
+      "id": "ej-l8-traduccion",
+      "tipo": "traduccion",
+      "titulo": "Traduce del griego al español",
+      "instrucciones": "Lee la palabra o frase griega y proporciona la traducción correcta al español",
+      "preguntas": [
+        {
+          "id": "p1",
+          "estimulo": "ὁ ἀγαθὸς ἄνθρωπος",
+          "respuestaCorrecta": "el hombre bueno",
+          "explicacion": "Traducción de 'ὁ ἀγαθὸς ἄνθρωπος'",
+          "puntaje": 5
+        },
+        {
+          "id": "p2",
+          "estimulo": "τοῦ ἀγαθοῦ ἀνθρώπου",
+          "respuestaCorrecta": "del hombre bueno",
+          "explicacion": "Traducción de 'τοῦ ἀγαθοῦ ἀνθρώπου'",
+          "puntaje": 5
+        },
+        {
+          "id": "p3",
+          "estimulo": "τῷ ἀγαθῷ ἀνθρώπῳ",
+          "respuestaCorrecta": "al hombre bueno / para el hombre bueno",
+          "explicacion": "Traducción de 'τῷ ἀγαθῷ ἀνθρώπῳ'",
+          "puntaje": 5
+        },
+        {
+          "id": "p4",
+          "estimulo": "τὸν ἀγαθὸν ἄνθρωπον",
+          "respuestaCorrecta": "al hombre bueno (objeto directo)",
+          "explicacion": "Traducción de 'τὸν ἀγαθὸν ἄνθρωπον'",
+          "puntaje": 5
+        },
+        {
+          "id": "p5",
+          "estimulo": "οἱ ἀγαθοὶ ἄνθρωποι",
+          "respuestaCorrecta": "los hombres buenos",
+          "explicacion": "Traducción de 'οἱ ἀγαθοὶ ἄνθρωποι'",
+          "puntaje": 5
+        },
+        {
+          "id": "p6",
+          "estimulo": "ἡ καλὴ ἐκκλησία",
+          "respuestaCorrecta": "la buena iglesia",
+          "explicacion": "Traducción de 'ἡ καλὴ ἐκκλησία'",
+          "puntaje": 5
+        },
+        {
+          "id": "p7",
+          "estimulo": "τῆς καλῆς ἐκκλησίας",
+          "respuestaCorrecta": "de la buena iglesia",
+          "explicacion": "Traducción de 'τῆς καλῆς ἐκκλησίας'",
+          "puntaje": 5
+        },
+        {
+          "id": "p8",
+          "estimulo": "τῇ καλῇ ἐκκλησίᾳ",
+          "respuestaCorrecta": "a la buena iglesia / para la buena iglesia",
+          "explicacion": "Traducción de 'τῇ καλῇ ἐκκλησίᾳ'",
+          "puntaje": 5
+        },
+        {
+          "id": "p9",
+          "estimulo": "τὴν καλὴν ἐκκλησίαν",
+          "respuestaCorrecta": "a la buena iglesia (objeto directo)",
+          "explicacion": "Traducción de 'τὴν καλὴν ἐκκλησίαν'",
+          "puntaje": 5
+        },
+        {
+          "id": "p10",
+          "estimulo": "αἱ καλαὶ ἐκκλησίαι",
+          "respuestaCorrecta": "las buenas iglesias",
+          "explicacion": "Traducción de 'αἱ καλαὶ ἐκκλησίαι'",
+          "puntaje": 5
+        },
+        {
+          "id": "p11",
+          "estimulo": "τὸ ἅγιον ἱερόν",
+          "respuestaCorrecta": "el templo santo",
+          "explicacion": "Traducción de 'τὸ ἅγιον ἱερόν'",
+          "puntaje": 5
+        },
+        {
+          "id": "p12",
+          "estimulo": "τοῦ ἁγίου ἱεροῦ",
+          "respuestaCorrecta": "del templo santo",
+          "explicacion": "Traducción de 'τοῦ ἁγίου ἱεροῦ'",
+          "puntaje": 5
+        },
+        {
+          "id": "p13",
+          "estimulo": "τῷ ἁγίῳ ἱερῷ",
+          "respuestaCorrecta": "al templo santo / para el templo santo",
+          "explicacion": "Traducción de 'τῷ ἁγίῳ ἱερῷ'",
+          "puntaje": 5
+        },
+        {
+          "id": "p14",
+          "estimulo": "τὰ ἅγια ἱερά",
+          "respuestaCorrecta": "los templos santos",
+          "explicacion": "Traducción de 'τὰ ἅγια ἱερά'",
+          "puntaje": 5
+        },
+        {
+          "id": "p15",
+          "estimulo": "τῶν ἁγίων ἱερῶν",
+          "respuestaCorrecta": "de los templos santos",
+          "explicacion": "Traducción de 'τῶν ἁγίων ἱερῶν'",
+          "puntaje": 5
+        },
+        {
+          "id": "p16",
+          "estimulo": "τοὺς κακοὺς δούλους",
+          "respuestaCorrecta": "a los siervos malos (objeto directo)",
+          "explicacion": "Traducción de 'τοὺς κακοὺς δούλους'",
+          "puntaje": 5
+        },
+        {
+          "id": "p17",
+          "estimulo": "τὰ μικρὰ τέκνα",
+          "respuestaCorrecta": "los niños pequeños",
+          "explicacion": "Traducción de 'τὰ μικρὰ τέκνα'",
+          "puntaje": 5
+        },
+        {
+          "id": "p18",
+          "estimulo": "τῆς δικαίας βασιλείας",
+          "respuestaCorrecta": "del reino justo",
+          "explicacion": "Traducción de 'τῆς δικαίας βασιλείας'",
+          "puntaje": 5
+        },
+        {
+          "id": "p19",
+          "estimulo": "τῷ πιστῷ ἀδελφῷ",
+          "respuestaCorrecta": "al hermano fiel / para el hermano fiel",
+          "explicacion": "Traducción de 'τῷ πιστῷ ἀδελφῷ'",
+          "puntaje": 5
+        },
+        {
+          "id": "p20",
+          "estimulo": "τὰς κακὰς ὁδούς",
+          "respuestaCorrecta": "los malos caminos (objeto directo)",
+          "explicacion": "Traducción de 'τὰς κακὰς ὁδούς'",
+          "puntaje": 5
+        }
+      ]
     }
   ],
   "vocabulario": [
