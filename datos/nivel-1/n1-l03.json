@@ -243,161 +243,276 @@
           "estimulo": "ἀκούω",
           "respuestaCorrecta": "escucho",
           "explicacion": "Traducción de 'ἀκούω'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "la iglesia",
+            "escucho",
+            "la voz"
+          ]
         },
         {
           "id": "p2",
           "estimulo": "ἅγιος",
           "respuestaCorrecta": "santo",
           "explicacion": "Traducción de 'ἅγιος'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "santo",
+            "la iglesia",
+            "la voz"
+          ]
         },
         {
           "id": "p3",
           "estimulo": "ἄγγελος",
           "respuestaCorrecta": "el mensajero / el ángel",
           "explicacion": "Traducción de 'ἄγγελος'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "la verdad",
+            "el caballo",
+            "el mensajero / el ángel"
+          ]
         },
         {
           "id": "p4",
           "estimulo": "ἐσθίω",
           "respuestaCorrecta": "como",
           "explicacion": "Traducción de 'ἐσθίω'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "la eternidad",
+            "como",
+            "el camino"
+          ]
         },
         {
           "id": "p5",
           "estimulo": "ἵππος",
           "respuestaCorrecta": "el caballo",
           "explicacion": "Traducción de 'ἵππος'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "el día",
+            "la iglesia",
+            "el caballo"
+          ]
         },
         {
           "id": "p6",
           "estimulo": "εὑρίσκω",
           "respuestaCorrecta": "encuentro / hallo",
           "explicacion": "Traducción de 'εὑρίσκω'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "el camino",
+            "la eternidad",
+            "encuentro / hallo"
+          ]
         },
         {
           "id": "p7",
           "estimulo": "Ἰησοῦς",
           "respuestaCorrecta": "Jesús",
           "explicacion": "Traducción de 'Ἰησοῦς'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "la gloria",
+            "la eternidad",
+            "Jesús"
+          ]
         },
         {
           "id": "p8",
           "estimulo": "ἄνθρωπος",
           "respuestaCorrecta": "el hombre",
           "explicacion": "Traducción de 'ἄνθρωπος'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "el día",
+            "la eternidad",
+            "el hombre"
+          ]
         },
         {
           "id": "p9",
           "estimulo": "ὁδός",
           "respuestaCorrecta": "camino",
           "explicacion": "Traducción de 'ὁδός'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "la gloria",
+            "la verdad",
+            "camino"
+          ]
         },
         {
           "id": "p10",
           "estimulo": "οἶκος",
           "respuestaCorrecta": "la casa / la familia",
           "explicacion": "Traducción de 'οἶκος'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "el día",
+            "la casa / la familia",
+            "la eternidad"
+          ]
         },
         {
           "id": "p11",
           "estimulo": "ἀδελφός",
           "respuestaCorrecta": "el hermano",
           "explicacion": "Traducción de 'ἀδελφός'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "el hermano",
+            "la verdad",
+            "el camino"
+          ]
         },
         {
           "id": "p12",
           "estimulo": "ἔχω",
           "respuestaCorrecta": "tengo",
           "explicacion": "Traducción de 'ἔχω'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "tengo",
+            "la voz",
+            "la gloria"
+          ]
         },
         {
           "id": "p13",
           "estimulo": "ὑμεῖς",
           "respuestaCorrecta": "ustedes",
           "explicacion": "Traducción de 'ὑμεῖς'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "ustedes",
+            "el día",
+            "la voz"
+          ]
         },
         {
           "id": "p14",
           "estimulo": "ἡμεῖς",
           "respuestaCorrecta": "nosotros",
           "explicacion": "Traducción de 'ἡμεῖς'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "la iglesia",
+            "la gloria",
+            "nosotros"
+          ]
         },
         {
           "id": "p15",
           "estimulo": "ἐγώ",
           "respuestaCorrecta": "yo",
           "explicacion": "Traducción de 'ἐγώ'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "el caballo",
+            "yo",
+            "la verdad"
+          ]
         },
         {
           "id": "p16",
           "estimulo": "ἄρτος",
           "respuestaCorrecta": "el pan",
           "explicacion": "Traducción de 'ἄρτος'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "el caballo",
+            "el día",
+            "el pan"
+          ]
         },
         {
           "id": "p17",
           "estimulo": "ἀπόστολος",
           "respuestaCorrecta": "el apóstol / el enviado",
           "explicacion": "Traducción de 'ἀπόστολος'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "el apóstol / el enviado",
+            "la verdad",
+            "la casa"
+          ]
         },
         {
           "id": "p18",
           "estimulo": "ὕδωρ",
           "respuestaCorrecta": "agua",
           "explicacion": "Traducción de 'ὕδωρ'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "agua",
+            "el día",
+            "la verdad"
+          ]
         },
         {
           "id": "p19",
           "estimulo": "αἷμα",
           "respuestaCorrecta": "sangre",
           "explicacion": "Traducción de 'αἷμα'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "la eternidad",
+            "el caballo",
+            "sangre"
+          ]
         },
         {
           "id": "p20",
           "estimulo": "αἰών",
           "respuestaCorrecta": "era / eternidad",
           "explicacion": "Traducción de 'αἰών'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "era / eternidad",
+            "la casa",
+            "el camino"
+          ]
         },
         {
           "id": "p21",
           "estimulo": "ἀμήν",
           "respuestaCorrecta": "amén",
           "explicacion": "Traducción de 'ἀμήν'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "amén",
+            "el camino",
+            "la casa"
+          ]
         },
         {
           "id": "p22",
           "estimulo": "ἁμαρτία",
           "respuestaCorrecta": "pecado",
           "explicacion": "Traducción de 'ἁμαρτία'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "pecado",
+            "la iglesia",
+            "el pecado"
+          ]
         },
         {
           "id": "p23",
           "estimulo": "ἡμέρα",
           "respuestaCorrecta": "día",
           "explicacion": "Traducción de 'ἡμέρα'",
-          "puntaje": 5
+          "puntaje": 5,
+          "opciones": [
+            "la gloria",
+            "día",
+            "la voz"
+          ]
         }
       ]
     }
